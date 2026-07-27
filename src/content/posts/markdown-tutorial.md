@@ -1,8 +1,8 @@
 ---
-title: Markdown Tutorial
+title: Markdown 教程
 published: 2025-01-20
 pinned: true
-description: A simple example of a Markdown blog post.
+description: 这是一篇 Markdown 博客示例。
 tags: [Markdown, Blogging]
 category: Examples
 licenseName: "Unlicensed"
@@ -11,7 +11,7 @@ sourceLink: "https://github.com/emn178/markdown"
 draft: false
 ---
 
-# Markdown Tutorial
+# Markdown 教程
 
 A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).
 
@@ -373,7 +373,7 @@ Preview:
 
 ##### Code Block
 
-To put a code block within a list item, the code block needs to be indented twice — **8 spaces** or **two tabs**:
+To put a code block within a list item, the code block needs to be indented twice 鈥?**8 spaces** or **two tabs**:
 
 Code:
 
@@ -766,7 +766,7 @@ Preview:
 
 ---
 
-The backtick delimiters surrounding a code span may include spaces — one after the opening, one before the closing. This allows you to place literal backtick characters at the beginning or end of a code span:
+The backtick delimiters surrounding a code span may include spaces 鈥?one after the opening, one before the closing. This allows you to place literal backtick characters at the beginning or end of a code span:
 
 Code:
 

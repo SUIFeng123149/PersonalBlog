@@ -1,8 +1,8 @@
 ---
-title: Markdown Mermaid
+title: Markdown Mermaid 图表示例
 published: 2023-10-01
 pinned: false
-description: A simple example of a Markdown blog post with Mermaid.
+description: 这是一篇使用 Mermaid 的 Markdown 博客示例。
 tags: [Markdown, Blogging, Mermaid]
 category: Examples
 draft: false
