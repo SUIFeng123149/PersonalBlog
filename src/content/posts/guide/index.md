@@ -1,7 +1,7 @@
 ---
-title: Simple Guides for Mizuki
+title: Mizuki 简明指南
 published: 2024-04-01
-description: "How to use this blog template."
+description: "如何使用这个博客模板。"
 image: "./cover.jpeg"
 tags: ["Mizuki", "Blogging", "Customization"]
 category: Guides
@@ -16,9 +16,9 @@ This blog template is built with [Astro](https://astro.build/). For the things t
 
 ```yaml
 ---
-title: My First Blog Post
+title: 我的第一篇博客文章
 published: 2023-09-09
-description: This is the first post of my new Astro blog.
+description: 这是我的个人博客中的第一篇文章。
 image: ./cover.jpg
 tags: [Foo, Bar]
 category: Front-end
@@ -51,8 +51,8 @@ Your post files should be placed in `src/content/posts/` directory. You can also
 
 ```
 src/content/posts/
-├── post-1.md
-└── post-2/
-    ├── cover.png
-    └── index.md
+鈹溾攢鈹€ post-1.md
+鈹斺攢鈹€ post-2/
+    鈹溾攢鈹€ cover.png
+    鈹斺攢鈹€ index.md
 ```
