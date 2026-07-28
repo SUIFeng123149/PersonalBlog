@@ -2,7 +2,7 @@
 title: ZooKeeper的配置
 published: 2025-01-15
 description: 'ZooKeeper的配置 的详细部署与配置文档。'
-image: ''
+image: './ZooKeeper部署.assets/cover.webp'
 tags: [BigData, ZooKeeper, Deployment]
 category: 'BigData'
 draft: false 

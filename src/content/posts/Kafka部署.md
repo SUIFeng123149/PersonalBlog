@@ -2,7 +2,7 @@
 title: Kafka集群部署
 published: 2025-11-21
 description: 'Kafka集群部署 的详细部署与配置文档。'
-image: ''
+image: './Kafka部署.assets/cover.webp'
 tags: [BigData, Kafka, Deployment]
 category: 'BigData'
 draft: false 

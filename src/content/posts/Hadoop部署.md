@@ -2,7 +2,7 @@
 title: Hadoop的部署
 published: 2025-11-11
 description: 'Hadoop的部署 的详细部署与配置文档。'
-image: ''
+image: './Hadoop部署.assets/cover.webp'
 tags: [BigData, Hadoop, Deployment]
 category: 'BigData'
 draft: false 

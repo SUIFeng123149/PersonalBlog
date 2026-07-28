@@ -1,8 +1,8 @@
 ---
 title: Hadoop部署补丁
-published: 2026-5-12
+published: 2026-05-12
 description: 'Hadoop部署补丁 的详细部署与配置文档。'
-image: ''
+image: './HadoopHA配置修复.assets/cover.webp'
 tags: [BigData, Hadoop, HA, Deployment]
 category: 'BigData'
 draft: false 
