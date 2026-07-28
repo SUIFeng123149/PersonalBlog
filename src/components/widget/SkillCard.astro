@@ -11,7 +11,7 @@ export interface Props {
 		icon?: string;
 		category: string;
 		level: "beginner" | "intermediate" | "advanced" | "expert";
-		experience: string;
+		experience: { years: number; months: number };
 		relatedProjects?: string[];
 		certifications?: string[];
 		color?: string;
@@ -60,20 +60,11 @@ const getLevelText = (level: string) => {
 	}
 };
 
-// 技能等级进度条宽度
-const getLevelWidth = (level: string) => {
-	switch (level) {
-		case "expert":
-			return "100%";
-		case "advanced":
-			return "80%";
-		case "intermediate":
-			return "60%";
-		case "beginner":
-			return "40%";
-		default:
-			return "20%";
-	}
+// 根据实际经验月数计算进度条宽度（36个月为100%）
+const getExperienceWidth = (years: number, months: number) => {
+	const totalMonths = years * 12 + months;
+	const capped = Math.min(totalMonths, 36);
+	return `${Math.round((capped / 36) * 100)}%`;
 };
 
 // 尺寸样式映射
@@ -162,12 +153,12 @@ const skillColor = skill.color || "#3B82F6";
           <div class="mb-3">
             <div class="flex justify-between text-sm mb-1">
               <span class="text-black/60 dark:text-white/60">{i18n(I18nKey.skillsExperience)}</span>
-              <span class="text-black/80 dark:text-white/80">{skill.experience}</span>
+              <span class="text-black/80 dark:text-white/80">{skill.experience.years}y{skill.experience.months > 0 ? ` ${skill.experience.months}m` : ''}</span>
             </div>
             <div class={`w-full bg-gray-200 dark:bg-gray-700 rounded-full ${sizeClasses.progress}`}>
               <div 
                 class={`rounded-full transition-all duration-500 ${sizeClasses.progress}`}
-                style={`width: ${getLevelWidth(skill.level)}; background-color: ${skillColor}`}
+                style={`width: ${getExperienceWidth(skill.experience.years, skill.experience.months)}; background-color: ${skillColor}`}
               ></div>
             </div>
           </div>

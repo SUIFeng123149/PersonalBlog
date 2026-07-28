@@ -20,8 +20,8 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言设置，可选 'en', 'zh_CN', 'ja' 等
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "一个示例网站",
+	title: "SuifengFlying",
+	subtitle: "个人博客网站",
 
 	lang: SITE_LANG,
 
@@ -97,7 +97,7 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // 设为 true 启用轮播，false 则只显示第一张图
 
-			interval: 1.5, // 轮播切换间隔（秒）
+			interval: 2.5, // 轮播切换间隔（秒）
 		},
 
 		waves: {
@@ -118,7 +118,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 是否在首页显示文字
-			title: "欢迎来到 Mizuki!", // 主标题
+			title: "欢迎来到 SuifengFlying!", // 主标题
 
 			subtitle: [
 				"一个简洁的个人博客",
@@ -249,12 +249,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
-			name: "About",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
-		},
+		LinkPreset.Friends,
 		{
 			name: "Others",
 			url: "#",
@@ -282,8 +277,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 头像路径，相对于 /src 目录用 '/' 开头，相对于 /public 目录
-	name: "Matsuzaka Yuki",
-	bio: "世界很大，去看看吧。",
+	name: "SuifengFlying",
+	bio: "美好的事物总是短暂,有一瞬的绽放,总好过默默无闻的凋零",
 	typewriter: {
 		enable: true, // 是否启用打字机效果
 		speed: 80, // 打字速度（毫秒）
