@@ -6,6 +6,11 @@ image: './Mahout部署.assets/cover.webp'
 tags: [BigData, Mahout, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 10
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # Mahout集群部署

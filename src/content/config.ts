@@ -16,6 +16,11 @@ const postsCollection = defineCollection({
 		sourceLink: z.string().optional().default(""),
 		licenseName: z.string().optional().default(""),
 		licenseUrl: z.string().optional().default(""),
+		series: z.string().optional().default(""),
+		seriesOrder: z.number().int().positive().optional(),
+		status: z.enum(["verified", "maintenance", "outdated"]).optional(),
+		testedOn: z.string().optional().default(""),
+		lastVerified: z.date().optional(),
 
 		/* Page encryption fields */
 		encrypted: z.boolean().optional().default(false),

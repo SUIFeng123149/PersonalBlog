@@ -6,6 +6,11 @@ image: './hadoop部署基础环境.assets/cover.webp'
 tags: [BigData, Hadoop, Environment, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 6
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # 服务器基础配置与基础设施搭建

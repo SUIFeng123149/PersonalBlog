@@ -6,6 +6,11 @@ image: './Flink部署.assets/cover.webp'
 tags: [BigData, Flink, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 1
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # Flink部署文档
