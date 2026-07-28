@@ -16,6 +16,7 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
+.env.admin
 
 # macOS-specific files
 .DS_Store
@@ -32,3 +33,6 @@ yarn.lock
 
 cache/
 fuwari/
+
+# admin management panel (separate repo)
+admin/
