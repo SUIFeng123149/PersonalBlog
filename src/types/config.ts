@@ -193,6 +193,11 @@ export type BlogPostData = {
 	image?: string;
 	category?: string;
 	pinned?: boolean;
+	series?: string;
+	seriesOrder?: number;
+	status?: "verified" | "maintenance" | "outdated";
+	testedOn?: string;
+	lastVerified?: Date;
 	prevTitle?: string;
 	prevSlug?: string;
 	nextTitle?: string;

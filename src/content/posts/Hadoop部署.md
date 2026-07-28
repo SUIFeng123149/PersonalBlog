@@ -6,6 +6,11 @@ image: './Hadoop部署.assets/cover.webp'
 tags: [BigData, Hadoop, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 5
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # Hadoop的部署

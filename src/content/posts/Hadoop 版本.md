@@ -6,6 +6,11 @@ image: './Hadoop 版本.assets/cover.webp'
 tags: [BigData, Hadoop, Version]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 3
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # Hadoop版本选择

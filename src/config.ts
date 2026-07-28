@@ -150,7 +150,7 @@ export const siteConfig: SiteConfig = {
 		enable: true, // 启用目录
 		depth: 3, // 目录深度 1-6，1 表示只显示 h1，2 表示显示 h1 到 h2，以此类推
 	},
-	generateOgImages: false, // 是否生成 OpenGraph 图片，请先确认已正确配置相关插件后再启用
+	generateOgImages: true, // 是否生成 OpenGraph 图片，请先确认已正确配置相关插件后再启用
 	favicon: [
 		// 在此处添加 favicon
 		// {
@@ -242,6 +242,11 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				LinkPreset.Anime,
 				LinkPreset.Diary,
+				{
+					name: "Now",
+					url: "/now/",
+					icon: "material-symbols:today",
+				},
 				{
 					name: "Gallery",
 					url: "/albums/",
