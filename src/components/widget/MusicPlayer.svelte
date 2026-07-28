@@ -35,8 +35,8 @@ let showPlaylist = false;
 let currentTime = 0;
 // 歌曲总时长，默认为 0
 let duration = 0;
-// 音量，默认为 0.7
-let volume = 0.7;
+// 音量，默认为 0.3
+let volume = 0.3;
 // 是否静音，默认为 false
 let isMuted = false;
 // 是否正在加载，默认为 false
@@ -90,7 +90,7 @@ const localPlaylist = [
 		url: "assets/music/url/SACRA.mp3",
 		duration: 189,
 	},
-    {
+	{
 		id: 4,
 		title: "Twilight Line",
 		artist: "HACHI",
@@ -98,7 +98,7 @@ const localPlaylist = [
 		url: "assets/music/url/Twilight Line.mp3",
 		duration: 248,
 	},
-    {
+	{
 		id: 5,
 		title: "WaterFall",
 		artist: "Christopher",
@@ -106,7 +106,7 @@ const localPlaylist = [
 		url: "assets/music/url/WaterFall.mp3",
 		duration: 188,
 	},
-    {
+	{
 		id: 6,
 		title: "No differences a0v",
 		artist: "Aimee",
@@ -271,7 +271,7 @@ function handleLoadSuccess() {
 	}
 }
 
-function handleLoadError(event: Event) {
+function handleLoadError(_event: Event) {
 	isLoading = false;
 	showErrorMessage(`无法播放 "${currentSong.title}"，正在尝试下一首...`);
 	if (playlist.length > 1) setTimeout(() => nextSong(), 1000);
@@ -350,7 +350,7 @@ function handleAudioEvents() {
 			isPlaying = false;
 		}
 	});
-	audio.addEventListener("error", (event) => {
+	audio.addEventListener("error", (_event) => {
 		isLoading = false;
 	});
 	audio.addEventListener("stalled", () => {});

@@ -42,7 +42,7 @@ export const skillsData: Skill[] = [
     "category": "frontend",
     "level": "beginner",
     "experience": {
-      "years": 0,
+      "years": 1,
       "months": 0
     },
     "projects": [],
