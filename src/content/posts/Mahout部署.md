@@ -2,7 +2,7 @@
 title: Mahout集群部署
 published: 2025-11-21
 description: 'Mahout集群部署 的详细部署与配置文档。'
-image: ''
+image: './Mahout部署.assets/cover.webp'
 tags: [BigData, Mahout, Deployment]
 category: 'BigData'
 draft: false 

@@ -2,7 +2,7 @@
 title: Spark集群部署
 published: 2025-01-15
 description: 'Spark集群部署 的详细部署与配置文档。'
-image: ''
+image: './Spark部署.assets/cover.webp'
 tags: [BigData, Spark, Deployment]
 category: 'BigData'
 draft: false 

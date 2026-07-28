@@ -2,7 +2,7 @@
 title: 服务器基础配置与基础设施搭建
 published: 2025-11-11
 description: '服务器基础配置与基础设施搭建 的详细部署与配置文档。'
-image: ''
+image: './hadoop部署基础环境.assets/cover.webp'
 tags: [BigData, Hadoop, Environment, Deployment]
 category: 'BigData'
 draft: false 

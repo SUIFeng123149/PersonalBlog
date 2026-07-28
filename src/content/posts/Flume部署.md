@@ -2,7 +2,7 @@
 title: Flume集群部署
 published: 2025-11-24
 description: 'Flume集群部署 的详细部署与配置文档。'
-image: ''
+image: './Flume部署.assets/cover.webp'
 tags: [BigData, Flume, Deployment]
 category: 'BigData'
 draft: false 

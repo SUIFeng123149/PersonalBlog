@@ -2,7 +2,7 @@
 title: Flink部署
 published: 2026-05-09
 description: 'Flink部署 的详细部署与配置文档。'
-image: ''
+image: './Flink部署.assets/cover.webp'
 tags: [BigData, Flink, Deployment]
 category: 'BigData'
 draft: false 
