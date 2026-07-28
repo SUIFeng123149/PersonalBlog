@@ -28,6 +28,38 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
+const allPosts = await getSortedPosts();
+const seriesPosts = entry.data.series
+	? allPosts
+			.filter((post) => post.data.series === entry.data.series)
+			.sort((a, b) => (a.data.seriesOrder || 0) - (b.data.seriesOrder || 0))
+	: [];
+const seriesIndex = seriesPosts.findIndex((post) => post.slug === entry.slug);
+const previousInSeries = seriesIndex > 0 ? seriesPosts[seriesIndex - 1] : undefined;
+const nextInSeries = seriesIndex >= 0 ? seriesPosts[seriesIndex + 1] : undefined;
+
+const relatedPosts = allPosts
+	.filter((post) => post.slug !== entry.slug)
+	.map((post) => {
+		const sharedTags = post.data.tags.filter((tag) => entry.data.tags.includes(tag)).length;
+		const score = sharedTags * 3 + (post.data.category === entry.data.category ? 2 : 0);
+		return { post, score };
+	})
+	.filter(({ score }) => score > 0)
+	.sort((a, b) => b.score - a.score || b.post.data.published.getTime() - a.post.data.published.getTime())
+	.slice(0, 3)
+	.map(({ post }) => post);
+
+const statusLabels = {
+	verified: "Verified",
+	maintenance: "Maintained",
+	outdated: "May be outdated",
+};
+const statusStyles = {
+	verified: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300",
+	maintenance: "bg-sky-500/10 text-sky-700 dark:text-sky-300",
+	outdated: "bg-amber-500/10 text-amber-700 dark:text-amber-300",
+};
 const { Content, headings } = await entry.render();
 
 const { remarkPluginFrontmatter } = await entry.render();
@@ -172,6 +204,17 @@ const jsonLd = {
                 }
             </div>
 
+            {(entry.data.status || entry.data.testedOn || entry.data.lastVerified) && (
+                <aside class="mb-6 rounded-xl border border-[var(--line-divider)] bg-black/[0.025] dark:bg-white/[0.04] px-4 py-3 onload-animation" aria-label="Article maintenance status">
+                    <div class="flex flex-wrap items-center gap-2 text-sm">
+                        <Icon name="material-symbols:verified-outline-rounded" class="text-xl text-[var(--primary)]" />
+                        <span class="rounded-md px-2 py-0.5 font-medium bg-black/5 dark:bg-white/10">{entry.data.status ? statusLabels[entry.data.status] : "Documentation"}</span>
+                        {entry.data.testedOn && <span class="text-75">Environment: {entry.data.testedOn}</span>}
+                        {entry.data.lastVerified && <span class="text-50">Last verified: {formatDateToYYYYMMDD(entry.data.lastVerified)}</span>}
+                    </div>
+                </aside>
+            )}
+
             <!-- always show cover as long as it has one -->
 
             {
@@ -218,7 +261,40 @@ const jsonLd = {
     </div>
 
     <!-- 评论 -->
+    {entry.data.series && seriesPosts.length > 1 && (
+        <section class="card-base p-6 mb-4" aria-label={`${entry.data.series} series navigation`}>
+            <div class="flex items-center justify-between gap-3 mb-4">
+                <div class="flex items-center gap-2 min-w-0">
+                    <Icon name="material-symbols:account-tree-outline-rounded" class="text-2xl shrink-0 text-[var(--primary)]" />
+                    <h2 class="font-bold text-90 truncate">{entry.data.series}</h2>
+                </div>
+                <span class="text-sm text-50 shrink-0">{seriesIndex + 1} / {seriesPosts.length}</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {previousInSeries ? <a href={getPostUrlBySlug(previousInSeries.slug)} class="btn-card px-4 py-3 flex items-center gap-2 min-w-0"><Icon name="material-symbols:arrow-back-rounded" class="text-[var(--primary)] shrink-0" /><span class="truncate">{previousInSeries.data.title}</span></a> : <div />}
+                {nextInSeries && <a href={getPostUrlBySlug(nextInSeries.slug)} class="btn-card px-4 py-3 flex items-center justify-end gap-2 min-w-0"><span class="truncate">{nextInSeries.data.title}</span><Icon name="material-symbols:arrow-forward-rounded" class="text-[var(--primary)] shrink-0" /></a>}
+            </div>
+        </section>
+    )}
+
+    {relatedPosts.length > 0 && (
+        <section class="card-base p-6 mb-4" aria-label="Related articles">
+            <div class="flex items-center gap-2 mb-4">
+                <Icon name="material-symbols:auto-awesome-outline-rounded" class="text-2xl text-[var(--primary)]" />
+                <h2 class="font-bold text-90">Related articles</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                {relatedPosts.map((post) => (
+                    <a href={getPostUrlBySlug(post.slug)} class="btn-card px-4 py-3 min-w-0 group">
+                        <p class="font-medium text-90 truncate group-hover:text-[var(--primary)] transition">{post.data.title}</p>
+                        <p class="text-sm text-50 mt-1 truncate">{post.data.category || "Uncategorized"}</p>
+                    </a>
+                ))}
+            </div>
     <Comment post={entry} />
+        </section>
+    )}
+
 
     {siteConfig.showLastModified && (
         <>

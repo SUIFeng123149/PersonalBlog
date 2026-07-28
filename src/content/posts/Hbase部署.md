@@ -6,6 +6,11 @@ image: './Hbase部署.assets/cover.webp'
 tags: [BigData, HBase, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 7
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # Hbase的部署
