@@ -6,6 +6,11 @@ image: './Flume部署.assets/cover.webp'
 tags: [BigData, Flume, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 2
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # Flume集群部署

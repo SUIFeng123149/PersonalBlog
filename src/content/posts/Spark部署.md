@@ -6,6 +6,11 @@ image: './Spark部署.assets/cover.webp'
 tags: [BigData, Spark, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 11
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # Spark集群部署

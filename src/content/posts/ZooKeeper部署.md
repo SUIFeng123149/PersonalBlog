@@ -6,6 +6,11 @@ image: './ZooKeeper部署.assets/cover.webp'
 tags: [BigData, ZooKeeper, Deployment]
 category: 'BigData'
 draft: false 
+series: Big Data Deployment
+seriesOrder: 12
+status: maintenance
+testedOn: See article prerequisites
+lastVerified: 2026-07-28
 ---
 
 # ZooKeeper的配置
