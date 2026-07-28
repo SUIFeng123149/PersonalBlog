@@ -55,20 +55,11 @@ const getLevelColor = (level: string) => {
 	}
 };
 
-// 技能等级进度条宽度
-const getLevelWidth = (level: string) => {
-	switch (level) {
-		case "expert":
-			return "100%";
-		case "advanced":
-			return "80%";
-		case "intermediate":
-			return "60%";
-		case "beginner":
-			return "40%";
-		default:
-			return "20%";
-	}
+// 根据实际经验月数计算进度条宽度（36个月为100%）
+const getExperienceWidth = (years: number, months: number) => {
+	const totalMonths = years * 12 + months;
+	const capped = Math.min(totalMonths, 36);
+	return `${Math.round((capped / 36) * 100)}%`;
 };
 
 // 获取分类的翻译文本
@@ -170,7 +161,7 @@ let animated = false;
                         <div 
                             class="h-2 rounded-full skill-progress-bar-animate"
                             style={`width: 0%; background-color: ${skill.color || 'rgb(99 102 241)'};`}
-                            data-final-width={getLevelWidth(skill.level)}
+                            data-final-width={getExperienceWidth(skill.experience.years, skill.experience.months)}
                           ></div>
                       </div>
                     </div>
@@ -251,7 +242,7 @@ let animated = false;
                           <div 
                               class="h-2 rounded-full skill-progress-bar-animate"
                               style={`width: 0%; background-color: ${skill.color || 'rgb(99 102 241)'};`}
-                              data-final-width={getLevelWidth(skill.level)}
+                              data-final-width={getExperienceWidth(skill.experience.years, skill.experience.months)}
                             ></div>
                         </div>
                       </div>

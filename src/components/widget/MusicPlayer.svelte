@@ -12,7 +12,7 @@ import Key from "../../i18n/i18nKey";
 import { i18n } from "../../i18n/translation";
 
 // 音乐播放器模式，可选 "local" 或 "meting"，从本地配置中获取或使用默认值 "meting"
-let mode = musicPlayerConfig.mode ?? "meting";
+let mode = musicPlayerConfig.mode ?? "local";
 // Meting API 地址，从配置中获取或使用默认地址(bilibili.uno(由哔哩哔哩松坂有希公益管理)),服务器在海外,部分音乐平台可能不支持并且速度可能慢,也可以自建Meting API
 let meting_api =
 	musicPlayerConfig.meting_api ??
@@ -68,27 +68,51 @@ let volumeBar: HTMLElement;
 const localPlaylist = [
 	{
 		id: 1,
-		title: "ひとり上手",
-		artist: "Kaya",
-		cover: "assets/music/cover/hitori.jpg",
-		url: "assets/music/url/hitori.mp3",
-		duration: 240,
+		title: "夏灯笼",
+		artist: "HACHI",
+		cover: "assets/music/cover/109951167770250004.jpg",
+		url: "assets/music/url/夏灯笼.mp3",
+		duration: 253,
 	},
 	{
 		id: 2,
-		title: "眩耀夜行",
-		artist: "スリーズブーケ",
-		cover: "assets/music/cover/xryx.jpg",
-		url: "assets/music/url/xryx.mp3",
-		duration: 180,
+		title: "Refrain",
+		artist: "Aimer",
+		cover: "assets/music/cover/109951166663296887.jpg",
+		url: "assets/music/url/Refrain.mp3",
+		duration: 290,
 	},
 	{
 		id: 3,
-		title: "春雷の頃",
-		artist: "22/7",
-		cover: "assets/music/cover/cl.jpg",
-		url: "assets/music/url/cl.mp3",
-		duration: 200,
+		title: "SACRA",
+		artist: "ReoNa",
+		cover: "assets/music/cover/109951168324405400.jpg",
+		url: "assets/music/url/SACRA.mp3",
+		duration: 189,
+	},
+    {
+		id: 4,
+		title: "Twilight Line",
+		artist: "HACHI",
+		cover: "assets/music/cover/109951167730618576.jpg",
+		url: "assets/music/url/Twilight Line.mp3",
+		duration: 248,
+	},
+    {
+		id: 5,
+		title: "WaterFall",
+		artist: "Christopher",
+		cover: "assets/music/cover/109951170858776908.jpg",
+		url: "assets/music/url/WaterFall.mp3",
+		duration: 188,
+	},
+    {
+		id: 6,
+		title: "No differences a0v",
+		artist: "Aimee",
+		cover: "assets/music/cover/109951165561089689.jpg",
+		url: "assets/music/url/No differences a0v.mp3",
+		duration: 277,
 	},
 ];
 

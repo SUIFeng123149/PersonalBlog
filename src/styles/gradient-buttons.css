@@ -78,6 +78,24 @@
   box-shadow: 0 2px 4px rgba(36, 41, 46, 0.3);
 }
 
+/* Gitee按钮样式 */
+.btn-gitee {
+  background: linear-gradient(135deg, #c71d23, #a3151a);
+  color: white;
+  box-shadow: 0 2px 4px rgba(199, 29, 35, 0.3);
+}
+
+.btn-gitee:hover {
+  background: linear-gradient(135deg, #d42026, #b0181d);
+  box-shadow: 0 4px 8px rgba(199, 29, 35, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-gitee:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(199, 29, 35, 0.3);
+}
+
 /* 小尺寸按钮 */
 .btn-gradient-sm {
   padding: 0.25rem 0.75rem;
