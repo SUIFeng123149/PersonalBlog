@@ -21,7 +21,7 @@ const SITE_LANG = "zh_CN"; // 语言设置，可选 'en', 'zh_CN', 'ja' 等
 
 export const siteConfig: SiteConfig = {
 	title: "云栖小筑",
-	subtitle: "",
+	subtitle: "个人博客",
 
 	lang: SITE_LANG,
 

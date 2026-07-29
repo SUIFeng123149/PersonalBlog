@@ -1,12 +1,15 @@
 ---
-title: Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结
+title: "Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: ''
+description: ""
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+lang: ""
+series: ""
+status: verified
+testedOn: ""
 ---
 &#x20;
 
@@ -245,3 +248,6 @@ GUI智能体技术正经历着颠覆性突破，从DeepMind的AutoGUI到Meta的V
 &#x20;
 
 &#x20;&#x20;
+
+
+
