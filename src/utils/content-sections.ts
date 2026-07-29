@@ -76,3 +76,7 @@ export function getPostsForContentSection<
 		(post) => getContentSection(post.data.category) === section,
 	);
 }
+
+export function getFeaturedPosts<T>(posts: T[], limit = 6): T[] {
+	return posts.slice(0, limit);
+}
