@@ -17,5 +17,9 @@ const featuredPosts = getFeaturedPosts(allBlogPosts);
 
 <MainGridLayout>
     <ContentSectionCards posts={allBlogPosts}></ContentSectionCards>
+    <section aria-labelledby="featured-posts-title" class="mb-3 px-1 onload-animation">
+        <p class="text-sm font-medium text-[var(--primary)]">FEATURED</p>
+        <h2 id="featured-posts-title" class="text-2xl font-bold text-90">精选文章</h2>
+    </section>
     <PostPage posts={featuredPosts}></PostPage>
 </MainGridLayout>

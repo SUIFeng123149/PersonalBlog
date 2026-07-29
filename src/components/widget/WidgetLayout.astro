@@ -22,9 +22,12 @@ const className = Astro.props.class;
         <slot></slot>
     </div>
     {isCollapsed && <div class="expand-btn px-4 -mb-2">
-        <button class="btn-plain rounded-lg w-full h-9">
-            <div class="text-[var(--primary)] flex items-center justify-center gap-2 -translate-x-2">
-                <Icon name="material-symbols:more-horiz" class="text-[1.75rem]"></Icon> {i18n(I18nKey.more)}
+        <button class="btn-plain rounded-lg w-full h-9" aria-expanded="false" aria-controls={id}>
+            <div class="text-[var(--primary)] flex items-center justify-center gap-2">
+                <Icon name="material-symbols:more-horiz" class="expand-icon text-[1.5rem]"></Icon>
+                <Icon name="material-symbols:expand-less-rounded" class="collapse-icon hidden text-[1.5rem]"></Icon>
+                <span class="expand-label">{i18n(I18nKey.more)}</span>
+                <span class="collapse-label hidden">收起</span>
             </div>
         </button>
     </div>}
@@ -45,12 +48,22 @@ const className = Astro.props.class;
                 return;
 
             const id = this.dataset.id;
-            const btn = this.querySelector('.expand-btn');
-            const wrapper = this.querySelector(`#${id}`)
-            btn!.addEventListener('click', () => {
-                wrapper!.classList.remove('collapsed');
-                btn!.classList.add('hidden');
-            })
+            const controls = this.querySelector('.expand-btn');
+            const button = controls?.querySelector('button');
+            const wrapper = this.querySelector(`#${id}`);
+            const expandLabel = controls?.querySelector('.expand-label');
+            const collapseLabel = controls?.querySelector('.collapse-label');
+            const expandIcon = controls?.querySelector('.expand-icon');
+            const collapseIcon = controls?.querySelector('.collapse-icon');
+
+            button?.addEventListener('click', () => {
+                const isCollapsed = wrapper!.classList.toggle('collapsed');
+                button.setAttribute('aria-expanded', String(!isCollapsed));
+                expandLabel?.classList.toggle('hidden', !isCollapsed);
+                collapseLabel?.classList.toggle('hidden', isCollapsed);
+                expandIcon?.classList.toggle('hidden', !isCollapsed);
+                collapseIcon?.classList.toggle('hidden', isCollapsed);
+            });
         }
     }
 
