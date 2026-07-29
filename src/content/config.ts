@@ -6,6 +6,10 @@ const postsCollection = defineCollection({
 		published: z.date(),
 		updated: z.date().optional(),
 		draft: z.boolean().optional().default(false),
+		featured: z.boolean().optional().default(false),
+		contentSection: z
+			.enum(["technical", "notes", "games", "other"])
+			.optional(),
 		description: z.string().optional().default(""),
 		image: z.string().optional().default(""),
 		tags: z.array(z.string()).optional().default([]),
