@@ -76,10 +76,20 @@ describe("content sections", () => {
 		expect(postCard).toContain("btn-regular h-6 text-xs font-bold");
 	});
 
-	it("keeps article card titles at normal weight", async () => {
+	it("keeps article card titles bold in the global font", async () => {
 		const postCard = await readFile("src/components/PostCard.astro", "utf8");
-		expect(postCard).toContain("font-normal mb-3 text-3xl text-90");
-		expect(postCard).not.toContain("font-bold mb-3 text-3xl text-90");
+		expect(postCard).toContain("font-bold mb-3 text-3xl text-90");
+		expect(postCard).not.toContain("post-card-title");
+	});
+
+	it("does not override the global ZenMaruGothic font for article titles", async () => {
+		const [layout, styles] = await Promise.all([
+			readFile("src/layouts/Layout.astro", "utf8"),
+			readFile("src/styles/main.css", "utf8"),
+		]);
+
+		expect(layout).not.toContain('@fontsource/noto-sans-sc/400.css');
+		expect(styles).not.toContain(".post-card-title");
 	});
 
 	it("generates only the root homepage path", async () => {
