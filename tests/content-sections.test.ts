@@ -7,6 +7,11 @@ import {
 } from "../src/utils/content-sections";
 
 describe("content sections", () => {
+	it("does not show diary among personal-note category cards", async () => {
+		const component = await readFile("src/components/NotesCategoryCards.astro", "utf8");
+		expect(component).toContain('"随笔", "生活", "思考"');
+		expect(component).not.toContain('"日记", "随笔", "生活", "思考"');
+	});
 	it("uses an explicit article content section before category inference", async () => {
 		const source = await readFile("src/utils/content-sections.ts", "utf8");
 		expect(source).toContain("post.data.contentSection ??");
@@ -59,22 +64,27 @@ describe("content sections", () => {
 		expect(component).not.toContain("选择一个主题开始阅读");
 	});
 
-	it("limits the pinned-first post list to six featured posts", () => {
+	it("shows only explicitly featured posts and limits them to six", () => {
 		const posts = [
-			{ id: "pinned-1", data: { pinned: true } },
-			{ id: "pinned-2", data: { pinned: true } },
-			{ id: "recent-1", data: { pinned: false } },
-			{ id: "recent-2", data: { pinned: false } },
-			{ id: "recent-3", data: { pinned: false } },
-			{ id: "recent-4", data: { pinned: false } },
-			{ id: "recent-5", data: { pinned: false } },
+			{ id: "featured-1", data: { featured: true } },
+			{ id: "regular-1", data: { featured: false } },
+			{ id: "featured-2", data: { featured: true } },
+			{ id: "featured-3", data: { featured: true } },
+			{ id: "featured-4", data: { featured: true } },
+			{ id: "featured-5", data: { featured: true } },
+			{ id: "featured-6", data: { featured: true } },
+			{ id: "featured-7", data: { featured: true } },
 		];
 
 		const featured = getFeaturedPosts(posts);
 		expect(featured).toHaveLength(6);
-		expect(featured.slice(0, 2).map((post) => post.id)).toEqual([
-			"pinned-1",
-			"pinned-2",
+		expect(featured.map((post) => post.id)).toEqual([
+			"featured-1",
+			"featured-2",
+			"featured-3",
+			"featured-4",
+			"featured-5",
+			"featured-6",
 		]);
 	});
 
@@ -108,6 +118,13 @@ describe("content sections", () => {
 		const homepage = await readFile("src/pages/[...page].astro", "utf8");
 		expect(homepage).toContain("params: { page: undefined }");
 		expect(homepage).not.toContain("Pagination");
+	});
+
+	it("renders the My diary page from dedicated diary entries", async () => {
+		const diaryPage = await readFile("src/pages/diary.astro", "utf8");
+		expect(diaryPage).toContain('from "../data/diary"');
+		expect(diaryPage).toContain("diaryEntries");
+		expect(diaryPage).not.toContain("const moments =");
 	});
 
 	it("adds a matching featured-post heading to the homepage", async () => {

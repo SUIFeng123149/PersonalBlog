@@ -1,15 +1,17 @@
 ---
-title: Hadoop的部署
+title: "Hadoop的部署"
 published: 2025-11-11
-description: 'Hadoop的部署 的详细部署与配置文档。'
-image: './Hadoop部署.assets/cover.webp'
-tags: [BigData, Hadoop, Deployment]
-category: 'BigData'
-draft: false 
-series: Big Data Deployment
+description: "Hadoop的部署 的详细部署与配置文档。"
+image: "./Hadoop部署.assets/cover.webp"
+tags: ["BigData", "Hadoop", "Deployment"]
+category: "BigData"
+draft: false
+featured: true
+lang: ""
+series: "Big Data Deployment"
 seriesOrder: 5
 status: maintenance
-testedOn: See article prerequisites
+testedOn: "See article prerequisites"
 lastVerified: 2026-07-28
 ---
 
@@ -627,3 +629,4 @@ http://10.1.100.22:19888/jobhistory/
 ![image-20260727211635601](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211635601.png)
 
 访问成功且有内容即代表成功启动
+
