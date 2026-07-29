@@ -46,6 +46,16 @@ describe("content sections", () => {
 		expect(component).toContain("/category/${section.slug}/");
 	});
 
+	it("uses bold text for section descriptions and post tags", async () => {
+		const [sections, postCard] = await Promise.all([
+			readFile("src/components/ContentSectionCards.astro", "utf8"),
+			readFile("src/components/PostCard.astro", "utf8"),
+		]);
+
+		expect(sections).toContain('class="text-sm font-bold leading-6 text-60"');
+		expect(postCard).toContain("btn-regular h-6 text-xs font-bold");
+	});
+
 	it("uses an installed icon for the game section", async () => {
 		const sections = await readFile("src/utils/content-sections.ts", "utf8");
 		expect(sections).toContain("material-symbols:sports-esports-rounded");
