@@ -16,6 +16,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 	const allBlogPosts = await getSortedPosts();
 	return CONTENT_SECTIONS.flatMap((section) => {
 		const sectionPosts = getPostsForContentSection(allBlogPosts, section.slug);
+		if (section.slug === "technical" || section.slug === "notes") return [];
 		return paginate(sectionPosts, {
 			params: { section: section.slug },
 			pageSize: PAGE_SIZE,

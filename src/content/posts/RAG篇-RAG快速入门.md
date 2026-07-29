@@ -1,12 +1,15 @@
 ---
-title: RAG篇-RAG快速入门
+title: "RAG篇-RAG快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['RAG']
-category: 'RAG'
+description: ""
+image: ""
+tags: ["RAG"]
+category: "RAG"
 draft: false
-lang: zh-CN
+featured: true
+lang: "zh-CN"
+series: ""
+testedOn: ""
 ---
 ## —— 让大模型精准掌握企业私有知识的核心技术
 
@@ -290,4 +293,5 @@ print(qa_chain.run("公司休假政策如何？"))
 
 
 ***
+
 

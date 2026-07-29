@@ -1,12 +1,18 @@
 ---
-title: Dify篇-Dify快速入门
+title: "Dify篇-Dify快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Dify']
-category: 'Dify'
+description: ""
+image: ""
+tags: ["Dify"]
+category: "Dify"
 draft: false
-lang: zh-CN
+featured: true
+lang: ""
+series: "Big Data Deployment"
+seriesOrder: 5
+status: maintenance
+testedOn: "See article prerequisites"
+lastVerified: 2026-07-28
 ---
 ## **Dify入门**
 
@@ -179,3 +185,4 @@ ReAct 模式
 ![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-PDuVbk5itoA9AOxkwzLc7Bcenlh.webp)
 
 应用发布为 Webapp
+

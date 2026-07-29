@@ -1,0 +1,19 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Icon } from "astro-icon/components";
+import { url } from "@utils/url-utils";
+
+const { posts } = Astro.props as { posts: CollectionEntry<"posts">[] };
+const categories = [...new Map(posts.map((post) => [post.data.category || "未分类", 0])).keys()]
+	.map((category) => ({ category, count: posts.filter((post) => (post.data.category || "未分类") === category).length }))
+	.sort((a, b) => b.count - a.count || a.category.localeCompare(b.category));
+---
+
+<section class="grid grid-cols-1 gap-3 md:grid-cols-2">
+	{categories.map(({ category, count }) => (
+		<a href={url(`/category/technical/${encodeURIComponent(category)}/`)} class="card-base group flex items-center justify-between rounded-[var(--radius-large)] p-5 transition hover:-translate-y-1 hover:shadow-lg">
+			<div class="flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-xl bg-[var(--primary)]/10 text-[var(--primary)]"><Icon name="material-symbols:folder-rounded" class="text-2xl" /></span><h2 class="font-bold text-90">{category}</h2></div>
+			<span class="flex items-center gap-1 rounded-full bg-[var(--primary)]/10 px-2.5 py-1 text-xs font-bold text-[var(--primary)]">{count} 篇 <Icon name="material-symbols:arrow-forward-rounded" /></span>
+		</a>
+	))}
+</section>
