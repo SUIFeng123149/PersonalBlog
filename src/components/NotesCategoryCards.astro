@@ -2,6 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import { url } from "@utils/url-utils";
 const { posts } = Astro.props as { posts: CollectionEntry<"posts">[] };
-const categories = [...new Set(posts.map((post) => post.data.category || "未分类"))].map((category) => ({ category, count: posts.filter((post) => (post.data.category || "未分类") === category).length }));
+const defaultCategories = ["随笔", "生活", "思考"];
+const categories = [...new Set([...defaultCategories, ...posts.map((post) => post.data.category || "未分类")])].map((category) => ({ category, count: posts.filter((post) => (post.data.category || "未分类") === category).length }));
 ---
 <section class="grid grid-cols-1 gap-3 md:grid-cols-2">{categories.map(({ category, count }) => <a href={url(`/category/notes/${encodeURIComponent(category)}/`)} class="card-base flex items-center justify-between rounded-[var(--radius-large)] p-5"><h2 class="font-bold text-90">{category}</h2><span class="text-sm font-bold text-[var(--primary)]">{count} 篇</span></a>)}</section>

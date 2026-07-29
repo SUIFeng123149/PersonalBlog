@@ -84,6 +84,9 @@ export function getPostsForContentSection<
 	);
 }
 
-export function getFeaturedPosts<T>(posts: T[], limit = 6): T[] {
-	return posts.slice(0, limit);
+export function getFeaturedPosts<T extends { data: { featured?: boolean } }>(
+	posts: T[],
+	limit = 6,
+): T[] {
+	return posts.filter((post) => post.data.featured === true).slice(0, limit);
 }
