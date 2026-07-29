@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import { describe, expect, it } from "vitest";
 import {
 	getContentSection,
+	getFeaturedPosts,
 	getPostsForContentSection,
 } from "../src/utils/content-sections";
 
@@ -46,6 +47,25 @@ describe("content sections", () => {
 		expect(component).toContain("/category/${section.slug}/");
 	});
 
+	it("limits the pinned-first post list to six featured posts", () => {
+		const posts = [
+			{ id: "pinned-1", data: { pinned: true } },
+			{ id: "pinned-2", data: { pinned: true } },
+			{ id: "recent-1", data: { pinned: false } },
+			{ id: "recent-2", data: { pinned: false } },
+			{ id: "recent-3", data: { pinned: false } },
+			{ id: "recent-4", data: { pinned: false } },
+			{ id: "recent-5", data: { pinned: false } },
+		];
+
+		const featured = getFeaturedPosts(posts);
+		expect(featured).toHaveLength(6);
+		expect(featured.slice(0, 2).map((post) => post.id)).toEqual([
+			"pinned-1",
+			"pinned-2",
+		]);
+	});
+
 	it("uses bold text for section descriptions and post tags", async () => {
 		const [sections, postCard] = await Promise.all([
 			readFile("src/components/ContentSectionCards.astro", "utf8"),
@@ -54,6 +74,12 @@ describe("content sections", () => {
 
 		expect(sections).toContain('class="text-sm font-bold leading-6 text-60"');
 		expect(postCard).toContain("btn-regular h-6 text-xs font-bold");
+	});
+
+	it("generates only the root homepage path", async () => {
+		const homepage = await readFile("src/pages/[...page].astro", "utf8");
+		expect(homepage).toContain("params: { page: undefined }");
+		expect(homepage).not.toContain("Pagination");
 	});
 
 	it("uses an installed icon for the game section", async () => {

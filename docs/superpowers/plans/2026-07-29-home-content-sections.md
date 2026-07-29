@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Add four homepage content-section entry cards and filtered, paginated section pages while retaining the current blog list experience.
+**Goal:** Add four homepage content-section entry cards, a six-post featured list, and filtered, paginated section pages.
 
 **Architecture:** A pure content-section module owns section metadata and category-to-section classification. The homepage derives entry-card counts from that module, while a dynamic Astro route filters the existing sorted posts and feeds them to the existing `PostPage` and `Pagination` components. `Pagination` gains an optional base path so section pages generate local numbered links rather than homepage links.
 
@@ -10,7 +10,8 @@
 
 ## Global Constraints
 
-- Keep all current post frontmatter, post URLs, archive filtering, tags, and homepage article stream unchanged.
+- Keep all current post frontmatter, post URLs, archive filtering, and tags unchanged.
+- The homepage shows at most six pinned-first featured posts and has no pagination or all-posts link.
 - The visible sections are exactly: 技术资料, 个人随笔, 游戏记录, 其他.
 - “其他” must include every post not matched by the other three section mappings, including empty categories.
 - Reuse `MainGridLayout`, `PostPage`, and existing CSS variables; support light/dark themes and mobile layouts.
@@ -255,7 +256,45 @@ git add src/pages/category/[section]/[...page].astro src/components/control/Pagi
 git commit -m "feat: add filtered content section pages"
 ```
 
-### Task 4: Build and inspect generated section output
+### Task 4: Limit the homepage to six featured posts
+
+**Files:**
+- Modify: `src/utils/content-sections.ts`
+- Modify: `src/pages/[...page].astro`
+- Modify: `tests/content-sections.test.ts`
+
+**Interfaces:**
+- Produces `getFeaturedPosts<T>(posts: T[], limit?: number): T[]`, which returns the first `limit` already-sorted posts.
+- Homepage uses `getFeaturedPosts(allBlogPosts)` and does not render `Pagination`.
+
+- [ ] **Step 1: Write a failing featured-posts test**
+
+Add a test that passes eight posts with two pinned posts at the beginning and asserts that `getFeaturedPosts(posts)` returns six items whose first two entries are the pinned ones.
+
+- [ ] **Step 2: Run the test to verify it fails**
+
+Run: `pnpm test tests/content-sections.test.ts`
+
+Expected: FAIL because `getFeaturedPosts` is not exported.
+
+- [ ] **Step 3: Implement the featured-post helper and update the homepage**
+
+Add `getFeaturedPosts(posts, limit = 6) { return posts.slice(0, limit); }` to `src/utils/content-sections.ts`; `getSortedPosts()` already supplies pinned-first ordering. Update `PostPage` to accept an optional `posts` array in addition to a paginated page. In `src/pages/[...page].astro`, pass `getFeaturedPosts(allBlogPosts)` to `PostPage`, remove the `Pagination` import/component, and change `getStaticPaths` to generate only the root page.
+
+- [ ] **Step 4: Run focused tests and build verification**
+
+Run: `pnpm test tests/content-sections.test.ts && pnpm build`
+
+Expected: tests pass, build succeeds, and `dist/2/index.html` is absent.
+
+- [ ] **Step 5: Commit the homepage featured list**
+
+```bash
+git add src/utils/content-sections.ts src/components/PostPage.astro src/pages/[...page].astro tests/content-sections.test.ts docs/superpowers/specs/2026-07-29-home-content-sections-design.md docs/superpowers/plans/2026-07-29-home-content-sections.md
+git commit -m "feat: limit homepage to featured posts"
+```
+
+### Task 5: Build and inspect generated section output
 
 **Files:**
 - Verify only; do not change files unless a command reports an issue.
