@@ -50,16 +50,33 @@ const relatedPosts = allPosts
 	.slice(0, 3)
 	.map(({ post }) => post);
 
-const statusLabels = {
-	verified: "Verified",
-	maintenance: "Maintained",
-	outdated: "May be outdated",
-};
-const statusStyles = {
-	verified: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300",
-	maintenance: "bg-sky-500/10 text-sky-700 dark:text-sky-300",
-	outdated: "bg-amber-500/10 text-amber-700 dark:text-amber-300",
-};
+const statusDetails = {
+	verified: {
+		label: "已验证",
+		icon: "material-symbols:verified-outline-rounded",
+		iconClass: "text-emerald-600 dark:text-emerald-300",
+		badgeClass: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300",
+	},
+	maintenance: {
+		label: "维护中",
+		icon: "material-symbols:autorenew-rounded",
+		iconClass: "text-sky-600 dark:text-sky-300",
+		badgeClass: "bg-sky-500/10 text-sky-700 dark:text-sky-300",
+	},
+	outdated: {
+		label: "可能已过时",
+		icon: "material-symbols:warning-amber-rounded",
+		iconClass: "text-amber-600 dark:text-amber-300",
+		badgeClass: "bg-amber-500/10 text-amber-700 dark:text-amber-300",
+	},
+	unset: {
+		label: "未设置",
+		icon: "material-symbols:help-outline-rounded",
+		iconClass: "text-slate-500 dark:text-slate-400",
+		badgeClass: "bg-slate-500/10 text-slate-600 dark:text-slate-300",
+	},
+} as const;
+const currentStatus = statusDetails[entry.data.status ?? "unset"];
 const { Content, headings } = await entry.render();
 
 const { remarkPluginFrontmatter } = await entry.render();
@@ -204,16 +221,24 @@ const jsonLd = {
                 }
             </div>
 
-            {(entry.data.status || entry.data.testedOn || entry.data.lastVerified) && (
-                <aside class="mb-6 rounded-xl border border-[var(--line-divider)] bg-black/[0.025] dark:bg-white/[0.04] px-4 py-3 onload-animation" aria-label="Article maintenance status">
-                    <div class="flex flex-wrap items-center gap-2 text-sm">
-                        <Icon name="material-symbols:verified-outline-rounded" class="text-xl text-[var(--primary)]" />
-                        <span class="rounded-md px-2 py-0.5 font-medium bg-black/5 dark:bg-white/10">{entry.data.status ? statusLabels[entry.data.status] : "Documentation"}</span>
-                        {entry.data.testedOn && <span class="text-75">Environment: {entry.data.testedOn}</span>}
-                        {entry.data.lastVerified && <span class="text-50">Last verified: {formatDateToYYYYMMDD(entry.data.lastVerified)}</span>}
-                    </div>
-                </aside>
-            )}
+            <aside class="mb-6 flex flex-wrap items-center gap-x-4 gap-y-2 rounded-[var(--radius-large)] border border-[var(--line-divider)] bg-[var(--card-bg)] px-4 py-3 text-sm onload-animation" aria-label="Article maintenance status">
+                <div class="flex items-center gap-2">
+                    <Icon name={currentStatus.icon} class:list={["text-xl", currentStatus.iconClass]} />
+                    <span class:list={["rounded-lg px-2.5 py-1 font-bold", currentStatus.badgeClass]}>{currentStatus.label}</span>
+                </div>
+                {entry.data.testedOn && (
+                    <span class="flex items-center gap-1.5 text-75">
+                        <Icon name="material-symbols:settings-outline-rounded" class="text-base" />
+                        运行环境：{entry.data.testedOn}
+                    </span>
+                )}
+                {entry.data.lastVerified && (
+                    <span class="flex items-center gap-1.5 text-50">
+                        <Icon name="material-symbols:schedule-outline-rounded" class="text-base" />
+                        最后验证：{formatDateToYYYYMMDD(entry.data.lastVerified)}
+                    </span>
+                )}
+            </aside>
 
             <!-- always show cover as long as it has one -->
 
