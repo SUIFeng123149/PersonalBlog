@@ -1,3 +1,4 @@
+import { readFile } from "node:fs/promises";
 import { describe, expect, it } from "vitest";
 import {
 	getContentSection,
@@ -33,5 +34,21 @@ describe("content sections", () => {
 		expect(getPostsForContentSection(posts, "notes")).toHaveLength(1);
 		expect(getPostsForContentSection(posts, "games")).toHaveLength(1);
 		expect(getPostsForContentSection(posts, "other")).toHaveLength(1);
+	});
+
+	it("renders all four homepage section links", async () => {
+		const component = await readFile(
+			"src/components/ContentSectionCards.astro",
+			"utf8",
+		);
+		expect(component).toContain("CONTENT_SECTIONS");
+		expect(component).toContain("getPostsForContentSection");
+		expect(component).toContain("/category/${section.slug}/");
+	});
+
+	it("uses an installed icon for the game section", async () => {
+		const sections = await readFile("src/utils/content-sections.ts", "utf8");
+		expect(sections).toContain("material-symbols:sports-esports-rounded");
+		expect(sections).not.toContain("material-symbols:stadia-controller-rounded");
 	});
 });

@@ -24,7 +24,7 @@ export const CONTENT_SECTIONS: ContentSection[] = [
 		slug: "games",
 		title: "游戏记录",
 		description: "游戏体验、攻略与进度记录",
-		icon: "material-symbols:stadia-controller-rounded",
+		icon: "material-symbols:sports-esports-rounded",
 	},
 	{
 		slug: "other",
