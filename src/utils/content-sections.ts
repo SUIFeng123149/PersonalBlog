@@ -70,10 +70,17 @@ export function getContentSection(
 }
 
 export function getPostsForContentSection<
-	T extends { data: { category?: string | null } },
+	T extends {
+		data: {
+			category?: string | null;
+			contentSection?: ContentSectionSlug;
+		};
+	},
 >(posts: T[], section: ContentSectionSlug): T[] {
 	return posts.filter(
-		(post) => getContentSection(post.data.category) === section,
+		(post) =>
+			(post.data.contentSection ?? getContentSection(post.data.category)) ===
+			section,
 	);
 }
 

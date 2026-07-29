@@ -7,6 +7,10 @@ import {
 } from "../src/utils/content-sections";
 
 describe("content sections", () => {
+	it("uses an explicit article content section before category inference", async () => {
+		const source = await readFile("src/utils/content-sections.ts", "utf8");
+		expect(source).toContain("post.data.contentSection ??");
+	});
 	it("classifies configured technical categories as technical", () => {
 		expect(getContentSection("AI Agent")).toBe("technical");
 		expect(getContentSection("JavaSE")).toBe("technical");
