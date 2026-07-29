@@ -76,6 +76,12 @@ describe("content sections", () => {
 		expect(postCard).toContain("btn-regular h-6 text-xs font-bold");
 	});
 
+	it("keeps article card titles at normal weight", async () => {
+		const postCard = await readFile("src/components/PostCard.astro", "utf8");
+		expect(postCard).toContain("font-normal mb-3 text-3xl text-90");
+		expect(postCard).not.toContain("font-bold mb-3 text-3xl text-90");
+	});
+
 	it("generates only the root homepage path", async () => {
 		const homepage = await readFile("src/pages/[...page].astro", "utf8");
 		expect(homepage).toContain("params: { page: undefined }");
