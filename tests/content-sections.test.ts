@@ -47,6 +47,14 @@ describe("content sections", () => {
 		expect(component).toContain("/category/${section.slug}/");
 	});
 
+	it("removes the section-card helper copy", async () => {
+		const component = await readFile(
+			"src/components/ContentSectionCards.astro",
+			"utf8",
+		);
+		expect(component).not.toContain("选择一个主题开始阅读");
+	});
+
 	it("limits the pinned-first post list to six featured posts", () => {
 		const posts = [
 			{ id: "pinned-1", data: { pinned: true } },
@@ -96,6 +104,21 @@ describe("content sections", () => {
 		const homepage = await readFile("src/pages/[...page].astro", "utf8");
 		expect(homepage).toContain("params: { page: undefined }");
 		expect(homepage).not.toContain("Pagination");
+	});
+
+	it("adds a matching featured-post heading to the homepage", async () => {
+		const homepage = await readFile("src/pages/[...page].astro", "utf8");
+		expect(homepage).toContain("FEATURED");
+		expect(homepage).toContain("精选文章");
+	});
+
+	it("lets collapsed sidebar widgets toggle open and closed", async () => {
+		const widgetLayout = await readFile(
+			"src/components/widget/WidgetLayout.astro",
+			"utf8",
+		);
+		expect(widgetLayout).toContain("aria-expanded");
+		expect(widgetLayout).toContain("classList.toggle('collapsed')");
 	});
 
 	it("uses an installed icon for the game section", async () => {
