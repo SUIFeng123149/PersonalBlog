@@ -1,12 +1,15 @@
 ---
-title: Coze篇-智能体快速入门
+title: "Coze篇-智能体快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze', 'AI Agent']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze", "AI Agent"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: true
+lang: "zh-CN"
+series: ""
+testedOn: ""
 ---
 ## 一、什么是扣子？
 
@@ -162,4 +165,5 @@ lang: zh-CN
 3. 单击**发布。**
 
 ![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-OMg0bYQPiocrHox5AI6cxbeFnDe.png)
+
 

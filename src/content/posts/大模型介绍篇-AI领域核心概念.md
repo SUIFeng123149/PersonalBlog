@@ -1,12 +1,15 @@
 ---
-title: 大模型介绍篇-AI领域核心概念
+title: "大模型介绍篇-AI领域核心概念"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: ""
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: true
+lang: "zh-CN"
+series: ""
+testedOn: ""
 ---
 ## **传统编程指令 vs 机器学习**
 
@@ -525,3 +528,4 @@ RNN（循环神经网络）由输入层、隐藏层和输出层组成，每一�
 ### **总结**
 
 通过输入层接收并转换数据，隐藏层处理并“记忆”序列中的信息，最后输出层根据隐藏层的信息作出决策，RNN能够有效地处理序列数据。这种结构使得RNN在语言模型、股票预浔、语音识别等众多需要理解序列数据的上下文的任务中表现优异。
+

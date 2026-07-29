@@ -1,11 +1,11 @@
 export const now = {
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "focus": [
     "扩展大数据部署系列文章",
     "记录可复用的集群操作"
   ],
   "learning": [
-    "Flink 与流式处理",
+    "JAVA框架学习",
     "技术文档的长期维护"
   ],
   "building": [
