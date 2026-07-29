@@ -121,6 +121,21 @@ describe("content sections", () => {
 		expect(widgetLayout).toContain("classList.toggle('collapsed')");
 	});
 
+	it("always renders a clear Chinese maintenance-status badge on article pages", async () => {
+		const articlePage = await readFile(
+			"src/pages/posts/[...slug].astro",
+			"utf8",
+		);
+  expect(articlePage).toContain('label: "已验证"');
+  expect(articlePage).toContain('label: "维护中"');
+  expect(articlePage).toContain('label: "可能已过时"');
+		expect(articlePage).toContain('"未设置"');
+		expect(articlePage).toContain("Article maintenance status");
+		expect(articlePage).not.toContain(
+			"(entry.data.status || entry.data.testedOn || entry.data.lastVerified) &&",
+		);
+	});
+
 	it("uses an installed icon for the game section", async () => {
 		const sections = await readFile("src/utils/content-sections.ts", "utf8");
 		expect(sections).toContain("material-symbols:sports-esports-rounded");
