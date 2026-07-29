@@ -1,12 +1,15 @@
 ---
-title: AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程
+title: "AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: 'AI Agent'
+description: ""
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+lang: ""
+series: ""
+status: verified
+testedOn: ""
 ---
 # 今天手把手带大家从0开始手搓一个非常简单但不乏实用性的智能体（Agent），就当是给大家的Agent基础入门课了！
 
@@ -277,4 +280,5 @@ lang: zh-CN
 通篇文章下来，其实真正重要的不在于你成功搭建了一个简单智能体，更不在于其中提及到的为数不多也不具备学习门槛的技术，而是向你展示了搭建一个智能体的基本思路，以及现在主流的智能体开发平台大致上是如何运作的，我们可以高度概括成一句话：
 
 **工作流是对指定功能通过集成和预设好的模块按照特定的顺序进行标准化编排，而智能体则是对各种指定功能的集成…**
+
 

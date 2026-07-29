@@ -1,12 +1,14 @@
 ---
-title: 【AI智能体】新手教程-0 代码搭建微信智能客服
+title: "【AI智能体】新手教程-0 代码搭建微信智能客服"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: ''
+description: ""
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+lang: ""
+series: ""
+testedOn: ""
 ---
 &#x20;
 
@@ -143,4 +145,5 @@ lang: zh-CN
 &#x20;&#x20;
 
 ![](./【AI智能体】新手教程-0 代码搭建微信智能客服_assets/【AI智能体】新手教程-0 代码搭建微信智能客服-image.png)
+
 
