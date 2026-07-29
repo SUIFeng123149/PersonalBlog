@@ -51,4 +51,23 @@ describe("content sections", () => {
 		expect(sections).toContain("material-symbols:sports-esports-rounded");
 		expect(sections).not.toContain("material-symbols:stadia-controller-rounded");
 	});
+
+	it("defines a section route that filters posts before pagination", async () => {
+		const route = await readFile(
+			"src/pages/category/[section]/[...page].astro",
+			"utf8",
+		);
+		expect(route).toContain("getPostsForContentSection(allBlogPosts, section.slug)");
+		expect(route).toContain("paginate(sectionPosts");
+		expect(route).toContain("basePath={`/category/${section}/`}");
+	});
+
+	it("builds numbered pagination links within an optional base path", async () => {
+		const pagination = await readFile(
+			"src/components/control/Pagination.astro",
+			"utf8",
+		);
+		expect(pagination).toContain("basePath?: string");
+		expect(pagination).toContain("`${basePath}${p}/`");
+	});
 });
