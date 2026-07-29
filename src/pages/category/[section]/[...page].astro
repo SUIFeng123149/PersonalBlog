@@ -1,0 +1,69 @@
+---
+import type { GetStaticPaths, Page } from "astro";
+import Pagination from "@components/control/Pagination.astro";
+import PostPage from "@components/PostPage.astro";
+import { PAGE_SIZE } from "@constants/constants";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import {
+	CONTENT_SECTIONS,
+	getPostsForContentSection,
+	type ContentSectionSlug,
+} from "@utils/content-sections";
+import { getSortedPosts } from "@utils/content-utils";
+import { url } from "@utils/url-utils";
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const allBlogPosts = await getSortedPosts();
+	return CONTENT_SECTIONS.flatMap((section) => {
+		const sectionPosts = getPostsForContentSection(allBlogPosts, section.slug);
+		return paginate(sectionPosts, {
+			params: { section: section.slug },
+			pageSize: PAGE_SIZE,
+		});
+	});
+}) satisfies GetStaticPaths;
+
+interface Props {
+	page: Page;
+}
+
+const { page } = Astro.props;
+const section = Astro.params.section as ContentSectionSlug;
+const currentSection = CONTENT_SECTIONS.find((item) => item.slug === section);
+
+if (!currentSection) {
+	return Astro.redirect(url("/"));
+}
+---
+
+<MainGridLayout title={currentSection.title} description={currentSection.description}>
+	<section class="card-base mb-4 rounded-[var(--radius-large)] p-6 onload-animation" aria-labelledby="section-title">
+		<a href={url("/")} class="mb-4 inline-flex items-center gap-1 text-sm font-medium text-[var(--primary)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--primary)]">
+			← 返回全部文章
+		</a>
+		<p class="mb-1 text-sm font-medium text-[var(--primary)]">CONTENT SECTION</p>
+		<h1 id="section-title" class="mb-2 text-3xl font-bold text-90">{currentSection.title}</h1>
+		<p class="text-60">{currentSection.description}</p>
+	</section>
+
+	{
+		page.data.length > 0 ? (
+			<>
+				<PostPage page={page}></PostPage>
+				<Pagination
+					class="mx-auto onload-animation"
+					page={page}
+					basePath={`/category/${section}/`}
+				></Pagination>
+			</>
+		) : (
+			<section class="card-base rounded-[var(--radius-large)] p-8 text-center onload-animation">
+				<h2 class="mb-2 text-xl font-bold text-90">暂时还没有文章</h2>
+				<p class="mb-5 text-60">新的内容会在发布后自动出现在这里。</p>
+				<a href={url("/")} class="btn-regular inline-flex rounded-lg px-4 py-2 text-sm font-medium">
+					浏览全部文章
+				</a>
+			</section>
+		)
+	}
+</MainGridLayout>

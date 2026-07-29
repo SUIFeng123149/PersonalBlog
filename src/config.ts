@@ -20,8 +20,8 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言设置，可选 'en', 'zh_CN', 'ja' 等
 
 export const siteConfig: SiteConfig = {
-	title: "SuifengFlying",
-	subtitle: "个人博客",
+	title: "云栖小筑",
+	subtitle: "",
 
 	lang: SITE_LANG,
 
