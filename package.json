@@ -27,6 +27,7 @@
 		"@expressive-code/plugin-collapsible-sections": "^0.41.3",
 		"@expressive-code/plugin-line-numbers": "^0.41.3",
 		"@fancyapps/ui": "^6.0.34",
+		"@ffmpeg-installer/ffmpeg": "^1.1.0",
 		"@fontsource-variable/jetbrains-mono": "^5.2.8",
 		"@fontsource/noto-sans-sc": "^5.3.0",
 		"@fontsource/roboto": "^5.2.8",

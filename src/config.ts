@@ -1,16 +1,16 @@
 import type {
-	SiteConfig,
+	AnnouncementConfig,
+	CommentConfig,
+	ExpressiveCodeConfig,
+	FooterConfig,
 	FullscreenWallpaperConfig,
+	LicenseConfig,
+	MusicPlayerConfig,
 	NavBarConfig,
 	ProfileConfig,
-	LicenseConfig,
-	ExpressiveCodeConfig,
-	CommentConfig,
-	AnnouncementConfig,
-	MusicPlayerConfig,
-	FooterConfig,
-	SidebarLayoutConfig,
 	SakuraConfig,
+	SidebarLayoutConfig,
+	SiteConfig,
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
@@ -50,11 +50,11 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bangumi: {
-		userId: "your-bangumi-id", // Bangumi 用户 ID，填写 bangumi 的用户 ID，如 "sai"
+		userId: "1268791", // Bangumi 用户 ID
 	},
 
 	anime: {
-		mode: "local", // 番剧页面模式："bangumi" 使用 bangumi API，"local" 使用本地数据
+		mode: "bangumi", // 番剧页面模式："bangumi" 使用 bangumi API，"local" 使用本地数据
 	},
 
 	// 文章列表布局
@@ -304,7 +304,6 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/SUIFeng123149",
 		},
-
 	],
 };
 
