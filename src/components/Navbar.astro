@@ -188,29 +188,3 @@ if (document.readyState === 'loading') {
     initSemifullScrollDetection();
 }
 </script>
-
-{import.meta.env.PROD && <script is:inline type="module">
-import pfind from '/pagefind/pagefind.js';
-
-async function initPagefind() {
-    try {
-        await pfind.options({ excerptLength: 20 });
-        window.pagefind = pfind;
-        document.dispatchEvent(new CustomEvent('pagefindready'));
-        console.log('Pagefind loaded and initialized successfully.');
-    } catch (error) {
-        console.error('Failed to initialize Pagefind:', error);
-        window.pagefind = {
-            search: () => Promise.resolve({ results: [] }),
-            options: () => Promise.resolve(),
-        };
-        document.dispatchEvent(new CustomEvent('pagefindloaderror'));
-    }
-}
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initPagefind);
-} else {
-    initPagefind();
-}
-</script>}
