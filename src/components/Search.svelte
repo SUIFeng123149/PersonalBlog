@@ -115,7 +115,7 @@ onMount(() => {
 	// 直接导入 pagefind，不依赖跨组件事件
 	(async () => {
 		try {
-			const pfind = await import("/pagefind/pagefind.js");
+			const pfind = await import(window.location.origin + "/pagefind/pagefind.js");
 			await pfind.options({ excerptLength: 20 });
 			window.pagefind = pfind;
 			pagefindLoaded = true;
