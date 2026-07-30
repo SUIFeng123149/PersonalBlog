@@ -3,8 +3,8 @@ import type { GetStaticPaths } from "astro";
 import ContentSectionCards from "../components/ContentSectionCards.astro";
 import PostPage from "../components/PostPage.astro";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
-import { getSortedPosts } from "../utils/content-utils";
 import { getFeaturedPosts } from "../utils/content-sections";
+import { getSortedPosts } from "../utils/content-utils";
 
 export const getStaticPaths = (async () => [
 	{ params: { page: undefined } },

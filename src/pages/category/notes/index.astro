@@ -1,8 +1,9 @@
 ---
-import MainGridLayout from "@layouts/MainGridLayout.astro";
 import NotesCategoryCards from "@components/NotesCategoryCards.astro";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getPostsForContentSection } from "@utils/content-sections";
 import { getSortedPosts } from "@utils/content-utils";
+
 const posts = getPostsForContentSection(await getSortedPosts(), "notes");
 ---
 <MainGridLayout title="个人随笔" description="按分类浏览个人随笔"><section class="card-base mb-4 rounded-[var(--radius-large)] p-6"><p class="text-sm font-medium text-[var(--primary)]">PERSONAL NOTES</p><h1 class="mt-1 text-3xl font-bold text-90">个人随笔</h1><p class="mt-2 text-60">选择随笔、生活或其他主题开始阅读。</p></section><NotesCategoryCards posts={posts} /></MainGridLayout>
