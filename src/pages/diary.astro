@@ -16,7 +16,8 @@ function formatTime(dateString: string) {
 	const diff = Math.max(0, Date.now() - new Date(dateString).getTime());
 	const minutes = Math.floor(diff / 60000);
 	if (minutes < 60) return `${minutes}${i18n(I18nKey.diaryMinutesAgo)}`;
-	if (minutes < 1440) return `${Math.floor(minutes / 60)}${i18n(I18nKey.diaryHoursAgo)}`;
+	if (minutes < 1440)
+		return `${Math.floor(minutes / 60)}${i18n(I18nKey.diaryHoursAgo)}`;
 	return `${Math.floor(minutes / 1440)}${i18n(I18nKey.diaryDaysAgo)}`;
 }
 ---

@@ -1,16 +1,16 @@
 import type {
-	SiteConfig,
+	AnnouncementConfig,
+	CommentConfig,
+	ExpressiveCodeConfig,
+	FooterConfig,
 	FullscreenWallpaperConfig,
+	LicenseConfig,
+	MusicPlayerConfig,
 	NavBarConfig,
 	ProfileConfig,
-	LicenseConfig,
-	ExpressiveCodeConfig,
-	CommentConfig,
-	AnnouncementConfig,
-	MusicPlayerConfig,
-	FooterConfig,
-	SidebarLayoutConfig,
 	SakuraConfig,
+	SidebarLayoutConfig,
+	SiteConfig,
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
@@ -304,7 +304,6 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/SUIFeng123149",
 		},
-
 	],
 };
 

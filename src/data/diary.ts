@@ -7,13 +7,11 @@ export interface DiaryEntry {
 }
 
 export const diaryEntries: DiaryEntry[] = [
-  {
-    "id": "diary-1785313496476",
-    "content": "test1",
-    "date": "2026-07-29T16:29",
-    "images": [
-      "/assets/diary/d4-1785313620685.webp"
-    ],
-    "hidden": false
-  }
+	{
+		id: "diary-1785313496476",
+		content: "test1",
+		date: "2026-07-29T16:29",
+		images: ["/assets/diary/d4-1785313620685.webp"],
+		hidden: false,
+	},
 ];
