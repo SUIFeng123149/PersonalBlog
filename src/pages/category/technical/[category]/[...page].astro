@@ -1,15 +1,22 @@
 ---
-import type { GetStaticPaths, Page } from "astro";
-import MainGridLayout from "@layouts/MainGridLayout.astro";
-import PostPage from "@components/PostPage.astro";
 import Pagination from "@components/control/Pagination.astro";
+import PostPage from "@components/PostPage.astro";
 import { PAGE_SIZE } from "@constants/constants";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getPostsForContentSection } from "@utils/content-sections";
 import { getSortedPosts } from "@utils/content-utils";
+import type { GetStaticPaths, Page } from "astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const posts = getPostsForContentSection(await getSortedPosts(), "technical");
-	return [...new Set(posts.map((post) => post.data.category || "未分类"))].flatMap((category) => paginate(posts.filter((post) => (post.data.category || "未分类") === category), { params: { category }, pageSize: PAGE_SIZE }));
+	return [
+		...new Set(posts.map((post) => post.data.category || "未分类")),
+	].flatMap((category) =>
+		paginate(
+			posts.filter((post) => (post.data.category || "未分类") === category),
+			{ params: { category }, pageSize: PAGE_SIZE },
+		),
+	);
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props as { page: Page };

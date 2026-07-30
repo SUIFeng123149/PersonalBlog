@@ -19,81 +19,55 @@ export interface Project {
 }
 
 export const projectsData: Project[] = [
-  {
-    "id": "visualization_platform",
-    "title": "visualization_platform",
-    "description": "面向多视频平台的内容、互动、情感和账号数据分析系统。",
-    "image": "/assets/images/d4-1785226189264.webp",
-    "category": "web",
-    "techStack": [
-      "Java",
-      "JavaScript",
-      "Tailwind CSS",
-      "Vue",
-      "HTML"
-    ],
-    "status": "completed",
-    "liveDemo": "https://visualization-platform.example.com",
-    "sourceCode": "https://gitee.com/with-the-wind1/visualization_platform",
-    "visitUrl": "https://gitee.com/with-the-wind1/visualization_platform",
-    "startDate": "2026-06-01",
-    "endDate": "2026-07-01",
-    "featured": true,
-    "tags": [
-      "Platform",
-      "Visual",
-      "Close Source"
-    ]
-  },
-  {
-    "id": "Drone-obstacle-avoidance",
-    "title": "Drone Obstacle Avoidance",
-    "description": "一个基于无人机的避障系统，用于在复杂环境中安全导航。",
-    "image": "",
-    "category": "desktop",
-    "techStack": [
-      "C++",
-      "Python",
-      "OpenCV",
-      "TensorFlow"
-    ],
-    "status": "in-progress",
-    "liveDemo": "https://portfolio.example.com",
-    "sourceCode": "https://gitee.com/with-the-wind1/drone",
-    "visitUrl": "https://gitee.com/with-the-wind1/drone",
-    "startDate": "2025-11-01",
-    "endDate": "",
-    "featured": true,
-    "tags": [
-      "Drone",
-      "Avoidance",
-      "Close Source"
-    ]
-  },
-  {
-    "id": "Harmony_Music",
-    "title": "Harmony Music",
-    "description": "一个功能完整、界面美观的音乐管理系统，包含前端和后端完整实现。",
-    "image": "",
-    "category": "web",
-    "techStack": [
-      "C++",
-      "Python",
-      "OpenCV",
-      "TensorFlow"
-    ],
-    "status": "completed",
-    "liveDemo": "https://harmony-music.example.com",
-    "sourceCode": "https://gitee.com/no-such-group-found/music_player_admin",
-    "visitUrl": "https://gitee.com/no-such-group-found/music_player_admin",
-    "startDate": "2025-12-01",
-    "endDate": "2026-01-01",
-    "featured": true,
-    "tags": [
-      "Music",
-      "Close Source"
-    ]
-  }
+	{
+		id: "visualization_platform",
+		title: "visualization_platform",
+		description: "面向多视频平台的内容、互动、情感和账号数据分析系统。",
+		image: "/assets/images/d4-1785226189264.webp",
+		category: "web",
+		techStack: ["Java", "JavaScript", "Tailwind CSS", "Vue", "HTML"],
+		status: "completed",
+		liveDemo: "https://visualization-platform.example.com",
+		sourceCode: "https://gitee.com/with-the-wind1/visualization_platform",
+		visitUrl: "https://gitee.com/with-the-wind1/visualization_platform",
+		startDate: "2026-06-01",
+		endDate: "2026-07-01",
+		featured: true,
+		tags: ["Platform", "Visual", "Close Source"],
+	},
+	{
+		id: "Drone-obstacle-avoidance",
+		title: "Drone Obstacle Avoidance",
+		description: "一个基于无人机的避障系统，用于在复杂环境中安全导航。",
+		image: "",
+		category: "desktop",
+		techStack: ["C++", "Python", "OpenCV", "TensorFlow"],
+		status: "in-progress",
+		liveDemo: "https://portfolio.example.com",
+		sourceCode: "https://gitee.com/with-the-wind1/drone",
+		visitUrl: "https://gitee.com/with-the-wind1/drone",
+		startDate: "2025-11-01",
+		endDate: "",
+		featured: true,
+		tags: ["Drone", "Avoidance", "Close Source"],
+	},
+	{
+		id: "Harmony_Music",
+		title: "Harmony Music",
+		description:
+			"一个功能完整、界面美观的音乐管理系统，包含前端和后端完整实现。",
+		image: "",
+		category: "web",
+		techStack: ["C++", "Python", "OpenCV", "TensorFlow"],
+		status: "completed",
+		liveDemo: "https://harmony-music.example.com",
+		sourceCode: "https://gitee.com/no-such-group-found/music_player_admin",
+		visitUrl: "https://gitee.com/no-such-group-found/music_player_admin",
+		startDate: "2025-12-01",
+		endDate: "2026-01-01",
+		featured: true,
+		tags: ["Music", "Close Source"],
+	},
 ];
 
 // Get project statistics
