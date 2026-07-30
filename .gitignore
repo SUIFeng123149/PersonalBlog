@@ -16,7 +16,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
+*.backup/
 
 # environment variables
 .env
@@ -42,3 +42,4 @@ fuwari/
 # admin management panel (separate repo)
 admin/
 docs/superpowers/*
+src/data/**.backup
