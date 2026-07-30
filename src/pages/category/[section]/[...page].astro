@@ -1,16 +1,16 @@
 ---
-import type { GetStaticPaths, Page } from "astro";
 import Pagination from "@components/control/Pagination.astro";
 import PostPage from "@components/PostPage.astro";
 import { PAGE_SIZE } from "@constants/constants";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import {
 	CONTENT_SECTIONS,
-	getPostsForContentSection,
 	type ContentSectionSlug,
+	getPostsForContentSection,
 } from "@utils/content-sections";
 import { getSortedPosts } from "@utils/content-utils";
 import { url } from "@utils/url-utils";
+import type { GetStaticPaths, Page } from "astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const allBlogPosts = await getSortedPosts();

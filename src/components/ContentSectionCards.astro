@@ -1,11 +1,11 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { Icon } from "astro-icon/components";
 import {
 	CONTENT_SECTIONS,
 	getPostsForContentSection,
 } from "@utils/content-sections";
 import { url } from "@utils/url-utils";
+import { Icon } from "astro-icon/components";
 
 interface Props {
 	posts: CollectionEntry<"posts">[];

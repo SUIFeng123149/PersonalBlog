@@ -27,17 +27,13 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "当前学习",
 		title: "计算机科学与技术学习",
-		description:
-			"目前正在学习计算机科学与技术，专注于Web开发和软件工程。",
+		description: "目前正在学习计算机科学与技术，专注于Web开发和软件工程。",
 		type: "education",
 		startDate: "2025-12-01",
 		location: "哈尔滨",
 		organization: "哈尔滨理工大学",
-		skills: ["Java","Spring", "JavaScript", "HTML/CSS", "MySQL"],
-		achievements: [
-			"完成数据结构课程项目",
-			"参与多个课程项目开发",
-		],
+		skills: ["Java", "Spring", "JavaScript", "HTML/CSS", "MySQL"],
+		achievements: ["完成数据结构课程项目", "参与多个课程项目开发"],
 		icon: "material-symbols:school",
 		color: "#059669",
 		featured: true,
@@ -46,8 +42,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "音乐管理系统",
 		title: "音乐管理系统课程项目",
-		description:
-			"数据库课程结课项目，开发了一个完整音乐信息管理系统。",
+		description: "数据库课程结课项目，开发了一个完整音乐信息管理系统。",
 		type: "project",
 		startDate: "2025-12-01",
 		endDate: "2026-01-07",
@@ -63,18 +58,13 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "编程竞赛",
 		title: "大学编程竞赛",
-		description:
-			"编程竞赛，参与了多个编程竞赛，获得了多个奖励。",
+		description: "编程竞赛，参与了多个编程竞赛，获得了多个奖励。",
 		type: "achievement",
 		startDate: "2024-10-20",
 		location: "哈尔滨理工大学",
 		organization: "哈尔滨理工大学",
 		skills: ["C++", "Algorithms", "Data Structures"],
-		achievements: [
-			"赢得传智杯校赛一等奖",
-			"提高了算法能力",
-			"提高了编程能力",
-		],
+		achievements: ["赢得传智杯校赛一等奖", "提高了算法能力", "提高了编程能力"],
 		icon: "material-symbols:emoji-events",
 		color: "#7C3AED",
 	},
@@ -88,17 +78,14 @@ export const timelineData: TimelineItem[] = [
 		endDate: "2024-06-30",
 		location: "Daqing, HeiLongjiang",
 		organization: "大庆市第四中学",
-		achievements: [
-			"高考成绩：561",
-		],
+		achievements: ["高考成绩：561"],
 		icon: "material-symbols:school",
 		color: "#2563EB",
 	},
 	{
 		id: "第一次编程经历",
 		title: "第一次编程经历",
-		description:
-			"第一次在课外班接触编程，开始学习 Python 的基本语法。",
+		description: "第一次在课外班接触编程，开始学习 Python 的基本语法。",
 		type: "education",
 		startDate: "2020-07-01",
 		skills: ["Python", "Basic Programming Concepts"],
@@ -110,7 +97,6 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:code",
 		color: "#7C3AED",
 	},
-
 ];
 
 // Get timeline statistics

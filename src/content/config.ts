@@ -7,9 +7,7 @@ const postsCollection = defineCollection({
 		updated: z.date().optional(),
 		draft: z.boolean().optional().default(false),
 		featured: z.boolean().optional().default(false),
-		contentSection: z
-			.enum(["technical", "notes", "games", "other"])
-			.optional(),
+		contentSection: z.enum(["technical", "notes", "games", "other"]).optional(),
 		description: z.string().optional().default(""),
 		image: z.string().optional().default(""),
 		tags: z.array(z.string()).optional().default([]),
@@ -29,8 +27,6 @@ const postsCollection = defineCollection({
 		/* Page encryption fields */
 		encrypted: z.boolean().optional().default(false),
 		password: z.string().optional().default(""),
-
-		
 
 		/* For internal use */
 		prevTitle: z.string().default(""),
