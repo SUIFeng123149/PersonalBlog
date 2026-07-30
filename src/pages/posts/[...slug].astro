@@ -35,18 +35,27 @@ const seriesPosts = entry.data.series
 			.sort((a, b) => (a.data.seriesOrder || 0) - (b.data.seriesOrder || 0))
 	: [];
 const seriesIndex = seriesPosts.findIndex((post) => post.slug === entry.slug);
-const previousInSeries = seriesIndex > 0 ? seriesPosts[seriesIndex - 1] : undefined;
-const nextInSeries = seriesIndex >= 0 ? seriesPosts[seriesIndex + 1] : undefined;
+const previousInSeries =
+	seriesIndex > 0 ? seriesPosts[seriesIndex - 1] : undefined;
+const nextInSeries =
+	seriesIndex >= 0 ? seriesPosts[seriesIndex + 1] : undefined;
 
 const relatedPosts = allPosts
 	.filter((post) => post.slug !== entry.slug)
 	.map((post) => {
-		const sharedTags = post.data.tags.filter((tag) => entry.data.tags.includes(tag)).length;
-		const score = sharedTags * 3 + (post.data.category === entry.data.category ? 2 : 0);
+		const sharedTags = post.data.tags.filter((tag) =>
+			entry.data.tags.includes(tag),
+		).length;
+		const score =
+			sharedTags * 3 + (post.data.category === entry.data.category ? 2 : 0);
 		return { post, score };
 	})
 	.filter(({ score }) => score > 0)
-	.sort((a, b) => b.score - a.score || b.post.data.published.getTime() - a.post.data.published.getTime())
+	.sort(
+		(a, b) =>
+			b.score - a.score ||
+			b.post.data.published.getTime() - a.post.data.published.getTime(),
+	)
 	.slice(0, 3)
 	.map(({ post }) => post);
 
