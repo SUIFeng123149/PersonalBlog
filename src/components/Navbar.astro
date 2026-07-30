@@ -189,38 +189,28 @@ if (document.readyState === 'loading') {
 }
 </script>
 
-{import.meta.env.PROD && <script is:inline define:vars={{scriptUrl: url('/pagefind/pagefind.js')}}>
-async function loadPagefind() {
+{import.meta.env.PROD && <script is:inline type="module">
+import pfind from '/pagefind/pagefind.js';
+
+async function initPagefind() {
     try {
-        const response = await fetch(scriptUrl, { method: 'HEAD' });
-        if (!response.ok) {
-            throw new Error(`Pagefind script not found: ${response.status}`);
-        }
-
-        const pagefind = await import(scriptUrl);
-
-        await pagefind.options({
-            excerptLength: 20
-        });
-
-        window.pagefind = pagefind;
-
+        await pfind.options({ excerptLength: 20 });
+        window.pagefind = pfind;
         document.dispatchEvent(new CustomEvent('pagefindready'));
-        console.log('Pagefind loaded and initialized successfully, event dispatched.');
+        console.log('Pagefind loaded and initialized successfully.');
     } catch (error) {
-        console.error('Failed to load Pagefind:', error);
+        console.error('Failed to initialize Pagefind:', error);
         window.pagefind = {
             search: () => Promise.resolve({ results: [] }),
             options: () => Promise.resolve(),
         };
         document.dispatchEvent(new CustomEvent('pagefindloaderror'));
-        console.log('Pagefind load error, event dispatched.');
     }
 }
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadPagefind);
+    document.addEventListener('DOMContentLoaded', initPagefind);
 } else {
-    loadPagefind();
+    initPagefind();
 }
 </script>}
