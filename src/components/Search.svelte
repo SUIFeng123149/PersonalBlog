@@ -105,42 +105,33 @@ const search = async (keyword: string, isDesktop: boolean): Promise<void> => {
 };
 
 onMount(() => {
-	const initializeSearch = () => {
+	if (import.meta.env.DEV) {
+		console.log("Pagefind is not available in development mode. Using mock data.");
 		initialized = true;
-		pagefindLoaded =
-			typeof window !== "undefined" &&
-			!!window.pagefind &&
-			typeof window.pagefind.search === "function";
-		console.log("Pagefind status on init:", pagefindLoaded);
+		pagefindLoaded = false;
+		return;
+	}
+
+	// 直接导入 pagefind，不依赖跨组件事件
+	(async () => {
+		try {
+			const pfind = await import("/pagefind/pagefind.js");
+			await pfind.options({ excerptLength: 20 });
+			window.pagefind = pfind;
+			pagefindLoaded = true;
+			console.log("Pagefind loaded and initialized successfully.");
+		} catch (error) {
+			console.error("Failed to load Pagefind:", error);
+			window.pagefind = {
+				search: () => Promise.resolve({ results: [] }),
+				options: () => Promise.resolve(),
+			};
+			pagefindLoaded = false;
+		}
+		initialized = true;
 		if (keywordDesktop) search(keywordDesktop, true);
 		if (keywordMobile) search(keywordMobile, false);
-	};
-
-	if (import.meta.env.DEV) {
-		console.log(
-			"Pagefind is not available in development mode. Using mock data.",
-		);
-		initializeSearch();
-	} else {
-		document.addEventListener("pagefindready", () => {
-			console.log("Pagefind ready event received.");
-			initializeSearch();
-		});
-		document.addEventListener("pagefindloaderror", () => {
-			console.warn(
-				"Pagefind load error event received. Search functionality will be limited.",
-			);
-			initializeSearch(); // Initialize with pagefindLoaded as false
-		});
-
-		// Fallback in case events are not caught or pagefind is already loaded by the time this script runs
-		setTimeout(() => {
-			if (!initialized) {
-				console.log("Fallback: Initializing search after timeout.");
-				initializeSearch();
-			}
-		}, 2000); // Adjust timeout as needed
-	}
+	})();
 });
 
 $: if (initialized && keywordDesktop) {
