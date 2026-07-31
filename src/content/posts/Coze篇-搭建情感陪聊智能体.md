@@ -1,12 +1,17 @@
 ---
-title: Coze篇-搭建情感陪聊智能体
+title: "Coze篇-搭建情感陪聊智能体"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze', 'AI Agent']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze", "AI Agent"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-07-31
 ---
 **苏瑶**、**罗夏**、**支配恶魔**是扣子官方提供的情感陪聊类智能体模板。此智能体模板以 AI 伴侣的的形象提供高度拟人的对话氛围，为用户提供情绪支持，是一个友好、有趣的 AI 伙伴。
 
@@ -129,3 +134,4 @@ lang: zh-CN
 2. 在右侧调试区域，输入问题进行测试。你也可以单击创建测试集，方便测试调优效果。
 
 3. 完成测试后可单击**发布**将智能体发布到需要的渠道中。
+

@@ -1,12 +1,17 @@
 ---
-title: Coze篇-搭建企业客服智能体
+title: "Coze篇-搭建企业客服智能体"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze', 'AI Agent']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze", "AI Agent"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-07-31
 ---
 ## 一、AI 客服智能体的优势
 
@@ -296,3 +301,4 @@ RAG 技术的应用可以很好地解决大模型的胡乱编造的问题，即�
 ![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-L5RJbwwYeo8Xc8xLCiDcW97YnMd.png)
 
 3. 你也可以基于多维表格的仪表盘功能，对问答情况进行数据分析，查看问题分布和解决率等。
+

@@ -1,12 +1,16 @@
 ---
-title: Agent篇-解析Agent四大能力架构
+title: "Agent篇-解析Agent四大能力架构"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: 'AI Agent'
+description: ""
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
 ---
 ## **Agent 架构**
 
@@ -350,3 +354,4 @@ Coze是一个无代码AI机器人构建平台，允许用户创建聊天机器�
 客户支持、产品咨询、新闻聚合、员工协助等。面向C端
 
 以上是对AutoGPT、MetaGPT、FastGPT、dify、coze的详细介绍、优缺点以及适用场景的对比。希望这些信息能帮助您更好地了解这些工具，并选择适合您需求的平台。
+

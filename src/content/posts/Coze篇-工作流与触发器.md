@@ -1,12 +1,16 @@
 ---
-title: Coze篇-工作流与触发器
+title: "Coze篇-工作流与触发器"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
 ---
 ## 一、工作流介绍
 
@@ -509,3 +513,4 @@ lang: zh-CN
 示例如下：
 
 发送请求后，响应结果包含的 BaseResp 中的 StatusCode 为 0 表示请求成功。如果 StatusCode 不为 0，您可以通过 HttpCallBackRespDatas 获取错误信息，并根据错误信息作出相应调整。
+

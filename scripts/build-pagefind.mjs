@@ -7,8 +7,13 @@ if (!existsSync(site)) {
 	throw new Error(`Missing Pagefind site directory: ${site}`);
 }
 
-execFileSync(
-	process.platform === "win32" ? "pnpm.cmd" : "pnpm",
-	["exec", "pagefind", "--site", site],
-	{ stdio: "inherit" },
-);
+// Windows 上通过 cmd.exe /c 来运行 pagefind，避免 spawnSync pnpm.cmd 的 EINVAL 问题
+if (process.platform === "win32") {
+	execFileSync("cmd.exe", ["/c", "pnpm", "exec", "pagefind", "--site", site], {
+		stdio: "inherit",
+	});
+} else {
+	execFileSync("pnpm", ["exec", "pagefind", "--site", site], {
+		stdio: "inherit",
+	});
+}

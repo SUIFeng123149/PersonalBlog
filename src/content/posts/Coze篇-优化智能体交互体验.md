@@ -1,12 +1,16 @@
 ---
-title: Coze篇-优化智能体交互体验
+title: "Coze篇-优化智能体交互体验"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze', 'AI Agent']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze", "AI Agent"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
 ---
 ## 一、开场白
 
@@ -113,4 +117,5 @@ lang: zh-CN
 * 单击删除图标删除快捷指令。
 
 ![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-MLkObNQlroivDaxPinMchi23ntc.png)
+
 

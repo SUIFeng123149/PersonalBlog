@@ -1,12 +1,17 @@
 ---
-title: Coze篇-搭建客服陪练智能体
+title: "Coze篇-搭建客服陪练智能体"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze', 'AI Agent']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze", "AI Agent"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-07-31
 ---
 **订餐客服陪练**是扣子官方提供的客服场景智能体，可以帮助客服人员模拟和练习订餐流程，提升服务水平和应对能力。你可以通过复制该模板，快速创建和定制一个符合自己业务场景的客服陪练智能体。
 
@@ -117,4 +122,5 @@ assessment 工作流负责完成考核。在这个工作流中，你需要修改
 2. 完成测试后可单击**发布**，将智能体发布到你需要的任何渠道中使用。
 
 ![](./Coze篇-搭建客服陪练智能体_assets/Coze篇-搭建客服陪练智能体-OxIabeC9kogrVTxff3icxs8qnFc.png)
+
 

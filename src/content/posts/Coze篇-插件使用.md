@@ -1,12 +1,17 @@
 ---
-title: Coze篇-插件使用
+title: "Coze篇-插件使用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-07-31
 ---
 ## 一、插件介绍
 
@@ -207,4 +212,5 @@ lang: zh-CN
 对于工作流中绑定的插件节点，你在配置工作流时已设置了插件的输入参数来源，当对话触发工作流运行时，扣子会根据工作流的配置逻辑自动调用插件节点，完成工作流。对于直接绑定智能体的插件，智能体会根据对话内容自动判断何时调用插件回答用户的问题，并从用户 Query 中提取插件的输入参数，如果 Query 中未包含所有的必选参数，智能体会追问用户直到获得所有的必选参数。
 
 鉴于模型回复的随机性，智能体调用插件的时机不一定完全符合预期，你也可以在人设与回复逻辑区域定义的插件使用场景，提高插件调用时机的准确性。
+
 

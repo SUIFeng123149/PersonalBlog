@@ -1,12 +1,17 @@
 ---
-title: Coze篇-搭建产品卖点提炼智能体
+title: "Coze篇-搭建产品卖点提炼智能体"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze', 'AI Agent']
-category: 'Coze'
+description: ""
+image: ""
+tags: ["Coze", "AI Agent"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-07-31
 ---
 **卖点提炼**是扣子官方提供的电商生服类工作流模板。只需上传产品介绍文档，指定任务类型（例如卖点提炼、抽取产品卖点等），即可基于产品介绍自动提炼出产品的核心卖点。
 
@@ -79,3 +84,4 @@ lang: zh-CN
 2. 右侧调试区域，输入问题进行测试。你也可以单击创建测试集，方便测试调优效果。
 
 3. 完成测试后可单击**发布**，并将工作流绑定到智能体中使用。
+
