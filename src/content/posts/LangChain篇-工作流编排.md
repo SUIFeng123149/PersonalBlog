@@ -83,7 +83,7 @@ for chunk in model.stream("天空是什么颜色？"):
     chunks.append(chunk)print(chunk.content, end="|", flush=True)
 ```
 
-```plain&#x20;text
+```txt
 天|空|是|什|么|颜|色|？|
 ```
 
@@ -96,7 +96,7 @@ async for chunk in model.astream("天空是什么颜色？"):
     chunks.append(chunk)print(chunk.content, end="|", flush=True)
 ```
 
-```plain&#x20;text
+```txt
 天|空|是|什|么|颜|色|？|
 ```
 
@@ -106,7 +106,7 @@ async for chunk in model.astream("天空是什么颜色？"):
 chunks[1]
 ```
 
-```plain&#x20;text
+```txt
 AIMessageChunk(content='天', id='run-b36bea64-5511-4d7a-b6a3-a07b3db0c8e7')
 ```
 
@@ -116,7 +116,7 @@ AIMessageChunk(content='天', id='run-b36bea64-5511-4d7a-b6a3-a07b3db0c8e7')
 chunks[0] + chunks[1] + chunks[2] + chunks[3] + chunks[4]
 ```
 
-```plain&#x20;text
+```txt
 AIMessageChunk(content='天空是什么颜色', id='run-b36bea64-5511-4d7a-b6a3-a07b3db0c8e7')
 ```
 
@@ -137,7 +137,7 @@ async for chunk in chain.astream({"topic": "鹦鹉"}):print(chunk, end="|", flus
     
 ```
 
-```plain&#x20;text
+```txt
 |一个|人|去|宠|物|店|买|鹦|鹉|。|店|员|说|：“|这|只|鹦|鹉|会|说|话|。”|
 |买|回|家|后|，|那|人|发|现|鹦|鹉|只|会|说|一|句|话|：“|我|是|鹦|鹉|。”|
 |那|人|就|去|找|店|员|，|说|：“|你|不|是|说|这|只|鹦|鹉|会|说|话|吗|？|它|只|会|说|‘|我|是|鹦|鹉|’|。”|
@@ -245,7 +245,7 @@ async for event in model.astream_events("hello", version="v2"):
     events.append(event)
 ```
 
-```plain&#x20;text
+```txt
 /home/eugene/src/langchain/libs/core/langchain_core/_api/beta_decorator.py:87: LangChainBetaWarning: This API is in beta and may change in the future.
   warn_beta(
 ```

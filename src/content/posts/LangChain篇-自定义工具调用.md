@@ -37,7 +37,7 @@ print(multiply.description)
 print(multiply.args)
 ```
 
-```plain&#x20;text
+```txt
 multiply
 multiply(a: int, b: int) -> int - Multiply two numbers.
 {'a': {'title': 'A', 'type': 'integer'}, 'b': {'title': 'B', 'type': 'integer'}}
@@ -72,7 +72,7 @@ print(multiply.args)
 print(multiply.return_direct)
 ```
 
-```plain&#x20;text
+```txt
 multiplication-tool
 multiplication-tool(a: int, b: int) -> int - Multiply two numbers.
 {'a': {'title': 'A', 'description': 'first number', 'type': 'integer'}, 'b': {'title': 'B', 'description': 'second number', 'type': 'integer'}}
@@ -106,7 +106,7 @@ async def main():
 asyncio.run(main())
 ```
 
-```plain&#x20;text
+```txt
 6
 10
 ```
@@ -171,7 +171,7 @@ get_weather_tool = StructuredTool.from_function(
 get_weather_tool.invoke({"city": "foobar"})
 ```
 
-```plain&#x20;text
+```txt
 '错误：没有名为foobar的城市。'
 ```
 
@@ -186,7 +186,7 @@ get_weather_tool = StructuredTool.from_function(
 get_weather_tool.invoke({"city": "foobar"})
 ```
 
-```plain&#x20;text
+```txt
 "没有这样的城市，但可能在那里的温度超过0K！"
 ```
 
@@ -203,7 +203,7 @@ get_weather_tool = StructuredTool.from_function(
 get_weather_tool.invoke({"city": "foobar"})
 ```
 
-```plain&#x20;text
+```txt
 '工具执行期间发生以下错误：错误：没有名为foobar的城市。'
 ```
 
@@ -256,7 +256,7 @@ tool = WikipediaQueryRun(api_wrapper=api_wrapper)
 print(tool.invoke({"query": "langchain"}))
 ```
 
-```plain&#x20;text
+```txt
 Page: LangChain
 Summary: LangChain is a framework designed to simplify the creation of applications
 ```
@@ -270,7 +270,7 @@ print(f"args schema: {tool.args}")
 print(f"returns directly?: {tool.return_direct}")
 ```
 
-```plain&#x20;text
+```txt
 Name: wikipedia
 Description: A wrapper around Wikipedia. Useful for when you need to answer general questions about people, places, companies, facts, historical events, or other subjects. Input should be a search query.
 args schema: {'query': {'title': 'Query', 'description': 'query to look up on wikipedia', 'type': 'string'}}
@@ -305,7 +305,7 @@ tool = WikipediaQueryRun(
 print(tool.run("langchain"))
 ```
 
-```plain&#x20;text
+```txt
 Page: LangChain
 Summary: LangChain is a framework designed to simplify the creation of applications 
 ```
@@ -317,7 +317,7 @@ print(f"args schema: {tool.args}")
 print(f"returns directly?: {tool.return_direct}")
 ```
 
-```plain&#x20;text
+```txt
 Name: wiki-tool
 Description: look up things in wikipedia
 args schema: {'query': {'title': 'Query', 'description': 'query to look up in Wikipedia, should be 3 or less words', 'type': 'string'}}

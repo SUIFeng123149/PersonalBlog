@@ -36,7 +36,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> from datasets import load_dataset
 
 >>> dataset = load_dataset("yelp_review_full")
@@ -51,7 +51,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoTokenizer
 
 >>> tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
@@ -70,7 +70,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
 >>> small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
 ```
@@ -93,7 +93,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoModelForSequenceClassification
 
 >>> model = AutoModelForSequenceClassification.from_pretrained("google-bert/bert-base-cased", num_labels=5)
@@ -115,7 +115,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import TrainingArguments
 
 >>> training_args = TrainingArguments(output_dir="test_trainer")
@@ -129,7 +129,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> import numpy as np
 >>> import evaluate
 
@@ -142,7 +142,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> def compute_metrics(eval_pred):
 ...     logits, labels = eval_pred
 ...     predictions = np.argmax(logits, axis=-1)
@@ -155,7 +155,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import TrainingArguments, Trainer
 
 >>> training_args = TrainingArguments(output_dir="test_trainer", eval_strategy="epoch")
@@ -169,7 +169,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> trainer = Trainer(
 ...     model=model,
 ...     args=training_args,
@@ -205,7 +205,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 from datasets import load_dataset
 
 dataset = load_dataset("glue", "cola")
@@ -218,7 +218,7 @@ dataset = dataset["train"]  # Just take the training split for now
 
 
 
-```plain&#x20;text
+```txt
 from transformers import AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
@@ -235,7 +235,7 @@ labels = np.array(dataset["label"])  # Label is already an array of 0 and 1
 
 
 
-```plain&#x20;text
+```txt
 from transformers import TFAutoModelForSequenceClassification
 from tensorflow.keras.optimizers import Adam
 
@@ -273,7 +273,7 @@ model.fit(tokenized_data, labels)
 
 
 
-```plain&#x20;text
+```txt
 def tokenize_dataset(data):
     # Keys of the returned dictionary will be added to the dataset as columns
     return tokenizer(data["text"])
@@ -300,7 +300,7 @@ dataset = dataset.map(tokenize_dataset)
 
 
 
-```plain&#x20;text
+```txt
 model.compile(optimizer=Adam(3e-5))  # No loss argument!
 
 model.fit(tf_dataset)
@@ -318,7 +318,7 @@ model.fit(tf_dataset)
 
 
 
-```plain&#x20;text
+```txt
 del model
 del trainer
 torch.cuda.empty_cache()
@@ -358,7 +358,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
 >>> small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
 ```
@@ -371,7 +371,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> from torch.utils.data import DataLoader
 
 >>> train_dataloader = DataLoader(small_train_dataset, shuffle=True, batch_size=8)
@@ -384,7 +384,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoModelForSequenceClassification
 
 >>> model = AutoModelForSequenceClassification.from_pretrained("google-bert/bert-base-cased", num_labels=5)
@@ -398,7 +398,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> from torch.optim import AdamW
 
 >>> optimizer = AdamW(model.parameters(), lr=5e-5)
@@ -410,7 +410,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import get_scheduler
 
 >>> num_epochs = 3
@@ -426,7 +426,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> import torch
 
 >>> device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
@@ -449,7 +449,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> from tqdm.auto import tqdm
 
 >>> progress_bar = tqdm(range(num_training_steps))
@@ -476,7 +476,7 @@ torch.cuda.empty_cache()
 
 
 
-```plain&#x20;text
+```txt
 >>> import evaluate
 
 >>> metric = evaluate.load("accuracy")

@@ -26,7 +26,7 @@ lang: zh-CN
 
 [interrupt函数](https://www.aidoczh.com/langgraph/reference/types/#langgraph.types.interrupt) 在 LangGraph 中通过在特定节点暂停图形、向人类展示信息以及使用他们的输入恢复图形，从而启用人工干预工作流。该函数对于批准、编辑或收集额外输入等任务非常有用。[interrupt函数](https://www.aidoczh.com/langgraph/reference/types/#langgraph.types.interrupt) 与 [Command](https://www.aidoczh.com/langgraph/reference/types/#langgraph.types.Command) 对象结合使用，以人类提供的值恢复图形。
 
-```plain&#x20;text
+```python
 from langgraph.types import interrupt
 
 def human_node(state: State):
@@ -54,7 +54,7 @@ graph.invoke(some_input, config=thread_config)
 graph.invoke(Command(resume=value_from_human), config=thread_config)
 ```
 
-```plain&#x20;text
+```python
 {'some_text': '编辑后的文本'}
 ```
 
@@ -96,7 +96,7 @@ graph.invoke(Command(resume=value_from_human), config=thread_config)
 
 在关键步骤之前暂停图形，例如 API 调用，以审查和批准该操作。如果拒绝该操作，您可以阻止图形执行该步骤，并可能采取替代行动。
 
-```plain&#x20;text
+```python
 from typing import Literal
 from langgraph.types import interrupt, Command
 

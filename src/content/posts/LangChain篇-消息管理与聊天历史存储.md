@@ -42,7 +42,7 @@ with_message_history.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 content='余弦是一个数学函数，通常在三角学中使用，表示直角三角形的邻边和斜边的比例。' response_metadata={'token_usage': {'completion_tokens': 38, 'prompt_tokens': 38, 'total_tokens': 76}, 'model_name': 'gpt-4-0613', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run-9aa23716-3959-476d-9386-6d433266e060-0' usage_metadata={'input_tokens': 38, 'output_tokens': 38, 'total_tokens': 76}
 ```
 
@@ -113,7 +113,7 @@ with_message_history.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 content='对不起，你能提供一些更详细的信息吗？我会很高兴帮助你解决数学问题。' response_metadata={'token_usage': {'completion_tokens': 38, 'prompt_tokens': 32, 'total_tokens': 70}, 'model_name': 'gpt-4-0613', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run-02030348-7bbb-4f76-8c68-61785d012c26-0' usage_metadata={'input_tokens': 32, 'output_tokens': 38, 'total_tokens': 70}
 ```
 
@@ -171,7 +171,7 @@ with_message_history.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 content='余弦是一个三角函数，它表示直角三角形的邻边长度和斜边长度的比值。' response_metadata={'token_usage': {'completion_tokens': 33, 'prompt_tokens': 38, 'total_tokens': 71}, 'model_name': 'gpt-4-0613', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run-2d1eba02-4709-4db5-ab6b-0fd03ab4c68a-0' usage_metadata={'input_tokens': 38, 'output_tokens': 33, 'total_tokens': 71}
 ```
 
@@ -182,7 +182,7 @@ with_message_history.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 content='余弦是一个数学术语，代表在一个角度下的邻边和斜边的比例。' response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 83, 'total_tokens': 115}, 'model_name': 'gpt-4-0613', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run-99368d03-c2ed-4dda-a32f-677c036ad676-0' usage_metadata={'input_tokens': 83, 'output_tokens': 32, 'total_tokens': 115}
 ```
 
@@ -239,7 +239,7 @@ chain_with_message_history.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 content='你今天的心情很开心。'
 ```
 
@@ -268,7 +268,7 @@ chain_with_trimming.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 根据您之前的信息，您下午在打篮球。
 ```
 
@@ -276,7 +276,7 @@ chain_with_trimming.invoke(
 temp_chat_history.messages
 ```
 
-```plain&#x20;text
+```txt
 [HumanMessage(content='我下午在打篮球'), AIMessage(content='你下午在做什么'), HumanMessage(content='我下午在做什么?'), AIMessage(content='根据您之前的信息，您下午在打篮球。')]
 ```
 
@@ -289,7 +289,7 @@ chain_with_trimming.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 对不起，我无法获取这个信息，因为你还没有告诉我你的名字。
 ```
 
@@ -297,7 +297,7 @@ chain_with_trimming.invoke(
 temp_chat_history.messages
 ```
 
-```plain&#x20;text
+```txt
 [HumanMessage(content='我下午在打篮球'), AIMessage(content='你下午在做什么'), HumanMessage(content='我叫什么名字?'), AIMessage(content='对不起，我无法获取这个信息，因为你还没有告诉我你的名字。')]
 ```
 
@@ -374,7 +374,7 @@ chain_with_summarization.invoke(
 
 输出结果为：
 
-```plain&#x20;text
+```txt
 下午你在打篮球。
 ```
 

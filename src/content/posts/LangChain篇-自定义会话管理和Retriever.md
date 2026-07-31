@@ -147,7 +147,7 @@ response = conversational_rag_chain.invoke(
 print(response)
 ```
 
-```plain&#x20;text
+```txt
 任务分解是将复杂任务拆分成多个较小、简单的步骤的过程。通过任务分解，代理可以更好地理解任务的各个部分，并事先规划好执行顺序。这可以通过不同的方法实现，如使用提示或指令，或依靠人类输入。
 ```
 
@@ -162,7 +162,7 @@ response = conversational_rag_chain.invoke(
 print(response)
 ```
 
-```plain&#x20;text
+```txt
 您最近询问了有关一个经典平台游戏的信息，其中主角是名叫Mario的管道工，游戏共有10个关卡，主角可以行走和跳跃，需要避开障碍物和敌人的攻击。
 ```
 
@@ -177,7 +177,7 @@ for message in store["abc123"].messages:
         prefix = "User"print(f"{prefix}: {message.content}\n")
 ```
 
-```plain&#x20;text
+```txt
 User: 什么是任务分解?
 
 AI: 任务分解是将复杂任务拆分成多个较小、简单的步骤的过程。通过任务分解，代理可以更好地理解任务的各个部分，并事先规划好执行顺序。这可以通过不同的方法实现，如使用提示或指令，或依靠人类输入。

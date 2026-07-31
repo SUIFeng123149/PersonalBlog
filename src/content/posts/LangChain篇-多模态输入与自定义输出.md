@@ -48,7 +48,7 @@ response = model.invoke([message])
 print(response.content)
 ```
 
-```plain&#x20;text
+```txt
 这张图片展示了一个晴朗的天气。天空中有一些淡淡的云，阳光明媚，照亮了图中的草地和木板路。天空呈现出明亮的蓝色，与绿色的草地形成了鲜明的对比。整体感觉是非常清新和舒适的，适合户外活动和散步。
 ```
 
@@ -65,7 +65,7 @@ response = model.invoke([message])
 print(response.content)
 ```
 
-```plain&#x20;text
+```txt
 图片中的天气晴朗，天空中有一些稀薄的白云，整体呈现出蓝色。阳光明媚，光线充足，草地和树木显得非常绿意盎然。这种天气非常适合户外活动，比如散步或野餐。总的来说，天气非常舒适宜人。
 ```
 
@@ -83,7 +83,7 @@ response = model.invoke([message])
 print(response.content)
 ```
 
-```plain&#x20;text
+```txt
 这两张图片不一样。第一张是一个晴天的草地景色，有一条木板小路通向远方；第二张是一个覆盖着雪的村庄，有多栋房屋和一些红色灯笼。两张图片显示的是完全不同的场景。
 ```
 
@@ -164,7 +164,7 @@ chain = prompt | model | parser
 chain.invoke({"query": joke_query})
 ```
 
-```plain&#x20;text
+```txt
 {'setup': '为什么计算机不能得感冒？', 'punchline': '因为它们有很好的防火墙！'}
 ```
 
@@ -188,7 +188,7 @@ for s in chain.stream({"query": joke_query}):
     print(s)
 ```
 
-```plain&#x20;text
+```txt
 {}
 {'setup': ''}
 {'setup': '为什么'}
@@ -214,7 +214,7 @@ for s in chain.stream({"query": joke_query}):
 
 你也可以在没有 Pydantic 的情况下使用 `JsonOutputParser`。这将提示模型返回 JSON，但不提供关于模式应该是什么的具体信息。
 
-```plain&#x20;text
+```txt
 #json_output_parser_no_pydantic.py
 joke_query = "Tell me a joke."
 parser = JsonOutputParser()
@@ -227,7 +227,7 @@ chain = prompt | model | parser
 chain.invoke({"query": joke_query})
 ```
 
-```plain&#x20;text
+```txt
 {'joke': '为什么数学书总是很难过？因为它有太多的问题！'}
 ```
 
@@ -246,7 +246,7 @@ parser = XMLOutputParser()
 parser.get_format_instructions()
 ```
 
-```plain&#x20;text
+```txt
 The output should be formatted as a XML file.
 1.Output should conform to the tags below. 
 2.If tags are not given, make them on your own.
@@ -303,7 +303,7 @@ parser = XMLOutputParser(tags=["movies", "actor", "film", "name", "genre"])
 parser.get_format_instructions()
 ```
 
-```plain&#x20;text
+```txt
 The output should be formatted as a XML file.
 1.Output should conform to the tags below. 
 2.If tags are not given, make them on your own.
@@ -327,7 +327,7 @@ Here are the output tags:
 ['movies', 'actor', 'film', 'name', 'genre']
 ```
 
-```plain&#x20;text
+```txt
 prompt = PromptTemplate(
     template="""{query}\n{format_instructions}""",
     input_variables=["query"],
@@ -429,7 +429,7 @@ parser.get_format_instructions()
 
 {"title": "Players", "description": "A list of players", "type": "array", "items": {"$ref": "#/definitions/Player"}, "definitions": {"Player": {"title": "Player", "type": "object", "properties": {"name": {"title": "Name", "description": "Player name", "type": "string"}, "avg": {"title": "Avg", "description": "Batting average", "type": "number"}}, "required": \["name", "avg"]}}}
 
-```plain&#x20;text
+```txt
 ## Well formatted instance
 ```
 
@@ -437,29 +437,29 @@ parser.get_format_instructions()
 
 * name: Jane Maxfield avg: 1.4
 
-```plain&#x20;text
+```txt
 ## Schema
 ```
 
 {"properties": {"habit": { "description": "A common daily habit", "type": "string" }, "sustainable\_alternative": { "description": "An environmentally friendly alternative to the habit", "type": "string"}}, "required": \["habit", "sustainable\_alternative"]}
 
-```plain&#x20;text
+```txt
 ## Well formatted instance
 ```
 
 habit: Using disposable water bottles for daily hydration. sustainable\_alternative: Switch to a reusable water bottle to reduce plastic waste and decrease your environmental footprint.
 
-```plain&#x20;text
+```txt
 Please follow the standard YAML formatting conventions with an indent of 2 spaces and make sure that the data types adhere strictly to the following JSON schema: 
 ```
 
 {"properties": {"setup": {"title": "Setup", "description": "\u8bbe\u7f6e\u7b11\u8bdd\u7684\u95ee\u9898", "type": "string"}, "punchline": {"title": "Punchline", "description": "\u89e3\u7b54\u7b11\u8bdd\u7684\u7b54\u6848", "type": "string"}}, "required": \["setup", "punchline"]}
 
-````plain&#x20;text
+````txt
 Make sure to always enclose the YAML output in triple backticks (```). Please do not add anything other than valid YAML output!
 ````
 
-```plain&#x20;text
+```txt
 可以尝试在提示的其他部分中添加自己的格式提示，以增强或替换默认指令。
 ```
 

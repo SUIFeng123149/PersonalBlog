@@ -34,7 +34,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 pip install datasets
 ```
 
@@ -54,7 +54,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoTokenizer
 
 >>> tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
@@ -66,7 +66,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> encoded_input = tokenizer("Do not meddle in the affairs of wizards, for they are subtle and quick to anger.")
 >>> print(encoded_input)
 {'input_ids': [101, 2079, 2025, 19960, 10362, 1999, 1996, 3821, 1997, 16657, 1010, 2005, 2027, 2024, 11259, 1998, 4248, 2000, 4963, 1012, 102],
@@ -92,7 +92,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> tokenizer.decode(encoded_input["input_ids"])
 '[CLS] Do not meddle in the affairs of wizards, for they are subtle and quick to anger. [SEP]'
 ```
@@ -107,7 +107,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> batch_sentences = [
 ...     "But what about second breakfast?",
 ...     "Don't think he knows about second breakfast, Pip.",
@@ -138,7 +138,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> batch_sentences = [
 ...     "But what about second breakfast?",
 ...     "Don't think he knows about second breakfast, Pip.",
@@ -173,7 +173,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> batch_sentences = [
 ...     "But what about second breakfast?",
 ...     "Don't think he knows about second breakfast, Pip.",
@@ -208,7 +208,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> batch_sentences = [
 ...     "But what about second breakfast?",
 ...     "Don't think he knows about second breakfast, Pip.",
@@ -229,7 +229,7 @@ pip install datasets
 
 
 
-```plain&#x20;text
+```txt
 >>> batch_sentences = [
 ...     "But what about second breakfast?",
 ...     "Don't think he knows about second breakfast, Pip.",
@@ -264,7 +264,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> from datasets import load_dataset, Audio
 
 >>> dataset = load_dataset("PolyAI/minds14", )
@@ -276,7 +276,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> dataset[0]["audio"]
 {'array': array([ 0.        ,  0.00024414, -0.00024414, ..., -0.00024414,
          0.        ,  0.        ], dtype=float32),
@@ -306,7 +306,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> dataset = dataset.cast_column("audio", Audio(sampling_rate=16_000))
 ```
 
@@ -316,7 +316,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> dataset[0]["audio"]
 {'array': array([ 2.3443763e-05,  2.1729663e-04,  2.2145823e-04, ...,
          3.8356509e-05, -7.3497440e-06, -2.1754686e-05], dtype=float32),
@@ -334,7 +334,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoFeatureExtractor
 
 >>> feature_extractor = AutoFeatureExtractor.from_pretrained("facebook/wav2vec2-base")
@@ -346,7 +346,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> audio_input = [dataset[0]["audio"]["array"]]
 >>> feature_extractor(audio_input, sampling_rate=16000)
 {'input_values': [array([ 3.8106556e-04,  2.7506407e-03,  2.8015103e-03, ...,
@@ -359,7 +359,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> dataset[0]["audio"]["array"].shape
 (173398,)
 
@@ -373,7 +373,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> def preprocess_function(examples):
 ...     audio_arrays = [x["array"] for x in examples["audio"]]
 ...     inputs = feature_extractor(
@@ -392,7 +392,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> processed_dataset = preprocess_function(dataset[:5])
 ```
 
@@ -402,7 +402,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> processed_dataset["input_values"][0].shape
 (100000,)
 
@@ -440,7 +440,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> from datasets import load_dataset
 
 >>> dataset = load_dataset("food101", split="train[:100]")
@@ -452,7 +452,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> dataset[0]["image"]
 ```
 
@@ -466,7 +466,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoImageProcessor
 
 >>> image_processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224")
@@ -482,7 +482,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> from torchvision.transforms import RandomResizedCrop, ColorJitter, Compose
 
 >>> size = (
@@ -500,7 +500,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> def transforms(examples):
 ...     images = [_transforms(img.convert("RGB")) for img in examples["image"]]
 ...     examples["pixel_values"] = image_processor(images, do_resize=False, return_tensors="pt")["pixel_values"]
@@ -521,7 +521,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> dataset.set_transform(transforms)
 ```
 
@@ -531,7 +531,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> dataset[0].keys()
 ```
 
@@ -541,7 +541,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> import numpy as np
 >>> import matplotlib.pyplot as plt
 
@@ -565,7 +565,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> def collate_fn(batch):
 ...     pixel_values = [item["pixel_values"] for item in batch]
 ...     encoding = image_processor.pad(pixel_values, return_tensors="pt")
@@ -589,7 +589,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> from datasets import load_dataset
 
 >>> lj_speech = load_dataset("lj_speech", split="train")
@@ -601,7 +601,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> lj_speech = lj_speech.map(remove_columns=["file", "id", "normalized_text"])
 ```
 
@@ -611,7 +611,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> lj_speech[0]["audio"]
 {'array': array([-7.3242188e-04, -7.6293945e-04, -6.4086914e-04, ...,
          7.3242188e-04,  2.1362305e-04,  6.1035156e-05], dtype=float32),
@@ -628,7 +628,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> lj_speech = lj_speech.cast_column("audio", Audio(sampling_rate=16_000))
 ```
 
@@ -638,7 +638,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoProcessor
 
 >>> processor = AutoProcessor.from_pretrained("facebook/wav2vec2-base-960h")
@@ -650,7 +650,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> def prepare_dataset(example):
 ...     audio = example["audio"]
 
@@ -665,7 +665,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-```plain&#x20;text
+```txt
 >>> prepare_dataset(lj_speech[0])
 ```
 

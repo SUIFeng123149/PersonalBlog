@@ -26,7 +26,7 @@ LoraConfig
 
 PromptEncoderConfig
 
-```plain&#x20;text
+```python
 {
   "base_model_name_or_path": "facebook/opt-350m", #base model to apply LoRA to
   "bias": "none",
@@ -51,7 +51,7 @@ PromptEncoderConfig
 
 您可以通过初始化 [LoraConfig](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/lora#peft.LoraConfig) 来创建自己的训练配置。
 
-```plain&#x20;text
+```python
 from peft import LoraConfig, TaskType
 
 lora_config = LoraConfig(
@@ -69,7 +69,7 @@ lora_config = LoraConfig(
 
 在本教程中，加载一个基础模型 [facebook/opt-350m](https://hugging-face.cn/facebook/opt-350m) 以进行微调。
 
-```plain&#x20;text
+```python
 from transformers import AutoModelForCausalLM
 
 model = AutoModelForCausalLM.from_pretrained("facebook/opt-350m")
@@ -77,7 +77,7 @@ model = AutoModelForCausalLM.from_pretrained("facebook/opt-350m")
 
 使用 [get\_peft\_model()](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.get_peft_model) 函数从基础 facebook/opt-350m 模型和您之前创建的 `lora_config` 创建 [PeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel)。
 
-```plain&#x20;text
+```python
 from peft import get_peft_model
 
 lora_model = get_peft_model(model, lora_config)
@@ -89,7 +89,7 @@ lora_model.print_trainable_parameters()
 
 现在您可以使用您喜欢的训练框架训练 [PeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel) 了！训练完成后，您可以使用 [save\_pretrained()](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel.save_pretrained) 在本地保存您的模型，或使用 [push\_to\_hub](https://hugging-face.cn/docs/transformers/v4.49.0/en/main_classes/model#transformers.PreTrainedModel.push_to_hub) 方法将其上传到 Hub。
 
-```plain&#x20;text
+```python
 # save locally
 lora_model.save_pretrained("your-name/opt-350m-lora")
 
@@ -99,7 +99,7 @@ lora_model.push_to_hub("your-name/opt-350m-lora")
 
 要加载用于推理的 [PeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel)，您需要提供用于创建它的 [PeftConfig](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/config#peft.PeftConfig) 以及训练它的基础模型。
 
-```plain&#x20;text
+```python
 from peft import PeftModel, PeftConfig
 
 config = PeftConfig.from_pretrained("ybelkada/opt-350m-lora")
@@ -113,7 +113,7 @@ lora\_model = PeftModel.from\_pretrained(model, "ybelkada/opt-350m-lora", is\_tr
 
 [PeftModel.from\_pretrained()](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel.from_pretrained) 方法是加载 [PeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel) 最灵活的方式，因为它与使用的模型框架无关（Transformers、timm、通用 PyTorch 模型）。其他类，如 [AutoPeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/auto_class#peft.AutoPeftModel)，只是基础 [PeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel) 的便捷包装器，并且可以更轻松地直接从 Hub 或本地 PEFT 权重存储位置加载 PEFT 模型。
 
-```plain&#x20;text
+```python
 from peft import AutoPeftModelForCausalLM
 
 lora_model = AutoPeftModelForCausalLM.from_pretrained("ybelkada/opt-350m-lora")

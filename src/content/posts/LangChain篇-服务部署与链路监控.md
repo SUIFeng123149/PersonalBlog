@@ -82,13 +82,13 @@ pip install -U langchain-cli
 
 1. 使用 langchain cli 命令创建新应用
 
-```plain&#x20;text
+```txt
 langchain app new [project_name]
 ```
 
 * 在 add\_routes 中定义可运行对象，转到 server.py 并编辑
 
-```plain&#x20;text
+```txt
 add_routes(app. NotImplemented)
 ```
 
@@ -110,13 +110,13 @@ poetry add langchain-openai
 
 * 设置相关环境变量。例如，
 
-```plain&#x20;text
+```txt
 export OPENAI_API_KEY="sk-..."
 ```
 
 * 启动您的应用
 
-```plain&#x20;text
+```txt
 poetry run langchain serve --port=8000
 ```
 
@@ -169,7 +169,7 @@ app.add_middleware(
 
 文档地址：<http://localhost:8000/docs>
 
-```plain&#x20;text
+```txt
 curl localhost:8000/docs
 ```
 

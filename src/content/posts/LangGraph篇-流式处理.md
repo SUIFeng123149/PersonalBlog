@@ -44,8 +44,8 @@ LangGraph 支持多种流式模式。主要的有
 
 在本指南中，我们将使用一个简单的 ReAct 代理。
 
-```plain&#x20;text
-%pip install -U langgraph langchain-openai
+```txt
+pip install -U langgraph langchain-openai
 ```
 
 ```python
@@ -167,7 +167,7 @@ LangGraph 支持多种流式模式。主要的有
 
 在本指南中，我们将使用一个简单的 ReAct 代理。
 
-```plain&#x20;text
+```txt
 %pip install -U langgraph langchain-openai
 ```
 

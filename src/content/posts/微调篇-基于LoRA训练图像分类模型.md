@@ -32,7 +32,7 @@ pip install -q peft transformers datasets
 
 使用 [load\_dataset](https://hugging-face.cn/docs/datasets/v3.4.1/en/package_reference/loading_methods#datasets.load_dataset) 函数加载数据集。
 
-```plain&#x20;text
+```python
 from datasets import load_dataset
 
 ds = load_dataset("food101")
@@ -40,7 +40,7 @@ ds = load_dataset("food101")
 
 每个食物类别都用一个整数标记，为了更容易理解这些整数代表什么，您将创建一个 `label2id` 和 `id2label` 字典，将整数映射到其类别标签。
 
-```plain&#x20;text
+```python
 labels = ds["train"].features["label"].names
 label2id, id2label = dict(), dict()
 for i, label in enumerate(labels):
@@ -53,7 +53,7 @@ id2label[2]
 
 加载图像处理器以正确调整大小并标准化训练和评估图像的像素值。
 
-```plain&#x20;text
+```python
 from transformers import AutoImageProcessor
 
 image_processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224-in21k")
@@ -61,7 +61,7 @@ image_processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-22
 
 您还可以使用图像处理器来准备一些用于数据增强和像素缩放的转换函数。
 
-```plain&#x20;text
+```python
 from torchvision.transforms import (
     CenterCrop,
     Compose,
@@ -102,7 +102,7 @@ def preprocess_val(example_batch):
 
 定义训练和验证数据集，并使用 [set\_transform](https://hugging-face.cn/docs/datasets/v3.4.1/en/package_reference/main_classes#datasets.Dataset.set_transform) 函数即时应用转换。
 
-```plain&#x20;text
+```python
 train_ds = ds["train"]
 val_ds = ds["validation"]
 
@@ -112,7 +112,7 @@ val_ds.set_transform(preprocess_val)
 
 最后，您需要一个数据整理器来创建一批训练和评估数据，并将标签转换为 `torch.tensor` 对象。
 
-```plain&#x20;text
+```python
 import torch
 
 def collate_fn(examples):
@@ -125,7 +125,7 @@ def collate_fn(examples):
 
 现在让我们加载一个预训练模型用作基础模型。本指南使用 [google/vit-base-patch16-224-in21k](https://hugging-face.cn/google/vit-base-patch16-224-in21k) 模型，但您可以使用任何您想要的图像分类模型。将 `label2id` 和 `id2label` 字典传递给模型，以便模型知道如何将整数标签映射到其类别标签，如果您要微调已经微调过的检查点，您可以选择传递 `ignore_mismatched_sizes=True` 参数。
 
-```plain&#x20;text
+```python
 from transformers import AutoModelForImageClassification, TrainingArguments, Trainer
 
 model = AutoModelForImageClassification.from_pretrained(
@@ -144,7 +144,7 @@ model = AutoModelForImageClassification.from_pretrained(
 
 [LoRA](https://hugging-face.cn/docs/peft/conceptual_guides/adapter#low-rank-adaptation-lora) 将权重更新矩阵分解为*两个*较小的矩阵。这些低秩矩阵的大小由其*秩*或 `r` 决定。秩越高意味着模型有更多的参数要训练，但也意味着模型具有更强的学习能力。您还需要指定 `target_modules`，它确定较小矩阵的插入位置。在本指南中，您将以注意力模块的*query*和*value*矩阵为目标。其他要设置的重要参数包括 `lora_alpha`（缩放因子）、`bias`（`none`、`all` 还是仅训练 LoRA 偏差参数），以及 `modules_to_save`（除了要训练和保存的 LoRA 层之外的模块）。所有这些参数以及更多参数都可以在 [LoraConfig](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/lora#peft.LoraConfig) 中找到。
 
-```plain&#x20;text
+```python
 from peft import LoraConfig, get_peft_model
 
 config = LoraConfig(
@@ -166,7 +166,7 @@ model.print_trainable_parameters()
 
 AdaLoRA 有一个 [update\_and\_allocate()](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/adalora#peft.AdaLoraModel.update_and_allocate) 方法，应在每个训练步骤中调用该方法以更新参数预算和掩码，否则不会执行自适应步骤。这需要编写自定义训练循环或子类化 [Trainer](https://hugging-face.cn/docs/transformers/v4.49.0/en/main_classes/trainer#transformers.Trainer) 以合并此方法。例如，请查看这个 [自定义训练循环](https://github.com/huggingface/peft/blob/912ad41e96e03652cabf47522cd876076f7a0c4f/examples/conditional_generation/peft_adalora_seq2seq.py#L120)。
 
-```plain&#x20;text
+```python
 from transformers import TrainingArguments, Trainer
 
 account = "stevhliu"
@@ -192,7 +192,7 @@ args = TrainingArguments(
 
 使用 [train](https://hugging-face.cn/docs/transformers/v4.49.0/en/main_classes/trainer#transformers.Trainer.train) 开始训练。
 
-```plain&#x20;text
+```python
 trainer = Trainer(
     model,
     args,
@@ -208,7 +208,7 @@ trainer.train()
 
 训练完成后，您可以使用 [push\_to\_hub](https://hugging-face.cn/docs/transformers/v4.49.0/en/main_classes/model#transformers.PreTrainedModel.push_to_hub) 方法将您的模型上传到 Hub。您需要先登录您的 Hugging Face 帐户，并在提示时输入您的令牌。
 
-```plain&#x20;text
+```python
 from huggingface_hub import notebook_login
 
 notebook_login()
@@ -222,7 +222,7 @@ model.push\_to\_hub(peft\_model\_id)
 
 让我们从 Hub 加载模型，并在食物图像上进行测试。
 
-```plain&#x20;text
+```python
 from peft import PeftConfig, PeftModel
 from transformers import AutoImageProcessor
 from PIL import Image
@@ -250,7 +250,7 @@ encoding = image\_processor(image.convert("RGB"), return\_tensors="pt")
 
 现在运行模型并返回预测的类别！
 
-```plain&#x20;text
+```python
 with torch.no_grad():
     outputs = model(**encoding)
     logits = outputs.logits

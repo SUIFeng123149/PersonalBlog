@@ -52,7 +52,7 @@ windows 开始菜单搜索栏，搜索 prompt，搜索结果中可以看应用`A
 
 在打开的命令行工具中输入如下命令，然后回车。
 
-```plain&#x20;text
+```txt
 conda create -n autogenstudio python=3.10
 ```
 
@@ -68,7 +68,7 @@ conda create -n autogenstudio python=3.10
 
 接下来，输入如下命令，切换到创建好的环境。
 
-```plain&#x20;text
+```txt
 conda activate autogenstudio
 ```
 
@@ -84,7 +84,7 @@ conda activate autogenstudio
 
 那怎么安装呢？超级简单，在刚刚我们准备好的 python 环境中执行一个命令就好。
 
-```plain&#x20;text
+```txt
 pip install autogenstudio==0.1.5
 ```
 
@@ -96,7 +96,7 @@ pip install autogenstudio==0.1.5
 
 上述命令就变成如下这样了。
 
-```plain&#x20;text
+```txt
 pip install autogenstudio==0.1.5 -i https://mirrors.aliyun.com/pypi/simple
 ```
 
@@ -110,7 +110,7 @@ pip install autogenstudio==0.1.5 -i https://mirrors.aliyun.com/pypi/simple
 
 下载之后，使用如下命令启动 autogen studio 服务。
 
-```plain&#x20;text
+```txt
 autogenstudio ui --port 6000
 ```
 
@@ -126,7 +126,7 @@ autogenstudio ui --port 6000
 
 启动成功后，在浏览器输入如下地址。
 
-```plain&#x20;text
+```txt
 http://localhost:8081/build
 ```
 
@@ -176,7 +176,7 @@ http://localhost:8081/build
 
 请按如下方式设置 API Key 作为环境变量，其中 "YOUR\_API\_KEY" 需要替换为您在平台创建的 API Key
 
-```plain&#x20;text
+```txt
 export ARK_API_KEY="YOUR_API_KEY"
 ```
 

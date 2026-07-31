@@ -44,7 +44,7 @@ lang: zh-CN
 
 使用 [load\_dataset](https://hugging-face.cn/docs/datasets/v3.4.1/en/package_reference/loading_methods#datasets.load_dataset) 函数加载数据集。数据集的此子集仅包含训练拆分，因此使用 `train_test_split` 函数创建训练和验证拆分。创建一个新的 `text_label` 列，以便更容易理解 `label` 值 `0`、`1` 和 `2` 的含义。
 
-```plain&#x20;text
+```python
 from datasets import load_dataset
 
 ds = load_dataset("financial_phrasebank", "sentences_allagree")
@@ -73,7 +73,7 @@ ds["train"][0]
 
 3. 掩码填充 tokens
 
-```plain&#x20;text
+```python
 from transformers import AutoTokenizer
 
 text_column = "sentence"
@@ -95,7 +95,7 @@ def preprocess_function(examples):
 
 使用 [map](https://hugging-face.cn/docs/datasets/v3.4.1/en/package_reference/main_classes#datasets.Dataset.map) 函数将预处理函数应用于整个数据集。
 
-```plain&#x20;text
+```python
 processed_ds = ds.map(
     preprocess_function,
     batched=True,
@@ -108,7 +108,7 @@ processed_ds = ds.map(
 
 创建训练和评估 [DataLoader](https://pytorch.ac.cn/docs/stable/data.html#torch.utils.data.DataLoader)，并设置 `pin_memory=True` 以加快数据传输到 GPU 的速度（如果在 CPU 上有数据集样本）。
 
-```plain&#x20;text
+```python
 from torch.utils.data import DataLoader
 from transformers import default_data_collator
 
@@ -127,7 +127,7 @@ eval_dataloader = DataLoader(eval_ds, collate_fn=default_data_collator, batch_si
 
 现在您可以加载一个预训练模型，用作 IA3 的基础模型。本指南使用 [bigscience/mt0-large](https://hugging-face.cn/bigscience/mt0-large) 模型，但您可以使用任何您喜欢的序列到序列模型。
 
-```plain&#x20;text
+```python
 from transformers import AutoModelForSeq2SeqLM
 
 model = AutoModelForSeq2SeqLM.from_pretrained("bigscience/mt0-large")
@@ -141,7 +141,7 @@ model = AutoModelForSeq2SeqLM.from_pretrained("bigscience/mt0-large")
 
 配置设置完成后，将其与基础模型一起传递给 [get\_peft\_model()](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.get_peft_model) 函数，以创建一个可训练的 [PeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/peft_model#peft.PeftModel)。
 
-```plain&#x20;text
+```python
 from peft import IA3Config, get_peft_model
 
 peft_config = IA3Config(task_type="SEQ_2_SEQ_LM")
@@ -154,7 +154,7 @@ model.print_trainable_parameters()
 
 设置优化器和学习率调度器。
 
-```plain&#x20;text
+```python
 import torch
 from transformers import get_linear_schedule_with_warmup
 
@@ -171,7 +171,7 @@ lr_scheduler = get_linear_schedule_with_warmup(
 
 将模型移动到 GPU 并创建一个训练循环，该循环报告每个 epoch 的损失和困惑度。
 
-```plain&#x20;text
+```python
 from tqdm import tqdm
 
 device = "cuda"
@@ -214,7 +214,7 @@ for epoch in range(num_epochs):
 
 训练完成后，您可以使用 [push\_to\_hub](https://hugging-face.cn/docs/transformers/v4.49.0/en/main_classes/model#transformers.PreTrainedModel.push_to_hub) 方法将您的模型上传到 Hub。您需要先登录您的 Hugging Face 帐户，并在提示时输入您的令牌。
 
-```plain&#x20;text
+```python
 from huggingface_hub import notebook_login
 
 account = <your-hf-account-name>
@@ -226,7 +226,7 @@ model.push_to_hub(peft_model_id)
 
 要加载模型进行推理，请使用 [from\_pretrained()](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/auto_class#peft.AutoPeftModel.from_pretrained) 方法。让我们还从数据集中加载一句财经新闻，以生成情感。
 
-```plain&#x20;text
+```python
 from peft import AutoPeftModelForSeq2SeqLM
 
 model = AutoPeftModelForSeq2SeqLM.from_pretrained("<your-hf-account-name>/mt0-large-ia3").to("cuda")
@@ -240,7 +240,7 @@ print(ds["validation"][text_column][i])
 
 调用 [generate](https://hugging-face.cn/docs/transformers/v4.49.0/en/main_classes/text_generation#transformers.GenerationMixin.generate) 方法来生成预测的情感标签。
 
-```plain&#x20;text
+```python
 with torch.no_grad():
     inputs = {k: v.to(device) for k, v in inputs.items()}
     outputs = model.generate(input_ids=inputs["input_ids"], max_new_tokens=10)

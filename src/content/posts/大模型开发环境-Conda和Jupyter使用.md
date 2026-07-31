@@ -117,7 +117,7 @@ conda create --name learn python=3.10   # name 可以简写为 -n
 
 前面说到 Conda 可以创建多套相互隔离的 Python 环境，使用 `conda activate env_name` 可以切换不同的环境。
 
-```plain&#x20;text
+```txt
 # 语法
 conda activate env_name
 
@@ -127,7 +127,7 @@ conda activate learn
 
 如果要**退出此环境**，回到基础环境，可以使用如下命令
 
-```plain&#x20;text
+```txt
 # 退出当前环境
 conda deactivate
 ```
@@ -136,14 +136,14 @@ conda deactivate
 
 当电脑上安装了很多台 Conda 环境的时候，可以使用 `conda env list` 命令查看所有已创建的 Conda 环境。
 
-```plain&#x20;text
+```txt
 # 查看当前电脑上所有的conda环境
 conda env list
 ```
 
 #### **删除某个 Conda 环境**
 
-```plain&#x20;text
+```txt
 # 语法
 conda remove --name <env_name> --all
 
@@ -153,7 +153,7 @@ conda remove --name learn --all
 
 #### **克隆环境**
 
-```plain&#x20;text
+```txt
 # 语法
 conda create --name <new_evn_name> --clone <old_env_name>
 
@@ -169,13 +169,13 @@ conda create --name myclone --clone myenv
 
 在激活的环境中安装包，例如安装 NumPy：
 
-```plain&#x20;text
+```txt
 conda install numpy
 ```
 
 可以使用以下命令安装特定版本的包：
 
-```plain&#x20;text
+```txt
 conda install numpy=1.18
 ```
 
@@ -183,7 +183,7 @@ conda install numpy=1.18
 
 更新某个包到最新版本：
 
-```plain&#x20;text
+```txt
 conda update numpy
 
 # 更新所有包到最新版本（慎用）
@@ -196,7 +196,7 @@ conda update all
 
 如果不再需要某个包，可以将其卸载：
 
-```plain&#x20;text
+```txt
 conda remove numpy
 ```
 
@@ -204,13 +204,13 @@ conda remove numpy
 
 查看当前环境中已安装的所有包：
 
-```plain&#x20;text
+```txt
 conda list
 ```
 
 查看当前虚拟环境中已安装的某个包的信息
 
-```plain&#x20;text
+```txt
 conda list pip
 ```
 
@@ -218,7 +218,7 @@ conda list pip
 
 搜索可用的包及其版本信息：
 
-```plain&#x20;text
+```txt
 conda search package-name
 ```
 
@@ -236,19 +236,19 @@ Conda 通道（Channel）是 Conda 用来查找和下载软件包的源。通道
 
 **查看已配置的通道**你可以使用以下命令查看当前配置的通道列表：
 
-```plain&#x20;text
+```txt
 conda config --show channels
 ```
 
 **添加新的通道**如果需要从其他通道安装包，可以将其添加到 Conda 配置中。例如，添加 Conda-Forge：
 
-```plain&#x20;text
+```txt
 conda config --add channels conda-forge
 ```
 
 **设置通道顺序**通道是按顺序搜索的，优先使用在前面的通道。可以通过以下命令调整顺序：
 
-```plain&#x20;text
+```txt
 conda config --set channel_priority strict
 ```
 
@@ -256,13 +256,13 @@ conda config --set channel_priority strict
 
 **删除通道**如果不需要某个通道，可以将其移除：
 
-```plain&#x20;text
+```txt
 conda config --remove channels channel-name
 ```
 
 **临时使用特定通道**你可以在安装包时临时指定通道，而不改变全局配置。例如：
 
-```plain&#x20;text
+```txt
 conda install package-name -c conda-forge
 ```
 
@@ -270,7 +270,7 @@ conda install package-name -c conda-forge
 
 **通道优先级**Conda 允许设置通道优先级，以决定从哪个通道下载软件包。默认情况下，Conda 会根据通道列表的顺序依次查找包。你可以通过以下命令启用或禁用通道优先级：
 
-```plain&#x20;text
+```txt
 # 启用优先级
 conda config --set channel_priority true
 # 禁用优先级
@@ -291,7 +291,7 @@ conda config --set channel_priority false
 
 * 添加镜像 URL：
 
-```plain&#x20;text
+```txt
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
@@ -306,7 +306,7 @@ conda config --set show_channel_urls yes
 
 默认情况下，conda config 添加的通道会排在列表的头部，但你可以通过以下命令来确认顺序：
 
-```plain&#x20;text
+```txt
 conda config --show channels
 ```
 
@@ -316,7 +316,7 @@ conda config --show channels
 
 * 添加或修改如下内容：
 
-```plain&#x20;text
+```txt
 channels:
         - defaults
 show_channel_urls: true
@@ -339,7 +339,7 @@ custom_channels:
 
 **验证和测试**在设置完镜像后，你可以通过安装软件包来测试镜像是否工作正常。例如：
 
-```plain&#x20;text
+```txt
 conda install numpy
 ```
 
@@ -349,13 +349,13 @@ conda install numpy
 
 **导出环境**将当前环境导出为一个 YAML 文件，方便共享：
 
-```plain&#x20;text
+```txt
 conda env export > environment.yml
 ```
 
 **从文件创建环境**使用 YAML 文件创建一个新环境：
 
-```plain&#x20;text
+```txt
 conda env create -f environment.yml
 ```
 
@@ -375,13 +375,13 @@ Mamba 是一个用于管理 Conda 环境和包的开源工具，旨在解决 Con
 
 **安装 Mamba**要安装 Mamba，你首先需要一个 Conda 环境。以下是在已有 Conda 环境中安装 Mamba 的步骤：如果你希望在特定环境中安装 Mamba，可以先激活该环境：
 
-```plain&#x20;text
+```txt
 conda activate myenv
 ```
 
 你可以通过 Conda-Forge 通道安装 Mamba，因为 Mamba 在该通道上维护得很好：
 
-```plain&#x20;text
+```txt
 conda install mamba -n base -c conda-forge
 ```
 
@@ -427,13 +427,13 @@ JupyterLab 是最新的基于 Web 的交互式开发环境，适用于 notebooks
 
 使用 安装 JupyterLab ： pip
 
-```plain&#x20;text
+```txt
 pip install jupyterlab
 ```
 
 注意：如果您使用 conda 或 mamba 安装 JupyterLab，我们建议使用 [conda-forge 通道](https://conda-forge.org/)。安装后，使用以下命令启动 JupyterLab：
 
-```plain&#x20;text
+```txt
 jupyter lab
 ```
 
@@ -441,7 +441,7 @@ jupyter lab
 
 1）创建项目所需要的虚拟环境
 
-```plain&#x20;text
+```txt
 conda create -n learn python=3.10
 ```
 

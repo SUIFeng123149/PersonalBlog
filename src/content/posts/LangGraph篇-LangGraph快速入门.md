@@ -44,7 +44,7 @@ LangGraph 是 LangChain 的高级库，为大型语言模型（LLM）带来循�
 
 ### 安装langgraph库
 
-```plain&#x20;text
+```txt
 pip install -U langgraph
 ```
 
@@ -58,14 +58,14 @@ LangGraph 的一个核心概念是状态。每次图执行都会创建一个状�
 pip install langchain-openai
 ```
 
-```plain&#x20;text
+```txt
 setx OPENAI_BASE_URL "https://api.openai.com/v1"
 setx OPENAI_API_KEY "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 可以选择设置 [LangSmith](https://docs.smith.langchain.com/) 以实现最佳的可观察性。
 
-```plain&#x20;text
+```txt
 setx LANGSMITH_TRACING "true"
 setx LANGSMITH_API_KEY "xxxxxxxxxxxxxxxx"
 ```
@@ -166,7 +166,7 @@ result = final_state["messages"][-1].content
 print(result)
 ```
 
-```plain&#x20;text
+```txt
 上海现在的天气是30度，有雾。
 ```
 
@@ -181,7 +181,7 @@ result = final_state["messages"][-1].content
 print(result)
 ```
 
-```plain&#x20;text
+```txt
 你问的是上海的天气。上海现在的天气是30度，有雾。
 ```
 
