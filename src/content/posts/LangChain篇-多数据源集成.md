@@ -68,7 +68,7 @@ for record in data[:2]:
     print(record)
 ```
 
-```plain&#x20;text
+```txt
 page_content='Name: 名称
 Species: 种类
 Age: 年龄
@@ -105,7 +105,7 @@ data = loader.load()
 print(data)
 ```
 
-```plain&#x20;text
+```txt
 [Document(metadata={'source': '../../resource/content.html'}, page_content='风景展示\n\n黄山\n\n黄山位于中国安徽省南部，是中国著名的风景名胜区，以奇松、怪石、云海和温泉“四绝”闻名。\n\n大峡谷\n\n大峡谷位于美国亚利桑那州，是世界上最著名的自然景观之一，以其壮观的地质奇观和深邃的峡谷闻名。')]
 ```
 
@@ -127,7 +127,7 @@ data = loader.load()
 print(data)
 ```
 
-```plain&#x20;text
+```txt
 [Document(metadata={'source': '../../resource/content.html', 'title': '风景展示'}, page_content='\n\n\n\n风景展示\n\n\n\n风景展示\n\n黄山\n黄山位于中国安徽省南部，是中国著名的风景名胜区，以奇松、怪石、云海和温泉“四绝”闻名。\n\n\n\n大峡谷\n大峡谷位于美国亚利桑那州，是世界上最著名的自然景观之一，以其壮观的地质奇观和深邃的峡谷闻名。\n\n\n\n')]
 ```
 
@@ -165,7 +165,7 @@ content = data[0].page_content
 print(content[:250])
 ```
 
-```plain&#x20;text
+```txt
 交通概述
 
 交通是指人们和货物在不同地点之间的移动和运输。交通系统包括道路、铁路、航空、水运等多种方式，是现代社会不可或缺的一部分。
@@ -200,7 +200,7 @@ for document in data[:2]:
     print(f"{document}\n")
 ```
 
-```plain&#x20;text
+```txt
 文档数量：43
 
 page_content='交通概述' metadata={'source': '../../resource/markdown.md', 'category_depth': 0, 'last_modified': '2024-08-08T16:50:39', 'languages': ['zho'], 'filetype': 'text/markdown', 'file_directory': '../../resource', 'filename': 'markdown.md', 'category': 'Title'}
@@ -214,7 +214,7 @@ page_content='交通是指人们和货物在不同地点之间的移动和运输
 print(set(document.metadata["category"] for document in data))
 ```
 
-```plain&#x20;text
+```txt
 {'Title', 'ListItem'}
 ```
 
@@ -245,7 +245,7 @@ pages = loader.load_and_split()
 print(pages[0])
 ```
 
-```plain&#x20;text
+```txt
 page_content='PyTorch: An Imperative Style, High-Performance
 Deep Learning Library
 Adam Paszke
@@ -329,7 +329,7 @@ docs = faiss_index.similarity_search("What is PyTorch?", k=2)
 for doc in docs:print(str(doc.metadata["page"]) + ":", doc.page_content[:300])
 ```
 
-```plain&#x20;text
+```txt
 0: PyTorch: An Imperative Style, High-Performance
 Deep Learning Library
 Adam Paszke
@@ -362,7 +362,7 @@ pages = loader.load()
 print(pages[8].page_content)
 ```
 
-```plain&#x20;text
+```txt
 6.4 Adoption
 The validity of design decisions and their impact on ease-of-use is hard to measure. As a proxy,
 we tried to quantify how well the machine learning community received PyTorch by counting how
@@ -446,7 +446,7 @@ data = loader.load()
 data[0]
 ```
 
-```plain&#x20;text
+```txt
 page_content='PyTorch: An Imperative Style, High-Performance Deep Learning Library' metadata={'source': '../../resource/pytorch.pdf', 'coordinates': {'points': ((122.674, 99.42961860000003), (122.674, 136.57001860000003), (489.3275892, 136.57001860000003), (489.3275892, 99.42961860000003)), 'system': 'PixelSpace', 'layout_width': 612, 'layout_height': 792}, 'file_directory': '../../resource', 'filename': 'pytorch.pdf', 'languages': ['eng'], 'last_modified': '2024-08-08T16:58:53', 'page_number': 1, 'filetype': 'application/pdf', 'category': 'Title'}
 ```
 
@@ -456,7 +456,7 @@ page_content='PyTorch: An Imperative Style, High-Performance Deep Learning Libra
 set(doc.metadata["category"] for doc in data)
 ```
 
-```plain&#x20;text
+```txt
 {'Footer', 'NarrativeText', 'Title', 'UncategorizedText'}
 ```
 

@@ -47,7 +47,7 @@ print(texts[0])
 print(texts[1])
 ```
 
-```plain&#x20;text
+```txt
 page_content='I am honored to be with you today at your commencement from one of the finest universities in the'
 page_content='universities in the world. I never graduated from college. Truth be told, this is the closest I've'
 ```
@@ -141,7 +141,7 @@ docs = text_splitter.create_documents([knowledge])
 print(docs[0].page_content)
 ```
 
-```plain&#x20;text
+```txt
 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I've ever gotten to a college graduation. Today I want to tell you three stories from my life. That's it. No big deal.
 ```
 
@@ -167,7 +167,7 @@ docs = text_splitter.create_documents([knowledge])
 print(docs[0].page_content)
 ```
 
-```plain&#x20;text
+```txt
 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college.
 ```
 
@@ -175,7 +175,7 @@ I am honored to be with you today at your commencement from one of the finest un
 print(len(docs))
 ```
 
-```plain&#x20;text
+```txt
 71
 ```
 
@@ -189,7 +189,7 @@ print(len(docs))
 
 Pinecone 的这些[笔记](https://www.pinecone.io/learn/chunking-strategies/)提供了一些有用的提示：
 
-```plain&#x20;text
+```txt
 当嵌入整个段落或文档时，嵌入过程会考虑文本中句子和短语之间的整体上下文和关系。这可能会导致更全面的向量表示，捕捉到文本的更广泛的含义和主题。
 ```
 
@@ -197,19 +197,19 @@ Pinecone 的这些[笔记](https://www.pinecone.io/learn/chunking-strategies/)�
 
 例如，如果我们想要拆分这个 Markdown：
 
-```plain&#x20;text
+```txt
 md = '# Foo\n\n ## Bar\n\nHi this is Jim  \nHi this is Joe\n\n ## Baz\n\n Hi this is Molly'
 ```
 
 我们可以指定要拆分的标题：
 
-```plain&#x20;text
+```txt
 [("#", "Header 1"),("##", "Header 2")]
 ```
 
 内容将根据共同的标题进行分组或拆分：
 
-```plain&#x20;text
+```txt
 {'content': 'Hi this is Jim  \nHi this is Joe', 'metadata': {'Header 1': 'Foo', 'Header 2': 'Bar'}}
 {'content': 'Hi this is Molly', 'metadata': {'Header 1': 'Foo', 'Header 2': 'Baz'}}
 ```
@@ -238,7 +238,7 @@ md_header_splits = markdown_splitter.split_text(markdown_document)
 md_header_splits
 ```
 
-```plain&#x20;text
+```txt
 [Document(page_content='Hi this is Jim  \nHi this is Joe', metadata={'Header 1': 'Foo', 'Header 2': 'Bar'}),
  Document(page_content='Hi this is Lance', metadata={'Header 1': 'Foo', 'Header 2': 'Bar', 'Header 3': 'Boo'}),
  Document(page_content='Hi this is Molly', metadata={'Header 1': 'Foo', 'Header 2': 'Baz'})]
@@ -248,7 +248,7 @@ md_header_splits
 type(md_header_splits[0])
 ```
 
-```plain&#x20;text
+```txt
 <class 'langchain_core.documents.base.Document'>
 ```
 
@@ -260,7 +260,7 @@ md_header_splits = markdown_splitter.split_text(markdown_document)
 md_header_splits
 ```
 
-```plain&#x20;text
+```txt
 [Document(page_content='# Foo  \n## Bar  \nHi this is Jim  \nHi this is Joe', metadata={'Header 1': 'Foo', 'Header 2': 'Bar'}),
  Document(page_content='### Boo  \nHi this is Lance', metadata={'Header 1': 'Foo', 'Header 2': 'Bar', 'Header 3': 'Boo'}),
  Document(page_content='## Baz  \nHi this is Molly', metadata={'Header 1': 'Foo', 'Header 2': 'Baz'})]
@@ -310,7 +310,7 @@ texts = text_splitter.split_text(knowledge)
 print(texts[0])
 ```
 
-```plain&#x20;text
+```txt
 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I've ever gotten to a college graduation. Today I want to tell you three stories from my life. That's it. No big deal. Just three stories.
 我今天很荣幸能和你们一起参加毕业典礼，斯坦福大学是世界上最好的大学之一。我从来没有从大学中毕业。说实话,今天也许是在我的生命中离大学毕业最近的一天了。今天我想向你们讲述我生活中的三个故事。不是什么大不了的事情,只是三个故事而已。
 The first story is about connecting the dots.
@@ -339,7 +339,7 @@ texts = text_splitter.split_text(knowledge)
 print(texts[0])
 ```
 
-```plain&#x20;text
+```txt
 I am honored to be with you
 ```
 

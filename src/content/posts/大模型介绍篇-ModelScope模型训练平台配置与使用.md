@@ -20,7 +20,7 @@ lang: zh-CN
 
 如果您希望在本地开发环境使用魔搭社区的模型， 我们推荐使用 ModelScope SDK 下载模型。您可以使用如下命令安装 ModelScope SDK：
 
-```plain&#x20;text
+```txt
 pip install modelscope
 ```
 
@@ -32,20 +32,20 @@ pip install modelscope
 
 如果您在高带宽的机器上运行，推荐使用 ModelScope 命令行工具下载模型。该方法支持断点续传和模型高速下载，例如可以通过如下命令，将 Qwen2.5-0.5B-Instruct 模型，下载到当前路径下的"model-dir"目录。
 
-```plain&#x20;text
+```txt
 modelscope download --model="Qwen/Qwen2.5-0.5B-Instruct" --local_dir ./model-dir
 ```
 
 您也可以使用 ModelScope Python SDK 下载模型，该方法支持断点续传和模型高速下载：
 
-```plain&#x20;text
+```txt
 from modelscope import snapshot_download
 model_dir = snapshot_download("Qwen/Qwen2.5-0.5B-Instruct")
 ```
 
 由于模型都是通过 Git 存储，所以也可以在安装 Git LFS 后，通过 git clone 的方式在本地下载模型，例如：
 
-```plain&#x20;text
+```txt
 git lfs install
 git clone https://www.modelscope.cn/Qwen/Qwen2.5-0.5B-Instruct.git
 ```
@@ -56,7 +56,7 @@ git clone https://www.modelscope.cn/Qwen/Qwen2.5-0.5B-Instruct.git
 
 ### 1. 使用AutoModel加载模型
 
-```plain&#x20;text
+```txt
 from modelscope import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "Qwen/Qwen2.5-0.5B-Instruct"
@@ -71,7 +71,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 ### 2. 使用ModelScope pipeline加载模型
 
-```plain&#x20;text
+```txt
 from modelscope.pipelines import pipeline
 word_segmentation = pipeline('word-segmentation',model='damo/nlp_structbert_word-segmentation_chinese-base')
 ```
@@ -82,7 +82,7 @@ word_segmentation = pipeline('word-segmentation',model='damo/nlp_structbert_word
 
 推理不同模态多种任务，pipeline 是最简单、最快捷的方法。您可以使用开箱即用的 pipeline 执行跨不同模式的多种任务，下面是一个 pipeline 完整的运行示例：
 
-```plain&#x20;text
+```txt
 from modelscope.pipelines import pipeline
 from modelscope.utils.constant import Tasks
 
@@ -97,7 +97,7 @@ print(rec_result)
 
 ModelScope 兼容了 Transformers 提供的简单而统一的方法来加载预训练实例和 tokenizer。这意味着您可以使用 ModelScope 加载 AutoModel 和 AutoTokenizer 等类。下面是一个大语言模型的完整的运行示例：
 
-```plain&#x20;text
+```txt
 from modelscope import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "Qwen/Qwen2.5-0.5B-Instruct"
@@ -134,7 +134,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 对于暂时未与 ModelScope SDK 做原生集成的模型，可以先从 ModelScope 上下载模型，然后通过其他的主流库实现模型推理，以 SDXL-Turbo 模型为例，完整的模型推理运行示例如下：
 
-```plain&#x20;text
+```txt
 from diffusers import AutoPipelineForText2Image
 import torch
 from modelscope import snapshot_download
@@ -157,13 +157,13 @@ image.save("image.png")
 
 安装依赖：
 
-```plain&#x20;text
+```txt
 pip install ms-swift
 ```
 
 微调脚本：
 
-```plain&#x20;text
+```txt
 !CUDA_VISIBLE_DEVICES=0  swift sft \
     --model Qwen/Qwen2.5-0.5B-Instruct \
     --train_type lora \
@@ -192,7 +192,7 @@ pip install ms-swift
 
 微调后推理，注意：ckpt\_dir 需要修改为训练生成的 last checkpoint 文件夹。
 
-```plain&#x20;text
+```txt
 !CUDA_VISIBLE_DEVICES=0 swift export \
     --ckpt_dir output/v0-20250130-165127/checkpoint-12 \
     --merge_lora true
@@ -208,13 +208,13 @@ pip install ms-swift
 
 如果您希望在自有的 GPU 环境进行模型部署，我们推荐使用 vLLM 部署大语言模型，首先您需要设置环境变量来指定使用 ModelScope 上的模型：
 
-```plain&#x20;text
+```txt
 export VLLM_USE_MODELSCOPE=True
 ```
 
 `vllm>=0.6` 支持 vLLM 内置的工具调用功能，部署命令：
 
-```plain&#x20;text
+```txt
 !vllm serve Qwen/Qwen2.5-0.5B-Instruct
 ```
 

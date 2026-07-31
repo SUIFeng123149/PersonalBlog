@@ -298,7 +298,7 @@ workflow.add_conditional_edges(
 app = workflow.compile()
 ```
 
-```plain&#x20;text
+```python
     # 将生成的图片保存到文件
     graph_png = app.get_graph().draw_mermaid_png()
     with open("plan_execute.png", "wb") as f:

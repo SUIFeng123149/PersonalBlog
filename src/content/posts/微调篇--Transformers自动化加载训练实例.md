@@ -136,7 +136,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoModelForSequenceClassification
 
 >>> model = AutoModelForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
@@ -148,7 +148,7 @@ lang: zh-CN
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoModelForTokenClassification
 
 >>> model = AutoModelForTokenClassification.from_pretrained("distilbert/distilbert-base-uncased")
@@ -172,7 +172,7 @@ TensorFlow和Flax的checkpoints不受影响，并且可以在PyTorch架构中使
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import TFAutoModelForSequenceClassification
 
 >>> model = TFAutoModelForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
@@ -184,7 +184,7 @@ TensorFlow和Flax的checkpoints不受影响，并且可以在PyTorch架构中使
 
 
 
-```plain&#x20;text
+```txt
 >>> from transformers import TFAutoModelForTokenClassification
 
 >>> model = TFAutoModelForTokenClassification.from_pretrained("distilbert/distilbert-base-uncased")

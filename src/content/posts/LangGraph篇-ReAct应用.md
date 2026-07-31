@@ -26,8 +26,8 @@ lang: zh-CN
 
 ### **设置**
 
-```plain&#x20;text
-%pip install -U langgraph langchain-openai
+```txt
+pip install -U langgraph langchain-openai
 ```
 
 ### **代码**
@@ -143,8 +143,8 @@ I was created by OpenAI, a research organization focused on developing and advan
 
 ### **设置**
 
-```plain&#x20;text
-%pip install -U langgraph langchain-openai
+```txt
+pip install -U langgraph langchain-openai
 ```
 
 ### **代码**
@@ -269,8 +269,8 @@ New York City (NYC) is known for many things, including:
 
 ### **设置**
 
-```plain&#x20;text
-%pip install -U langgraph langchain-openai
+```txt
+pip install -U langgraph langchain-openai
 ```
 
 ### **代码**
@@ -359,8 +359,8 @@ A New York potrebbe essere nuvoloso.
 
 ### **设置**
 
-```plain&#x20;text
-%pip install -U langgraph langchain-openai
+```txt
+pip install -U langgraph langchain-openai
 ```
 
 ### **代码**

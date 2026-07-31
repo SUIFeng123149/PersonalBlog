@@ -104,7 +104,7 @@ for doc in loader.lazy_load():
     print(doc)
 ```
 
-```plain&#x20;text
+```txt
 <class 'langchain_core.documents.base.Document'>
 page_content='喵喵🐱 
 ' metadata={'line_number': 0, 'source': './meow.txt'}
@@ -125,7 +125,7 @@ async for doc in loader.alazy_load():
     print(doc)
 ```
 
-```plain&#x20;text
+```txt
 <class 'langchain_core.documents.base.Document'>
 page_content='喵喵🐱 
 ' metadata={'line_number': 0, 'source': './meow.txt'}
@@ -145,7 +145,7 @@ page_content=' 喵😻😻' metadata={'line_number': 2, 'source': './meow.txt'}
 loader.load()
 ```
 
-```plain&#x20;text
+```txt
 [Document(metadata={'line_number': 0, 'source': './meow.txt'}, page_content='喵喵🐱 \n'), Document(metadata={'line_number': 1, 'source': './meow.txt'}, page_content=' 喵喵🐱 \n'), Document(metadata={'line_number': 2, 'source': './meow.txt'}, page_content=' 喵😻😻')]
 ```
 
@@ -186,7 +186,7 @@ parser = MyParser()
 list(parser.lazy_parse(blob))
 ```
 
-```plain&#x20;text
+```txt
 [Document(page_content='喵喵🐱 \n', metadata={'line_number': 1, 'source': './meow.txt'}),
  Document(page_content=' 喵喵🐱 \n', metadata={'line_number': 2, 'source': './meow.txt'}),
  Document(page_content=' 喵😻😻', metadata={'line_number': 3, 'source': './meow.txt'})]
@@ -200,7 +200,7 @@ blob = Blob(data=b"来自内存的一些数据\n喵")
 list(parser.lazy_parse(blob))
 ```
 
-```plain&#x20;text
+```txt
 [Document(page_content='来自内存的一些数据\n', metadata={'line_number': 1, 'source': None}),
  Document(page_content='喵', metadata={'line_number': 2, 'source': None})]
 ```
@@ -220,7 +220,7 @@ blob = Blob.from_path("./meow.txt", metadata={"foo": "bar"})
 blob.encoding
 ```
 
-```plain&#x20;text
+```txt
 'utf-8'
 ```
 
@@ -228,7 +228,7 @@ blob.encoding
 blob.as_bytes()
 ```
 
-```plain&#x20;text
+```txt
 b'\xe5\x96\xb5\xe5\x96\xb5\xf0\x9f\x90\xb1 \r\n \xe5\x96\xb5\xe5\x96\xb5\xf0\x9f\x90\xb1 \r\n \xe5\x96\xb5\xf0\x9f\x98\xbb\xf0\x9f\x98\xbb'
 ```
 
@@ -236,7 +236,7 @@ b'\xe5\x96\xb5\xe5\x96\xb5\xf0\x9f\x90\xb1 \r\n \xe5\x96\xb5\xe5\x96\xb5\xf0\x9f
 blob.as_string()
 ```
 
-```plain&#x20;text
+```txt
 喵喵🐱
  喵喵🐱
  喵😻😻
@@ -246,7 +246,7 @@ blob.as_string()
 blob.as_bytes_io()
 ```
 
-```plain&#x20;text
+```txt
 <contextlib._GeneratorContextManager object at 0x0000012E064CC2F0>
 ```
 
@@ -254,11 +254,11 @@ blob.as_bytes_io()
 
 ### 3. Blob 元数据
 
-```plain&#x20;text
+```txt
 blob.metadata
 ```
 
-```plain&#x20;text
+```txt
 {'foo': 'bar'}
 ```
 
@@ -266,7 +266,7 @@ blob.metadata
 blob.source
 ```
 
-```plain&#x20;text
+```txt
 ./meow.txt
 ```
 
@@ -287,11 +287,11 @@ parser = MyParser()
 for blob in blob_loader.yield_blobs():for doc in parser.lazy_parse(blob):print(doc)break
 ```
 
-```plain&#x20;text
+```txt
 100%|██████████| 8/8 [00:00<00:00, 8087.35it/s]
 ```
 
-```plain&#x20;text
+```txt
 page_content='# CSV
 ' metadata={'line_number': 1, 'source': '..\\resource\\csv.mdx'}
 page_content='# File Directory
@@ -326,11 +326,11 @@ for idx, doc in enumerate(loader.lazy_load()):if idx < 5:print(doc)
 print("... output truncated for demo purposes")
 ```
 
-```plain&#x20;text
+```txt
 100%|██████████| 8/8 [00:00<00:00, 78.69it/s]
 ```
 
-```plain&#x20;text
+```txt
 page_content='# CSV
 ' metadata={'line_number': 1, 'source': '..\\resource\\csv.mdx'}
 page_content='# File Directory
@@ -366,11 +366,11 @@ for idx, doc in enumerate(loader.lazy_load()):if idx < 5:print(doc)
 print("... output truncated for demo purposes")
 ```
 
-```plain&#x20;text
+```txt
 100%|██████████| 8/8 [00:00<00:00, 80.28it/s]
 ```
 
-```plain&#x20;text
+```txt
 page_content='# CSV
 ' metadata={'line_number': 1, 'source': '..\\resource\\csv.mdx'}
 page_content='# File Directory

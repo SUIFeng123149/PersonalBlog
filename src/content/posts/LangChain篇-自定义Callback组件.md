@@ -146,7 +146,7 @@ response = chain.invoke({"animal": "猫"})
 print(response.content)
 ```
 
-```plain&#x20;text
+```txt
 My custom handler, token: 
 My custom handler, token: 猫
 My custom handler, token: 对

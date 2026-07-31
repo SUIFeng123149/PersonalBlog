@@ -54,7 +54,7 @@ graph = builder.compile(checkpointer=memory)
 
 首先，我们需要安装所需的软件包
 
-```plain&#x20;text
+```txt
 %pip install --quiet -U langgraph langchain_openai
 ```
 
@@ -228,7 +228,7 @@ app = workflow.compile(checkpointer=memory)
 
 如果您使用的是 LangGraph Cloud，则**无需**在编译图时传递检查点，因为它会自动完成。
 
-```plain&#x20;text
+```txt
 # 将生成的图片保存到文件
 graph_png = app.get_graph().draw_mermaid_png()
 with open("persistence_case.png", "wb") as f:
@@ -276,7 +276,7 @@ for event in app.stream({"messages": [input_message]}, config, stream_mode="valu
     event["messages"][-1].pretty_print()
 ```
 
-```plain&#x20;text
+```txt
 ================================ Human Message =================================
 
 what is my name?
@@ -300,7 +300,7 @@ for event in app.stream(
     event["messages"][-1].pretty_print()
 ```
 
-```plain&#x20;text
+```txt
 ================================ Human Message =================================
 
 what is my name?
@@ -351,7 +351,7 @@ I apologize for the confusion. I am an AI assistant and I do not have the abilit
 
 首先，让我们设置要使用的包
 
-```plain&#x20;text
+```txt
 
 %pip install --quiet -U langgraph langchain_openai
 ```

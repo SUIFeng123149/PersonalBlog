@@ -176,7 +176,7 @@ response = model.invoke([HumanMessage(content="hi!")])
 response.content
 ```
 
-```plain&#x20;text
+```txt
 'Hello! How can I assist you today?'
 ```
 
@@ -194,7 +194,7 @@ print(f"ContentString: {response.content}")
 print(f"ToolCalls: {response.tool_calls}")
 ```
 
-```plain&#x20;text
+```txt
 ContentString: 你好！有什么可以帮助你的吗？
 ToolCalls: []
 ```
@@ -207,7 +207,7 @@ print(f"ContentString: {response.content}")
 print(f"ToolCalls: {response.tool_calls}")
 ```
 
-```plain&#x20;text
+```txt
 ContentString: 
 ToolCalls: [{'name': 'tavily_search_results_json', 'args': {'query': '今天上海天气'}, 'id': 'call_EOxYscVIVjttlbztWoR1CvTm', 'type': 'tool_call'}]
 ```
@@ -268,7 +268,7 @@ agent_executor = AgentExecutor(agent=agent, tools=tools)
 #示例：agent_tools_run.pyprint(agent_executor.invoke({"input": "你好"}))
 ```
 
-```plain&#x20;text
+```txt
 {'input': '你好', 'output': '你好！有什么我可以帮助你的吗？'}
 ```
 
@@ -280,7 +280,7 @@ agent_executor = AgentExecutor(agent=agent, tools=tools)
 print(agent_executor.invoke({"input": "猫的特征"}))
 ```
 
-```plain&#x20;text
+```txt
 {'input': '猫的特征', 'output': '猫有许多显著的特征，包括以下几点：\n\n**听觉**：猫每只耳朵都有32条独立的肌肉控制耳壳转动。它们可以单独朝向不同的音源转动，使得在向猎物移动时仍能对周围其他音源保持直接接触。猫的听觉比人类和狗更敏锐，能听到更高的频率。\n\n**嗅觉**：家猫的嗅觉比人类灵敏14倍，鼻腔内有2亿个嗅觉受器，数量甚至超过某些品种的狗。\n\n**味觉**：由于早期的演化，猫失去了甜的味觉，但它们能感知酸、苦、咸味，并选择适合自己口味的食物。不过总的来说，猫的味觉并不算完善，相比一般人类平均有9000个味蕾，猫一般平均只有473个味蕾，且不喜欢低于室温的食物。\n\n**触觉**：猫在磨蹭时身上会散发出特别的费洛蒙，当这些独有的费洛蒙留下时，目的就是在宣誓主权，提醒其他猫这是我的。\n\n**被毛**：猫的被毛长度可以根据成为长毛猫，短毛猫和无毛猫。\n\n**视觉**：猫的夜视能力和追踪视觉活动物体相当出色，夜视能力是人类的六倍。猫的眼睛具有微光观察能力，即使只有微弱的月光也能分辨物体。\n\n**骨骼**：猫的骨骼共有230块，其中脊椎骨占了30块。\n\n**爪子**：猫的爪子尖锐且具有伸缩作用，能向外张开或向内收缩藏起来。\n\n**地域性攻击**：猫是很有地域性的动物，会在自己的地盤留下气味，利用下巴、耳朵及尾部的皮脂腺磨蹭物体以标记领地。\n\n**与狗的关系**：一般认为猫和狗互相厌恶，但经过训练和适应，猫和狗可能理解同一种“语言”并和睦相处。\n\n以上是猫的一些主要特征，但每只猫都有其个性和独特之处。'}
 ```
 
@@ -292,7 +292,7 @@ print(agent_executor.invoke({"input": "猫的特征"}))
 print(agent_executor.invoke({"input": "今天上海天气怎么样"}))
 ```
 
-```plain&#x20;text
+```txt
 {'input': '今天上海天气怎么样', 'output': '很抱歉，我无法获取实时的天气信息。你可以访问上海市气象局的网站这里来查询今天的气象状况、预警信息、生活指数等。同时，该网站还提供了未来几天的天气趋势和空气质量状况，以及气象科普、气象视频、气候变化等其他相关服务和信息。'}
 ```
 
@@ -308,7 +308,7 @@ print(agent_executor.invoke({"input": "今天上海天气怎么样"}))
 agent_executor.invoke({"input": "hi! my name is bob", "chat_history": []})
 ```
 
-```plain&#x20;text
+```txt
 {'input': '你好，我的名字是Cyber', 'chat_history': [], 'output': '你好，Cyber，很高兴见到你！有什么我可以帮助你的吗？'}
 ```
 
@@ -364,7 +364,7 @@ response = agent_with_chat_history.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 {'input': 'Hi，我的名字是Cyber', 'chat_history': [], 'output': '你好，Cyber！很高兴认识你。有什么我可以帮助你的吗？'}
 ```
 
@@ -375,7 +375,7 @@ response = agent_with_chat_history.invoke(
 )
 ```
 
-```plain&#x20;text
+```txt
 {'input': '我叫什么名字?', 'chat_history': [HumanMessage(content='Hi，我的名字是Cyber'), AIMessage(content='你好，Cyber！很高兴认识你。有什么我可以帮助你的吗？')], 'output': '你的名字是Cyber。'}
 ```
 

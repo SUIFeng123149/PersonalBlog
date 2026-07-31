@@ -36,7 +36,7 @@ lang: zh-CN
 
 •**核心思想**：按固定字符数 `chunk_size` 切分文本。•**适用场景**：结构性弱的纯文本，或对语义要求不高的预处理阶段。
 
-```plain&#x20;text
+```python
 from langchain_text_splitters importCharacterTextSplitter
 sample_text =("LangChain was created by Harrison Chase in 2022. It provides a framework for developing applications ""powered by language models. The library is known for its modularity and ease of use. ""One of its key components is the TextSplitter class, which helps in document chunking.")
 text_splitter =CharacterTextSplitter(    separator =" ",# 按空格分割    chunk_size=100,# 增大块大小    chunk_overlap=20,# 调整重叠比例    length_function=len,)
@@ -49,7 +49,7 @@ LangChain推荐的通用策略。它按预设的字符列表（如 `["\n\n", "\n
 
 •**核心思想**：按层次化分隔符列表进行递归切分。•**适用场景**：绝大多数文本类型的首选通用策略。
 
-```plain&#x20;text
+```python
 from langchain_text_splitters importRecursiveCharacterTextSplitter
 # 使用与上文相同的 sample_texttext_splitter =RecursiveCharacterTextSplitter(    chunk_size=100,    chunk_overlap=20,# 默认分隔符为 ["\n\n", "\n", " ", ""])
 docs = text_splitter.create_documents([sample_text])for i, doc in enumerate(docs):print(f"--- Chunk {i+1} ---")print(doc.page_content)
@@ -65,7 +65,7 @@ docs = text_splitter.create_documents([sample_text])for i, doc in enumerate(docs
 
 •**核心思想**：将文本分割成句子，再将句子聚合成块。•**适用场景**：对句子完整性要求高的场景，如法律文书、新闻报道。
 
-```plain&#x20;text
+```python
 import nltktry:    nltk.data.find('tokenizers/punkt')except nltk.downloader.DownloadError:    nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 def chunk_by_sentences(text, max_chars=500, overlap_sentences=1):    sentences = sent_tokenize(text)    chunks =[]    current_chunk =""for i, sentence in enumerate(sentences):if len(current_chunk)+ len(sentence)<= max_chars:            current_chunk +=" "+ sentenceelse:            chunks.append(current_chunk.strip())# 创建重叠            start_index = max(0, i - overlap_sentences)            current_chunk =" ".join(sentences[start_index:i+1])if current_chunk:        chunks.append(current_chunk.strip())return chunks
@@ -84,7 +84,7 @@ long_text ="This is the first sentence. This is the second sentence, which is a 
 
 •**核心思想**：根据Markdown的标题层级或HTML的标签来定义块的边界。•**适用场景**：格式规范的Markdown、HTML文档。
 
-```plain&#x20;text
+```python
 from langchain_text_splitters importMarkdownHeaderTextSplitter
 markdown_document ="""# Chapter 1: The Beginning
 ## Section 1.1: The Old WorldThisis the story of a time long past.
@@ -100,7 +100,7 @@ for split in md_header_splits:print(f"Metadata: {split.metadata}")print(split.pa
 
 •**核心思想**：根据对话的发言人或轮次进行分块。•**适用场景**：客服对话、访谈记录、会议纪要。
 
-```plain&#x20;text
+```python
 dialogue =["Alice: Hi, I'm having trouble with my order.","Bot: I can help with that. What's your order number?","Alice: It's 12345.","Alice: I haven't received any shipping updates.","Bot: Let me check... It seems your order was shipped yesterday.","Alice: Oh, great! Thank you.",]
 def chunk_dialogue(dialogue_lines, max_turns_per_chunk=3):    chunks =[]for i in range(0, len(dialogue_lines), max_turns_per_chunk):        chunk ="\n".join(dialogue_lines[i:i + max_turns_per_chunk])        chunks.append(chunk)return chunks
 chunks = chunk_dialogue(dialogue)for i, chunk in enumerate(chunks):print(f"--- Chunk {i+1} ---")print(chunk)
@@ -114,7 +114,7 @@ chunks = chunk_dialogue(dialogue)for i, chunk in enumerate(chunks):print(f"--- C
 
 •**核心思想**：计算相邻句子/段落的向量相似度，在语义发生突变（相似度低）的位置进行切分。•**适用场景**：知识库、研究论文等需要高精度语义内聚的文档。
 
-```plain&#x20;text
+```python
 import osfrom langchain_experimental.text_splitter importSemanticChunkerfrom langchain_huggingface importHuggingFaceEmbeddings
 os.environ["TOKENIZERS_PARALLELISM"]="false"embeddings =HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 # 创建 SemanticChunker 实例# LangChain 的 SemanticChunker 默认使用 percentile 阈值# 可以尝试不同的 breakpoint_threshold_type: "percentile", "standard_deviation", "interquartile", "gradient"text_splitter =SemanticChunker(    embeddings,    breakpoint_threshold_type="percentile",# 使用百分位作为阈值类型    breakpoint_threshold_amount=70# 设置阈值为80)print("SemanticChunker configured.")print("-"*50)
@@ -131,7 +131,7 @@ for i, doc in enumerate(docs):print(f"--- Chunk {i+1} ---")print(doc.page_conten
 
 •**核心思想**：利用主题模型（如LDA）或聚类算法，在文档的宏观主题发生转换时进行切分。•**适用场景**：长篇、多主题的报告或书籍。
 
-```plain&#x20;text
+```python
 import numpy as npimport refrom sklearn.feature_extraction.text importCountVectorizerfrom sklearn.decomposition importLatentDirichletAllocationimport nltkfrom nltk.corpus import stopwords
 try:    stopwords.words('english')exceptLookupError:    nltk.download('stopwords')
 def lda_topic_chunking(text: str, n_topics:int=3)-> list[str]:"""基于LDA主题模型的分块函数。
@@ -162,7 +162,7 @@ print(f"文档被分成了 {len(final_chunks)} 个块：")print("="*80)for i, ch
 
 •**核心思想**：使用小块（如句子）进行高精度检索，然后将包含该小块的原始大块（如段落）作为上下文送入LLM。•**适用场景**：需要高检索精度和丰富生成上下文的复杂问答场景。
 
-```plain&#x20;text
+```python
 from langchain.embeddings importOpenAIEmbeddingsfrom langchain_text_splitters importRecursiveCharacterTextSplitterfrom langchain.retrievers importParentDocumentRetrieverfrom langchain_community.document_loaders importTextLoaderfrom langchain_chroma importChromafrom langchain.storage importInMemoryStore# from langchain_core.documents import Document # 假设 Document 已被导入
 # docs = [Document(page_content="......")] # 假设这是你的文档# embeddings = OpenAIEmbeddings()# vectorstore = Chroma(embedding_function=embeddings, collection_name="split_parents")# store = InMemoryStore()
 # parent_splitter = RecursiveCharacterTextSplitter(chunk_size=2000)# child_splitter = RecursiveCharacterTextSplitter(chunk_size=400)
@@ -174,7 +174,7 @@ from langchain.embeddings importOpenAIEmbeddingsfrom langchain_text_splitters im
 
 •**核心思想**：利用一个LLM Agent来模拟人类的阅读理解过程，动态决定分块边界。•**适用场景**：实验性项目，或处理高度复杂、非结构化的文本。
 
-```plain&#x20;text
+```python
 import textwrapfrom langchain_openai importChatOpenAIfrom langchain.prompts importPromptTemplatefrom langchain_core.output_parsers importPydanticOutputParserfrom pydantic importBaseModel,Fieldfrom typing importList
 classKnowledgeChunk(BaseModel):    chunk_title: str =Field(description="这个知识块的简洁明了的标题")    chunk_text: str =Field(description="从原文中提取并重组的、自包含的文本内容")    representative_question: str =Field(description="一个可以被这个块内容直接回答的典型问题")
 classChunkList(BaseModel):    chunks:List[KnowledgeChunk]
@@ -197,7 +197,7 @@ ifnot all_chunks:print("未能生成任何知识块。")else:for i, chunk in enu
 
 **代码示例 (结构化 + 递归混合):**
 
-```plain&#x20;text
+```python
 
 from langchain_text_splitters importMarkdownHeaderTextSplitter,RecursiveCharacterTextSplitterfrom langchain_core.documents importDocument
 markdown_document ="""# 第一章：公司简介

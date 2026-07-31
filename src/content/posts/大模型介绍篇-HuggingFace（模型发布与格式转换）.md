@@ -28,7 +28,7 @@ Model Hub的内置版本控制基于git和[git-lfs](https://git-lfs.github.com/)
 
 因此，您可以通过`revision`参数加载特定的模型版本：
 
-```plain&#x20;text
+```txt
 >>> model = AutoModel.from_pretrained(
 ...     "julien-c/EsperBERTo-small", revision="4c77982"  # tag name, or branch name, or commit hash
 ... )
@@ -50,7 +50,7 @@ pip install huggingface\_hub
 
 然后使用`notebook_login`登录到Hub，并按照[这里](https://huggingface.co/settings/token)的链接生成一个token进行登录：
 
-```plain&#x20;text
+```txt
 >>> from huggingface_hub import notebook_login
 
 >>> notebook_login()
@@ -64,7 +64,7 @@ pip install huggingface\_hub
 
 指定`from_tf=True`将checkpoint从TensorFlow转换为PyTorch。
 
-```plain&#x20;text
+```txt
 >>> pt_model = DistilBertForSequenceClassification.from_pretrained("path/to/awesome-name-you-picked", from_tf=True)
 >>> pt_model.save_pretrained("path/to/awesome-name-you-picked")
 ```
@@ -83,7 +83,7 @@ pip install huggingface\_hub
 
 如果模型在Flax中可用，您还可以将PyTorch checkpoint转换为Flax：
 
-```plain&#x20;text
+```txt
 >>> flax_model = FlaxDistilBertForSequenceClassification.from_pretrained(
 ...     "path/to/awesome-name-you-picked", from_pt=True
 ... )
@@ -99,7 +99,7 @@ pip install huggingface\_hub
 
 像往常一样将您的训练参数传递给\[`Trainer`]：
 
-```plain&#x20;text
+```txt
 >>> trainer = Trainer(
 ...     model=model,
 ...     args=training_args,
@@ -123,7 +123,7 @@ pip install huggingface\_hub
 
 * hub\_model\_id，即您的Hub用户名和模型名称。
 
-```plain&#x20;text
+```txt
 >>> from transformers import PushToHubCallback
 
 >>> push_to_hub_callback = PushToHubCallback(
@@ -149,7 +149,7 @@ pip install huggingface\_hub
 
 这会在您的用户名下创建一个名为`my-awesome-model`的仓库。用户现在可以使用`from_pretrained`函数加载您的模型：
 
-```plain&#x20;text
+```txt
 >>> from transformers import AutoModel
 
 >>> model = AutoModel.from_pretrained("your_username/my-awesome-model")

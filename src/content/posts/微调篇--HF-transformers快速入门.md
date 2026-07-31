@@ -28,7 +28,7 @@ huggingface 的 transformers 包是目前使用 BERT 最主流最方便的工具
 
 如果环境支持科学上网，可以通过`git lfs`命令直接下载模型。
 
-```plain&#x20;text
+```txt
 git lfs install
 git clone https://huggingface.co/bert-base-chinese
 ```
@@ -65,7 +65,7 @@ git clone https://huggingface.co/bert-base-chinese
 
 **模型的快速使用**
 
-```plain&#x20;text
+```txt
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 tokenizer = AutoTokenizer.from_pretrained("bert-base-chinese")
 model = AutoModelForMaskedLM.from_pretrained("bert-base-chinese")
@@ -105,7 +105,7 @@ model = AutoModelForMaskedLM.from_pretrained("bert-base-chinese")
 
 
 
-```plain&#x20;text
+```txt
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 tokenizer = AutoTokenizer.from_pretrained(local_model_path)
 model = AutoModelForMaskedLM.from_pretrained(local_model_path)
@@ -153,7 +153,7 @@ model = AutoModelForMaskedLM.from_pretrained(local_model_path)
 
 
 
-```plain&#x20;text
+```txt
 from transformers import pipeline
 classifier = pipeline('sentiment-analysis')
 ```
@@ -168,7 +168,7 @@ classifier = pipeline('sentiment-analysis')
 
 
 
-```plain&#x20;text
+```txt
 classifier('We are very happy to show you the 🤗 Transformers library.')
 ```
 
@@ -178,7 +178,7 @@ classifier('We are very happy to show you the 🤗 Transformers library.')
 
 
 
-```plain&#x20;text
+```txt
 results = classifier(["We are very happy to show you the 🤗 Transformers library.",
            "We hope you don't hate it."])
 for result in results:
@@ -197,7 +197,7 @@ for result in results:
 
 
 
-```plain&#x20;text
+```txt
 classifier = pipeline('sentiment-analysis', model="techthiyanes/chinese_sentiment")
 ```
 
@@ -219,7 +219,7 @@ classifier = pipeline('sentiment-analysis', model="techthiyanes/chinese_sentimen
 
 
 
-```plain&#x20;text
+```txt
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
@@ -239,7 +239,7 @@ classifier = pipeline('sentiment-analysis', model=model, tokenizer=tokenizer)
 
 
 
-```plain&#x20;text
+```txt
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 pt_model = AutoModelForSequenceClassification.from_pretrained(model_name)
@@ -262,14 +262,14 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 
 
-```plain&#x20;text
+```txt
 inputs = tokenizer("We are very happy to show you the 🤗 Transformers library.")
 print(inputs)
 ```
 
 
 
-```plain&#x20;text
+```txt
 {
     'input_ids':[101, 2057, 2024, 2200, 3407, 2000, 2265, 2017, 1996, 100, 19081, 3075, 1012, 102],                  'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 }
@@ -281,7 +281,7 @@ print(inputs)
 
 
 
-```plain&#x20;text
+```txt
 pt_batch = tokenizer(
     ["We are very happy to show you the 🤗 Transformers library.", "We hope you don't hate it."],
     padding=True,
@@ -312,7 +312,7 @@ for key, value in pt_batch.items():
 
 
 
-```plain&#x20;text
+```txt
 pt_outputs = pt_model(**pt_batch)
 print(pt_outputs)
 SequenceClassifierOutput(loss=None, logits=tensor([[-4.0833,  4.3364],
@@ -341,7 +341,7 @@ SequenceClassifierOutput(loss=None, logits=tensor([[-4.0833,  4.3364],
 
 
 
-```plain&#x20;text
+```txt
 from torch import nn
 pt_predictions = nn.functional.softmax(pt_outputs.logits, dim=-1)
 print(pt_predictions)
@@ -356,7 +356,7 @@ tensor([[2.2043e-04, 9.9978e-01],
 
 
 
-```plain&#x20;text
+```txt
 import torch
 pt_outputs = pt_model(**pt_batch, labels = torch.tensor([1, 0]))
 print(pt_outputs)
@@ -364,7 +364,7 @@ print(pt_outputs)
 
 
 
-```plain&#x20;text
+```txt
 SequenceClassifierOutput(loss=tensor(0.3167, grad_fn=<NllLossBackward>), logits=tensor([[-4.0833,  4.3364],
         [ 0.0818, -0.0418]], grad_fn=<AddmmBackward>), hidden_states=None, attentions=None)
 ```
@@ -375,7 +375,7 @@ SequenceClassifierOutput(loss=tensor(0.3167, grad_fn=<NllLossBackward>), logits=
 
 
 
-```plain&#x20;text
+```txt
 pt_save_directory = './pt_save_pretrained'
 tokenizer.save_pretrained(pt_save_directory)
 pt_model.save_pretrained(pt_save_directory)
@@ -387,7 +387,7 @@ pt_model.save_pretrained(pt_save_directory)
 
 
 
-```plain&#x20;text
+```txt
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 model = DistilBertForSequenceClassification.from_pretrained(model_name)
@@ -406,7 +406,7 @@ tokenizer = DistilBertTokenizer.from_pretrained(model_name)
 
 
 
-```plain&#x20;text
+```txt
 from transformers import DistilBertConfig, DistilBertTokenizer, DistilBertForSequenceClassification
 config = DistilBertConfig(n_heads=8, dim=512, hidden_dim=4*512)
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
@@ -423,7 +423,7 @@ model = DistilBertForSequenceClassification(config)
 
 
 
-```plain&#x20;text
+```txt
 from transformers import DistilBertConfig, DistilBertTokenizer, DistilBertForSequenceClassification
 model_name = "distilbert-base-uncased"
 model = DistilBertForSequenceClassification.from_pretrained(model_name, num_labels=10)
