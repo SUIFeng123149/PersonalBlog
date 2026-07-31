@@ -1,5 +1,6 @@
 import path from "node:path";
-import { cp, existsSync } from "node:fs";
+import { existsSync } from "node:fs";
+import { cp } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { visit } from "unist-util-visit";
 
