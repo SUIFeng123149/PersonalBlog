@@ -12,7 +12,6 @@ import {
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
-import { loadIconify } from "../utils/icon-loader";
 
 // 检查项目页面是否启用
 if (!siteConfig.featurePages.projects) {
@@ -22,10 +21,6 @@ if (!siteConfig.featurePages.projects) {
 const { lang } = Astro.props;
 
 // 加载Iconify图标库
-loadIconify().catch((error) => {
-	console.error("Failed to load Iconify:", error);
-});
-
 // 获取项目统计信息
 const stats = getProjectStats();
 const featuredProjects = getFeaturedProjects();
@@ -66,6 +61,14 @@ const getCategoryText = (category: string) => {
 	}
 };
 ---
+
+<script>
+	import { loadIconify } from "../utils/icon-loader";
+
+	loadIconify().catch((error) => {
+		console.error("Failed to load Iconify:", error);
+	});
+</script>
 
 <MainGridLayout title={title} description={subtitle}>
   <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">

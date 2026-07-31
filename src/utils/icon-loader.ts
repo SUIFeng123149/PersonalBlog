@@ -27,6 +27,10 @@ class IconLoader {
 	 * 加载Iconify图标库
 	 */
 	async loadIconify(options: IconifyLoadOptions = {}): Promise<void> {
+		if (typeof document === "undefined") {
+			return;
+		}
+
 		const { timeout = 10000, retryCount = 3, retryDelay = 1000 } = options;
 
 		// 如果已经加载完成，直接返回
