@@ -22,6 +22,10 @@ import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badg
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
 import { rehypeMermaid } from "./src/plugins/rehype-mermaid.mjs";
+import {
+	contentImageAssets,
+	remarkContentImageAssets,
+} from "./src/plugins/content-image-assets.mjs";
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
@@ -39,6 +43,7 @@ export default defineConfig({
 		},
 	}),
 	integrations: [
+		contentImageAssets(),
 		tailwind({
 			nesting: true,
 		}),
@@ -131,6 +136,7 @@ export default defineConfig({
 			remarkSectionize,
 			parseDirectiveNode,
 			remarkMermaid,
+		remarkContentImageAssets,
 		],
 		rehypePlugins: [
 			rehypeKatex,
