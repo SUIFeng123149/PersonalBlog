@@ -740,7 +740,7 @@ delete from 后面不能写多表连接 只能是一个表
 
 where子句中的子查询，执行效率低 ，每检索一条主查询的数据，就会执行一遍子查询的语句。例如主查询查询的表有12条，子查询检索的表有5条，总共会检索60次
 
-```sq
+```sql
  Select first_name,salary from employee
  where salary > (select salary from employee where first_name = 'rose')
 ```
