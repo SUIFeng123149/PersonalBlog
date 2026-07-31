@@ -7,9 +7,11 @@ tags: ["Coze", "AI Agent"]
 category: "Coze"
 draft: false
 featured: true
-lang: "zh-CN"
+lang: ""
 series: ""
+status: verified
 testedOn: ""
+lastVerified: 2026-07-31
 ---
 ## 一、什么是扣子？
 
@@ -165,6 +167,7 @@ testedOn: ""
 3. 单击**发布。**
 
 ![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-OMg0bYQPiocrHox5AI6cxbeFnDe.png)
+
 
 
 

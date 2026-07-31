@@ -1,12 +1,17 @@
 ---
-title: Agent篇-agent快速入门
+title: "Agent篇-agent快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: 'AI Agent'
+description: ""
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-07-31
 ---
 ## —— 让大模型学会「使用工具」的下一代AI架构
 
@@ -225,6 +230,7 @@ lang: zh-CN
 
 
 ***
+
 
 
 

@@ -1,12 +1,16 @@
 ---
-title: AutoGen篇-AutoGen快速入门
+title: "AutoGen篇-AutoGen快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AutoGen', 'Multi-Agent']
-category: 'AutoGen'
+description: ""
+image: ""
+tags: ["AutoGen", "Multi-Agent"]
+category: "AutoGen"
 draft: false
-lang: zh-CN
+featured: false
+lang: ""
+series: ""
+status: verified
+testedOn: ""
 ---
 ## **Autogen是什么**
 
@@ -251,3 +255,4 @@ export ARK_API_KEY="YOUR_API_KEY"
 ![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-ZOc1bBjmKoAMnFxMH3CcgzCFnwf.png)
 
 其实，到此位置，我们的智能体已经打造完成，接下来可以让 AI 旅游规划师开始工作了。
+
