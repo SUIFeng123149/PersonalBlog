@@ -12,16 +12,10 @@ import { getSortedPosts } from "@utils/content-utils";
 import { url } from "@utils/url-utils";
 import type { GetStaticPaths, Page } from "astro";
 
-export const getStaticPaths = (async ({ paginate }) => {
-	const allBlogPosts = await getSortedPosts();
-	return CONTENT_SECTIONS.flatMap((section) => {
-		const sectionPosts = getPostsForContentSection(allBlogPosts, section.slug);
-		if (section.slug === "technical" || section.slug === "notes") return [];
-		return paginate(sectionPosts, {
-			params: { section: section.slug },
-			pageSize: PAGE_SIZE,
-		});
-	});
+export const getStaticPaths = (async () => {
+	// 四个分区均有独立索引页与分类路由（technical/notes/games/other），
+	// 此动态路由不再生成任何页面。
+	return [];
 }) satisfies GetStaticPaths;
 
 interface Props {

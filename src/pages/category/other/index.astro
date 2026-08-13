@@ -1,0 +1,13 @@
+---
+import SectionCategoryCards from "@components/SectionCategoryCards.astro";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import { getPostsForContentSection } from "@utils/content-sections";
+import { getSortedPosts } from "@utils/content-utils";
+
+const posts = getPostsForContentSection(await getSortedPosts(), "other");
+---
+
+<MainGridLayout title="其他" description="按分类浏览其他内容">
+	<section class="card-base mb-4 rounded-[var(--radius-large)] p-6"><p class="mb-1 text-sm font-medium text-[var(--primary)]">OTHER</p><h1 class="text-3xl font-bold text-90">其他</h1><p class="mt-2 text-60">选择一个分类开始阅读。</p></section>
+	<SectionCategoryCards posts={posts} section="other" />
+</MainGridLayout>

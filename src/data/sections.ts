@@ -53,13 +53,13 @@ export const contentSections = [
     "description": "游戏体验、攻略与进度记录",
     "icon": "material-symbols:sports-esports-rounded",
     "categories": [
-      "明日方舟",
       "明日方舟终末地",
       "原神",
       "崩坏：星穹铁道",
       "创世战车",
       "碧蓝航线",
-      "极限竞速：地平线"
+      "极限竞速：地平线",
+      "明日方舟"
     ]
   },
   {

@@ -1,0 +1,28 @@
+---
+import Pagination from "@components/control/Pagination.astro";
+import PostPage from "@components/PostPage.astro";
+import { PAGE_SIZE } from "@constants/constants";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import { getCategoriesForContentSection, getPostsForContentSection } from "@utils/content-sections";
+import { getSortedPosts } from "@utils/content-utils";
+import type { GetStaticPaths, Page } from "astro";
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const posts = getPostsForContentSection(await getSortedPosts(), "games");
+	return getCategoriesForContentSection(posts, "games").flatMap((category) =>
+		paginate(
+			posts.filter((post) => (post.data.category || "未分类") === category),
+			{ params: { category }, pageSize: PAGE_SIZE },
+		),
+	);
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page };
+const category = Astro.params.category ?? "未分类";
+---
+
+<MainGridLayout title={category} description={`游戏记录 · ${category}`}>
+	<section class="card-base mb-4 rounded-[var(--radius-large)] p-6"><a href="/category/games/" class="text-sm font-medium text-[var(--primary)] hover:underline">返回游戏分类</a><h1 class="mt-3 text-3xl font-bold text-90">{category}</h1></section>
+	<PostPage page={page} />
+	<Pagination class="mx-auto" page={page} basePath={`/category/games/${encodeURIComponent(category)}/`} />
+</MainGridLayout>
