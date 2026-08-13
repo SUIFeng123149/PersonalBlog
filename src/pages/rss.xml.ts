@@ -95,6 +95,12 @@ export async function GET(context: APIContext) {
 			}
 		}
 
+		// 瘦身：仅保留第一张配图，移除其余图片与内联 SVG（mermaid 图），减小 feed 体积
+		images.forEach((img, index) => {
+			if (index > 0) img.remove();
+		});
+		html.querySelectorAll("svg").forEach((node) => node.remove());
+
 		feed.push({
 			title: post.data.title,
 			description: post.data.description,

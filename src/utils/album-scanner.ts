@@ -67,14 +67,15 @@ async function processAlbumFolder(
 		cover = info.cover;
 		photos = processExternalPhotos(info.photos || [], folderName);
 	} else {
-		// 本地模式：检查本地文件
-		const coverPath = path.join(folderPath, "cover.jpg");
-		if (!fs.existsSync(coverPath)) {
-			console.warn(`相册 ${folderName} 缺少 cover.jpg 文件`);
+		// 本地模式：检查本地文件（优先 webp，兼容历史 jpg）
+		const coverWebp = path.join(folderPath, "cover.webp");
+		const coverJpg = path.join(folderPath, "cover.jpg");
+		if (!fs.existsSync(coverWebp) && !fs.existsSync(coverJpg)) {
+			console.warn(`相册 ${folderName} 缺少 cover.jpg / cover.webp 文件`);
 			return null;
 		}
 
-		cover = `/images/albums/${folderName}/cover.jpg`;
+		cover = `/images/albums/${folderName}/${fs.existsSync(coverWebp) ? "cover.webp" : "cover.jpg"}`;
 		photos = scanPhotos(folderPath, folderName);
 	}
 
@@ -118,7 +119,7 @@ function scanPhotos(folderPath: string, albumId: string): Photo[] {
 				".bmp",
 				".tiff",
 				".tif",
-			].includes(ext) && file !== "cover.jpg"
+				].includes(ext) && file !== "cover.jpg" && file !== "cover.webp"
 		);
 	});
 
