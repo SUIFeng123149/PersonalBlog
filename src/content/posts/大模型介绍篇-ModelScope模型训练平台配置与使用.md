@@ -1,12 +1,17 @@
 ---
-title: 大模型介绍篇-ModelScope模型训练平台配置与使用
+title: "大模型介绍篇-ModelScope模型训练平台配置与使用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "一、快速开始 先熟悉魔搭社区的模型下载和模型推理。设置开发环境，并顺利从魔搭社区开始模型学习，使用和开发。 二、环境安装 可以使用魔搭社区已经预安装好的 环境来使用魔搭社区模型。魔搭社区 Notebook 为新用户提供了 100小时的免费 GPU 算力和不限时长的免费 CPU 算力，并预安装了大部分模型可运行的环境依赖。 如果您希望在本地开发环境使用魔搭社区的模型， 我们推荐使用 ModelSco"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、快速开始
 
@@ -217,4 +222,5 @@ export VLLM_USE_MODELSCOPE=True
 ```txt
 !vllm serve Qwen/Qwen2.5-0.5B-Instruct
 ```
+
 

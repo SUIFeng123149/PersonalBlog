@@ -1,12 +1,17 @@
 ---
-title: Coze篇-搭建搜索新闻工作流
+title: "Coze篇-搭建搜索新闻工作流"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze']
-category: 'Coze'
+description: "工作流内可选择丰富的插件节点处理任务。例如，本文将介绍如何使用插件节点构建一个用于搜索新闻的工作流。 效果示例 本文构建的示例工作流节点概览如下图所示，该工作流中添加 getToutiaoNews 工具节点来实现搜索新闻的能力。 下图展示了示例工作流添加到智能体之后，智能体带来的用户任务处理能力。当用户输入内容后，智能体会调用示例工作流处理任务，并向用户返回处理结果。 步骤一：构建工作流 1. 在"
+image: ""
+tags: ["Coze"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 工作流内可选择丰富的插件节点处理任务。例如，本文将介绍如何使用插件节点构建一个用于搜索新闻的工作流。
 
@@ -71,4 +76,5 @@ lang: zh-CN
 例如输入 科技新闻。
 
 ![](./Coze篇-搭建搜索新闻工作流_assets/Coze篇-搭建搜索新闻工作流-QiWJbbYxDojyJ0x7m9ScOQOmnVf.png)
+
 

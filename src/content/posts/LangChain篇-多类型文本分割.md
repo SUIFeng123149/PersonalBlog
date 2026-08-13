@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-多类型文本分割
+title: "LangChain篇-多类型文本分割"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "在处理文本数据时，文本分割是一个重要的步骤，尤其是在处理长文本或将文本数据输入到机器学习模型中时。LangChain 是一个用于构建大型语言模型应用程序的库，它提供了多种工具和策略来处理文本分割。下面是一些在LangChain中实现文本分割的常见方法： 一、如何递归分割文本 递归分割，这个文本分割器是用于通用文本的推荐工具。它接受一个字符列表作为参数。它会按顺序尝试在这些字符上进行分割，直到块足够"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 在处理文本数据时，文本分割是一个重要的步骤，尤其是在处理长文本或将文本数据输入到机器学习模型中时。LangChain 是一个用于构建大型语言模型应用程序的库，它提供了多种工具和策略来处理文本分割。下面是一些在LangChain中实现文本分割的常见方法：
 
@@ -344,3 +349,4 @@ I am honored to be with you
 ```
 
 一些书面语言（例如中文和日文）的字符编码为 2 个或更多个标记。直接使用 `TokenTextSplitter` 可能会导致字符的标记在两个块之间分割，从而导致不正确的 Unicode 字符。请使用 `RecursiveCharacterTextSplitter.from_tiktoken_encoder` 或 `CharacterTextSplitter.from_tiktoken_encoder` 来确保块包含有效的 Unicode 字符。
+

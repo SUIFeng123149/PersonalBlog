@@ -74,7 +74,7 @@ const statusDetails = {
 	},
 	outdated: {
 		label: "可能已过时",
-		icon: "material-symbols:warning-amber-rounded",
+		icon: "material-symbols:warning-outline-rounded",
 		iconClass: "text-amber-600 dark:text-amber-300",
 		badgeClass: "bg-amber-500/10 text-amber-700 dark:text-amber-300",
 	},
@@ -85,7 +85,25 @@ const statusDetails = {
 		badgeClass: "bg-slate-500/10 text-slate-600 dark:text-slate-300",
 	},
 } as const;
-const currentStatus = statusDetails[entry.data.status ?? "unset"];
+
+// 已验证文章超过固定天数未复核，动态降级为“可能已过时”（不改数据文件）
+const verificationStaleDays = 180;
+function effectivePostStatus(status, lastVerified) {
+	if (status !== "verified" || !lastVerified) return status ?? "unset";
+	const dateKey =
+		lastVerified instanceof Date && !Number.isNaN(lastVerified.getTime())
+			? lastVerified.toISOString().slice(0, 10)
+			: String(lastVerified).slice(0, 10);
+	const verifiedAt = Date.parse(`${dateKey}T00:00:00Z`);
+	const todayAt = Date.parse(
+		`${new Date().toISOString().slice(0, 10)}T00:00:00Z`,
+	);
+	return Number.isFinite(verifiedAt) &&
+		todayAt - verifiedAt >= verificationStaleDays * 24 * 60 * 60 * 1000
+		? "outdated"
+		: status;
+}
+const currentStatus = statusDetails[effectivePostStatus(entry.data.status, entry.data.lastVerified)];
 const { Content, headings } = await entry.render();
 
 const { remarkPluginFrontmatter } = await entry.render();

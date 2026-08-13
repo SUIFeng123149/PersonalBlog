@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-流式处理
+title: "LangGraph篇-流式处理"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "对于增强基于 LLM 的应用响应性至关重要。通过逐步显示输出，即使在完整响应尚未准备好之前，流式处理显著改善用户体验（UX），尤其是在处理 LLM 的延迟时。 官方文档地址：<https://langchain ai.github.io/langgraph/how tos/ streaming 中文文档地址：<https://www.aidoczh.com/langgraph/how tos/ 3"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 [流式处理](https://www.aidoczh.com/langgraph/concepts/streaming/) 对于增强基于 LLM 的应用响应性至关重要。通过逐步显示输出，即使在完整响应尚未准备好之前，流式处理显著改善用户体验（UX），尤其是在处理 LLM 的延迟时。
 
@@ -245,4 +250,5 @@ Receiving update from node: 'tools'
 Receiving update from node: 'agent'
 {'messages': [AIMessage(content='The weather in San Francisco is currently sunny.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 10, 'prompt_tokens': 84, 'total_tokens': 94}, 'model_name': 'gpt-4o-2024-05-13', 'system_fingerprint': 'fp_3aa7262c27', 'finish_reason': 'stop', 'logprobs': None}, id='run-f56102b0-6de1-453c-96d0-b0be2d4cac32-0', usage_metadata={'input_tokens': 84, 'output_tokens': 10, 'total_tokens': 94})]}
 ```
+
 

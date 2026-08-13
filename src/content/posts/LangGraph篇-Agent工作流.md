@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-Agent工作流
+title: "LangGraph篇-Agent工作流"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph', 'AI Agent']
-category: 'LangGraph'
+description: "Agent工作流 下面展示了如何创建一个“计划并执行”风格的代理。 这在很大程度上借鉴了 论文以及 项目。 核心思想是先制定一个多步骤计划，然后逐项执行。 完成一项特定任务后，您可以重新审视计划并根据需要进行修改。 一般的计算图如下所示 这与典型的 风格的代理进行了比较，在该代理中，您一次思考一步。 这种“计划并执行”风格代理的优势在于 1. 明确的长期规划（即使是真正强大的 LLM 也可能难以做"
+image: ""
+tags: ["LangGraph", "AI Agent"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **Agent工作流**
 
@@ -326,4 +331,5 @@ async for event in app.astream(inputs, config=config):
 {'past_steps': [('查找2024年巴黎奥运会100米自由泳决赛冠军的名字', '2024年巴黎奥运会男子100米自由泳决赛的冠军是中国选手潘展乐（Zhanle Pan）。'), ('查找潘展乐的家乡', '潘展乐的家乡是浙江温州。')]}
 {'response': '2024年巴黎奥运会100米自由泳决赛冠军潘展乐的家乡是浙江温州。'}
 ```
+
 

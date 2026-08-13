@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-自定义会话管理和Retriever
+title: "LangChain篇-自定义会话管理和Retriever"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、如何自定义会话管理 之前我们已经介绍了如何添加会话历史记录，但我们仍在手动更新对话历史并将其插入到每个输入中。在真正的问答应用程序中，我们希望有一种持久化对话历史的方式，并且有一种自动插入和更新它的方式。 为此，我们可以使用： : 存储对话历史。 : LCEL 链和 BaseChatMessageHistory 的包装器，负责将对话历史注入输入并在每次调用后更新它。 要详细了解如何将这些类结合"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、如何自定义会话管理
 
@@ -319,4 +324,5 @@ async for event in retriever.astream_events("猫", version="v1"):print(event)
 ```
 
 ##
+
 

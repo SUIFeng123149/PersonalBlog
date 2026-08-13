@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-RAG实战
+title: "LangGraph篇-RAG实战"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph', 'RAG']
-category: 'LangGraph'
+description: "AI 领域正从基础的 RAG 系统向更智能的 AI 智能体进化，后者能处理更复杂的任务并适应新信息。LangGraph 作为 LangChain 库的扩展，助力开发者构建具有和循环计算能力的先进 AI 系统。 LangGraph流程 LangGraph 是 LangChain 的高级库，为大型语言模型（LLM）带来循环。它超越了 LangChain 的线性工作流，通过循环支持复杂的任务处理。 状态"
+image: ""
+tags: ["LangGraph", "RAG"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -85,4 +90,5 @@ LangGraph 简化了 AI 开发，自动管理状态，保持上下文，使 AI �
 如何查询账户余额？
 
 ![](./LangGraph篇-RAG实战_assets/LangGraph篇-RAG实战-VqsKbfNmeopudux2c6jc99PBn0c.png)
+
 

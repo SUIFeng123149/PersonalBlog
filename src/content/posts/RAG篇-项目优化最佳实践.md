@@ -1,12 +1,17 @@
 ---
-title: RAG篇-项目优化最佳实践
+title: "RAG篇-项目优化最佳实践"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['RAG']
-category: 'RAG'
+description: "背景 在过去两年中，检索增强生成（RAG，Retrieval Augmented Generation）技术逐渐成为提升智能体的核心组成部分。通过结合检索与生成的双重能力，RAG 能够引入外部知识，从而为大模型在复杂场景中的应用提供更多可能性。但是在实际落地场景中，往往会存在检索准确率低，噪音干扰多，召回完整性，专业性不够，导致 LLM 幻觉严重的问题。本次分享会聚焦 RAG 在实际落地场景中的知"
+image: ""
+tags: ["RAG"]
+category: "RAG"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **背景**
 
@@ -295,3 +300,4 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 * 希望是有层级，优先级的检索而并非单一的检索
 
 * 后置过滤很重要，最好能通过业务语义一些规则进行过滤。
+

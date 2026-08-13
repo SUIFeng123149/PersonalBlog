@@ -1,12 +1,17 @@
 ---
-title: Dify篇-搭建金融投资分析智能体
+title: "Dify篇-搭建金融投资分析智能体"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Dify', 'AI Agent']
-category: 'Dify'
+description: "一、定义 智能助手（Agent Assistant），利用大语言模型的推理能力，能够自主对复杂的人类任务进行目标规划、任务拆解、工具调用、过程迭代，并在没有人类干预的情况下完成任务。 二、如何使用智能助手 为了方便快速上手使用，你可以在“探索”中找到智能助手的应用模板，添加到自己的工作区，或者在此基础上进行自定义。在全新的 Dify 工作室中，你也可以从零编排一个专属于你自己的智能助手，帮助你完成"
+image: ""
+tags: ["Dify", "AI Agent"]
+category: "Dify"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、定义
 
@@ -134,4 +139,5 @@ Nvidia 最近有哪些新闻？
 ## 七、应用发布
 
 ![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-3.png)
+
 

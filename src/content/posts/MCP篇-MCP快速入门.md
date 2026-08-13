@@ -1,12 +1,17 @@
 ---
-title: MCP篇-MCP快速入门
+title: "MCP篇-MCP快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['MCP']
-category: 'MCP'
+description: "—— 企业级大模型的「指挥控制中心」 一、什么是 MCP？ MCP（Multi Code Platform，多代码平台）& x20; & x662F;一个面向开发者和企业的 统一编程协作平台 ，旨在提升开发效率、简化项目管理、实现代码共享与团队协同。它集成了代码托管、版本控制、CI/CD 流水线、自动化测试、文档管理等功能，支持多种编程语言和开发框架。 MCP 可广泛应用于 软件开发、DevOps"
+image: ""
+tags: ["MCP"]
+category: "MCP"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## —— 企业级大模型的「指挥控制中心」
 
@@ -272,3 +277,4 @@ MCP 可广泛应用于**软件开发、DevOps、AI 工程化、数据科学、�
 
 
 ***
+

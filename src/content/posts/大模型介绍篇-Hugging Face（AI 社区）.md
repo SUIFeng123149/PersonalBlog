@@ -1,12 +1,17 @@
 ---
-title: 大模型介绍篇-Hugging Face（AI 社区）
+title: "大模型介绍篇-Hugging Face（AI 社区）"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "Hugging Face常见问题 1. 什么是 Hugging Face？它的目标是什么？ 2. Hugging Face 中包含哪些知名的预训练模型? 3. 如果我们要在 Hugging Face 中下载 BERT，那么 1. 只有一种版本，还是有多种版本可以选择？ 2. 每一种版本的 BERT 中，只有一种格式还是有多种格式可以适应多种下游任务？ 4. Hugging Face 库中有哪些有用"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 **Hugging Face常见问题**
 
@@ -149,3 +154,4 @@ Hugging Face 是当前最知名的 Transformer 工具库和 AI 开源模型网�
 4. Hugging Face 库中有哪些有用的组件？
 
    * 核心组件包括：Transformers、Dataset、Tokenizer，此外还有一些辅助工具，如 Accelerate 等
+

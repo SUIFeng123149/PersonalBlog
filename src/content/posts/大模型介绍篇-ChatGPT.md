@@ -1,12 +1,17 @@
 ---
-title: 大模型介绍篇-ChatGPT
+title: "大模型介绍篇-ChatGPT"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "—— OpenAI 革命性对话式人工智能产品 一、ChatGPT 是什么？ ChatGPT 是由美国人工智能研究公司 OpenAI 开发的对话式大语言模型产品，基于 GPT（Generative Pre trained Transformer） 架构迭代进化。 & x20; 其核心能力是通过自然语言理解与生成技术，实现类人对话、知识问答、内容创作等任务，成为全球最广泛使用的AI助手之一。 二、核心"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ### —— OpenAI 革命性对话式人工智能产品
 
@@ -194,4 +199,5 @@ lang: zh-CN
 
 
 ***
+
 

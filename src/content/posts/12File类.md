@@ -1,12 +1,18 @@
 ---
-title: File类与IO流
+title: "File类与IO流"
 published: 2026-07-28
-description: 'Java中File类及IO流的操作与使用。'
-tags: [Java, JavaSE, IO, File]
-category: 'JavaSE'
+description: "IO流 File类 文件和文件目录的抽象表示，File对象代表了系统中的某个文件或文件夹，对File对象的操作就是对文件或文件夹的操作了。 1. File类 的构造器 File File File 2. File类 的方法 createNewFile : 创建一个文件 如果文件存在则不会再次创建， 文件和文件夹在同一个目录中不能重名 文件的后缀的作用：识别这个文件默认用什么软件运行，不影响文件的内"
+image: ""
+tags: ["Java", "JavaSE", "IO", "File"]
+category: "JavaSE"
 draft: false
-series: Java SE
+featured: false
+lang: ""
+series: "Java SE"
 seriesOrder: 12
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 # IO流
@@ -634,3 +640,4 @@ FileOutputStream("D:\\Lession\\java2601\\workspace\\pjt0128\\src\\myinfo.propert
 POI实现一个简单的Excel读写功能
 
 需求：读取学生成绩.xls的sheet1中的数据，计算学生的平均成绩，写入sheet2中
+

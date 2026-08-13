@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-检查点与Send机制
+title: "LangGraph篇-检查点与Send机制"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "检查点 检查点是每个超级步骤保存的图状态的快照，并由 StateSnapshot 对象表示，具有以下关键属性： config ：与此检查点相关的配置。 metadata ：与此检查点相关的元数据。 values ：此时状态通道的值。 next ：将要在图中执行的下一个节点名称的元组。 tasks ：包含有关要执行的下一个任务信息的 PregelTask 对象的元组。如果该步骤之前尝试过，它将包含错"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **检查点**
 
@@ -142,4 +147,5 @@ graph_png = graph.get_graph().draw_mermaid_png()
 with open("send_case.png", "wb") as f:
     f.write(graph_png)
 ```
+
 

@@ -1,7 +1,7 @@
 ---
 title: "RAG篇-RAG快速入门"
 published: 2026-07-29
-description: ""
+description: "—— 让大模型精准掌握企业私有知识的核心技术 一、RAG 是什么？ RAG（Retrieval Augmented Generation，检索增强生成） 是一种将 信息检索 与 文本生成 相结合的技术框架。它通过以下流程解决大模型（LLM）的“知识盲区”问题： & x20; ✅ 核心价值： 突破模型记忆限制 ：直接利用最新/私有数据，无需重新训练模型 & x20; 减少幻觉现象 ：答案基于检索到的"
 image: ""
 tags: ["RAG"]
 category: "RAG"
@@ -9,7 +9,9 @@ draft: false
 featured: true
 lang: "zh-CN"
 series: ""
+status: verified
 testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## —— 让大模型精准掌握企业私有知识的核心技术
 
@@ -293,5 +295,6 @@ print(qa_chain.run("公司休假政策如何？"))
 
 
 ***
+
 
 

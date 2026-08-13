@@ -1,12 +1,17 @@
 ---
-title: 微调篇--基于GPT定制化微调训练
+title: "微调篇--基于GPT定制化微调训练"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "分享内容 1. GPT模型特性与应用场景 2. 数据集构建规范 3. 本地训练全流程实践 模型特性与应用场景 GPT 2 是基于 Transformer 架构的生成式预训练模型，擅长文本续写与内容生成。Hugging Face 社区针对中文场景衍生了多个专用模型，适用于以下典型场景： 多领域生成示例 案例一：现代歌词创作 gpt 2中文歌词模型： 技术要点 ： BertTokenizer ：用于将"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 **分享内容**
 
@@ -561,6 +566,7 @@ print(pipline('天高', max_length=24))
 
 > [<span style="color: rgb(36,91,219); background-color: inherit">Transformers 最佳实践</span>](https://huggingface.co/docs/transformers/perf_train_gpu_one) &#x20;
 > [<span style="color: rgb(36,91,219); background-color: inherit">模型微调白皮书</span>](https://arxiv.org/abs/2109.01652)
+
 
 
 

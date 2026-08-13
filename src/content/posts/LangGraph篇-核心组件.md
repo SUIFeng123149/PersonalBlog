@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-核心组件
+title: "LangGraph篇-核心组件"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "LangGraph 是一个用于构建有状态的多参与者应用程序的库，利用 LLM 创建代理和多代理工作流。与其他 LLM 框架相比，它提供了以下核心优势：循环性、可控性和持久性。LangGraph 允许您定义涉及循环的流程，这对于大多数代理架构至关重要，使其与基于 DAG 的解决方案区别开来。作为一个非常底层的框架，它提供了对应用程序流和状态的细粒度控制，这对于创建可靠的代理至关重要。此外，LangG"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **LangGraph**
 
@@ -330,4 +335,5 @@ graph.add_conditional_edges(START, routing_function)
 ```python
 graph.add_conditional_edges(START, routing_my,{True: "my_node", False: "other_node"})
 ```
+
 

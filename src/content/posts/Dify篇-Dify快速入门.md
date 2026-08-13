@@ -10,7 +10,7 @@ featured: true
 lang: ""
 series: "Big Data Deployment"
 seriesOrder: 5
-status: maintenance
+status: verified
 testedOn: "See article prerequisites"
 lastVerified: 2026-07-28
 ---

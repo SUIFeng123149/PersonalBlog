@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--结合Autogen构建多Agent应用
+title: "Deepseek篇--结合Autogen构建多Agent应用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek', 'AI Agent']
-category: 'DeepSeek'
+description: "分享内容 通过打造一款 AI 旅游规划师，通俗易懂、深入浅出的讲清楚 AI 应用的大方向 Agent 智能体 的原理。 无需科学上网，无需付费API，无需编程能力，一小时即可部署、搭建一款复杂的、多代理交互的 AI 智能体 旅游规划师，通过观察它的工作流程，深入连接 AI 智能体的本质和原理。 环境准备 1.本地部署 Autogen Studio 项目地址： 官方文档： 中文文档： 参考《Auto"
+image: ""
+tags: ["DeepSeek", "AI Agent"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 分享内容
 
@@ -327,4 +332,5 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 &#x20;可以想象，随之 AI 的能力越来越强，智能体落地的可能性就越来越大。&#x20;
 
 &#x20;目前 AI 的发展虽然如火如荼，但是并没有杀手级别的应用出现，如果没有应用，就不可能真正的进入 AI 时代。智能体极有可能是 AI 应用落地的最佳形态。&#x20;
+
 

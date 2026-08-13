@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-子图可控性
+title: "LangGraph篇-子图可控性"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "一个视频带你搞定langgraph子图可控性 在复杂的多代理协作场景中，LangGraph 支持2子图之间的状态共享。主图可以通过状态对象与子图交互，确保各子图能够访问和更新全局状态。 这种机制使得多个智能体可以协同工作，同时保持状态的一致性。 对于更复杂的系统，子图是一个有用的设计原则。子图允许您在图的不同部分创建和管理不同的状态。 示例：我有一个接受日志并执行两个独立子任务的系统。首先，它将对"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **一个视频带你搞定langgraph子图可控性**
 
@@ -276,4 +281,5 @@ print(app.invoke({"raw_logs": raw_logs}, debug=False))
  'fa_summary': 'Chroma文档检索质量差.', 
  'report': 'foo bar'}
 ```
+
 

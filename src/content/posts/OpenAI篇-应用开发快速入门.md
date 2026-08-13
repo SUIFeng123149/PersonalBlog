@@ -1,12 +1,17 @@
 ---
-title: OpenAI篇-应用开发快速入门
+title: "OpenAI篇-应用开发快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['OpenAI']
-category: 'OpenAI'
+description: "OpenAI模型常用参数详解 1. max tokens （最大token数） 定义 ：指令生成的回答中包含的最大token数。例如，如果设置为100，那么模型生成的回答中token数不会超过100个。 用法 ：用来控制生成内容的长度。特别是在需要简短回答或有限字数情况下，这个参数非常实用。 例子 ： 输入 ：你问模型一个问题：“请简单解释一下黑洞。” max\\ tokens = 50 ：模型会尽"
+image: ""
+tags: ["OpenAI"]
+category: "OpenAI"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **OpenAI模型常用参数详解**
 
@@ -297,3 +302,4 @@ Batch API：<https://platform.openai.com/docs/guides/batch>
 ### **总结**
 
 两个不同的定价方案主要区别在于使用模式和规模的不同。标准定价（US5.00/1������������）适用于小规模和分散调用，而批量���定价（��2.50/1M input tokens）更适合大规模、批量处理的场景。价格差异反映了经济规模效应和资源利用的优化，当选择哪种定价方式时，需要根据具体的使用场景和需求进行考虑。
+

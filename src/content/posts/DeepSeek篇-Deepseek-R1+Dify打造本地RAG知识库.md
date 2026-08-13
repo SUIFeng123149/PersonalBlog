@@ -1,12 +1,17 @@
 ---
-title: DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库
+title: "DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek', 'Dify', 'RAG']
-category: 'DeepSeek'
+description: "分享内容 1. RAG 工作原理与技术架构深度剖析 2. Dify入门与私有化部署 3. Dify 构建知识库 4. Dify接入Deepseek R1构建Agent应用 RAG 工作原理与技术架构深度剖析 什么是RAG？ RAG（Retrieval Augmented Generation，检索增强生成） 是一种将 信息检索 与 文本生成 相结合的技术，通过实时从外部知识库中检索相关文档，增强大"
+image: ""
+tags: ["DeepSeek", "Dify", "RAG"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 分享内容
 
@@ -111,4 +116,5 @@ docker compose up -d
 ![](./DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库_assets/DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库-image-3.png)
 
 ## Dify接入Deepseek R1构建Agent应用
+
 

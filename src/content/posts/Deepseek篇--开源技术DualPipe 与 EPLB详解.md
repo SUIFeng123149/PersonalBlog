@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--开源技术DualPipe 与 EPLB详解
+title: "Deepseek篇--开源技术DualPipe 与 EPLB详解"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "2 月 24 日，DeepSeek 启动 “开源周”，第四个开源的代码库为 DualPipe 与 EPLB（一下发布了两个）。DualPipe 与 EPLB 依然使用了大量与 绑定的技术。 DualPipe 是由 DeepSeek AI 团队开发的一种双向流水线并行通信算法，主要用于优化大模型（如 /R1）的数据交互和训练效率。 EPLB （Expert Parallelism Load Bala"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ![](./Deepseek篇--开源技术DualPipe 与 EPLB详解_assets/Deepseek篇--开源技术DualPipe 与 EPLB详解-image.png)
 
@@ -129,4 +134,5 @@ EPLB 架构思路说明（来源：中存算半导体）
 另外 DualPipe 可结合 EPLB（专家并行负载平衡器）进一步优化跨节点专家的动态分配。
 
 DualPipe 与 EPLB 的低成本高效特性可能推动开源 AI 模型的进一步发展，缩小与闭源模型的差距。它为资源有限的团队提供了
+
 

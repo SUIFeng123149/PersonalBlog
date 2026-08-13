@@ -1,12 +1,17 @@
 ---
-title: Coze篇-知识库和记忆
+title: "Coze篇-知识库和记忆"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Coze']
-category: 'Coze'
+description: "一、知识库概述 扣子的知识库功能支持上传和存储外部知识内容，并提供了多种检索能力。扣子的知识能力可以解决大模型幻觉、专业领域知识不足的问题，提升大模型回复的准确率。 .jpg) 1. 功能概述 扣子的知识库功能包含两个能力，一是存储和管理外部数据的能力，二是增强检索的能力。 数据管理与存储 扣子支持从多种数据源例如本地文档、在线数据、Notion、飞书文档等渠道上传文本和表格数据。上传后，扣子可将"
+image: ""
+tags: ["Coze"]
+category: "Coze"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、知识库概述
 
@@ -703,4 +708,5 @@ lang: zh-CN
 * **使用自然语言**：在对话时直接通过自然语言发送指令，例如查看我今天上传的图片。
 
 文件盒子支持的功能及常见指令包括：
+
 

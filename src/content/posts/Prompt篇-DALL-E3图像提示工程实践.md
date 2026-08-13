@@ -1,12 +1,17 @@
 ---
-title: Prompt篇-DALL-E3图像提示工程实践
+title: "Prompt篇-DALL-E3图像提示工程实践"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Prompt Engineering', 'Prompt']
-category: 'Prompt Engineering'
+description: "图像提示工程 图像提示工程（Image Prompt Engineering）是一项新兴的技术，旨在通过设计和优化图像提示来引导模型生成高质量的图像输出。这种技术不仅适用于文本生成，还可以在图像生成、图像理解和多模态任务中发挥重要作用。 以下是一些在图像提示工程中常用的技术和最佳实践： 1. 明确图像生成目标 最佳实践 ：明确你希望模型生成的图像类型、风格或内容。 示例 ： 目标不明确 ： \"生成"
+image: ""
+tags: ["Prompt Engineering", "Prompt"]
+category: "Prompt Engineering"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 # **图像提示工程**
 
@@ -217,6 +222,7 @@ lang: zh-CN
 ## **11、游戏场景**
 
 ![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-e13e82742f571e80d7d3cb621f2b5b1b_BW8fLkYldaJ2%2Bo%3D.png)
+
 
 
 

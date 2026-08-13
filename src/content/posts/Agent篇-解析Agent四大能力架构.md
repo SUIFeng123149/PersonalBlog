@@ -1,7 +1,7 @@
 ---
 title: "Agent篇-解析Agent四大能力架构"
 published: 2026-07-29
-description: ""
+description: "Agent 架构 一个基于大模型的 AI Agent 系统可以拆分为大模型、规划、记忆与工具使用四个组件部分 。6 月，OpenAI 的应用研究主管 Lilian Weng 撰写了一篇博客，认为 AI Agent 可能会成为新时代的开端。她提出了 Agent=LLM + 规划技能 + 记忆 + 工具使用的基础架构，其中 LLM 扮演了 Agent 的 “大脑”，在这个系统中提供推理、规划等能力。 "
 image: ""
 tags: ["AI Agent"]
 category: "AI Agent"
@@ -11,6 +11,7 @@ lang: ""
 series: ""
 status: verified
 testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **Agent 架构**
 
@@ -354,4 +355,5 @@ Coze是一个无代码AI机器人构建平台，允许用户创建聊天机器�
 客户支持、产品咨询、新闻聚合、员工协助等。面向C端
 
 以上是对AutoGPT、MetaGPT、FastGPT、dify、coze的详细介绍、优缺点以及适用场景的对比。希望这些信息能帮助您更好地了解这些工具，并选择适合您需求的平台。
+
 

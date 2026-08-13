@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Transformers多模态数据预处理
+title: "微调篇--Transformers多模态数据预处理"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "预处理 在您可以在数据集上训练模型之前，数据需要被预处理为期望的模型输入格式。无论您的数据是文本、图像还是音频，它们都需要被转换并组合成批量的张量。🤗 Transformers 提供了一组预处理类来帮助准备数据以供模型使用。在本教程中，您将了解以下内容： 对于文本，使用分词器 将文本转换为一系列标记 ，并创建 tokens 的数字表示，将它们组合成张量。 对于语音和音频，使用特征提取器 从音频波"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -672,4 +677,5 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 `processor`现在已经添加了 `input_values` 和 `labels`，并且采样率也正确降低为为 16kHz。现在可以将处理后的数据集传递给模型！
+
 

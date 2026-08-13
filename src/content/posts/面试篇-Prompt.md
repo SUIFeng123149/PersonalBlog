@@ -1,12 +1,17 @@
 ---
-title: 面试篇-Prompt
+title: "面试篇-Prompt"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Interview', 'Prompt']
-category: 'Interview'
+description: "1. 什么是提示词工程？请举例说明。 答案： 提示词工程（Prompt Engineering） 是指通过设计、优化输入给大语言模型的文本提示，以引导模型生成更准确、有用、结构化的内容。 案例： ❌ 不好的提示： & x20; 写点关于 AI 的东西 ✅ 更好的提示： & x20; 用通俗易懂的语言解释人工智能的基本原理，并举一个生活中的应用场景。 2. 如何评估一个提示的效果？ 答案： 可以通过"
+image: ""
+tags: ["Interview", "Prompt"]
+category: "Interview"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -405,3 +410,4 @@ lang: zh-CN
 
 
 ***
+

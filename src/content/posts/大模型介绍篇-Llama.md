@@ -1,12 +1,17 @@
 ---
-title: 大模型介绍篇-Llama
+title: "大模型介绍篇-Llama"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "🌐 一、Llama 简介 Llama（拉马） 是由 Meta（原 Facebook） 开发并开源的一系列高性能大型语言模型。该系列模型包括多个版本，如 Llama、Llama2、Llama3 等，覆盖从基础研究到工业级应用的广泛需求。 Llama 的最大特点是其 开源性与可定制性 ，使得全球的研究人员和开发者能够自由地使用、修改、训练和部署这些模型。这极大地推动了大语言模型在学术界和产业界的普及"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ***
 
@@ -274,4 +279,5 @@ Llama 的最大特点是其 **开源性与可定制性**，使得全球的研究
 
 
 ***
+
 

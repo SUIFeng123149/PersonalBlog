@@ -1,12 +1,18 @@
 ---
-title: static关键字
+title: "static关键字"
 published: 2026-07-28
-description: 'Java中static关键字的用法及静态属性和方法。'
-tags: [Java, JavaSE, 面向对象, static]
-category: 'JavaSE'
+description: "static static关键字能修饰属性、方法、游离块、内部类。 从面向对象的角度：类是用来描述对象的，也就是类中的属性和方法其实就是用来描述对象，静态的属性、方法是用来描述（修饰）类的。例如Person类中 人口数量这个属性、人类的文明、人类的进化，他们都是用来描述类的，而姓名、年龄等都是用来描述对象的。 从编程语法： 静态的属性对象之间是共享的 当JVM第一次要使用某个类的信息时，JVM将这"
+image: ""
+tags: ["Java", "JavaSE", "面向对象", "static"]
+category: "JavaSE"
 draft: false
-series: Java SE
+featured: false
+lang: ""
+series: "Java SE"
 seriesOrder: 8
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 # static(静态)
@@ -341,3 +347,4 @@ public class Cal {
     }
 }
 ```
+

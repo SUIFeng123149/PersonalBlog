@@ -1,12 +1,17 @@
 ---
-title: 从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通
+title: "从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: 'AI Agent'
+description: "& x20;我的哪些场景可以让 AI 帮我干？ 某个工作场景让 AI 帮我干，如何梳理这个需求流程？ 如何自己手搓一个 AI Agent（智能体）？ 这篇文章，我将带着大家一步一步地手搓一个 AI Agent（智能体）。 全文8000字，可以先收藏，慢慢观看。 不知道这七个步骤的朋友，可以去看一下那篇文章，有助于更好的理解这期实操教程。 这期实操教程重点是给大家演示如何从 0 到 1 手搓一个 A"
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 &#x20;我的哪些场景可以让 AI 帮我干？
 
@@ -397,4 +402,5 @@ Python 代码片段，类似的需要做数据转换的，都可以采用这个�
 ###
 
 &#x20;&#x20;
+
 

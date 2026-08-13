@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-持久化管理
+title: "LangGraph篇-持久化管理"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "添加持久性内存 LangGraph 具有一个内置的持久化层，通过实现。当您将检查点与图形一起使用时，您可以与该图形的状态进行交互。当您将检查点与图形一起使用时，您可以与图形的状态进行交互并管理它。检查点在每个超级步骤中保存图形状态的检查点，从而实现一些强大的功能 首先，检查点通过允许人类检查、中断和批准步骤来促进工作流。检查点对于这些工作流是必需的，因为人类必须能够在任何时候查看图形的状态，并且图"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **添加持久性内存**
 
@@ -608,4 +613,5 @@ Hello Bob! How can I assist you today?
 
 As an AI, I don't have access to personal data about individuals unless it has been shared with me in the course of our conversation. I am designed to respect user privacy and confidentiality.
 ```
+
 

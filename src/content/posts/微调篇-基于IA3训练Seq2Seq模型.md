@@ -1,12 +1,17 @@
 ---
-title: 微调篇-基于IA3训练Seq2Seq模型
+title: "微调篇-基于IA3训练Seq2Seq模型"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "前言 通过三个学习到的向量来乘模型的激活值（自注意力机制和编码器 解码器注意力模块中的键和值，以及逐位置前馈网络的中间激活值）。这种 PEFT 方法引入的可训练参数数量甚至比 LoRA 更少，LoRA 引入的是权重矩阵而不是向量。原始模型的参数保持冻结，只有这些向量会被更新。因此，为新的下游任务进行微调更快、更便宜、更高效。 本指南将向您展示如何使用 IA3 训练序列到序列模型，以 生成给定财经新"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **前言**
 
@@ -247,4 +252,5 @@ with torch.no_grad():
     print(tokenizer.batch_decode(outputs.detach().cpu().numpy(), skip_special_tokens=True))
 ['positive']
 ```
+
 

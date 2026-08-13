@@ -1,14 +1,17 @@
 ---
 title: "【AI智能体】新手教程-0 代码搭建微信智能客服"
 published: 2026-07-29
-description: ""
+description: "& x20; 在扣子搭建的客服智能体可以一键发布到微信公众号，作为公众号客服向订阅用户提供智能问答服务。本文档介绍扣子智能体接入微信公众号的详细操作步骤。 场景说明 微信公众号是产品运营的重要信息传播与互动平台，内容创作者和媒体机构可以在微信公众号中向订阅用户群发消息，用于内容传播和粉丝运营，是自媒体、新闻媒体、知识分享等领域的重要运营渠道。基于微信公众号庞大的粉丝量，人工客服往往难以及时响应订阅"
 image: ""
 tags: ["AI Agent"]
 category: "AI Agent"
 draft: false
+featured: false
 lang: ""
 series: ""
+status: verified
 testedOn: ""
+lastVerified: 2026-08-13
 ---
 &#x20;
 
@@ -145,5 +148,6 @@ testedOn: ""
 &#x20;&#x20;
 
 ![](./【AI智能体】新手教程-0 代码搭建微信智能客服_assets/【AI智能体】新手教程-0 代码搭建微信智能客服-image.png)
+
 
 

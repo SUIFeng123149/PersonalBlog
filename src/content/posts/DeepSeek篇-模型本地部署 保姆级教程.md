@@ -1,12 +1,17 @@
 ---
-title: DeepSeek篇-模型本地部署 保姆级教程
+title: "DeepSeek篇-模型本地部署 保姆级教程"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "分享内容 1. Ollama 部署工具介绍& x20; 2. DeepSeek R1主要特点和应用场景 3. 使用 Ollama 部署 DeepSeek R1步骤 4. 总结 官网： <https://www.deepseek.com/ GitHub： <https://github.com/deepseek ai/DeepSeek R1 在人工智能领域，大型 官网： <https://ollam"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 **分享内容**
 
@@ -193,4 +198,5 @@ Ollama 的主要特点包括：
 此外，还介绍了如何进行自定义设置和模型定制化，以便满足特定任务需求。
 
 总的来说，提供了一个实用的指南，帮助大家快速在本地环境中部署和使用 **DeepSeek-R1** 模型，特别适合需要保持数据隐私、实现本地推理的场景。
+
 

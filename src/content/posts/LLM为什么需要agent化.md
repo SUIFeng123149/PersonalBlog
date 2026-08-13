@@ -1,12 +1,17 @@
 ---
-title: LLM为什么需要agent化
+title: "LLM为什么需要agent化"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent', 'LLM']
-category: 'AI Agent'
+description: "虽然大语言模型的能力很强大，但是Llm仅限于用于训练的知识，这些知识很快会过时，所以llm有以下缺点 幻觉 结果并不总是真实的 对时事的了解有限或一无所知 难以应对复杂推理和计算 例如：买高铁票 & x20; 可以利用外部工具来克服以上缺点。 打个招聘广告 作者目前的公司正在热招，后端（包括大模型）、前端、Android，产品、运营都有岗！ 📍Base：上海/成都 💰薪资：绝对香（BAT对标）"
+image: ""
+tags: ["AI Agent", "LLM"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 虽然大语言模型的能力很强大，但是Llm仅限于用于训练的知识，这些知识很快会过时，所以llm有以下缺点
 
@@ -77,4 +82,5 @@ Agent根据要求，选择了需要使用的Tool，组装了请求参数并完�
 #### 第三轮思考
 
 LLM识别到任务已完成，输出了结果
+
 

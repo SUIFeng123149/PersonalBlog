@@ -1,12 +1,17 @@
 ---
-title: 大模型开发环境-Conda和Jupyter使用
+title: "大模型开发环境-Conda和Jupyter使用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "Conda 入门 Conda版本差异 Conda ：是一个包和环境管理的工具。支持 Windows、macOS 和 Linux。Conda 可以快速的安装、运行和更新包和相关的依赖。Conda 也可以轻易地创建、保存、加载和转换环境。 Anaconda ：是一个用于科学计算的 Python 发行版，支持 Linux, Mac, Windows, 包含了 conda、conda build、Pyth"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **Conda 入门**
 
@@ -454,3 +459,4 @@ conda create -n learn python=3.10
 ![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-MeABbeGJAoto19xbjAhcT6JNnZc.png)
 
 **注意：**&#x9879;目中需要另外的依赖库，直接到 Conda Powershell Prompt 终端下，激活 learn 环境，使用 pip 安装依赖库即&#x53EF;**！**
+

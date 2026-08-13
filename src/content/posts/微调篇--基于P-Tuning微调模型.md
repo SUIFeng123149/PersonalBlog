@@ -1,12 +1,17 @@
 ---
-title: 微调篇--基于P-Tuning微调模型
+title: "微调篇--基于P-Tuning微调模型"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "前言 Prompt 可以描述一个任务，或者提供您希望模型学习的任务示例。软提示方法不是手动创建这些 prompt，而是在输入嵌入中添加可学习的参数，这些参数可以针对特定任务进行优化，同时保持预训练模型的参数冻结。这使得为新的下游任务微调大型语言模型 变得更快、更容易。 PEFT 库支持多种类型的 prompt 方法（p tuning、prefix tuning、prompt tuning），您可以"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 前言
 
@@ -241,4 +246,5 @@ model.push_to_hub(peft_model_id)
 ```
 
 如果您检查存储库中的模型文件大小，您会发现它比完整大小的模型小得多！
+
 

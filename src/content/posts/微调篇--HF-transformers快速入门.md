@@ -1,12 +1,17 @@
 ---
-title: 微调篇--HF-transformers快速入门
+title: "微调篇--HF-transformers快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "现在做 NLP 方面的研究实在离不开预训练语言模型，尤其是 BERT。 huggingface 的 transformers 包是目前使用 BERT 最主流最方便的工具之一 注：由于官方文档和网页时常更新，链接失效是很有可能的！ 本次使用的 transformers 版本为 4.15.0 1. 预训练模型下载 huggingface/transformers 支持的所有模型：<https://hu"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -429,4 +434,5 @@ model_name = "distilbert-base-uncased"
 model = DistilBertForSequenceClassification.from_pretrained(model_name, num_labels=10)
 tokenizer = DistilBertTokenizer.from_pretrained(model_name)
 ```
+
 

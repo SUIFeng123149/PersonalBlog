@@ -1,12 +1,17 @@
 ---
-title: Dify篇-基于RAG知识库搭建智能客服
+title: "Dify篇-基于RAG知识库搭建智能客服"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Dify', 'RAG']
-category: 'Dify'
+description: "之前，我们讲解了文件上传的基本用法。然而，当我们需要读取的文本超出LLM的上下文窗口时，就需要用到知识库了。 什么是上下文？ 上下文窗口是指 LLM 在处理文本时能够“看到”和“记住”的文字范围。它决定了模型在生成回答或继续文本时，能够 参考多少之前的文字信息。窗口越大，模型能利用的上下文信息越多，生成的内容通常更准确和连贯。 在之前，我们了解到 LLM 的幻觉的概念，很多情况下 LLM 知识库可"
+image: ""
+tags: ["Dify", "RAG"]
+category: "Dify"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 之前，我们讲解了文件上传的基本用法。然而，当我们需要读取的文本超出LLM的上下文窗口时，就需要用到知识库了。
 
@@ -189,3 +194,4 @@ LLM 需要根据用户的提问，调整回复，使得回复内容更加得体�
 * 思考题3：如何将客服机器人嵌入网页？
 
 应用发布后，选择嵌入网页，选择一种合适的嵌入形式，将代码粘贴到网页的合适位置即可。
+

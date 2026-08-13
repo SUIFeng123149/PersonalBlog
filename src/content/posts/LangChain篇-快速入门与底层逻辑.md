@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-快速入门与底层逻辑
+title: "LangChain篇-快速入门与底层逻辑"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、LangChain 概述 1. LangChain 简介 LangChain 是一个开源的 Python AI 应用开发框架, 它提供了构建基于大模型的 AI 应用所需的模块和工具。通过 LangChain, 开发者可以轻松地与大型语言模型 集成, 完成文本生成、问答、翻译、对话等任务。LangChain 降低了 AI 应用开发的门槛, 让任何人都可以基于 LLM 构建属于自己的创意应用。 2"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **一、LangChain 概述**
 
@@ -149,3 +154,4 @@ LangChain 封装了一组专门用于提示词 (prompts) 管理的工具类，�
 LLM的输出通常是一条消息，为了更方便处理结果，可以将消息转换为字符串。下面展示如何将LLM的输出消息转换为字符串：
 
 以上是关于LLM链的介绍，希望能帮助您更好地理解如何安装LangChain并构建不同类型的链。
+

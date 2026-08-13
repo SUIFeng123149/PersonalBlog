@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-自定义工具调用
+title: "LangChain篇-自定义工具调用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、自定义工具 在构建代理时，您需要为其提供一个 Tool 列表，以便代理可以使用这些工具。除了实际调用的函数之外， Tool 由几个组件组成： LangChain 提供了三种创建工具的方式： 使用 定义自定义工具的最简单方式。 使用 类方法 这类似于 @tool 装饰器，但允许更多配置和同步和异步实现的规范。 通过子类化 这是最灵活的方法，它提供了最大程度的控制，但需要更多的工作量和代码。 @t"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、自定义工具
 
@@ -401,4 +406,5 @@ Here are some sample rows from the `full_llm_cache` table:
 | [{"lc": 1, "type": "constructor", "id": ["langchain", "schema", "messages", "HumanMessage"], "kwargs | {"id": ["langchain", "chat_models", "openai", "ChatOpenAI"], "kwargs": {"max_retries": 2, "model_nam | 0 | {"lc": 1, "type": "constructor", "id": ["langchain", "schema", "output", "ChatGeneration"], "kwargs" |
 > Finished chain.
 ```
+
 

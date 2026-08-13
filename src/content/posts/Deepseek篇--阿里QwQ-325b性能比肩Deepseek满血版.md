@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版
+title: "Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "3月6日 凌晨 3 点，阿里开源发布了新推理模型 QwQ 32B，其参数量为 320 亿，但性能足以比肩 6710 亿参数的 DeepSeek R1 满血版。 千问的推文表示：「这次，我们研究了扩展 RL 的方法，并基于我们的 Qwen2.5 32B 取得了一些令人印象深刻的成果。我们发现 RL 训练可以不断提高性能，尤其是在数学和编码任务上，并且我们观察到 RL 的持续扩展可以帮助中型模型实现与"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 3月6日 凌晨 3 点，阿里开源发布了新推理模型 QwQ-32B，其参数量为 320 亿，但性能足以比肩 6710 亿参数的 DeepSeek-R1 满血版。
 
@@ -197,4 +202,5 @@ AutoDL 租了一台 A800-80G 的显卡，然后把模型下载了下来，并部
 它用实力证明 RLHF 路线还能玩出花，打破了一些人对 GPT4.5 撞墙后的过度悲观。
 
 用中等规模却拿到高级性能，给开源界注入了强大信心，你也不必搞那种天价设备和超大规模，也有机会跟国际巨头同场竞技。
+
 

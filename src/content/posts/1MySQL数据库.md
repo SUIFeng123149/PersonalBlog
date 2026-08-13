@@ -1,12 +1,18 @@
 ---
-title: MySQL数据库
+title: "MySQL数据库"
 published: 2026-07-28
-description: 'MySQL数据库的概念、分类及安装部署。'
-tags: [MySQL, 数据库, SQL]
-category: 'MySQL'
+description: "MySQL数据库 数据库的分类 1. 关系型数据库 ：数据库不仅存储了数据，还存储了数据的关系。关系型数据库是用二维表来存储关系数据，表和表之间存在实际的关系。MySQL、Oracle、DB2、SQLServer 2. 非关系型数据库：数据和数据之间没有关系，都是离散的。后面学习的redis数据库等 概念 1. 数据（Data）：数字、文本、图片、音频视频等 2. 数据库 : 简称DB ，存储数据"
+image: ""
+tags: ["MySQL", "数据库", "SQL"]
+category: "MySQL"
 draft: false
-series: MySQL基础
+featured: false
+lang: ""
+series: "MySQL基础"
 seriesOrder: 1
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 # MySQL数据库
@@ -1098,3 +1104,4 @@ delete from v_emp where employee_id = 116
 可以为表添加一些触发器，当对表进行update\delete\insert等操作时，就会触发对应的触发器，执行触发器中的SQL语句
 
 例如，有个需求，某个系统只能在8:00~17:00 之间操作数据
+

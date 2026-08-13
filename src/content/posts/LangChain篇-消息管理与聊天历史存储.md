@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-消息管理与聊天历史存储
+title: "LangChain篇-消息管理与聊天历史存储"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、消息存储在内存 下面我们展示一个简单的示例，其中聊天历史保存在内存中，此处通过全局 Python 字典实现。 我们构建一个名为 get session history 的可调用对象，引用此字典以返回 ChatMessageHistory 实例。通过在运行时向 RunnableWithMessageHistory 传递配置，可以指定可调用对象的参数。默认情况下，期望配置参数是一个字符串 sess"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、消息存储在内存
 
@@ -391,3 +396,4 @@ temp_chat_history.messages
 ```
 
 请注意，再次调用链式模型会生成一个新的摘要，该摘要包括初始摘要以及新的消息等。您还可以设计一种混合方法，其中一定数量的消息保留在聊天历史记录中，而其他消息则被摘要。
+

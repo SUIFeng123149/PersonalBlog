@@ -1,12 +1,17 @@
 ---
-title: 微调篇-基于LoRA训练图像分类模型
+title: "微调篇-基于LoRA训练图像分类模型"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "前言 一种有效训练大型模型的常用方法是插入（通常在注意力模块中）较小的可训练矩阵，这些矩阵是在微调期间要学习的增量权重矩阵的低秩分解。预训练模型的原始权重矩阵被冻结，只有较小的矩阵在训练期间更新。这减少了可训练参数的数量，从而减少了内存使用和训练时间，对于大型模型来说，这可能非常昂贵。 有几种不同的方法可以将权重矩阵表示为低秩分解，但是最常用的方法。PEFT 库支持其他几种 LoRA 变体，例如、"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **前言**
 
@@ -259,4 +264,5 @@ predicted_class_idx = logits.argmax(-1).item()
 print("Predicted class:", model.config.id2label[predicted_class_idx])
 "Predicted class: beignets"
 ```
+
 

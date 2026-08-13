@@ -1,12 +1,17 @@
 ---
-title: RAG成败始于分块：从“无脑”切分到“智能”切割一份给工程师的Chunking实战指南
+title: "RAG成败始于分块：从“无脑”切分到“智能”切割一份给工程师的Chunking实战指南"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['RAG']
-category: 'RAG'
+description: "导语 你是否也遇到过这样的情况：RAG系统里的LLM明明很强大，Prompt也精心调校过，但最终的问答效果就是不尽如人意？答案时常上下文不全，甚至出现事实性错误。& x20; 我们排查了检索算法，优化了Embedding模型，却往往忽略了数据进入向量库之前的最关键一步：文档分块。& x20; 不恰当的分块，就像是给模型提供了一堆被打乱顺序、信息残缺的“坏数据”。模型能力再强，也无法从支离破碎的知识"
+image: ""
+tags: ["RAG"]
+category: "RAG"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 导语
 
@@ -250,3 +255,4 @@ for i, chunk in enumerate(final_chunks):print(f"--- 最终块 {i+1} (长度: {le
 1.**不存在“银弹”**：没有任何一种分块策略能完美适应所有场景。将分块视为一个需要根据数据特性和业务需求不断迭代优化的工程问题。2.**始于简单，终于复合**：始终从`RecursiveCharacterTextSplitter`等简单、可靠的方法入手建立基线，再根据需要逐步引入结构化、语义化乃至混合策略，是一种高效且稳健的实践路径。3.**分块即“建模”**：从某种意义上说，如何分块，就是你如何理解和“建模”你的知识。一个高质量的分块，本身就是对原始数据的一种结构化和语义增强。
 
 最终，高质量的分块是通往高质量生成结果的前提。掌握这项技能，是每一位RAG应用构建者提升系统性能的必经之路。
+

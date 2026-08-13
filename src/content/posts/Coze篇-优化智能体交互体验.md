@@ -1,7 +1,7 @@
 ---
 title: "Coze篇-优化智能体交互体验"
 published: 2026-07-29
-description: ""
+description: "一、开场白 开场白是用户进入智能体后自动展示的引导信息。它的主要目的是帮助用户理解智能体的用途，以及如何与其进行交互。 说明 开场白功能支持如下平台： 豆包、微信公众号（服务号）、微信订阅号、微信小程序、抖音小程序、飞书、Chat SDK 和 API。 微信小程序和抖音小程序：仅支持展示全部预置问题，不支持展示部分预置问题。 微信公众号（服务号）和微信订阅号：不支持预置问题。 常见的开场白效果如下"
 image: ""
 tags: ["Coze", "AI Agent"]
 category: "Coze"
@@ -11,6 +11,7 @@ lang: ""
 series: ""
 status: verified
 testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、开场白
 
@@ -117,5 +118,6 @@ testedOn: ""
 * 单击删除图标删除快捷指令。
 
 ![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-MLkObNQlroivDaxPinMchi23ntc.png)
+
 
 

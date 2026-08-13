@@ -1,12 +1,17 @@
 ---
-title: Dify篇-搭建个人在线旅游助手
+title: "Dify篇-搭建个人在线旅游助手"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Dify']
-category: 'Dify'
+description: "一、准备 在新建 Agent 之前，请先确保以下步骤已经完成： 注册和登录 ，如果你想要进行本地部署，可以参考 至少配置一个模型供应商（Dify 赠送 200 条 OpenAI 消息额度，但为了确保实验顺利建议自行配置 LLM 的 API Key） 二、配置工具 Google 搭建在线旅游助手需要使用联网的搜索引擎作为参考资料来源，本文中将以 Google 作为示例。 当然，你也可以使用其他的搜索"
+image: ""
+tags: ["Dify"]
+category: "Dify"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、准备
 
@@ -99,4 +104,5 @@ Dify 目前支持`文本`、`段落`、`下拉选项`、`数字`、`基于 API �
 生成提示词
 
 ![](./Dify篇-搭建个人在线旅游助手_assets/Dify篇-搭建个人在线旅游助手-image-3.png)
+
 

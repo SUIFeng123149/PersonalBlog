@@ -1,12 +1,17 @@
 ---
-title: 微调篇-PEFT定制化LoRA模型配置
+title: "微调篇-PEFT定制化LoRA模型配置"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "前言 如今大型预训练模型规模庞大（通常有数十亿参数），这对训练提出了重大挑战，因为它们需要更多的存储空间和更强大的计算能力来处理所有这些计算。您需要访问强大的 GPU 或 TPU 才能训练这些大型预训练模型，这既昂贵，又没有普及到每个人，也不环保，而且不是很实用。PEFT 方法解决了许多这些挑战。PEFT 方法有几种类型（软提示、矩阵分解、适配器），但它们都专注于同一件事：减少可训练参数的数量。这"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **前言**
 
@@ -120,3 +125,4 @@ lora_model = AutoPeftModelForCausalLM.from_pretrained("ybelkada/opt-350m-lora")
 ```
 
 查看 [AutoPeftModel](https://hugging-face.cn/docs/peft/tutorial/package_reference/auto_class) API 参考，以了解有关 [AutoPeftModel](https://hugging-face.cn/docs/peft/v0.15.0/en/package_reference/auto_class#peft.AutoPeftModel) 类的更多信息。
+

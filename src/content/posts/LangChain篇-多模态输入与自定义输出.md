@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-多模态输入与自定义输出
+title: "LangChain篇-多模态输入与自定义输出"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、多模态数据输入 这里我们演示如何将多模态输入直接传递给模型。我们目前期望所有输入都以与 期望的格式相同的格式传递。对于支持多模态输入的其他模型提供者，我们在类中添加了逻辑以转换为预期格式。 在这个例子中，我们将要求模型描述一幅图像。 API 参考： | 最常支持的传入图像的方式是将其作为字节字符串传入。这应该适用于大多数模型集成。 我们可以在“image\\ url”类型的内容块中直接提供图像 "
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、多模态数据输入
 
@@ -462,4 +467,5 @@ Make sure to always enclose the YAML output in triple backticks (```). Please do
 ```txt
 可以尝试在提示的其他部分中添加自己的格式提示，以增强或替换默认指令。
 ```
+
 

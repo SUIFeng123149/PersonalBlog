@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-向量管理高阶指南
+title: "LangChain篇-向量管理高阶指南"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、Vector stores 存储和搜索非结构化数据的最常见方法之一是将其嵌入并存储生成的嵌入向量， 然后在查询时将非结构化查询嵌入并检索与嵌入查询“最相似”的嵌入向量。 向量存储会处理存储嵌入数据并为您执行向量搜索。 可以通过以下方式将向量存储转换为检索器接口： Retrievers是一个接口，根据非结构化查询返回文档。 它比向量存储更通用。 检索器不需要能够存储文档，只需要能够返回（或检索）"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、Vector stores(向量存储)
 
@@ -699,4 +704,5 @@ During the next five years, I started a company named NeXT, another company name
 下面是 Chroma、Weaviate、Qdrant 和 Milvus 四个向量数据库的功能对比：
 
 这些数据库在功能和特性上各有优势，选择合适的数据库应根据具体的应用需求和技术栈来决定。
+
 

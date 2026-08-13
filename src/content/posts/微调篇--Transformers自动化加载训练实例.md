@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Transformers自动化加载训练实例
+title: "微调篇--Transformers自动化加载训练实例"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "由于存在许多不同的Transformer架构，因此为您的checkpoint创建一个可用架构可能会具有挑战性。通过 AutoClass 可以自动推断并从给定的checkpoint加载正确的架构, 这也是🤗 Transformers易于使用、简单且灵活核心规则的重要一部分。 from pretrained 方法允许您快速加载任何架构的预训练模型，因此您不必花费时间和精力从头开始训练模型。生成这种与"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -193,4 +198,5 @@ TensorFlow和Flax的checkpoints不受影响，并且可以在PyTorch架构中使
 
 
 一般来说，我们推荐使用`AutoTokenizer`类和`TFAutoModelFor`类来加载模型的预训练实例。这样可以确保每次加载正确的架构。
+
 

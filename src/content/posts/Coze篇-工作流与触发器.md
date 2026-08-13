@@ -1,7 +1,7 @@
 ---
 title: "Coze篇-工作流与触发器"
 published: 2026-07-29
-description: ""
+description: "一、工作流介绍 工作流是一系列可执行指令的集合，用于实现业务逻辑或完成特定任务。它为应用/智能体的数据流动和任务处理提供了一个结构化框架。工作流的核心在于将大模型的强大能力与特定的业务逻辑相结合，通过系统化、流程化的方法来实现高效、可扩展的 AI 应用开发。 扣子提供了一个可视化画布，你可以通过拖拽节点迅速搭建工作流。同时，支持在画布实时调试工作流。在工作流画布中，你可以清晰地看到数据的流转过程和"
 image: ""
 tags: ["Coze"]
 category: "Coze"
@@ -11,6 +11,7 @@ lang: ""
 series: ""
 status: verified
 testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、工作流介绍
 
@@ -513,4 +514,5 @@ testedOn: ""
 示例如下：
 
 发送请求后，响应结果包含的 BaseResp 中的 StatusCode 为 0 表示请求成功。如果 StatusCode 不为 0，您可以通过 HttpCallBackRespDatas 获取错误信息，并根据错误信息作出相应调整。
+
 

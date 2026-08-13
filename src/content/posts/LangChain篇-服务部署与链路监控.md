@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-服务部署与链路监控
+title: "LangChain篇-服务部署与链路监控"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、LangServe 服务部署 1. 概述 帮助开发者将 LangChain 部署为 REST API。 该库集成了 并使用 进行数据验证。 Pydantic 是一个在 Python 中用于数据验证和解析的第三方库，现在是 Python 中使用广泛的数据验证库。 它利用声明式的方式定义数据模型和 Python 类型提示的强大功能来执行数据验证和序列化，使您的代码更可靠、更可读、更简洁且更易于调试"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、LangServe 服务部署
 
@@ -580,4 +585,5 @@ agent_executor.invoke(
 ```json
 {'input': '谁执导了2023年的电影《奥本海默》，他多少岁了？', 'output': '克里斯托弗·诺兰（Christopher Nolan）出生于1970年7月30日。根据当前时间（2023年），他53岁。'}
 ```
+
 

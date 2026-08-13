@@ -1,12 +1,17 @@
 ---
-title: Dify篇-搭建AI图片生成应用
+title: "Dify篇-搭建AI图片生成应用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Dify']
-category: 'Dify'
+description: "随着图像生成技术的兴起，涌现了许多优秀的图像生成产品，比如 Dall e、Flux、StableDiffusion 等。 本文将使用图像生成模型，指导你使用 Dify 快速开发一个 AI 图片生成应用。 一、Agent 的基本概念 1. 什么是 Agent Agent 是一种模拟人类行为和能力的AI系统，它通过自然语言处理与环境交互，能够理解输入信息并生成相应的输出。Agent 还具有“感知”能力"
+image: ""
+tags: ["Dify"]
+category: "Dify"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 随着图像生成技术的兴起，涌现了许多优秀的图像生成产品，比如 Dall-e、Flux、StableDiffusion 等。
 
@@ -235,4 +240,5 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 在**添加功能-内容审查**中添加关键词“晚饭”，当用户输入关键词时，则 Agent 应用输出“对不起，我不明白你在说什么”。
 
 ![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-17.png)
+
 

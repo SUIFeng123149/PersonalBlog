@@ -1,12 +1,17 @@
 ---
-title: OpenAI篇-GPT-4o多模态应用实战
+title: "OpenAI篇-GPT-4o多模态应用实战"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['OpenAI']
-category: 'OpenAI'
+description: "演示效果 Streamlit开发文档 官方文档：<https://docs.streamlit.io/ 中文文档：<https://blog.csdn.net/weixin 44458771/article/details/135495928 Streamlit命令行启动 配置Pycharm调试Streamlit应用 开发环境 PyCharm Community Edition 2024 Win1"
+image: ""
+tags: ["OpenAI"]
+category: "OpenAI"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **演示效果**
 
@@ -65,4 +70,5 @@ st.write("this is a streamlit demo")
 Help | Find Action | Registry | python.debug.asyncio.repl 去掉勾。
 
 ![](./OpenAI篇-GPT-4o多模态应用实战_assets/OpenAI篇-GPT-4o多模态应用实战-AWD9bwIzooKWdMxn15KckOjjnCb.png)
+
 

@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Transformers多模态流水线任务
+title: "微调篇--Transformers多模态流水线任务"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "推理pipeline \\[ pipeline ] 让使用上的任何模型进行任何语言、计算机视觉、语音以及多模态任务的推理变得非常简单。即使您对特定的模态没有经验，或者不熟悉模型的源码，您仍然可以使用\\[ pipeline ]进行推理！本教程将教您： 如何使用\\[ pipeline ] 进行推理。 如何使用特定的 tokenizer 或模型。 如何使用\\[ pipeline ] 进行音频、视觉和多模态"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -371,4 +376,5 @@ output = pipe("This is a cool example!", do_sample=True, top_p=0.95)
 
 
 请注意，您可以将`checkpoint `替换为任何支持大模型加载的Hugging Face模型，比如BLOOM！
+
 

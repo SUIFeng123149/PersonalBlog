@@ -1,12 +1,17 @@
 ---
-title: DeepSeek篇-基于DeepSeek R1搭建企业级知识库
+title: "DeepSeek篇-基于DeepSeek R1搭建企业级知识库"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "Ollama 部署 DeepSeek R1模型 使用 Ollama 部署 DeepSeek R1 模型的步骤相对简单，以下是详细的部署流程： 步骤 1: 安装 Ollama 官网： Ollama 是一个简单易用的工具，可以帮助我们轻松地将 DeepSeek R1 部署到本地。首先，需要确保你的机器环境满足以下条件： 操作系统：Linux/MacOS 或 Windows GPU：支持 2G 显存的显"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## Ollama 部署 DeepSeek-R1模型
 
@@ -187,4 +192,5 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 ![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-1.png)
 
 思考完成后，模型给出了最终答案
+
 

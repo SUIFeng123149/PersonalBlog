@@ -1,12 +1,17 @@
 ---
-title: 面试篇-Agent
+title: "面试篇-Agent"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Interview', 'AI Agent']
-category: 'Interview'
+description: "以下是对上述内容的进一步整理和丰富： 一、基础理论与算法 1. PEAS 描述框架 ： Performance（性能） ：是衡量 AI Agent 表现优劣的指标，例如在自动驾驶场景下，可用车辆的行驶时间、安全到达目的地的比率等来具体评估。它明确了 Agent 的目标，引导其行为方向。 Environment（环境） ：即 Agent 运行的场景，包括物理环境、信息环境等。如自动驾驶中的动态交通流"
+image: ""
+tags: ["Interview", "AI Agent"]
+category: "Interview"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 以下是对上述内容的进一步整理和丰富：
 
@@ -285,6 +290,7 @@ MPC 基于建立的环境模型，生成短期的最优动作序列，能在短�
 * **人机共生** ：重点发展自然语言实时协作能力，像 Copilot 那样能与人类通过自然语言流畅交流、协同工作，充分发挥人机各自优势，提升整体工作效率和质量。
 
 * &#x20;**能量效率** ：探索类脑计算、神经形态硬件等新型计算架构和硬件技术，实现更高效、更节能的计算和处理，降低 AI Agent 的能耗，使其在更多场景（如便携设备、物联网等）中得以广泛应用。
+
 
 
 

@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-基于RAG的文档问答
+title: "LangChain篇-基于RAG的文档问答"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain', 'RAG']
-category: 'LangChain'
+description: "一、RAG 是什么？ 大语言模型所实现的最强大应用之一是复杂的问答聊天机器人。这些应用能够回答关于特定源信息的问题。这些应用使用一种称为检索增强生成的技术。 RAG 是一种用额外数据增强大语言模型知识的技术。 大语言模型可以对广泛的主题进行推理，但它们的知识仅限于训练时截止日期前的公开数据。如果你想构建能够对私有数据或模型截止日期后引入的数据进行推理的人工智能应用，你需要用特定信息来增强模型的知识"
+image: ""
+tags: ["LangChain", "RAG"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、RAG 是什么？
 
@@ -105,4 +110,5 @@ langchain 提供了 create\_retriever\_tool 工具，可以直接用。
 #### 2.6 实现效果
 
 ![](./LangChain篇-基于RAG的文档问答_assets/LangChain篇-基于RAG的文档问答-FMpqbGKRSoQ6HBxRcOpcJeMvnD3.png)
+
 

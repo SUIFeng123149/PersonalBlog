@@ -1,12 +1,17 @@
 ---
-title: 大模型介绍篇-Gemini
+title: "大模型介绍篇-Gemini"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "🌐 一、Gemini 简介 Gemini（通义千问） 是由 Google DeepMind 开发的多模态大型语言模型，具备跨文本、图像、音频、视频等多种模态的理解与生成能力。作为谷歌在人工智能领域的重大突破，Gemini 被设计为一个统一的模型架构，能够灵活适应不同任务和应用场景。 Gemini 是目前谷歌推出的最先进的人工智能模型之一，其目标是实现真正的“通用人工智能”（AGI），不仅在自然语"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ***
 
@@ -261,4 +266,5 @@ Gemini 是 Google 在人工智能领域的重要成果，凭借其卓越的多�
 
 
 ***
+
 

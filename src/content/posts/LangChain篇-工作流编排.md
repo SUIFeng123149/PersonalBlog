@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-工作流编排
+title: "LangChain篇-工作流编排"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、LCEL介绍 （LangChain Expression Language）是一种强大的工作流编排工具，可以从基本组件构建复杂任务链条（chain），并支持诸如流式处理、并行处理和日志记录等开箱即用的功能。 LCEL 从第一天起就被设计为 支持将原型投入生产，无需更改代码 ，从最简单的“提示 + LLM”链到最复杂的链（我们已经看到有人成功地在生产中运行了包含数百步的 LCEL 链）。以下是您"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、LCEL介绍
 
@@ -297,4 +302,5 @@ events[-2:]
   'tags': [],
   'metadata': {}}]
 ```
+
 

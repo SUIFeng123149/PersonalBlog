@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-高效检索器最佳实践
+title: "LangChain篇-高效检索器最佳实践"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、相似性搜索 既然我们知道了可以通过比较向量之间的距离来判断它们的相似度，那么如何将它应用到真实的场景中呢？如果想要在一个海量的数据中找到和某个向量最相似的向量，我们需要对数据库中的每个向量进行一次比较计算，但这样的计算量是非常巨大的，所以我们需要一种高效的算法来解决这个问题。 高效的搜索算法有很多，其主要思想是通过两种方式提高搜索效率： 减少向量大小 ——通过降维或减少表示向量值的长度。 缩小"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、相似性搜索 (Similarity Search)
 
@@ -485,3 +490,4 @@ tbl: LanceTable(connection=LanceDBConnection(D:\tmp\lancedb), name="vectorstore"
 下面是 Pinecone、FAISS 和 Lance 三个向量数据库的功能对比表格：
 
 这些数据库在功能和特性上各有优势，选择合适的数据库应根据具体的应用需求和技术栈来决定。
+

@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-LangGraph快速入门
+title: "LangGraph篇-LangGraph快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "LangGraph原理 🦜🕸️LangGraph ⚡ 以图的方式构建语言代理 ⚡ 官方文档地址：<https://langchain ai.github.io/langgraph/ LangGraph 是一个用于构建具有 LLMs 的有状态、多角色应用程序的库，用于创建代理和多代理工作流。与其他 LLM 框架相比，它提供了以下核心优势：循环、可控性和持久性。 LangGraph 允许您定义涉及"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **LangGraph原理**
 
@@ -249,3 +254,4 @@ print(result)
    `tool_calls
    `。
    执行进度到特殊的 `END` 值，并输出最终状态。因此，我们得到所有聊天消息的列表作为输出。
+

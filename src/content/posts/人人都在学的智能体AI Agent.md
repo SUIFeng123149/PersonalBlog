@@ -1,12 +1,17 @@
 ---
-title: 人人都在学的智能体AI Agent
+title: "人人都在学的智能体AI Agent"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: 'AI Agent'
+description: "你不是和很多人一样对智能体（AI Agent）的概念和应用感到有些迷茫？不知道从何入手，不清楚能学到什么程度，也不了解它到底能给自己带来多大的改变？ 无论你是还在学校的 学生 、还是已经工作多年的 产品老兵 ，我的课程都能帮你解开那些让你困惑的谜团，轻松入门 智能体 。 一、智能体初认知 AI 智能体（英文：AI Agent）究竟是个啥 先讲个故事 想象一下，你有一个特别能干的虚拟助手，我们叫他小"
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 你不是和很多人一样对智能体（AI Agent）的概念和应用感到有些迷茫？不知道从何入手，不清楚能学到什么程度，也不了解它到底能给自己带来多大的改变？
 
@@ -455,4 +460,5 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 ![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-PiIhbtPzQowbZcxIURXc4bXOnTg.png)
 
 以上基本上花 10 分钟就可以创建自己的第一个智能体啦，是不是很方便呢\~
+
 

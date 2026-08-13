@@ -1,12 +1,17 @@
 ---
-title: 面试篇-LangChain
+title: "面试篇-LangChain"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Interview', 'LangChain']
-category: 'Interview'
+description: "1. 什么是 LangChain? LangChain是一个强大的框架，旨在帮助开发人员使用语言模型构建端到端的应用程序。它提供了一套工具、组件和接口，可简化创建由大型语言模型 和聊天模型提供支持的应用程序的过程。LangChain 可以轻松管理与语言模型的交互，将多个组件链接在一起，并集成额外的资源，例如 API 和数据库。 2. LangChain 包含哪些 核心概念？ 2.1 LangCha"
+image: ""
+tags: ["Interview", "LangChain"]
+category: "Interview"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -217,4 +222,5 @@ eg: Langchain ConversationRetrievalChain的一个有趣的方面，它涉及到�
 * LlamaIndex是一个数据框架，它可以很容易地将大型语言模型连接到自定义数据源。它可用于存储、查询和索引数据，还提供了各种数据可视化和分析工具。
 
 * Deepset Haystack是另外一个开源框架，用于使用大型语言模型构建搜索和问答应用程序。它基于Hugging Face Transformers，提供了多种查询和理解文本数据的工具。
+
 

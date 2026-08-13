@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-ReAct应用
+title: "LangGraph篇-ReAct应用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "ReAct 官方文档地址：<https://langchain ai.github.io/langgraph/how tos/ prebuilt react agent 中文文档地址：<https://www.aidoczh.com/langgraph/how tos/ react 在本操作指南中，我们将创建一个简单的 代理应用程序，该应用程序可以检查天气。该应用程序由一个代理（LLM）和工具组成"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **ReAct**
 
@@ -470,4 +475,5 @@ It's always sunny in sf
 
 The weather in San Francisco is sunny! 🌞
 ```
+
 

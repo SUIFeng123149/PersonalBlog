@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--开源技术DeepGEMM详解
+title: "Deepseek篇--开源技术DeepGEMM详解"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "2 月 24 日，DeepSeek 启动 “开源周”，第三个开源的代码库为 DeepGEMM，并向 CUTLASS 团队致敬。DeepGEMM 使用了大量与 Hopper 架构绑定的技术。毫无疑问，H100/H800 绝对是 DeepSeek 的小心肝。另外，从 Day1 到 Day3 的几个创新，都不是一般算法设计能完成的工作，必须要同时对 LLM、、、GPU 架构有深入了解才能迅速跟进这类技术"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-6.png)
 
@@ -217,4 +222,5 @@ DeepGEMM 的现有不足：
 * **文档不足**：截至目前，README 提供了基本用法，但缺乏详细的 API 文档或性能测试数据。
 
 DeepGEMM 是一个高效、简洁的 FP8 GEMM 库，专为 英伟达 Hopper 架构和 MoE 模型优化。其 JIT 设计、两级累加和高性能优化（如 TMA 和指令重叠）使其在 DeepSeek-V3 等项目中表现出色。
+
 

@@ -1,12 +1,17 @@
 ---
-title: 微调篇--BERT模型进行文本分类
+title: "微调篇--BERT模型进行文本分类"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "前言 在自然语言处理（NLP）领域中，情感分析是一项非常常见的任务。它的目标是判断文本的情感倾向，例如在社交媒体上的评论、产品评价、电影评论等数据中，识别文本是正面的、负面的，还是中性的。与传统的二分类情感分析不同，许多应用场景下需要将情感分为更多类别，例如正面、负面和中性，这就是所谓的多分类情感分析。 本次分享将带你一步步使用 BERT（Bidirectional Encoder Represe"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -318,4 +323,5 @@ tokenizer.save_pretrained('./sentiment_model')
 3. **调参实验**：调整训练过程中的超参数（如学习率、批次大小、训练轮次等）以获得最佳性能。
 
 4. **更复杂的模型**：尝试使用其他预训练模型（如 RoBERTa、ALBERT）以获得更好的表现。
+
 

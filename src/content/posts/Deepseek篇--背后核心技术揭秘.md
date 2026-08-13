@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--背后核心技术揭秘
+title: "Deepseek篇--背后核心技术揭秘"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "探讨 DeepSeek 大模型的核心技术，从公司背景、模型能力、训推成本到核心技术细节进行了全面分析。 一、关于 DeepSeek 公司及其大模型 1.1 公司概况 DeepSeek 2023 年 7 月成立于杭州，是幻方量化旗下的子公司，全称是杭州深度求索人工智能基础技术研究有限公司。 \"成立时间才一年多\"、\"最近推出的 V3 已经能和 OpenAI 的 4o 媲美\"、\"训练成本不到 600W "
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 探讨 DeepSeek 大模型的核心技术，从公司背景、模型能力、训推成本到核心技术细节进行了全面分析。
 
@@ -295,4 +300,5 @@ III.**MoE 架构**：通过 MoE 稀疏激活机制大幅减少了计算量，相
 3、在国内做 AI，应用始终会比基础研究有市场，更有话语权，但是基础创新和海外的代际差距会越来越小
 
 4、大模型训练和推理，软硬件是一个协同的生态，DeepSeek 的出现将会促进 AI 全行业的更加快速且低成本的迭代
+
 

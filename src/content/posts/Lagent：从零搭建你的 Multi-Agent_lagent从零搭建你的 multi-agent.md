@@ -1,12 +1,17 @@
 ---
-title: Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent
+title: "Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Multi-Agent', 'AI Agent']
-category: 'Multi-Agent'
+description: "1.1 环境配置 首先来为 Lagent 配置一个可用的环境 等待安装完成\\ 接下来，我们通过源码安装的方式安装 lagent。 1.2 Lagent框架中Agent的使用 首先，需要 申请 API 授权令牌 ，请前往 申请并获取 Authorization 令牌，将其填入后续代码的 YOUR TOKEN HERE 变量中。 创建一个代码example，创建 agent api web demo."
+image: ""
+tags: ["Multi-Agent", "AI Agent"]
+category: "Multi-Agent"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 #### 1.1 环境配置
 
@@ -759,4 +764,5 @@ if name == '__main__':
 部署完成，感谢🤝🤝🤝
 
 &#x20;&#x20;
+
 

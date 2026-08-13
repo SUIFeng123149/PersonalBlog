@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Transformers执行分类推理任务
+title: "微调篇--Transformers执行分类推理任务"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "一、Transformers 分类推理过程 将数据预处理、模型调用、结果后处理三部分组装成的流水线，如下流程图 使我们能够直接输入文本便获得最终的答案，不需要我们关注细节 二、查看 PipeLine 支持的任务类型 输出但其概念 PipeLine 支持的任务类型以及可以调用的举例输出： key: 任务的名称，如音频分类 v：关于任务的实现，如具体哪个 Pipeline，有没有 TF 模型，有没有 "
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -254,4 +259,5 @@ result
 
 #negative (stars 1, 2 and 3)
 ```
+
 

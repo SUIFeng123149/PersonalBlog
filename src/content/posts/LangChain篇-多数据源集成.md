@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-多数据源集成
+title: "LangChain篇-多数据源集成"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "LangChain 与各种数据源有数百个集成，可以从中加载数据：Slack、Notion、Google Drive 等。 每个文档加载器都有自己特定的参数，但它们可以通过相同的方式使用 .load 方法调用。 以下是一个示例用法： 一、如何加载 CSV 文件 文件是一种使用逗号分隔值的定界文本文件。文件的每一行是一个数据记录。每个记录由一个或多个字段组成，字段之间用逗号分隔。 LangChain "
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 LangChain 与各种数据源有数百个集成，可以从中加载数据：Slack、Notion、Google Drive 等。 每个文档加载器都有自己特定的参数，但它们可以通过相同的方式使用 `.load` 方法调用。 以下是一个示例用法：
 
@@ -469,4 +474,5 @@ from langchain_community.document_loaders import OnlinePDFLoader
 loader = OnlinePDFLoader("https://arxiv.org/pdf/2302.03803.pdf")
 data = loader.load()
 ```
+
 

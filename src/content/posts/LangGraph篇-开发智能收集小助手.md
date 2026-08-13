@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-开发智能收集小助手
+title: "LangGraph篇-开发智能收集小助手"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "需求智能收集助手 在这个例子中，我们将创建一个帮助用户生成提示的聊天机器人。它将首先从用户那里收集需求，然后生成提示（并根据用户输入进行细化）。这些被分成两个独立的状态，LLM 决定何时在它们之间转换。 下面的图表显示了该系统的图形表示。 收集信息 首先，让我们定义图中用于收集用户需求的部分。这将是一个带有特定系统消息的 LLM 调用。它将访问一个工具，当它准备好生成提示时可以调用该工具。 生成提"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **需求智能收集助手**
 
@@ -268,4 +273,5 @@ User (q/Q to quit): ================================== Ai Message ==============
 非常感谢您提供评论！您已成功填写客户满意度反馈表格。感谢您的宝贵意见！
 User (q/Q to quit): 
 ```
+
 

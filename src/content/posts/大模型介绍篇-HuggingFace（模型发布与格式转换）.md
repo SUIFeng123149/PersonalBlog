@@ -1,12 +1,17 @@
 ---
-title: 大模型介绍篇-HuggingFace（模型发布与格式转换）
+title: "大模型介绍篇-HuggingFace（模型发布与格式转换）"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "模型发布 将您的模型发布到社区，在Hugging Face，我们相信公开分享知识和资源，能实现人工智能的普及化，让每个人都能受益。我们鼓励您将您的模型与社区分享，以帮助他人节省时间和精力。 在本教程中，您将学习两种在上共享训练好的或微调的模型的方法： 通过编程将文件推送到Hub。 使用Web界面将文件拖放到Hub。 要与社区共享模型，您需要在上拥有一个帐户。您还可以加入现有的组织或创建一个新的组织"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **模型发布**
 
@@ -206,3 +211,4 @@ pip install huggingface\_hub
 * 在你的模型仓库中点击**编辑模型卡片**按钮。
 
 可以参考DistilBert的[模型卡片](https://huggingface.co/distilbert/distilbert-base-uncased)来了解模型卡片应该包含的信息类型。有关您可以在`README.md`文件中控制的更多选项的细节，例如模型的碳足迹或小部件示例，请参考文档[这里](https://huggingface.co/docs/hub/models-cards)。
+

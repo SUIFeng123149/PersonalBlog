@@ -1,12 +1,17 @@
 ---
-title: Dify篇-基于ChatFlow搭建文章理解助手
+title: "Dify篇-基于ChatFlow搭建文章理解助手"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Dify']
-category: 'Dify'
+description: "在 Dify 中，你可以使用知识库工具让 Agent 从大量的文本内容中获取准确的信息。然而，很多情况下需要理解的本地文件并不是很大，不至于用上知识库。这种情况下可以使用文件上传功能直接把本地文件作为上下文给 LLM 理解。 本次实验中，我们将以文章理解助手为案例。这个文章理解助手将会根据上传的文档进行提问，协助用户带着问题去阅读论文等材料。 在 Dify 中创建一个 Chatflow。请确保你已"
+image: ""
+tags: ["Dify"]
+category: "Dify"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 在 Dify 中，你可以使用知识库工具让 Agent 从大量的文本内容中获取准确的信息。然而，很多情况下需要理解的本地文件并不是很大，不至于用上知识库。这种情况下可以使用文件上传功能直接把本地文件作为上下文给 LLM 理解。
 
@@ -89,4 +94,5 @@ lang: zh-CN
 在迭代节点前加入列表操作，调整过滤条件、排序，然后将迭代节点的输入改为列表操作节点的输出。
 
 ![](./Dify篇-基于ChatFlow搭建文章理解助手_assets/Dify篇-基于ChatFlow搭建文章理解助手-image-2.png)
+
 

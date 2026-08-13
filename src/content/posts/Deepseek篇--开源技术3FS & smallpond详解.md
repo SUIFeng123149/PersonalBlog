@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--开源技术3FS & smallpond详解
+title: "Deepseek篇--开源技术3FS & smallpond详解"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "2 月 24 日，DeepSeek 启动 “开源周”，第四个开源的代码库为 3FS\\&smallpond（又是一下发布了两个）。 3FS（Fire Flyer File System）是 DeepSeek 内部开发的一款高性能分布式文件系统，旨在为 AI 训练和推理工作负载提供高效的共享存储层。它充分利用现代 SSD（固态硬盘）和 （远程直接内存访问）网络技术，简化分布式应用程序的开发，解决大规模"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 2 月 24 日，DeepSeek 启动 “开源周”，第四个开源的代码库为 3FS\&smallpond（又是一下发布了两个）。
 
@@ -171,4 +176,5 @@ smallpond/
 ## 6 小结
 
 3FS 是 DeepSeek 开源生态中的高性能分布式文件系统，以其 6.6 TiB/s 的吞吐量和强一致性支持 AI 工作负载，技术优势在于硬件优化和去中心化设计。Smallpond 则是基于 3FS 的轻量级数据处理框架，专注于 PB 级数据的高效处理，凭借低开销和易用性补充了 3FS 的功能。二者的架构和代码设计体现了 DeepSeek 的高效与开源理念，未来将在开源的高性能训练生态和 AI 部署持续进化，共同推动 AI 基础设施的发展。
+
 

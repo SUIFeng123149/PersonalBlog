@@ -8,7 +8,7 @@ category: 'BigData'
 draft: false 
 series: Big Data Deployment
 seriesOrder: 4
-status: maintenance
+status: verified
 testedOn: See article prerequisites
 lastVerified: 2026-07-28
 ---

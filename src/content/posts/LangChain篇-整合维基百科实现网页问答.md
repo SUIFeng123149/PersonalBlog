@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-整合维基百科实现网页问答
+title: "LangChain篇-整合维基百科实现网页问答"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、导入依赖库 我们将首先导入聊天机器人所需的库。 二、爬取维基百科 构建聊天机器人的第一步是访问维基百科文章并提取内容。该 get wiki 函数接受搜索词并返回整页内容和维基百科文章的摘要。该 wikipedia.summary 方法搜索摘要，以及 requests 用于访问文章的 URL 的模块。该 BeautifulSoup 模块使用在解析页面的 HTML 内容，该 content div"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、导入依赖库
 
@@ -161,4 +166,5 @@ def get_bot_response(user_query):
 **问题2：黄河为什么是世界上含沙量最高的河流?**
 
 ![](./LangChain篇-整合维基百科实现网页问答_assets/LangChain篇-整合维基百科实现网页问答-ALDhblaTgoUqhTxTsxLctqxUnze.png)
+
 

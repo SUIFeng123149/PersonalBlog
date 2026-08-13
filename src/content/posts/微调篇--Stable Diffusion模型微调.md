@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Stable Diffusion模型微调
+title: "微调篇--Stable Diffusion模型微调"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "前言 PEFT 的实际优势扩展到了其他 Hugging Face 库，例如 和 。PEFT 的主要优势之一是，PEFT 方法生成的适配器文件比原始模型小得多，这使得管理和使用多个适配器变得非常容易。您可以使用一个预训练的基础模型来处理多个任务，只需加载为要解决的任务微调的新适配器即可。或者，您可以将多个适配器与文本到图像扩散模型结合使用，以创建新的效果。 本教程将向您展示 PEFT 如何帮助您管理"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 #
 
@@ -251,3 +256,4 @@ pipe.get_active_adapters()
 ```
 
 #
+

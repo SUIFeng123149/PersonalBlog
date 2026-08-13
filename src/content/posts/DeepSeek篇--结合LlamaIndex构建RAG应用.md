@@ -1,12 +1,17 @@
 ---
-title: DeepSeek篇--结合LlamaIndex构建RAG应用
+title: "DeepSeek篇--结合LlamaIndex构建RAG应用"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek', 'RAG']
-category: 'DeepSeek'
+description: "前言 在大模型（如 GPT、LLaMA 等）快速发展的今天，生成式 AI 的能力已经令人惊叹，但其固有的 “幻觉问题” 仍然是一个重要挑战。大模型在生成文本时，可能会输出与事实不符、逻辑错误或无关的内容，这严重限制了其在关键场景（如问答系统、知识检索等）中的可靠性和实用性。 为了解决这一问题，检索增强生成（Retrieval Augmented Generation, RAG） 技术应运而生。RA"
+image: ""
+tags: ["DeepSeek", "RAG"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 前言
 
@@ -382,4 +387,5 @@ LlamaIndex 作为构建 RAG 应用的强大工具，为开发者提供了一种�
 这种技术的广泛应用，不仅提升了模型的性能，也为生成式 AI 的未来发展开辟了新的道路。总之，LlamaIndex 通过其强大的 RAG 功能，为解决大模型的幻觉问题提供了有效的解决方案。
 
 它不仅提升了模型的准确性和可靠性，还为开发者提供了一个灵活且高效的开发平台。随着技术的不断进步，LlamaIndex 将继续推动生成式 AI 的发展，使其在更多领域发挥更大的价值。
+
 

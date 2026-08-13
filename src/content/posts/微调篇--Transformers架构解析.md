@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Transformers架构解析
+title: "微调篇--Transformers架构解析"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "随着人工智能技术的飞速发展，大语言模型（Large Language Models, LLMs）在自然语言处理（NLP）领域扮演了越来越重要的角色。它们不仅在语义理解、文本生成方面取得了显著的成果，还推动了人机交互、内容创作等多种应用的变革。本次我们探讨下大语言模型的主流架构，帮助大家深入理解这些模型的工作机制。 1. 大语言模型的背景 在探讨具体架构之前，我们需要了解一下大语言模型的背景。大语言"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 随着人工智能技术的飞速发展，大语言模型（Large Language Models, LLMs）在自然语言处理（NLP）领域扮演了越来越重要的角色。它们不仅在语义理解、文本生成方面取得了显著的成果，还推动了人机交互、内容创作等多种应用的变革。本次我们探讨下大语言模型的主流架构，帮助大家深入理解这些模型的工作机制。
 
@@ -425,4 +430,5 @@ T5 作为一种创新的语言模型，通过统一的文本到文本处理方�
 ### 3. 总结
 
 大语言模型的架构不断推动着 NLP 领域的发展。从 Transformer 到 GPT、BERT，再到 T5 等，它们的设计初衷各不相同，但都在不同的应用场景中展现了强大的能力。理解这些主流架构的工作原理，有助于我们更好地利用现有的技术，也为未来的研究和应用提供了基础。
+
 

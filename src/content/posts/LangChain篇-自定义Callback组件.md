@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-自定义Callback组件
+title: "LangChain篇-自定义Callback组件"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、回调概念 LangChain 提供了一个回调系统，允许您连接到 LLM 应用程序的各个阶段。这对于日志记录、监控、流式处理和其他任务非常有用。 您可以通过使用 API 中的 callbacks 参数订阅这些事件。这个参数是处理程序对象的列表，这些处理程序对象应该实现下面更详细描述的一个或多个方法。 二、回调事件 三、回调处理程序 CallbackHandlers 是实现了 接口的对象，该接口对"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、回调概念
 
@@ -198,4 +203,5 @@ My custom handler, token:
 可以查看[此参考页面](https://api.python.langchain.com/en/latest/callbacks/langchain_core.callbacks.base.BaseCallbackHandler.html#langchain-core-callbacks-base-basecallbackhandler)以获取您可以处理的事件列表。请注意，`handle_chain_*` 事件适用于大多数 LCEL 可运行对象。
 
 <https://api.python.langchain.com/en/latest/callbacks/langchain_core.callbacks.base.BaseCallbackHandler.html#langchain-core-callbacks-base-basecallbackhandler>
+
 

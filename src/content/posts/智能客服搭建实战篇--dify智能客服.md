@@ -1,12 +1,17 @@
 ---
-title: 智能客服搭建实战篇--dify智能客服
+title: "智能客服搭建实战篇--dify智能客服"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Dify']
-category: 'Dify'
+description: "& x20; 下面以一个企业数字化服务的咨询公司的智能客服为例，介绍To B智能客服如何搭建。广义上来说，To C企业的智能客服应用更广，尤其是在售前咨询和售后争议解决方面，在数量级、AI场景丰富程度、SOP流程上都有更广的空间，但由于过往经验的限制（主要是知识库数据隐私限制），目前仅以To B企业数字化服务的咨询公司的智能客服来举例说明。除了COZE外，Dify也是一个很好的低代码的智能客服搭建"
+image: ""
+tags: ["Dify"]
+category: "Dify"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 &#x20;
 
@@ -93,3 +98,4 @@ lang: zh-CN
 **第六步：和微信公众号等外部应用链接API（可选）**
 
 ![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-CvpWbL91BoAFrixUmPVc7HPvn6T.png)
+

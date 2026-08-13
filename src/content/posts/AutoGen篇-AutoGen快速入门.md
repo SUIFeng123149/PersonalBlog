@@ -1,7 +1,7 @@
 ---
 title: "AutoGen篇-AutoGen快速入门"
 published: 2026-07-29
-description: ""
+description: "Autogen是什么 AutoGen 是一个开源编程框架，用于构建 AI 代理并促进多个代理之间的合作以解决问题。AutoGen 旨在提供一个易于使用和灵活的框架，以加速代理型 AI 的开发和研究，就像 PyTorch 之于深度学习。它提供了诸如代理之间可以对话、LLM 和工具使用支持、自主和人机协作工作流以及多代理对话模式等功能。 环境准备 1.部署 Autogen Studio 项目地址： 官"
 image: ""
 tags: ["AutoGen", "Multi-Agent"]
 category: "AutoGen"
@@ -11,6 +11,7 @@ lang: ""
 series: ""
 status: verified
 testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **Autogen是什么**
 
@@ -255,4 +256,5 @@ export ARK_API_KEY="YOUR_API_KEY"
 ![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-ZOc1bBjmKoAMnFxMH3CcgzCFnwf.png)
 
 其实，到此位置，我们的智能体已经打造完成，接下来可以让 AI 旅游规划师开始工作了。
+
 

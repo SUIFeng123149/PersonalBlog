@@ -1,12 +1,17 @@
 ---
-title: Prompt篇-Prompt快速入门
+title: "Prompt篇-Prompt快速入门"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Prompt Engineering', 'Prompt']
-category: 'Prompt Engineering'
+description: "Prompt Prompt 是什么？ Prompt 是一种人为构造的输入序列，用于引导 GPT 模型根据先前输入的内容生成相关的输出。简单来说，就是你向模型提供的 “提示词”。 在 ChatGpt 中，我们可以通过设计不同的 prompt，让模型生成与之相关的文本。例如，假设我们想让 ChatGpt 担任英语翻译。我们可以给模型提供以下 prompt： 这样，我们就可以期待模型生成一段文本了。 P"
+image: ""
+tags: ["Prompt Engineering", "Prompt"]
+category: "Prompt Engineering"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **Prompt**
 
@@ -467,3 +472,4 @@ Prompt Engineering 是设计和优化输入提示以获得预期输出的过程�
   * **输出**：`"1. 使用强密码和双因素认证。2. 定期更新和补丁系统。3. 加密敏感数据。4. 进行定期安全审计。"`
 
 通过这些应用场景的最佳实践，可以更有效地利用 Prompt Engineering 来实现各种任务，提高模型输出的质量和效率。
+

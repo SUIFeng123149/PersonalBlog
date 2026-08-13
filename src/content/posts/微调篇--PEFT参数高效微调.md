@@ -1,12 +1,17 @@
 ---
-title: 微调篇--PEFT参数高效微调
+title: "微调篇--PEFT参数高效微调"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "在微调过程中冻结预训练模型的参数，并在其顶部添加少量可训练参数（adapters）。adapters 被训练以学习特定任务的信息。这种方法已被证明非常节省内存，同时具有较低的计算使用量，同时产生与完全微调模型相当的结果。 使用 PEFT 训练的 adapters 通常比完整模型小一个数量级，使其方便共享、存储和加载。 与完整尺寸的模型权重（约为 700MB）相比，存储在 Hub 上的 OPTFor"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -203,6 +208,7 @@ trainer.train()
 model.save_pretrained(save_dir)
 model = AutoModelForCausalLM.from_pretrained(save_dir)
 ```
+
 
 
 

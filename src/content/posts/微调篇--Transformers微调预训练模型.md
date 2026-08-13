@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Transformers微调预训练模型
+title: "微调篇--Transformers微调预训练模型"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "微调预训练模型 使用预训练模型有许多显著的好处。它降低了计算成本，减少了碳排放，同时允许您使用最先进的模型，而无需从头开始训练一个。🤗 Transformers 提供了涉及各种任务的成千上万的预训练模型。当您使用预训练模型时，您需要在与任务相关的数据集上训练该模型。这种操作被称为微调，是一种非常强大的训练技术。在本教程中，您将使用您选择的深度学习框架来微调一个预训练模型： 使用 🤗 Trans"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -504,4 +509,5 @@ torch.cuda.empty_cache()
 * [🤗 Transformers 示例](https://github.com/huggingface/transformers/tree/main/examples) 包含用于在 PyTorch 和 TensorFlow 中训练常见自然语言处理任务的脚本。
 
 * [🤗 Transformers 笔记](https://github.com/huggingface/transformers/blob/main/docs/source/zh/notebooks) 包含针对特定任务在 PyTorch 和 TensorFlow 中微调模型的各种`notebook`。
+
 

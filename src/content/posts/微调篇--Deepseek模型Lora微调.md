@@ -1,12 +1,17 @@
 ---
-title: 微调篇--Deepseek模型Lora微调
+title: "微调篇--Deepseek模型Lora微调"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning', 'DeepSeek']
-category: 'Fine-tuning'
+description: "引言 随着技术的飞速发展，大型语言模型（LLM）在自然语言处理（NLP）领域扮演着越来越重要的角色。然而，预训练的模型往往需要针对特定任务进行微调，以提高其在特定领域的性能。LLaMA Factory 作为一个高效、易用的微调工具，为广大开发者提供了极大的便利。本次将详细介绍如何使用 LLaMA Factory 从零开始微调大模型，帮助大家快速掌握这一技术。 一、模型微调讲解 1、什么是模型微调？"
+image: ""
+tags: ["Fine-tuning", "DeepSeek"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 引言
 
@@ -383,6 +388,7 @@ LLaMA-Factory 项目在`data`目录下内置了丰富的数据集，您可以直
 单击卸载模型，单击取消适配器路径，然后单击加载模型，即可与微调前的原始模型聊天。!
 
 ![](./微调篇--Deepseek模型Lora微调_assets/微调篇--Deepseek模型Lora微调-image-2.png)
+
 
 
 

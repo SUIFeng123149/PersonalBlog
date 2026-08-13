@@ -1,12 +1,17 @@
 ---
-title: Prompt篇-Prompt案例分享
+title: "Prompt篇-Prompt案例分享"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Prompt Engineering', 'Prompt']
-category: 'Prompt Engineering'
+description: "Prompt（提示）在人工智能，特别是AGI（通用人工智能）时代，扮演着至关重要的角色。它不仅是用户与AI模型如交互的桥梁，更是一种全新的“编程语言”，用于指导AI模型产生特定的输出。简单来说，Prompt就是用户与大语言模型交互时提供的输入。在与大模型的对话中，Prompt是一个输入，模型根据它来理解用户的需求，生成相应的输出。 如何写好Prompt有若干技巧，如：可参考ChatGPT官方文档中"
+image: ""
+tags: ["Prompt Engineering", "Prompt"]
+category: "Prompt Engineering"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 Prompt（提示）在人工智能，特别是AGI（通用人工智能）时代，扮演着至关重要的角色。它不仅是用户与AI模型如[<span style="color: rgb(36,91,219); background-color: inherit">ChatGPT</span>](https://zhida.zhihu.com/search?content_id=247784429\&content_type=Article\&match_order=1\&q=ChatGPT\&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NDg2NzIzMTAsInEiOiJDaGF0R1BUIiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MjQ3Nzg0NDI5LCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.RXEUMyayYAU_WxumGDlBhvvUo8qV5RqqUEQCjlF8IdU\&zhida_source=entity)交互的桥梁，更是一种全新的“编程语言”，用于指导AI模型产生特定的输出。简单来说，Prompt就是用户与大语言模型交互时提供的输入。在与大模型的对话中，Prompt是一个输入，模型根据它来理解用户的需求，生成相应的输出。
 
@@ -471,4 +476,5 @@ Prompt:
 ## Initialization:
 "您好，我是您的资讯简报小助手，我可以根据你的要求访问网站阅读资讯，帮你提取摘要，来试试吧~
 ```
+
 

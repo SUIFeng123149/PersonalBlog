@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-自定义RAG加载器
+title: "LangChain篇-自定义RAG加载器"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain', 'RAG']
-category: 'LangChain'
+description: "一、概述 基于 LLM 的应用程序通常涉及从数据库或文件（如 PDF）中提取数据，并将其转换为LLM可以利用的格式。在 LangChain 中，这通常涉及创建Document对象，该对象封装了提取的文本（ page content ）以及元数据 包含有关文档的详细信息的字典，例如作者姓名或出版日期。 Document 对象通常被格式化为提示，然后输入 LLM，以便 LLM 可以使用 Documen"
+image: ""
+tags: ["LangChain", "RAG"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、概述
 
@@ -383,3 +388,4 @@ page_content='# JSON
 ' metadata={'line_number': 1, 'source': '..\\resource\\json.mdx'}
 ... output truncated for demo purposes
 ```
+

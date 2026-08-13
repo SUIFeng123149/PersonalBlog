@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-开发Agent智能体
+title: "LangChain篇-开发Agent智能体"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain', 'AI Agent']
-category: 'LangChain'
+description: "创建和运行 Agent 单独来说，语言模型无法采取行动 它们只能输出文本。 LangChain 的一个重要用例是创建 代理 。 代理是使用 LLM 作为推理引擎的系统，用于确定应采取哪些行动以及这些行动的输入应该是什么。 然后可以将这些行动的结果反馈给代理，并确定是否需要更多行动，或者是否可以结束。 在本次课程中，我们将构建一个可以与多种不同工具进行交互的代理：一个是本地数据库，另一个是搜索引擎。"
+image: ""
+tags: ["LangChain", "AI Agent"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 # 创建和运行 Agent
 
@@ -380,3 +385,4 @@ response = agent_with_chat_history.invoke(
 ```
 
 LangSmith 示例跟踪：<https://smith.langchain.com/public/98c8d162-60ae-4493-aa9f-992d87bd0429/r>
+

@@ -1,12 +1,17 @@
 ---
-title: _大模型介绍篇-DeepSeek
+title: "_大模型介绍篇-DeepSeek"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'DeepSeek', 'LLM']
-category: 'LLM Introduction'
+description: "—— 中国领先的开源大语言模型家族 一、DeepSeek 是什么？ DeepSeek（深度求索） 是由中国人工智能公司「深度求索科技」（DeepSeek AI）研发的一系列开源大语言模型（Large Language Models，LLMs）。 & x20; 该系列模型覆盖文本理解、代码生成、数学推理、多语言支持等多个领域，以 高性能、强中文能力、完全开源免费 著称，已成为全球开源社区中极具竞争力"
+image: ""
+tags: ["LLM Introduction", "DeepSeek", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ### —— 中国领先的开源大语言模型家族
 
@@ -217,4 +222,5 @@ DeepSeek 团队表示将持续推进： &#x20;
 
 
 ***
+
 

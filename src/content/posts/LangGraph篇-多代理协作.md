@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-多代理协作
+title: "LangGraph篇-多代理协作"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "协作 官方文档地址： 中文文档地址： 单个代理通常可以使用少量工具在一个域内有效地运行，但即使使用像 gpt 4 这样的强大模型，它在使用许多工具时也可能效率较低。 解决复杂任务的一种方法是使用“分而治之”的方法：为每个任务或域创建一个专门的代理，并将任务路由到正确的“专家”。 此笔记本（受 Wu 等人撰写的论文 的启发）展示了一种使用 LangGraph 进行此操作的方法。 生成的图将类似于以下"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **协作**
 
@@ -346,4 +351,5 @@ Python REPL can execute arbitrary code. Use with caution.
 ````
 
 ![](./LangGraph篇-多代理协作_assets/LangGraph篇-多代理协作-O3HfbDCyBoJ5CKxvS8CcjSqDnGg.png)
+
 

@@ -1,12 +1,17 @@
 ---
-title: 从零开始：手把手教你搭建Agent框架
+title: "从零开始：手把手教你搭建Agent框架"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['AI Agent']
-category: 'AI Agent'
+description: "& x20;AI Agent Agent的核心思想是使用语言模型来选择要采取的一系列操作。在Agent中，语言模型被用作推理引擎来确定要采取哪些操作以及按什么顺序。相比于传统机械或软件被动的“给予输入—— 做出输出”的模式，Agent 由于更加强调自主的发现问题、确定目标、构想方案、选择方案、执行方案、检查更新的特性，因此可以被认为是一类拥有“自主智能的实体”，而被广泛称之为智能体。 ⚠️下文介绍"
+image: ""
+tags: ["AI Agent"]
+category: "AI Agent"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 # &#x20;AI Agent
 
@@ -440,3 +445,4 @@ describe('agent', () => {
 6. 处理代理生成无法解析为工具调用的输出的情况
 
 7. 所有级别（代理决策、工具调用）的日志记录和可观察性到标准输出
+

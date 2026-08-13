@@ -1,12 +1,18 @@
 ---
-title: JDBC
+title: "JDBC"
 published: 2026-07-28
-description: 'Java数据库连接（JDBC）的概念、编程步骤及使用方法。'
-tags: [MySQL, Java, JDBC, 数据库编程]
-category: 'MySQL'
+description: "JDBC JDBC概念 Java连接数据库的标准规范，是有一套接口组成的。程序员面向 JDBC 接口的操作，就能对所有类型数据库进行增删改查的操作。 JDBC的编程步骤 向数据库Java2601 的employee表插入一条记录：tom123,8000,5001 1. 将MySQL数据库的驱动（jar包）添加到工程的类库中 mysql的驱动jar包拷贝到工程根目录的lib目录中 lib文件夹 右键"
+image: ""
+tags: ["MySQL", "Java", "JDBC", "数据库编程"]
+category: "MySQL"
 draft: false
-series: MySQL基础
+featured: false
+lang: ""
+series: "MySQL基础"
 seriesOrder: 3
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 # JDBC
@@ -752,3 +758,4 @@ public class Main {
         }
     }
 }
+

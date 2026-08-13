@@ -1,12 +1,17 @@
 ---
-title: 微调篇--基于PyTorch微调T5模型
+title: "微调篇--基于PyTorch微调T5模型"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Fine-tuning']
-category: 'Fine-tuning'
+description: "& x20; 前言 本次分享如何在和中运行示例摘要训练脚本 设置 要成功运行示例脚本的最新版本，您必须在新虚拟环境中 从源代码安装 \\ \\ & xD83E;� Transformers\\ \\ ： 然后切换您clone的 🤗 Transformers 仓到特定的版本，例如v3.5.1： git checkout tags/v3.5.1 在安装了正确的库版本后，进入您选择的版本的 example 文"
+image: ""
+tags: ["Fine-tuning"]
+category: "Fine-tuning"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 &#x20;
 
@@ -290,4 +295,5 @@ python examples/pytorch/summarization/run_summarization.py
     --overwrite_output_dir \
     --predict_with_generate
 ```
+
 

@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-基于SQL实现数据分析问答
+title: "LangChain篇-基于SQL实现数据分析问答"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、需求 基于 LangChain 和 Streamlit 的 Web 应用，用于使用 LLM 和嵌入从 SQLite 数据库中搜索相关的 offer。用户可以输入与品牌、类别或零售商相关的搜索查询，也支持通过 SQL 语句进行搜索，应用程序将从数据库中检索并显示相关的 offer。该应用使用 OpenAI API 进行自然语言处理和嵌入生成。 SQLite 官网：<https://www.sql"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、需求
 
@@ -314,4 +319,5 @@ streamlit  csv_search.py
 **问题3：RED GOLD**
 
 ![](./LangChain篇-基于SQL实现数据分析问答_assets/LangChain篇-基于SQL实现数据分析问答-image.png)
+
 

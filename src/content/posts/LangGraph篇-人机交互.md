@@ -1,12 +1,17 @@
 ---
-title: LangGraph篇-人机交互
+title: "LangGraph篇-人机交互"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangGraph']
-category: 'LangGraph'
+description: "Human in the loop 人机交互 （或称“在循环中”）工作流将人类输入整合到自动化过程中，在关键阶段允许决策、验证或修正。这在 基于 LLM 的应用 中尤其有用，因为基础模型可能会产生偶尔的不准确性。在合规、决策或内容生成等低误差容忍场景中，人类的参与通过允许审查、修正或覆盖模型输出来确保可靠性。 使用案例 基于 LLM 应用中的 人机交互 工作流的关键使用案例包括： 1. ：人类可以"
+image: ""
+tags: ["LangGraph"]
+category: "LangGraph"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## **Human-in-the-loop(人机交互)**
 
@@ -275,4 +280,5 @@ else:
 ---Step 1---
     ---Step 2---
 ```
+
 

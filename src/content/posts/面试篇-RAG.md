@@ -1,12 +1,17 @@
 ---
-title: 面试篇-RAG
+title: "面试篇-RAG"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['Interview', 'RAG']
-category: 'Interview'
+description: "一、LLMs 已经具备了较强能力了，存在哪些不足点? 在 LLM 已经具备了较强能力的基础上，仍然存在以下问题： 幻觉问题 ：LLM 文本生成的底层原理是基于概率的 token by token 的形式，因此会不可避免地产生 “一本正经的胡说八道” 的情况。 时效性问题 ：LLM 的规模越大，大模型训练的成本越高，周期也就越长。那么具有时效性的数据也就无法参与训练，所以也就无法直接回答时效性相关的"
+image: ""
+tags: ["Interview", "RAG"]
+category: "Interview"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 
 
@@ -679,3 +684,4 @@ RA-CM3 是一个检索增强的多模态模型，其包含了一个信息检索�
 * 对所有任务都无差别检索 k 个文本片段，效率不高，同时会大大增加模型输入的长度；
 
 * 无法引用来源，也因此无法精准地查证事实，检索的真实性取决于数据源及检索算法。
+

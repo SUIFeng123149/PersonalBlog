@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--开源技术FlashMLA详解
+title: "Deepseek篇--开源技术FlashMLA详解"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "2 月 24 日，DeepSeek 启动 “开源周”，首个开源的代码库为 FlashMLA。DeepSeek 这种挤牙膏式的宣推手段也是很有意思，看来梁文锋团队不仅仅是技术派，也擅长玩技术流量 IP。 1 FlashMLA 简介 FlashMLA 是由 depseek ai （深度求索）开发的一个开源项目，针对 GPU（例如 H100 或 H800）的高效的 MLA 推断（Inference）解码"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-UCTKbPvXRoWcYKxtD7BcHLa0nrb.png)
 
@@ -197,4 +202,5 @@ FlashMLA 是 DeepSeek 团队在 AI 性能优化领域的重要成果，实现了
 2）鼓励开发者实现与现有加速框架（如 vLLM、SGLang 等）的集成。
 
 强烈建议 OpenAI 把域名送给 DeepSeek。
+
 

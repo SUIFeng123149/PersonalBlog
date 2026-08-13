@@ -1,12 +1,17 @@
 ---
-title: 大模型介绍篇-AutoDL（云服务器）
+title: "大模型介绍篇-AutoDL（云服务器）"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LLM Introduction', 'LLM']
-category: 'LLM Introduction'
+description: "AutoDL可以方便我们在没有计算资源或者计算资源不足的时候学习本地部署大模型 本节内容 1. AutoDL介绍与快速开始 2. 如何选择GPU服务器 3. 如何使用JupyterLab和SSH远程连接 4. Conda环境安装与PyCharm远程开发 快速开始 AutoDL 是一个专注于提供深度学习算力的云平台。它通过提供高性能的 GPU 资源，帮助用户轻松应对复杂的深度学习任务，同时保持成本的"
+image: ""
+tags: ["LLM Introduction", "LLM"]
+category: "LLM Introduction"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ### **AutoDL可以方便我们在没有计算资源或者计算资源不足的时候学习本地部署大模型**
 
@@ -338,4 +343,5 @@ HuggingFace镜像站：<https://hf-mirror.com/>
 使用加速：
 
 ![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-L0nubgGaqoiXrSxaFktcA7hRn8f.png)
+
 

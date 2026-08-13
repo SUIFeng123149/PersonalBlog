@@ -1,12 +1,17 @@
 ---
-title: LangChain篇-提示词工程应用实践
+title: "LangChain篇-提示词工程应用实践"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['LangChain']
-category: 'LangChain'
+description: "一、Prompt templates（提示词模板） 语言模型以文本作为输入，这个文本通常被称为提示词（prompt）。在开发过程中，对于提示词通常不能直接硬编码，不利于提示词管理，而是通过提示词模板进行维护，类似开发过程中遇到的短信模板、邮件模板等等。 1. 什么是提示词模板？ 提示词模板本质上跟平时大家使用的邮件模板、短信模板没什么区别，就是一个字符串模板，模板可以包含一组模板参数，通过模板参数"
+image: ""
+tags: ["LangChain"]
+category: "LangChain"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 ## 一、Prompt templates（提示词模板）
 
@@ -269,4 +274,5 @@ prompt = FewShotPromptTemplate(
 
 print(prompt.format(input="乔治·华盛顿的父亲是谁？"))
 ```
+
 

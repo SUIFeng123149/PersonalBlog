@@ -1,12 +1,17 @@
 ---
-title: Deepseek篇--开源技术DeepEP详解
+title: "Deepseek篇--开源技术DeepEP详解"
 published: 2026-07-29
-description: ''
-image: ''
-tags: ['DeepSeek']
-category: 'DeepSeek'
+description: "2 月 24 日，DeepSeek 启动 “开源周”，第二个开源的代码库为 DeepEP。很好，又挤了一段有硬件基因的牙膏出来。H100/H800 绝对是 DeepSeek 的小心肝。 1 DeepEP 简介 DeepEP 是由 deepseek ai （深度求索）开发的一个开源项目。DeepEP 针对混合专家（MoE）+ 专家并行（EP）模型架构设计的通信库。MoE 是由多个专家子网络组成的大模"
+image: ""
+tags: ["DeepSeek"]
+category: "DeepSeek"
 draft: false
-lang: zh-CN
+featured: false
+lang: "zh-CN"
+series: ""
+status: verified
+testedOn: ""
+lastVerified: 2026-08-13
 ---
 2 月 24 日，DeepSeek 启动 “开源周”，第二个开源的代码库为 DeepEP。很好，又挤了一段有硬件基因的牙膏出来。H100/H800 绝对是 DeepSeek 的小心肝。
 
@@ -125,4 +130,5 @@ DeepEP 目前仍处于早期阶段，最新提交日期为 2025 年 2 月 25 日
 3）与其他开源框架集成：可能与更多 AI 框架或库集成，进一步提升兼容性和开发便利性。
 
 DeepEP 作为 DeepSeek 技术栈的重要组成部分，展示了在 MoE 模型通信优化上的创新潜力。其开源代码为促进全球高效训练和推理提供了坚实基础，未来可能在性能优化和硬件兼容性上进一步扩展。在全球 AI 竞争的背景下这种开源精神值得赞许。
+
 
