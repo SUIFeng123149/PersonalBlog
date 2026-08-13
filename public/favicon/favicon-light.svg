@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 浅色主题 favicon：白底 + 紫色云朵小屋 -->
+  <rect width="512" height="512" rx="116" fill="#FFFFFF"/>
+  <g fill="#7C6CF6">
+    <!-- 云朵 -->
+    <circle cx="198" cy="152" r="42"/>
+    <circle cx="314" cy="152" r="42"/>
+    <circle cx="256" cy="112" r="52"/>
+    <rect x="170" y="148" width="172" height="44" rx="22"/>
+    <!-- 尖顶屋檐 -->
+    <path d="M204 250 L256 192 L308 250 Z"/>
+    <!-- 房身 -->
+    <rect x="212" y="250" width="88" height="110" rx="14"/>
+  </g>
+  <!-- 圆窗 -->
+  <circle cx="256" cy="296" r="18" fill="#FFFFFF"/>
+  <!-- 门 -->
+  <rect x="238" y="326" width="36" height="34" rx="9" fill="#FFFFFF" opacity="0.9"/>
+</svg>
