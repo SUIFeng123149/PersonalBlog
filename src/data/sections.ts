@@ -43,7 +43,6 @@ export const contentSections = [
     "icon": "material-symbols:edit-note-rounded",
     "categories": [
       "随笔",
-      "日记",
       "生活",
       "思考"
     ]
