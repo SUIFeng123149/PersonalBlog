@@ -49,10 +49,15 @@ const TECHNICAL_CATEGORIES = new Set([
 	"LLM Introduction",
 	"MCP",
 	"Multi-Agent",
+	"MyBatisPlus",
 	"MySQL",
 	"OpenAI",
 	"Prompt Engineering",
 	"RAG",
+	"Spring",
+	"SpringBoot",
+	"SpringMVC",
+	"SpringSecurity",
 	"Web",
 ]);
 

@@ -19,6 +19,11 @@ describe("content sections", () => {
 	it("classifies configured technical categories as technical", () => {
 		expect(getContentSection("AI Agent")).toBe("technical");
 		expect(getContentSection("JavaSE")).toBe("technical");
+		expect(getContentSection("Spring")).toBe("technical");
+		expect(getContentSection("SpringBoot")).toBe("technical");
+		expect(getContentSection("SpringMVC")).toBe("technical");
+		expect(getContentSection("SpringSecurity")).toBe("technical");
+		expect(getContentSection("MyBatisPlus")).toBe("technical");
 	});
 
 	it("classifies configured diary and game categories", () => {
