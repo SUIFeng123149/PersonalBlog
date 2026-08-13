@@ -17,7 +17,7 @@ lastVerified: 2026-07-31
 
 点击[这里](https://www.coze.cn/template/agent/7416568788059111474?)体验客服陪练智能体。
 
-![](./Coze篇-搭建客服陪练智能体_assets/Coze篇-搭建客服陪练智能体-JtvFbejtdoqhzDxF3Cgc1yQinnB.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93-JtvFbejtdoqhzDxF3Cgc1yQinnB.png)
 
 ## 一、模板介绍
 
@@ -45,7 +45,7 @@ lastVerified: 2026-07-31
 
 **订餐客服陪练**模板采用工作流模式编排，主要功能通过工作流实现。工作流的设计思路如下：
 
-![](./Coze篇-搭建客服陪练智能体_assets/Coze篇-搭建客服陪练智能体-Xxhwb6v4Eo0NClxc8tUcEwSZnNg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93-Xxhwb6v4Eo0NClxc8tUcEwSZnNg.png)
 
 各功能模块的实现方式如下：
 
@@ -95,7 +95,7 @@ lastVerified: 2026-07-31
 
 在创建人设的工作流 create\_user 中，需要修改代码节点自动生成的人设、修改变量节点设置的变量名称。例如：
 
-![](./Coze篇-搭建客服陪练智能体_assets/Coze篇-搭建客服陪练智能体-SdoDb9kleoTNMlxs6PUceivzng6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93-SdoDb9kleoTNMlxs6PUceivzng6.png)
 
 各个阶段的修改方式如下：
 
@@ -121,6 +121,6 @@ assessment 工作流负责完成考核。在这个工作流中，你需要修改
 
 2. 完成测试后可单击**发布**，将智能体发布到你需要的任何渠道中使用。
 
-![](./Coze篇-搭建客服陪练智能体_assets/Coze篇-搭建客服陪练智能体-OxIabeC9kogrVTxff3icxs8qnFc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E5%AE%A2%E6%9C%8D%E9%99%AA%E7%BB%83%E6%99%BA%E8%83%BD%E4%BD%93-OxIabeC9kogrVTxff3icxs8qnFc.png)
 
 

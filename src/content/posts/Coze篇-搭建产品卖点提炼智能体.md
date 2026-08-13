@@ -27,7 +27,7 @@ lastVerified: 2026-07-31
 
 单击[此处](https://www.coze.cn/template/workflow/7423727933803511844)，体验卖点提炼模板\*\*。\*\*
 
-![](./Coze篇-搭建产品卖点提炼智能体_assets/Coze篇-搭建产品卖点提炼智能体-RY96bUZ2Po9Yauxw0Y3cdu9Unyg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93-RY96bUZ2Po9Yauxw0Y3cdu9Unyg.png)
 
 
 
@@ -35,7 +35,7 @@ lastVerified: 2026-07-31
 
 **卖点提炼**模板为工作流模板，其中使用了大模型、图像流等节点分别生成自媒体文案、文生图 Prompt 和内容配图。整体设计思路如下：
 
-![](./Coze篇-搭建产品卖点提炼智能体_assets/Coze篇-搭建产品卖点提炼智能体-XkGmbK2vjoTCrVxRVsFcjenQnvg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93-XkGmbK2vjoTCrVxRVsFcjenQnvg.png)
 
 各个功能模块的实现方式如下：
 
@@ -51,7 +51,7 @@ lastVerified: 2026-07-31
 
 2. 选择工作流所属空间，然后单击**复制并继续编辑**。
 
-![](./Coze篇-搭建产品卖点提炼智能体_assets/Coze篇-搭建产品卖点提炼智能体-d11155994fd274f56d27c882f28e1fb7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93-d11155994fd274f56d27c882f28e1fb7.png)
 
 ### 步骤二：（可选）修改工作流
 
@@ -61,7 +61,7 @@ lastVerified: 2026-07-31
 
 当前工作流的生成大纲节点提示词中输入了原始的产品介绍文档内容、卖点汇总的内容，在产品介绍文档内容量非常大时，可能会消耗大量的模型 Token。如果在你的业务场景中经常需要一次性分析多个产品介绍文档，为了降低成本，你也可以在提示词中删除产品介绍，也就是删除下图中的红框部分，让模型直接参考产品名称及提炼好的卖点来生成 PR 稿件大纲。
 
-![](./Coze篇-搭建产品卖点提炼智能体_assets/Coze篇-搭建产品卖点提炼智能体-FR9WbDqC0ovWR6xHa9zcmH7FnIc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93-FR9WbDqC0ovWR6xHa9zcmH7FnIc.png)
 
 #### 生成 PR 稿件
 
@@ -71,7 +71,7 @@ lastVerified: 2026-07-31
 
 * 你也可以按需优化大纲生成节点的模型提示词，例如将示例替换为当前业务场景下的典型 PR 稿件大纲示例，使生成的大纲更符合业务场景的需求。
 
-![](./Coze篇-搭建产品卖点提炼智能体_assets/Coze篇-搭建产品卖点提炼智能体-KLBSbJvbQo8IJAxfFmlc1ZlCnvg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BA%A7%E5%93%81%E5%8D%96%E7%82%B9%E6%8F%90%E7%82%BC%E6%99%BA%E8%83%BD%E4%BD%93-KLBSbJvbQo8IJAxfFmlc1ZlCnvg.png)
 
 相关节点说明如下：
 

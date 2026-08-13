@@ -131,7 +131,7 @@ lastVerified: 2026-08-13
 
 1. 在底部面板中选择要使用的节点
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-YqLxbOUWooQcR7x0sMJcafrDn8c.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-YqLxbOUWooQcR7x0sMJcafrDn8c.png)
 
 * 将各个节点相连接。
 
@@ -157,11 +157,11 @@ lastVerified: 2026-08-13
 
 3. 在**添加工作流**对话框，在**我创建的**页面选择自建的工作流。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-RSK6bR53kokBrzxxyTKcbXsBnfd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-RSK6bR53kokBrzxxyTKcbXsBnfd.png)
 
 * 在智能体的**人设与回复逻辑**区域，引用工作流的名称来调用工作流。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-NS8mbSx7voYuvDxmbXgcFcQanld.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-NS8mbSx7voYuvDxmbXgcFcQanld.png)
 
 **设置工作流异步运行**
 
@@ -189,17 +189,17 @@ lastVerified: 2026-08-13
 
 1. 在指定工作流右侧单击**设置**。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-VG1YbsNp9oXQ9mx0Ru3cxzkfnPf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-VG1YbsNp9oXQ9mx0Ru3cxzkfnPf.png)
 
 * 开启**异步运行**，并设置**回复内容**。
 
   * 回复内容是工作流在异步运行时，智能体回复用户的默认文案。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-NE0ibiAWioRGI0xMkq0cqLHwnTn.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-NE0ibiAWioRGI0xMkq0cqLHwnTn.png)
 
 异步运行效果：
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-HThdbrYuHoQXWxxwYefcInEbnvL.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-HThdbrYuHoQXWxxwYefcInEbnvL.png)
 
 **在应用中添加工作流**
 
@@ -215,7 +215,7 @@ lastVerified: 2026-08-13
 
 * 复制后，你可以对这个工作流进行修改。在项目中对工作流的修改不影响资源库中的工作流。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-VmNRboFL7osmqdxdZ7vcBs2Knrh.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-VmNRboFL7osmqdxdZ7vcBs2Knrh.webp)
 
 添加工作流后，你可以根据实际需求修改节点配置，或新增新的节点。
 
@@ -237,7 +237,7 @@ lastVerified: 2026-08-13
 
 如果工作流已添加至智能体，在删除时会同步删除智能体中的工作流。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-4d5462783bc24e488c31e3b7562848a7~tplv-goo7wpa0wc-quality_q75.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-4d5462783bc24e488c31e3b7562848a7~tplv-goo7wpa0wc-quality_q75.png)
 
 
 
@@ -261,7 +261,7 @@ lastVerified: 2026-08-13
 
 * 如下图所示，点击导入图标后，在展开的面板中输入 JSON 数据，然后单击**同步JSON到节点**就可以自动导入输入参数。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-Cx0xbTkWioOn2LxChcncsboIn5b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-Cx0xbTkWioOn2LxChcncsboIn5b.png)
 
 * **参数描述**：参数的描述信息，帮助模型理解传入的参数含义。将工作流绑定到智能体中使用时，模型会自动分析用户的 Query，将 Query 中表达的信息填入对应的参数中。
 
@@ -337,7 +337,7 @@ lastVerified: 2026-08-13
 
 大模型节点支持**异常忽略**功能。开启此功能后，如果试运行工作流时此节点运行失败，工作流不会中断，而是继续运行后续下游节点。如果下游节点引用了此节点的输出内容，则使用此节点预先配置的默认输出内容。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-J6Bub0OGCowBJexLGMcc54wsnUd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-J6Bub0OGCowBJexLGMcc54wsnUd.png)
 
 #### 2.3 常见问题
 
@@ -353,7 +353,7 @@ lastVerified: 2026-08-13
 
 参数的名称和描述有助于模型在参数中正确返回匹配的内容。当存在多个输出参数时，建议为输出参数指定有意义的名称，并设置描述信息。例如用于改写 Query 的模型节点，可以设置输出参数为 new\_query，描述是改写后的 Query，另一个参数为 reason，描述是改写原因。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-DNu6bLzLwoze7AxEkkBc71ofnHf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-DNu6bLzLwoze7AxEkkBc71ofnHf.png)
 
 
 
@@ -437,7 +437,7 @@ lastVerified: 2026-08-13
 
 您可以为智能体设置触发器（Triggers），使智能体在特定时间或接收到特定事件时自动执行任务。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-L0qYbWlVUoV7Z5xMXp2crf63nMb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-L0qYbWlVUoV7Z5xMXp2crf63nMb.webp)
 
 ### 1. 什么是触发器
 
@@ -459,7 +459,7 @@ lastVerified: 2026-08-13
 
 在智能体编排页面的**触发器**区域，开启**允许用户在与智能体对话时创建定时任务**开关，用户在与智能体对话时可以根据自然语言创建定时任务。例如发送一条消息每天早上8:00推送今天的新闻。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-NG9QbIdPUoeRlexvy6tcGFhln6d.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-NG9QbIdPUoeRlexvy6tcGFhln6d.webp)
 
 你也可以设置一条开场白预置问题，提示用户以对话方式创建定时任务。
 
@@ -479,7 +479,7 @@ lastVerified: 2026-08-13
 
 例如创建一个定时任务，每天8:00练习口语。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-GcHybNUkfow0dWxZHjBcC6sKn2c.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-GcHybNUkfow0dWxZHjBcC6sKn2c.webp)
 
 #### 4.2 事件触发器
 
@@ -487,7 +487,7 @@ lastVerified: 2026-08-13
 
 示例如下：
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-T8AtbEkbHos9XkxqiYRcvjeEnmg.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-T8AtbEkbHos9XkxqiYRcvjeEnmg.webp)
 
 
 
@@ -495,7 +495,7 @@ lastVerified: 2026-08-13
 
 在开发调试阶段，您可以在智能体编排页面的**预览与调试**区域，单击**技能** > **触发器**，运行某一事件触发器，进行调试。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-8de1219d73c84adb8a731443b6c7b8fb~tplv-goo7wpa0wc-quality_q75.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-8de1219d73c84adb8a731443b6c7b8fb~tplv-goo7wpa0wc-quality_q75.png)
 
 当智能体发布后，则需要向触发器的 Webhook URL 发送 HTTPS POST 请求，触发任务执行。
 

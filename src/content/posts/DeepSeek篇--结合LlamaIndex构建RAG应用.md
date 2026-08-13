@@ -39,7 +39,7 @@ RAG是一种用额外数据增强大语言模型知识的技术。
 
 LangChain有许多组件旨在帮助构建问答应用，以及更广泛的RAG应用。
 
-![](./DeepSeek篇--结合LlamaIndex构建RAG应用_assets/DeepSeek篇--结合LlamaIndex构建RAG应用-Dm9mbHEmMoQCB1xDaOKcjpi6n13.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8_assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8-Dm9mbHEmMoQCB1xDaOKcjpi6n13.png)
 
 
 
@@ -59,7 +59,7 @@ LangChain有许多组件旨在帮助构建问答应用，以及更广泛的RAG�
 
 3. **存储(Store)**：我们需要一个地方来存储和索引我们的分割(splits)，以便后续可以对其进行搜索。这通常使用向量存储[VectorStore](https://blog.frognew.com/library/agi/langchain/components/vector-stores.html)和嵌入模型[Embeddings model](https://blog.frognew.com/library/agi/langchain/components/embedding-models.html)来完成。
 
-![](./DeepSeek篇--结合LlamaIndex构建RAG应用_assets/DeepSeek篇--结合LlamaIndex构建RAG应用-AFNLbMpCooFhORxv5ptcARFnn4b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8_assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8-AFNLbMpCooFhORxv5ptcARFnn4b.png)
 
 #### 检索和生成(Retrieval and generation)&#x20;
 
@@ -120,7 +120,7 @@ assistant: 你叫什么名字？（用中文回答）
 
 在运行上面代码，模型推理的时候大概需要 2-4G 显存，我这个 4G 的，所以模型选择根据自己显存大小。
 
-![](./DeepSeek篇--结合LlamaIndex构建RAG应用_assets/DeepSeek篇--结合LlamaIndex构建RAG应用-P2s5bUo1uoKOBexmdhjcFybGnef.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8_assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8-P2s5bUo1uoKOBexmdhjcFybGnef.png)
 
 ## 三、复现幻觉
 
@@ -360,17 +360,17 @@ print(rsp)
 
 ### 6. 向量数据
 
-![](./DeepSeek篇--结合LlamaIndex构建RAG应用_assets/DeepSeek篇--结合LlamaIndex构建RAG应用-CZJ8b4GmRoOovOxibCic9F7Bnph.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8_assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8-CZJ8b4GmRoOovOxibCic9F7Bnph.png)
 
 数据持久化后会生成一个 storage 文件夹, 里面有几个 json 文件.
 
 其中 default\_vector\_store.json 就是本地数据转存的向量表.可以看到这个向量表所值就是一个 - 1 到 1 的归一化的符合正态分布的向量表.
 
-![](./DeepSeek篇--结合LlamaIndex构建RAG应用_assets/DeepSeek篇--结合LlamaIndex构建RAG应用-OkKDbtSL3odn3qxUugUc81XDn0g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8_assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8-OkKDbtSL3odn3qxUugUc81XDn0g.png)
 
 ### 7. 运行结果
 
-![](./DeepSeek篇--结合LlamaIndex构建RAG应用_assets/DeepSeek篇--结合LlamaIndex构建RAG应用-SHb6bGaTronC5Rx5liich2oxnJb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8_assets/DeepSeek%E7%AF%87--%E7%BB%93%E5%90%88LlamaIndex%E6%9E%84%E5%BB%BARAG%E5%BA%94%E7%94%A8-SHb6bGaTronC5Rx5liich2oxnJb.png)
 
 ## 五、总结
 

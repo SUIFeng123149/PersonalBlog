@@ -3,11 +3,62 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
+import { createRequire } from 'module';
+import { readFileSync } from 'fs';
 
+const require = createRequire(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const feishuDir = path.resolve(__dirname, '../src/FeiShu');
 const postsDir = path.resolve(__dirname, '../src/content/posts');
 const tempDir = path.resolve(process.env.TEMP || '/tmp', 'feishu_extract');
+
+// ---- Alibaba Cloud OSS (blog media storage) ----
+function loadOssEnv() {
+  const envText = readFileSync(path.resolve(__dirname, '../.env.admin'), 'utf8');
+  const env = {};
+  for (const line of envText.split(/\r?\n/)) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
+    if (m && !m[2].startsWith('#')) env[m[1]] = m[2].replace(/^['"]|['"]$/g, '');
+  }
+  return env;
+}
+
+function getOssClient() {
+  const env = loadOssEnv();
+  if (!env.OSS_BUCKET || !env.OSS_ACCESS_KEY_ID || !env.OSS_ACCESS_KEY_SECRET) {
+    console.warn('  WARN: OSS 未配置（.env.admin），图片将保留为本地 _assets 目录');
+    return null;
+  }
+  const OSS = require('ali-oss');
+  return new OSS({
+    region: env.OSS_REGION || 'oss-cn-beijing',
+    bucket: env.OSS_BUCKET,
+    accessKeyId: env.OSS_ACCESS_KEY_ID,
+    accessKeySecret: env.OSS_ACCESS_KEY_SECRET,
+  });
+}
+
+const ossClient = getOssClient();
+
+async function uploadImageToOss(assetsRelativePath, srcPath) {
+  if (!ossClient) return null;
+  const env = loadOssEnv();
+  const baseUrl = `https://${env.OSS_BUCKET}.${env.OSS_REGION || 'oss-cn-beijing'}.aliyuncs.com`;
+  const data = fs.readFileSync(srcPath);
+  const ext = path.extname(srcPath).toLowerCase();
+  const contentType = {
+    '.png': 'image/png',
+    '.jpg': 'image/jpeg',
+    '.jpeg': 'image/jpeg',
+    '.webp': 'image/webp',
+    '.gif': 'image/gif',
+    '.svg': 'image/svg+xml',
+  }[ext] || 'application/octet-stream';
+  await ossClient.put(assetsRelativePath, data, {
+    headers: { 'Content-Type': contentType, 'Cache-Control': 'public, max-age=31536000, immutable' },
+  });
+  return `${baseUrl}/${assetsRelativePath}`;
+}
 
 // Clean temp
 if (fs.existsSync(tempDir)) fs.rmSync(tempDir, { recursive: true, force: true });
@@ -190,26 +241,44 @@ for (const file of zipFiles) {
   // Process images if images folder exists
   const imagesDir = path.join(extractDir, 'images');
   if (fs.existsSync(imagesDir)) {
-    const assetsDir = path.join(postsDir, `${finalName}_assets`);
-    fs.mkdirSync(assetsDir, { recursive: true });
-    
     const imageFiles = fs.readdirSync(imagesDir).filter(f => {
       const fullPath = path.join(imagesDir, f);
       return fs.statSync(fullPath).isFile();
     });
-    
-    for (const img of imageFiles) {
-      fs.copyFileSync(path.join(imagesDir, img), path.join(assetsDir, img));
+
+    let useOss = ossClient !== null;
+    let imageMap = {};
+    if (useOss) {
+      // 上传到 OSS：post-assets/{finalName}_assets/{img}，引用改为 OSS 绝对 URL
+      for (const img of imageFiles) {
+        const key = `post-assets/${finalName}_assets/${img}`;
+        const url = await uploadImageToOss(key, path.join(imagesDir, img));
+        if (url) imageMap[img] = url;
+        else { useOss = false; break; }
+      }
     }
-    
-    // Update image references in markdown
-    // Pattern: ![](<images/filename>) and ![](images/filename) and ![alt](<images/filename>) and ![alt](images/filename)
-    content = content.replace(/!\[([^\]]*)\]\(<images\/([^>]+)>\)/g, `![$1](./${finalName}_assets/$2)`);
-    content = content.replace(/!\[([^\]]*)\]\(images\/([^)]+)\)/g, `![$1](./${finalName}_assets/$2)`);
-    content = content.replace(/!\[\]\(<images\/([^>]+)>\)/g, `![](./${finalName}_assets/$1)`);
-    content = content.replace(/!\[\]\(images\/([^)]+)\)/g, `![](./${finalName}_assets/$1)`);
-    
-    console.log(`    Images: ${imageFiles.length} files moved to ${finalName}_assets`);
+
+    if (useOss) {
+      // 用每个文件名替换引用
+      for (const img of imageFiles) {
+        content = content.split(`images/${img}`).join(imageMap[img]);
+        content = content.split(`images%2F${img}`).join(encodeURI(imageMap[img]));
+      }
+      console.log(`    Images: ${imageFiles.length} files uploaded to OSS (${finalName}_assets)`);
+    } else {
+      const assetsDir = path.join(postsDir, `${finalName}_assets`);
+      fs.mkdirSync(assetsDir, { recursive: true });
+      for (const img of imageFiles) {
+        fs.copyFileSync(path.join(imagesDir, img), path.join(assetsDir, img));
+      }
+      // Update image references in markdown
+      // Pattern: ![](<images/filename>) and ![](images/filename) and ![alt](<images/filename>) and ![alt](images/filename)
+      content = content.replace(/!\[([^\]]*)\]\(<images\/([^>]+)>\)/g, `![$1](./${finalName}_assets/$2)`);
+      content = content.replace(/!\[([^\]]*)\]\(images\/([^)]+)\)/g, `![$1](./${finalName}_assets/$2)`);
+      content = content.replace(/!\[\]\(<images\/([^>]+)>\)/g, `![](./${finalName}_assets/$1)`);
+      content = content.replace(/!\[\]\(images\/([^)]+)\)/g, `![](./${finalName}_assets/$1)`);
+      console.log(`    Images: ${imageFiles.length} files moved to ${finalName}_assets`);
+    }
   }
   
   const category = getCategory(finalName);

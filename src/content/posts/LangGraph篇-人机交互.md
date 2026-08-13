@@ -95,7 +95,7 @@ graph.invoke(Command(resume=value_from_human), config=thread_config)
 
 ### **批准或拒绝**
 
-![](./LangGraph篇-人机交互_assets/LangGraph篇-人机交互-DQkPbBSYYoFycax0iB8cHyFsnlh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92_assets/LangGraph%E7%AF%87-%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92-DQkPbBSYYoFycax0iB8cHyFsnlh.png)
 
 *根据人类的批准或拒绝，图形可以继续执行操作或采取替代路径。*
 
@@ -211,7 +211,7 @@ with open("breakpoints_case.png", "wb") as f:
     f.write(graph_png)
 ```
 
-![](./LangGraph篇-人机交互_assets/LangGraph篇-人机交互-GS66bHWkDoySYdxpu9PczDOhnKf.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92_assets/LangGraph%E7%AF%87-%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92-GS66bHWkDoySYdxpu9PczDOhnKf.jpg)
 
 我们为检查点创建一个 [线程 ID](https://github.langchain.ac.cn/langgraph/concepts/low_level/#threads)。
 

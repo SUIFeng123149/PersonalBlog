@@ -19,15 +19,15 @@ lastVerified: 2026-08-13
 
 **第一步：点击官网，并进行注册**
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image.png)
 
 **第二步：选择模式（单/多agent）**
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-1.png)
 
 **第三步：配置对话流**
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-UbDzbcKzeoX4fuxTg7ScunZdnVf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-UbDzbcKzeoX4fuxTg7ScunZdnVf.png)
 
 **这一步是智能客服智能体里面的重要设置环节，通俗的来说，你可以配置流程，设置提示词，配置角色名称、角色设置、开场白。也可以设置调用的组件，其中知识库中，除了可以根据行业、产品、用户、业务场景、客服场景设计相应的内容，也可以设置召回量，最小匹配度等。**
 
@@ -35,21 +35,21 @@ lastVerified: 2026-08-13
 
 1、链式工作流（Chain Workflow）模式：第一，每个大语言模型的调用顺序是固定的。第二，链式工作流上一个步骤的输出结果，作为下一个步骤的输入。&#x20;
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-F1VHbiEzbo1ueHxOxv8cuw3snme.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-F1VHbiEzbo1ueHxOxv8cuw3snme.png)
 
 2、并行化工作流（Parallelization Workflow）模式：第一，同时调用多个大语言模型，并行处理，这些调用可以同时进行，无需等待其他大语言模型调用完成。第二，输出结果前，采用聚合器，整合之前调用多个大语言模型。&#x20;
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-JCQqbxQiEoFSTAxUn6FcqgqFnFe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-JCQqbxQiEoFSTAxUn6FcqgqFnFe.png)
 
 3、路由工作流（Routing Workflow）模式：第一，先由路由器判断任务分配给哪个大语言模型，路由器根据输入数据的特征、内容或其他相关因素，决定将数据发送到哪个大语言模型。第二，大语言模型根据路由器分配，处理相关任务。&#x20;
 
 4、编排器-工作者（Orchestrator-Worker）模式：并行化工作流和路由工作流的结合。第一，编排器分配任务给不同的大语言模型。第二，合成器将不同LLM调用的结果进行综合处理，生成输出。&#x20;
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-Ksxeb1GWeovpuJxyPfGc39vEn4d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-Ksxeb1GWeovpuJxyPfGc39vEn4d.png)
 
 5、评估器-优化器（Evaluator-Optimizer）模式：第一，生成器生成结果，评估器给出迭代优化策略。第二，生成器和评估器互相配合，持续优化，输出最优结果。&#x20;
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-GBUsbXMvYoRkBUxHbMRcAuQmngh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-GBUsbXMvYoRkBUxHbMRcAuQmngh.png)
 
 提示词工程这里说人话就是帮助机器更好的理解你的问题你的情景你要解决的问题你要了解的信息，你可以通过提示词，决定你的客服是活泼的、理性的，回复是简洁高效还是全面严谨，设置她的回复偏好等等。下面是现在较为**主流的提示词工程模型**：&#x20;
 
@@ -93,9 +93,9 @@ lastVerified: 2026-08-13
 
 **第五步：测试调优，与发布**   &#x20;
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-GLcpbff3foQ3AvxQrwzcFJDsnPd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-GLcpbff3foQ3AvxQrwzcFJDsnPd.png)
 
 **第六步：和微信公众号等外部应用链接API（可选）**
 
-![](./智能客服搭建实战篇--dify智能客服_assets/智能客服搭建实战篇--dify智能客服-CvpWbL91BoAFrixUmPVc7HPvn6T.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E7%AF%87--dify%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-CvpWbL91BoAFrixUmPVc7HPvn6T.png)
 

@@ -22,7 +22,7 @@ lastVerified: 2026-08-13
 
 智能体（Agent）作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-HCvDbOQzhoyFnhx6MDGcjfdzndg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-HCvDbOQzhoyFnhx6MDGcjfdzndg.png)
 
 其规划模块整合了思维链推演、自我反思机制及目标分解技术，形成闭环式认知增强系统。
 
@@ -30,7 +30,7 @@ lastVerified: 2026-08-13
 
 这种具备认知进化能力的系统，能够在开放动态场景中实现策略的动态调优，最终达成复杂任务的高效处理与目标的最优解。
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-L2XrbO81Vo3uMDxzjbYcaCSpnSc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-L2XrbO81Vo3uMDxzjbYcaCSpnSc.png)
 
 ##### 2. OS Agent：操作系统智能体
 
@@ -44,7 +44,7 @@ OS Agent（操作系统智能体）作为新型智能体系统的前沿研究方
 
 * **行动空间：** 智能体可执行的操作集合，如点击、输入、滑动等
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-NAwUbC1EIoxhw7xdxIhcuHM7nig.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-NAwUbC1EIoxhw7xdxIhcuHM7nig.png)
 
 ##### 3. 智能体的主要分类
 
@@ -70,7 +70,7 @@ OS Agent（操作系统智能体）作为新型智能体系统的前沿研究方
 
 该技术突破不仅显著提升复杂任务的理解精度，更通过视觉-语义协同分析构建出动态推理路径，有效缩小了人机交互中的意图理解鸿沟。
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-SvKab4eqWoF5Q2x2h75c8nyYnIb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-SvKab4eqWoF5Q2x2h75c8nyYnIb.png)
 
 ##### 2. 感知与定位能力
 
@@ -90,7 +90,7 @@ OS Agent（操作系统智能体）作为新型智能体系统的前沿研究方
 
 * **迭代规划：** 根据环境反馈动态调整操作计划
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-TH4VbbyiMozWiYxSz6Wc5Voanqc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-TH4VbbyiMozWiYxSz6Wc5Voanqc.png)
 
 如MobileFlow采用的四步法（观察、推理、行动、总结）就是一种有效的迭代规划框架。
 
@@ -118,7 +118,7 @@ OpenAI的ComputerUse是一项革命性技术，它使AI代理能够直接操作�
 
 * **应用场景：** 自动化测试、探索式测试、回归测试、跨平台一致性测试等。
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-NWnIbVchToez1ixHzIackNPunyd.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-NWnIbVchToez1ixHzIackNPunyd.jpg)
 
 ##### 2. SpiritSight：视觉导向的GUI智能体
 
@@ -144,7 +144,7 @@ MobileFlow专注于移动设备场景的智能体设计：
 
 * **实际应用：** 已在软件测试和广告预览审核等场景成功部署
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-ZpJ9bFfp3omRX8xRm7ack3KCnqh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-ZpJ9bFfp3omRX8xRm7ack3KCnqh.png)
 
 ### 四、 智能体的应用场景
 
@@ -174,7 +174,7 @@ GUI自动化测试是智能体最成熟的应用场景之一：
 
 * **智能助手：** 执行复杂的多步骤任务，如预订旅行、安排会议等
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-TC3ybL9pFoGqcZxLbDZcPyZHnxc.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-TC3ybL9pFoGqcZxLbDZcPyZHnxc.jpg)
 
 ##### 3. 桌面系统任务自动化
 
@@ -188,7 +188,7 @@ GUI自动化测试是智能体最成熟的应用场景之一：
 
 * **创意工具：** 辅助图像编辑、视频剪辑等创意工作
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-P4SWbu5wEozgJHxWdT9cfOjwnHZ.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-P4SWbu5wEozgJHxWdT9cfOjwnHZ.jpg)
 
 ### 五、 智能体面临的挑战
 
@@ -218,7 +218,7 @@ GUI自动化测试是智能体最成熟的应用场景之一：
 
 * **潜在滥用：** 恶意使用智能体自动执行未授权操作
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-U4nRb4jMCokiC2x1kuacZA2EnmT.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-U4nRb4jMCokiC2x1kuacZA2EnmT.png)
 
 ##### 3. 部署与集成挑战
 
@@ -232,7 +232,7 @@ GUI自动化测试是智能体最成熟的应用场景之一：
 
 * **版本兼容性：** 应用界面不断更新，智能体需要持续适应新变化
 
-![](./Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结_assets/Agent是什么？一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！-G1V5bVtBfoz78Lx1QBbc7n5jnZg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93_assets/Agent%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agent%EF%BC%89%EF%BC%8C%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E4%B8%8D%E5%BE%97%E4%B8%8D%E7%9C%8B%E7%9A%84%E5%B9%B2%E8%B4%A7%E6%80%BB%E7%BB%93%EF%BC%81-G1V5bVtBfoz78Lx1QBbc7n5jnZg.png)
 
 ### 结语：智能体技术的影响与展望
 

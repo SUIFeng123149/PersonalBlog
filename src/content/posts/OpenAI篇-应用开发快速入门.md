@@ -29,7 +29,7 @@ lastVerified: 2026-08-13
 
   * **回应**：“黑洞是一个宇宙中极高密度的区域，其引力强大到光也无法逃脱。它是由大质量恒星坍缩形成的。”
 
-![](./OpenAI篇-应用开发快速入门_assets/OpenAI篇-应用开发快速入门-I1wobPKR9orwLHxgFSIcaGTXnwd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-I1wobPKR9orwLHxgFSIcaGTXnwd.png)
 
 ### **2.** **`temperature`（温度/文风的温度）**
 
@@ -61,7 +61,7 @@ lastVerified: 2026-08-13
 
 * 温度 = 1：模型会产生最大程度的创意和随机性，可能产生出奇不意的答案，但风险也更高。
 
-![](./OpenAI篇-应用开发快速入门_assets/OpenAI篇-应用开发快速入门-GdgtbbgWdoNerDxKtNWcCjeSnxc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-GdgtbbgWdoNerDxKtNWcCjeSnxc.png)
 
 ### **3.** **`n`（生成次数）**
 
@@ -117,9 +117,9 @@ lastVerified: 2026-08-13
 
   * **回应**：“夏天阳光灿烂，人们喜欢躺在沙滩上享受日光浴。”
 
-![](./OpenAI篇-应用开发快速入门_assets/OpenAI篇-应用开发快速入门-99340e8aad778292f9ebcb1ac072beb0.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-99340e8aad778292f9ebcb1ac072beb0.png)
 
-![](./OpenAI篇-应用开发快速入门_assets/OpenAI篇-应用开发快速入门-cec613ea2c21eb036b3caa68647777fb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-cec613ea2c21eb036b3caa68647777fb.png)
 
 ### **6.** **`frequency_penalty`（频率惩罚、短语效应）**
 
@@ -139,7 +139,7 @@ lastVerified: 2026-08-13
 
   * **回应**：“我的一天从晨跑开始，之后吃早餐准备工作。午饭后，我会去健身房锻炼，结束后读书放松。”
 
-![](./OpenAI篇-应用开发快速入门_assets/OpenAI篇-应用开发快速入门-ab3ca7c6e81f675f5ac65b16c9b28374.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/OpenAI%E7%AF%87-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-ab3ca7c6e81f675f5ac65b16c9b28374.png)
 
 ### **7.** **`stream`**
 

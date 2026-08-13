@@ -2,7 +2,7 @@
 title: Spark集群部署
 published: 2025-01-15
 description: 'Spark集群部署 的详细部署与配置文档。'
-image: './Spark部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Spark%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, Spark, Deployment]
 category: 'BigData'
 draft: false 
@@ -126,9 +126,9 @@ cd /export/servers/spark/sbin/
 
 输入`$SPARK_HOME/sbin/start-all.sh`启动(上述步骤也是启动，为按服务器逐步启动，该启动指令为批量启动),如下如所示即为成功,进一步验证打开本机浏览器输入`（hadoop01的IP地址）:8082`如果界面正常打开如下所示即代表成功
 
-![image-20260727213203995](./Spark%E9%83%A8%E7%BD%B2.assets/image-20260727213203995.png)
+![image-20260727213203995](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Spark%E9%83%A8%E7%BD%B2.assets/image-20260727213203995.png)
 
-![image-20260727213211805](./Spark%E9%83%A8%E7%BD%B2.assets/image-20260727213211805.png)
+![image-20260727213211805](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Spark%E9%83%A8%E7%BD%B2.assets/image-20260727213211805.png)
 
 ## 使Spark适配YARN
 ### 配置Spark以识别YARN

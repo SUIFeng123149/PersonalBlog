@@ -51,7 +51,7 @@ lastVerified: 2026-08-13
 
 * 保留图片链接，公式等信息，也统一处理成 markdown 的格式。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-BY6pbC0wyoTbfXx34Mocp27mnIg.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-BY6pbC0wyoTbfXx34Mocp27mnIg.jpg)
 
 #### **切片 Chunk 尽量保持完整**
 
@@ -83,7 +83,7 @@ lastVerified: 2026-08-13
 
   2. 依赖前期高质量，结构化的知识准备，清洗，抽取，通过业务规则通过手动或者自定义 SOP 流程构建知识图谱。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-S4WpbA8C1o1olFx1T8CcsB1SnGd.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-S4WpbA8C1o1olFx1T8CcsB1SnGd.jpg)
 
 * Doc Tree
 
@@ -91,7 +91,7 @@ lastVerified: 2026-08-13
 
 * 如何实现：以标题层级构建 chunk 的树形节点，形成一个多叉树结构，每一层级节点只需要存储文档标题，叶子节点存储具体的文本内容。这样利用树的遍历算法，如果用户问题命中相关非叶子标题节点，就可以将相关的子节点数据进行召回。这样就不会存在 chunk 完整性缺失的问题。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-NXyLbpS8RoS4SMx1u7Wct4XinVg.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-NXyLbpS8RoS4SMx1u7Wct4XinVg.jpg)
 
 * 提取 QA 对，需要前置通过预定义或者模型抽取的方式提取 QA 对信息
 
@@ -117,7 +117,7 @@ lastVerified: 2026-08-13
 
 * 如何实现：通过 mapreduce 等方式分段抽取，通过模型为每段 chunk 提取摘要信息。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-X3xQb9rhUohMAxxHJx0cOYUFnAc.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-X3xQb9rhUohMAxxHJx0cOYUFnAc.jpg)
 
 #### **知识处理工作流**
 
@@ -129,7 +129,7 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 
 #### **静态知识 RAG 优化**
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-YdyAbpnzjoULOTxGTazc900jnZe.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-YdyAbpnzjoULOTxGTazc900jnZe.jpg)
 
 ##### **原始问题处理**
 
@@ -161,7 +161,7 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 
 当我们把索引分成许多 chunks 并且都存储在相同的知识空间里面，检索效率会成为问题。比如用户问 "浙江我武科技公司" 相关信息时，并不想召回其他公司的信息。因此，如果可以通过公司名称元数据属性先进行过滤，就会大大提升效率和相关度。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-Fv8QbHBY4oDRaPx5Dz8cU9A1nVg.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-Fv8QbHBY4oDRaPx5Dz8cU9A1nVg.jpg)
 
 ##### **多策略混合召回**
 
@@ -203,13 +203,13 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 
 构建企业领域工具资产库，将散落到各个平台的工具 API，工具脚本进行整合，进而提供智能体端到端的使用能力。比如，除了静态知识库以外，我们可以通过导入工具库的方式进行工具的处理。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-ClRPb4E6pojd6tx3ZWpcQsPynqE.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-ClRPb4E6pojd6tx3ZWpcQsPynqE.jpg)
 
 ##### **工具召回**
 
 工具召回沿用静态知识的 RAG 召回的思路，再通过完整的工具执行生命周期来获取工具执行结果。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-GbHFbnaZ7oWAr4xaE03cIY39nEd.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-GbHFbnaZ7oWAr4xaE03cIY39nEd.jpg)
 
 * 槽位提取：通过传统 nlp 获取 LLM 将用户问题进行解析，包括常用的业务类型，标签，领域模型参数等等。
 
@@ -231,7 +231,7 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 
 * 参数纠正 / 对齐，这部分主要是为了减少和用户的交互次数，自动化完成用户参数错误纠正，包括大小写规则，枚举规则等等。eg:
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-KUgZbbqYuoI7z5xnaAkcFJ4Qnlf.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-KUgZbbqYuoI7z5xnaAkcFJ4Qnlf.jpg)
 
 
 
@@ -245,13 +245,13 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 
 因此我们希望通过打造一个数据基础设施的通用智能体来解决告警诊断，答疑的这些问题。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-R9e3btzcyo9I2WxaZOBcWZuTnb1.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-R9e3btzcyo9I2WxaZOBcWZuTnb1.jpg)
 
 ### **严谨专业的 RAG**
 
 传统的 RAG + Agent 技术可以解决通用的，确定性没那么高的，单步任务场景。但是面对数据基础设施领域的专业场景，整个检索过程必须是确定，专业和真实的，并且是需要一步一步推理的。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-Ls3XbvviUofXJ5xYs5RcfcBknBg.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-Ls3XbvviUofXJ5xYs5RcfcBknBg.jpg)
 
 右边是一个通过 NativeRAG 的一个泛泛而谈的总结，可能对于一个普通的用户，对专业的领域知识没那么了解时，可能是有用的信息，但是这部分对于数据基础设施领域的专业人士，就没有什么意义了。因此我们比较了通用的智能体和数据基础设施智能体在 RAG 上面的区别：
 
@@ -271,7 +271,7 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 
 因此我们可以通过执行工具的执行生命周期链路来获取返回结果拿到动态数据来作为应急诊断的排查依据。通过这种动静结合的混合召回的方式比纯朴素的 RAG 召回，保障了数据基础设施智能体执行的确定性，专业性和严谨性。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-640.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-640.png)
 
 ### **AWEL + Agent**
 
@@ -279,11 +279,11 @@ RAG 流程的优化我们又分为了静态文档的 RAG 和动态数据获取�
 
 每个 Agent 的职能都是不一样的，意图专家负责识别解析用户的意图和识别告警信息诊断专家需要通过 GraphRAG 定位到需要分析的根因节点，以及获取具体的根因信息。分析专家需要结合各个根因节点的数据 + 历史分析复盘报告生成诊断分析报告。
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-HnyBbk9IUoGzLqxOm4nc6nmtnmb.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-HnyBbk9IUoGzLqxOm4nc6nmtnmb.jpg)
 
 ## **三、总结**
 
-![](./RAG篇-项目优化最佳实践_assets/RAG篇-项目优化最佳实践-Na5Xb3eREoL5aixUqHscjnE3nBf.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/RAG%E7%AF%87-%E9%A1%B9%E7%9B%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-Na5Xb3eREoL5aixUqHscjnE3nBf.jpg)
 
 建议围绕各自领域构建属于自己的领域资产库包括，知识资产，工具资产以及知识图谱资产
 

@@ -23,7 +23,7 @@ lastVerified: 2026-07-31
 
 如果扣子集成的插件不满足你的使用需求，你还可以创建自定义插件来集成需要使用的 API。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-VZnXb82OTouDtvxCnmUciT21nog.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-VZnXb82OTouDtvxCnmUciT21nog.png)
 
 ### 2. 插件与工具
 
@@ -89,7 +89,7 @@ lastVerified: 2026-07-31
 
 3. 在**资源库**页面右上角单击\*\*+资源\*\*，并选择**插件**。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-EvFFbn6DJoi5yyxQWCrctK9lnch.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-EvFFbn6DJoi5yyxQWCrctK9lnch.webp)
 
 * 填写插件基础信息。
 
@@ -97,7 +97,7 @@ lastVerified: 2026-07-31
 
   2. 工具创建方式选择**基于已有服务创建**。
 
-  ![](./Coze篇-插件使用_assets/Coze篇-插件使用-YxjQbz5CRob4hQxe2eucnrebnTd.webp)
+  ![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-YxjQbz5CRob4hQxe2eucnrebnTd.webp)
 
   * 插件 URL：输入 API 的服务地址。本教程是https://api.coze.cn。
 
@@ -127,21 +127,21 @@ lastVerified: 2026-07-31
 
       * 请求方法：本示例请求方法为 **Get**\*\* 方法\*\*。
 
-   ![](./Coze篇-插件使用_assets/Coze篇-插件使用-GK4ZbzZc7oOiAXxUg50cDBUinDe.png)
+   ![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-GK4ZbzZc7oOiAXxUg50cDBUinDe.png)
 
    * 单击**配置输入参数**区域右上角的**编辑**，单击**新增参数**配置请求参数，然后单击**保存**。
 
-   ![](./Coze篇-插件使用_assets/Coze篇-插件使用-6caf989d6faf4ca99a5c1014544a9e36~tplv-goo7wpa0wc-quality_q75.png)
+   ![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-6caf989d6faf4ca99a5c1014544a9e36~tplv-goo7wpa0wc-quality_q75.png)
 
    * 单击**配置输出参数**区域右上角的**编辑**，单击**自动解析**，在弹出的页面输入请求参数值，再单击**自动解析**。接口调用成功后，会将返回参数自动填充到输出参数列表，你可以根据需求进行修改，然单击**保存**。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-L3eAbp0JFoHS1vxz8RZcCL66ntE.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-L3eAbp0JFoHS1vxz8RZcCL66ntE.png)
 
 * 单击**试运行。**
 
 * 在**试运行**页面，输入入参，然后单击**运行**测试接口。测试成功后，单击**完成**。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-OGdnbH9rioynO6xksG6chT45nZc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-OGdnbH9rioynO6xksG6chT45nZc.png)
 
 ### 5. 步骤三：发布插件
 
@@ -149,11 +149,11 @@ lastVerified: 2026-07-31
 
 1. 在插件页面，单击**发布**。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-6fb3d1a42e9f49a1aa995a80c631efd3~tplv-goo7wpa0wc-quality_q75.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-6fb3d1a42e9f49a1aa995a80c631efd3~tplv-goo7wpa0wc-quality_q75.png)
 
 * 选择是否需要收集个人信息。本教程的接口不涉及个人信息收集，选择**否，直接发布**。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-1.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-1.jpg)
 
 
 
@@ -187,7 +187,7 @@ lastVerified: 2026-07-31
 
 6. 在智能体的**人设与回复逻辑**区域，定义何时使用插件，然后在**预览与调试**区域测试插件功能是否符合预期。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-UF34bKQEWocgTKxrbiEcwXIbnn4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-UF34bKQEWocgTKxrbiEcwXIbnn4.png)
 
 ### 2. **为工作流添加插件节点**
 
@@ -205,7 +205,7 @@ lastVerified: 2026-07-31
 
 - 在工作流的画布内，连接插件节点，并配置插件的输入参数来源。
 
-![](./Coze篇-插件使用_assets/Coze篇-插件使用-TpQibGQWpo1RUMxhHCdcQQlnn4f.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8_assets/Coze%E7%AF%87-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8-TpQibGQWpo1RUMxhHCdcQQlnn4f.webp)
 
 ### 3. **在对话中使用插件**
 

@@ -35,7 +35,7 @@ lastVerified: 2026-08-13
 
 进到官网，首先进行一成不变且枯燥老套的登陆/注册环节，之后进入到Coze主页，但其实在整个Coze平台当中，我们使用频率断档最高的是位于左侧菜单栏第二位的“工作空间”。
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-J0msbTXq1oPiMhxBTvZcgNHqnrc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-J0msbTXq1oPiMhxBTvZcgNHqnrc.png)
 
 而在“工作空间”，我们目前需要了解的是“项目开发”和“资源库”这两个界面。
 
@@ -45,7 +45,7 @@ lastVerified: 2026-08-13
 
 到了这一步，大家先别慌，既然是入门，我们暂时也肯定用不到这么多，主要需要了解并接触到的是以下我为各位框出来的几个：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-eb194e1d.jpeg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-eb194e1d.jpeg)
 
 是的，这些概念是需要我们理解区分的。
 
@@ -75,15 +75,15 @@ lastVerified: 2026-08-13
 
 所以我们现在所要做的就是搭建实现相应功能的工作流，首先将光标移动到资源库右上角的“+资源”，点击工作流进行创建：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-TA7SbdrkUolIuRx2dFNc10qnnyc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-TA7SbdrkUolIuRx2dFNc10qnnyc.png)
 
 接下来我们需要为这个新的工作流命名并填入该工作流的功能简介，这里Coze的命名有一定的限制条件：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-BixgbHI77oGzHRx04kLcybItnQ3.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-BixgbHI77oGzHRx04kLcybItnQ3.jpg)
 
 结合我们将要搭建的智能体所实现的功能，我填入的信息如下，接着我们便进入到工作流的创作界面：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-CBtybDar8oWaLJxhQjtcupjSnt1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-CBtybDar8oWaLJxhQjtcupjSnt1.png)
 
 首先映入眼帘的就是默认的“开始”和“结束”这两个模块（节点），其实分别对应的就是\*\*“输入需求”**和**“输出结果”\*\*这两个功能，很好理解。
 
@@ -105,17 +105,17 @@ lastVerified: 2026-08-13
 
 我们先来添加第一个，也就是能够根据我们的关键词进行信息检索的节点，其属于是Coze平台内置的一个插件：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-Ulw7bNUiuoEF21xlAjEc8srXnFb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-Ulw7bNUiuoEF21xlAjEc8srXnFb.png)
 
 然后再来添加第二个节点，这个节点的功能是能够对检索到的信息进行提炼总结，因为我们总不希望Agent最终为我们返回的结果每次都是长长的一大篇。
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-ZnBVbKZwdoFoPsxVSJhccXFBnBc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-ZnBVbKZwdoFoPsxVSJhccXFBnBc.png)
 
 就像这样直接点一下，界面中就会加载出“大模型”节点。
 
 到这里，我们的创作界面上已经有了四个节点模块，分别是“开始”、“getToutiaoNews”、“大模型”、“结束”：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-IDGBbfUxOoZj67xNcrkcFyOKnvI.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-IDGBbfUxOoZj67xNcrkcFyOKnvI.jpg)
 
 我们接下来所要做的是便是将这几个模块串联起来，就像这样：
 
@@ -127,7 +127,7 @@ lastVerified: 2026-08-13
 
 我们鼠标直接点击“开始”节点进入到右边的编辑栏：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-PQebbUorkodybgxUuRzctU7Sn05.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-PQebbUorkodybgxUuRzctU7Sn05.png)
 
 这里需要我们理解几个概念：变量名和变量类型（别慌，虽然这是编程中会常出现的概念，但并不需要我们自己动手敲代码），可以按以下这样简单理解：
 
@@ -151,7 +151,7 @@ lastVerified: 2026-08-13
 
 其次是对于第二个节点的编辑——根据我们以上提到的，该节点所实现的功能是根据我们输入的关键词对网络上相匹配的信息进行检索。
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-YPpjbGqefoJKArx2dsGcCOcBnzf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-YPpjbGqefoJKArx2dsGcCOcBnzf.png)
 
 我们依旧如前面一样点击该节点进入到相应的编辑界面：
 
@@ -161,17 +161,17 @@ lastVerified: 2026-08-13
 
 其实到这一步对于该节点的设置便基本完成了，但我们还是要先清楚其所输出的内容是什么，或者说，一个新闻包含了哪些信息：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-51ae6dfe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-51ae6dfe.png)
 
 当然啦，如果设置到这里你仍不放心，不知道最后到底能不能为我们检索到相应的新闻信息，也可以选择将后面的“大模型”节点断开连接，然后直接连接到“结束”节点，并对“结束”节点当中的输出变量进行指定（也就是在第二个节点根据我们的关键词检索出的信息），接下来点击界面下方的“试运行”按钮，便可以单独对这三个节点进行测试：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-EE49b0Sazoj71tx5e0WcFYYLn7b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-EE49b0Sazoj71tx5e0WcFYYLn7b.png)
 
 （断开节点间的连接：鼠标点住节点间连接线的后一端口【即箭头端】，然后直接移开即可）
 
 点击“试运行”后，会弹出以下界面，这里会要求我们输入一个“Key”，也就对应到“开始”节点我们为每一次输入的关键词所封装的“Key”。
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-I4oQbecmzoY1Scx9TlacYKTXnuf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-I4oQbecmzoY1Scx9TlacYKTXnuf.png)
 
 这里我以输入“雷军”为例，然后再点击下方的“试运行”：
 
@@ -183,7 +183,7 @@ lastVerified: 2026-08-13
 
 在这个由四个小节点组成的简单工作流当中，对于该节点的设置是最复杂的（但其实也非常简单），老样子，我们先点开节点的编辑界面：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-QMK9baqlzo1QY2xAQ6kcmkPzn7d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-QMK9baqlzo1QY2xAQ6kcmkPzn7d.png)
 
 这里我们需要了解并进行设置的主要有“模型”、“输入”、“系统提示词”、“用户提示词”、“输出”这5个部分。
 
@@ -191,7 +191,7 @@ lastVerified: 2026-08-13
 
 而“系统提示词”以及“用户提示词”这两个概念是需要我们做好区分的，我们先看官方给出的解释：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-F3bIb29pMo7aYNx2tJWcuVjInEd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-F3bIb29pMo7aYNx2tJWcuVjInEd.png)
 
 翻译成人话就是：
 
@@ -205,7 +205,7 @@ lastVerified: 2026-08-13
 
 * **对于“输入”：** 我们需要先点击一旁的小加号“+”添加一个输入变量，而通过前面的节点设置大家想必也应该知道这里该填入的是来自第二个节点（即“getToutiaoNews”）的输出内容；
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-Eeyfbnb39oVhc9xHgKCcyc0gnmc.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-Eeyfbnb39oVhc9xHgKCcyc0gnmc.jpg)
 
 * **对于“系统提示词”：** 对于专业的系统提示词，相对来说是会比较复杂一些（需要做一些专业的设定和详细的限制），但这里作为针对大多数新手的示例演示，所以不需要做过多复杂的描述，这里给出我的提示词文案示例内容：
 
@@ -215,7 +215,7 @@ lastVerified: 2026-08-13
 
 > - 总结{{news}}
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-BdkEbQQrXo6OULxoh41cUoM6n5g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-BdkEbQQrXo6OULxoh41cUoM6n5g.png)
 
 * (这两个提示词框中可以用“{{}}”来引用工作流中存在的变量)
 
@@ -227,23 +227,23 @@ lastVerified: 2026-08-13
 
 来到我们最后一个节点的设置，跟在上文我们的测试环节中所设置的那样简单，这次只需要将输出的变量更换为来自“大模型”节点的处理结果即可，即“output”：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-c6773fa8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-c6773fa8.png)
 
 截至目前，关于这个工作流的搭建和相关设置我们便已全部完成，下一步便是测试环节：
 
 同样的，我们点击界面下方的“试运行”按钮，这次我们输入“马斯克”看看会得到什么样的结果：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-801003b6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-801003b6.png)
 
 可以看到，我们的工作流可以正常运行并按照我们的要求输出相应的新闻概述。
 
 现在我们点击界面右上角的“发布”按钮，随后会弹出一个小界面，其中有一个版本描述是必填的（大致填写一下即可）：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-MPOIb3liKoWU9Yxd1hwct1SFnAf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-MPOIb3liKoWU9Yxd1hwct1SFnAf.png)
 
 发布之后，我们便可以在资源库中查看到我们搭建好的工作流，也就相当于保存成功了：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-C6MMbDFdXow0ZSxNWEfc5nX0nbc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-C6MMbDFdXow0ZSxNWEfc5nX0nbc.png)
 
 到这里关于工作流的全部工作便已全部完成，下一步我们要将这个工作流集成到一个“外壳”（我们大致可以这么比喻成一个“外壳”）中，最终形成的结果就是我们要的Agent。
 
@@ -251,15 +251,15 @@ lastVerified: 2026-08-13
 
 首先我们从“资源库”切换到“项目开发”，点击右上角的创建按钮，选择创建智能体：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-KBBKbOSyro4rM8xGE4tcpx3vntf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-KBBKbOSyro4rM8xGE4tcpx3vntf.png)
 
 接着会弹出一个小窗口让你填写你将创建的智能体的相关信息，包括名称和简介，当然，你还可以在最下面更换该智能体的图标：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-B6SSbxbM2o53TLxhfGmckl2unxf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-B6SSbxbM2o53TLxhfGmckl2unxf.png)
 
 等这些信息填写完后，便可以点击确定进入到智能体的详细编辑界面：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-SZoDbL36koBfHKx45muclb8wnWc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-SZoDbL36koBfHKx45muclb8wnWc.png)
 
 在这里我们主要做两件事，第一是为我们的智能体进行人设与回复逻辑的设定（因为我们只搭建了一个工作流，只具备一种功能，所以我们只用明确一种技能即可），这里给出我的设定模版：
 
@@ -275,7 +275,7 @@ lastVerified: 2026-08-13
 
 最后我们再次以“马斯克”为例进行测试，如果顺利运行的话，智能体便可以正确给出所检索到的新闻：
 
-![](./AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程_assets/AI智能体入门实战：从0到1搭建Agent的超详细保姆级教程-VbyibdO4Xo35t6x86uLc4KKQntf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%8E0%E5%88%B01%E6%90%AD%E5%BB%BAAgent%E7%9A%84%E8%B6%85%E8%AF%A6%E7%BB%86%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-VbyibdO4Xo35t6x86uLc4KKQntf.png)
 
 通过以上简单的几步，现在你便拥有一个可以实时查询新闻信息的智能体工具了。
 

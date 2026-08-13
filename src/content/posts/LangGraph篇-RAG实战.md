@@ -27,13 +27,13 @@ LangGraph 是 LangChain 的高级库，为大型语言模型（LLM）带来循�
 
 * **边**：连接节点，定义计算流程，支持条件逻辑，实现复杂工作流。
 
-![](./LangGraph篇-RAG实战_assets/LangGraph篇-RAG实战-B1QXbcSJ1oQ4k4xS08TcWs9gnJg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98_assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98-B1QXbcSJ1oQ4k4xS08TcWs9gnJg.png)
 
 LangGraph 简化了 AI 开发，自动管理状态，保持上下文，使 AI 能智能响应变化。它让开发者专注于创新，而非技术细节，同时确保应用程序的高性能和可靠性。
 
 ## **RAG流程**
 
-![](./LangGraph篇-RAG实战_assets/LangGraph篇-RAG实战-OHrqbsm4WoyNmOxswG0cK4pHnqh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98_assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98-OHrqbsm4WoyNmOxswG0cK4pHnqh.png)
 
 一个典型的RAG应用有两个主要组成部分：
 
@@ -51,7 +51,7 @@ LangGraph 简化了 AI 开发，自动管理状态，保持上下文，使 AI �
 
 3. **存储(Store)**：我们需要一个地方来存储和索引我们的分割(splits)，以便后续可以对其进行搜索。这通常使用向量存储[VectorStore](https://blog.frognew.com/library/agi/langchain/components/vector-stores.html)和嵌入模型[Embeddings model](https://blog.frognew.com/library/agi/langchain/components/embedding-models.html)来完成。
 
-![](./LangGraph篇-RAG实战_assets/LangGraph篇-RAG实战-OSErbVJn0oayTExAYuecYeqanUd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98_assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98-OSErbVJn0oayTExAYuecYeqanUd.png)
 
 ## **检索和生成(Retrieval and generation)**
 
@@ -59,7 +59,7 @@ LangGraph 简化了 AI 开发，自动管理状态，保持上下文，使 AI �
 
 5. **生成(Generate)**： [ChatModel](https://blog.frognew.com/library/agi/langchain/components/chat-models.html)使用包含问题和检索到的数据的提示来生成答案。
 
-![](./LangGraph篇-RAG实战_assets/LangGraph篇-RAG实战-I7Uhbeol0oHwMoxCez8c9yBsnvf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98_assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98-I7Uhbeol0oHwMoxCez8c9yBsnvf.png)
 
 ## **LangGraph基于RAG构建智能客服**
 
@@ -89,6 +89,6 @@ LangGraph 简化了 AI 开发，自动管理状态，保持上下文，使 AI �
 
 如何查询账户余额？
 
-![](./LangGraph篇-RAG实战_assets/LangGraph篇-RAG实战-VqsKbfNmeopudux2c6jc99PBn0c.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98_assets/LangGraph%E7%AF%87-RAG%E5%AE%9E%E6%88%98-VqsKbfNmeopudux2c6jc99PBn0c.png)
 
 

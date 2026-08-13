@@ -25,7 +25,7 @@ lastVerified: 2026-07-31
 
 ### **什么是 AI Agent**
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-NrQfbZ4KfoPchkxMLnUcLZB5nUg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-NrQfbZ4KfoPchkxMLnUcLZB5nUg.png)
 
 AI Agent（人工智能代理）是一种能够感知环境、进行决策和执行动作的智能实体。 不同于传统的人工智能， AI Agent 具备通过独立思考、调用工具去逐步完成给定目标的能力。比如，告诉 AI Agent 帮忙下单一份外卖，它就可以直接调用 APP 选择外卖，再调用支付程序下单支付，无需人类去指定每一步的操作。 Agent 的概念由 Minsky 在其 1986 年出版的《思维的社会》一书中提出，Minsky 认为社会中的某些个体经过协商之后可求得问题的解，这些个体就是 Agent。他还认为 Agent 应具有社会交互性和智能性。 Agent 的概念由此被引入人工智能和计算机领域，并迅速成为研究热点。但苦于数据和算力限制， 想要实现真正智能的 AI Agents 缺乏必要的现实条件。
 
@@ -37,7 +37,7 @@ AI Agent（人工智能代理）是一种能够感知环境、进行决策和执
 
 和传统的 RPA 相比， RPA 只能在给定的情况条件下，根据程序内预设好的流程来进行工作的处理，在出现大量未知信息、难以预测的环境中时， RPA 是无法进行工作的， AI Agent 则可以通过和环境进行交互，感知信息并做出对应的思考和行动。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-ZTrdbddUPoCFT6xEQ39ciZrwnsd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-ZTrdbddUPoCFT6xEQ39ciZrwnsd.png)
 
 我们看见的 AI Agent 往往以问答机器人作为交互入口，通过自然语言触发全自动的工作流，中间没有人工介入。由于人只负责发送指令，并不参与对 AI 结果的反馈。
 
@@ -71,7 +71,7 @@ LLM 的一些缺点：
 
 ### **AI Agent 对比人类与其它 AI 协同的区别**
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-N0C3bwiGxosW6NxMaYVcTG06n3g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-N0C3bwiGxosW6NxMaYVcTG06n3g.png)
 
 AI Agent 较日前广泛使用的 Copilot 模式更加独立。对比 AI 与人类的交互模式，目前己从过去的嵌入式工具型 AI （例如 siri）向助理型 AI 发展。目前的各类 AI Copilot 不再是机械地完成人类指令，而是可以参与人类工作流，为诸如编写代码、策划活动、优化流程等事项提供建议，与人类协同完成。而 AI Agent 的工作仅需给定一个目标，它就能够针对目标独立思考并做出行动，它会根据给定任务详细拆解出每一步的计划步骤，依靠来自外界的反馈和自主思考，自己给自己创建 prompt，来实现目标。如果说 Copilot 是 “副驾驶”，那么 Agent 则可以算得上一个初级的 “主驾驶”。
 
@@ -79,13 +79,13 @@ AI Agent 较日前广泛使用的 Copilot 模式更加独立。对比 AI 与人�
 
 上面介绍了 AI Agent 是什么以及一些案例演示，下面的内容将对 AI Agent 背后的技术进行分析。**一个基于大模型的 AI Agent 系统可以拆分为大模型、规划、记忆与工具使用四个组件部分**。6 月，OpenAI 的应用研究主管 Lilian Weng 撰写了一篇博客，认为 AI Agent 可能会成为新时代的开端。她提出了 Agent=LLM + 规划技能 + 记忆 + 工具使用的基础架构，其中 LLM 扮演了 Agent 的 “大脑”，在这个系统中提供推理、规划等能力。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-Z8lNb4YWro7gUNxDKuNceCVHnoe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-Z8lNb4YWro7gUNxDKuNceCVHnoe.png)
 
 ## **Agent 案例**
 
 ### **AI 虚拟小镇**
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-Zp6UbEeKNofc4oxj28WcEg98nPg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-Zp6UbEeKNofc4oxj28WcEg98nPg.png)
 
 * 论文链接：[<span style="color: rgb(36,91,219); background-color: inherit">https://arxiv.org/pdf/2304.03442v1.pdf</span>](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2304.03442v1.pdf)
 
@@ -99,7 +99,7 @@ AI Agent 较日前广泛使用的 Copilot 模式更加独立。对比 AI 与人�
 
 以下是 100 个 AI Agent 的创新应用场景，它们展示了 AI 技术如何渗透到我们生活的方方面面。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-CiGQbXOOXoSw1wxv5yscesDxnae.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-CiGQbXOOXoSw1wxv5yscesDxnae.jpg)
 
 ### **电商**
 
@@ -139,7 +139,7 @@ AI Agent 能够自动收集和分析用户反馈，帮助企业及时了解产�
 
 AI Agent 可以帮助企业在多个营销渠道（如电子邮件、社交媒体、移动应用等）上实现自动化和个性化的营销活动，提高用户参与度和品牌曝光度。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-PFyabFYweoJWbJxBshhcfIIhnjb.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-PFyabFYweoJWbJxBshhcfIIhnjb.jpg)
 
 ### **教育**
 
@@ -221,7 +221,7 @@ AI Agent 可以分析营销活动的效果，如广告投放、社交媒体推�
 
 AI Agent 可以分析房产相关的各种风险因素，如自然灾害风险、市场波动风险等，为投资者提供风险评估报告，帮助他们做出更明智的投资决策。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-SiNvbkybtouVZZxxa2uchuQJnwg.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-SiNvbkybtouVZZxxa2uchuQJnwg.jpg)
 
 ### **旅游业**
 
@@ -257,7 +257,7 @@ AI Agent 还可以帮助旅游企业优化管理和运营流程，例如通过�
 
 在旅游安全方面，AI Agent 可以进行风险评估和管理，通过分析各种风险因素（如天气、自然灾害等），为旅客提供安全预警和建议。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-KmsEbqh0ToPAXCxK2HjclZ4NnWf.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-KmsEbqh0ToPAXCxK2HjclZ4NnWf.jpg)
 
 ### **物流**
 
@@ -301,7 +301,7 @@ L4 级无人驾驶卡车：AI Agent 结合自动驾驶技术，正在研发和�
 
 即时配送智能调度：AI Agent 通过大数据分析和优化算法，实现订单与运力的最优匹配，提升配送效率。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-HDQ4bIzkZorIbzxh8A3cPY28n8f.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-HDQ4bIzkZorIbzxh8A3cPY28n8f.jpg)
 
 ### **制造**
 
@@ -345,7 +345,7 @@ L4 级无人驾驶卡车：AI Agent 结合自动驾驶技术，正在研发和�
 
 库存管理和物流优化：AI Agent 可以优化仓库布局，提高库存管理效率，减少物流成本。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-Kyxbbi5b2o9i68xDf42cHv96n0f.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-Kyxbbi5b2o9i68xDf42cHv96n0f.jpg)
 
 ### **金融**
 
@@ -381,7 +381,7 @@ AI Agent 能够根据用户的行为和反馈，实时调整和优化营销策�
 
 通过智能交互技术，AI Agent 可以提供金融教育和娱乐内容，增强用户参与度和忠诚度，提升金融知识普及和金融服务的趣味性。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-GcLNb389ao1Z8Mx6KWQcdbYUnad.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-GcLNb389ao1Z8Mx6KWQcdbYUnad.jpg)
 
 ### **医疗**
 
@@ -421,7 +421,7 @@ AI Agent 可以作为医疗教育的工具，提供模拟病例分析、手术�
 
 AI Agent 可以分析大量的医疗数据，发现疾病模式、治疗效果和医疗资源使用效率等关键信息。这对于改进医疗服务、降低成本和提高患者满意度具有重要意义。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-E51gb3VZ3ouGGBxtG96cY5o1npf.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-E51gb3VZ3ouGGBxtG96cY5o1npf.jpg)
 
 ### **电信**
 
@@ -503,7 +503,7 @@ AI Agent 可以根据员工的技能和工作负载智能分配任务，确保�
 
 AI Agent 可以监控员工的健康状况，特别是在需要关注员工心理健康的工作环境中。AI 可以提供预防性建议和干预措施，以维护员工福祉。
 
-![](./Agent篇-核心原理与企业应用场景_assets/Agent篇-核心原理与企业应用场景-KCngbPixrojctMxXFBUc67YGnzc.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_assets/Agent%E7%AF%87-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF-KCngbPixrojctMxXFBUc67YGnzc.jpg)
 
 ### **能源电力**
 

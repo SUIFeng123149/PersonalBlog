@@ -17,7 +17,7 @@ lastVerified: 2026-08-13
 
 使用 Ollama 部署 DeepSeek-R1 模型的步骤相对简单，以下是详细的部署流程：
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-11.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-11.png)
 
 ### 步骤 1: 安装 Ollama
 
@@ -61,7 +61,7 @@ Ollama 是一个简单易用的工具，可以帮助我们轻松地将 DeepSeek-
 
 该命令会从 Ollama 的官方模型库中拉取 DeepSeek-R1 模型，并下载到本地。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-9.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-9.png)
 
 ### 步骤 3: 启动模型
 
@@ -71,7 +71,7 @@ Ollama 是一个简单易用的工具，可以帮助我们轻松地将 DeepSeek-
 
 该命令会启动模型，并在本地环境中启动一个推理服务。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-8.png)
 
 ## Chatbox调用DeepSeek-R1接口
 
@@ -83,7 +83,7 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 
 1、打开官网：[`https://chatboxai.app/zh`](https://chatboxai.app/zh)，选择启动网页版。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-6.png)
 
 2、选择本地模型，如果找不到，点击左侧的设置按钮。
 
@@ -93,7 +93,7 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 
 5、点击 DISPLAY，选择简体中文，点击保存按钮。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-5.png)
 
 **在 Chatbox 中连接远程 Ollama 服务**
 
@@ -147,15 +147,15 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 
 1、点击左侧我的搭档
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-12.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-12.png)
 
 2、选择一个你喜欢的应用，本示例选择夸夸机 2.0
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-4.png)
 
 3、随便输入一个场景，看看大模型的回答。比如自嘲、尴尬、夸张的场景，看看他怎么花样夸你。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-10.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-10.png)
 
 ## DeepSeek 知识库搭建
 
@@ -163,25 +163,25 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 
 1、安装插件 Page Assist，搜索插件后添加至 Chrome
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-7.png)
 
 2、选择本地搭建的模型，点击配置按钮，设置中文
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-13.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-13.png)
 
 3、RAG 设置，模型选择本地搭建的。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-3.png)
 
 4、点击左侧管理知识，可以添加本地知识库。
 
 填写知识标题及上传文件，点击提交按钮。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-2.png)
 
 状态为已完成就可以使用了。
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image.png)
 
 新建聊天进行测试，在聊天窗口要记得点击右下角知识，选择刚才搭建的知识库名称，然后在上方看到就可以了。
 
@@ -189,7 +189,7 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 
 我问了一下《客服知识库》 如何查询账户余额？
 
-![](./DeepSeek篇-基于DeepSeek R1搭建企业级知识库_assets/DeepSeek篇-基于DeepSeek R1搭建企业级知识库-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-%E5%9F%BA%E4%BA%8EDeepSeek%20R1%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%9F%A5%E8%AF%86%E5%BA%93-image-1.png)
 
 思考完成后，模型给出了最终答案
 

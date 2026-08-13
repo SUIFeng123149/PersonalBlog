@@ -35,11 +35,11 @@ Hugging Face 是一个开源的 AI 社区网站，站内几乎囊括了所有常
 
 在 Hugging Face 中可以下载到众多开源的预训练大模型，模型本身包含相关信息和参数，可以拿来做微调和重新训练，非常方便。
 
-![](./大模型介绍篇-Hugging Face（AI 社区）_assets/大模型介绍篇-Hugging Face（AI 社区）-Ag0wbm9U1oyqjrxgXR3cjLcXnje.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-Hugging%20Face%EF%BC%88AI%20%E7%A4%BE%E5%8C%BA%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-Hugging%20Face%EF%BC%88AI%20%E7%A4%BE%E5%8C%BA%EF%BC%89-Ag0wbm9U1oyqjrxgXR3cjLcXnje.png)
 
 ## **二、Hugging Face 核心组件**
 
-![](./大模型介绍篇-Hugging Face（AI 社区）_assets/大模型介绍篇-Hugging Face（AI 社区）-Z26rbKoaoospP4xz1rRcujmGnIg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-Hugging%20Face%EF%BC%88AI%20%E7%A4%BE%E5%8C%BA%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-Hugging%20Face%EF%BC%88AI%20%E7%A4%BE%E5%8C%BA%EF%BC%89-Z26rbKoaoospP4xz1rRcujmGnIg.png)
 
 Hugging Face 核心组件包括 **Transformers、Dataset、Tokenizer**，此外还有一些辅助工具，如 **Accelerate**，用于加速深度学习训练过程。
 

@@ -2,7 +2,7 @@
 title: Hive的部署
 published: 2025-11-16
 description: 'Hive的部署 的详细部署与配置文档。'
-image: './Hive部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, Hive, Deployment]
 category: 'BigData'
 draft: false 
@@ -35,7 +35,7 @@ sudo apt install -y mysql-server
 sudo systemctl status mysql
 ```
 
-![image-20260727214829801](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727214829801.png)
+![image-20260727214829801](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727214829801.png)
 ### 登录 MySQL
 #### 以 root 用户登录 MySQL（sudo 确保权限，首次登录按回车跳过密码输入）：
 ```bash
@@ -161,7 +161,7 @@ sudo vi /export/servers/hive-4.0.1/conf/hive-env.sh
 HADOOP_HOME=/export/servers/hadoop 
 ```
 
-![image-20260727215710880](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727215710880.png)
+![image-20260727215710880](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727215710880.png)
 
 #### 保存并退出（按 Esc 输入 :wq 回车）
 ### 配置 hive-site.xml（核心配置文件）
@@ -199,7 +199,7 @@ sudo vi /export/servers/hive-4.0.1/conf/hive-site.xml
 </property>
 ```
 
-![image-20260727215807442](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727215807442.png)
+![image-20260727215807442](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727215807442.png)
 关键说明：ConnectionURL 中添加 useSSL=false（关闭 SSL 连接，避免警告）、serverTimezone=UTC（统一时区，避免时间戳异常）、allowPublicKeyRetrieval=true（允许获取 MySQL 公钥，解决连接失败问题）
 ### 配置日志文件（可选，优化日志输出）
 Hive 提供日志配置模板，需复制为正式文件：
@@ -270,7 +270,7 @@ sudo vi /export/servers/hive-4.0.1/conf/hive-site.xml
 </property>
 ```
 
-![image-20260727220140120](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220140120.png)
+![image-20260727220140120](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220140120.png)
 ### 修改 Spark 配置文件
 需配置 Spark 关联 Hive 元数据、指定编码格式，并添加 Hadoop 类路径依赖，确保 Spark 与 Hive 兼容。
 #### 配置 spark-defaults.conf（关联 Hive 元数据）
@@ -314,7 +314,7 @@ export HIVE_CONF_DIR=$HIVE_HOME/conf
 export SPARK_DIST_CLASSPATH=$(hadoop classpath) 
 ```
 
-![image-20260727220401603](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220401603.png)
+![image-20260727220401603](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220401603.png)
 #### 配置 Spark 环境变量
 需在系统环境变量中添加 Spark 路径，确保所有用户可调用 Spark 命令：
 编辑系统全局环境变量文件（/etc/profile 对所有用户生效，需 sudo 权限）
@@ -381,7 +381,7 @@ ls -l | grep mysql-connector
 lrwxrwxrwx 1 hadooper hadooper ... mysql-connector-java-8.0.33.jar -> mysql-connector-j-8.0.33.jar 
 -rw-r--r-- 1 hadooper hadooper ... mysql-connector-j-8.0.33.jar 
 
-![image-20260727220826945](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220826945.png)
+![image-20260727220826945](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220826945.png)
 ## 配置 Hadoop 代理用户权限
 Hive 运行时需通过代理用户访问 Hadoop 集群，需在 Hadoop 配置中授权：
 ### 编辑 Hadoop 的 core-site.xml 配置文件（路径需与实际 Hadoop 目录一致） 
@@ -424,7 +424,7 @@ sudo vi /export/servers/hadoop/etc/hadoop/core-site.xml
 </property> 
 ```
 
-![image-20260727220927377](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220927377.png)
+![image-20260727220927377](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727220927377.png)
 ### 保存并退出
 ### 重启 Hadoop 集群（使配置生效） 
 ```bash
@@ -496,7 +496,7 @@ sudo rm /export/servers/spark/jars/hive-exec-2.3.9-core.jar /export/servers/spar
 ls /export/servers/spark/jars/ | grep -E "hive-exec|hive-metastore|hive-common|hive-serde|hive-cli|hive-beeline"
 ```
 
-![image-20260727221308716](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727221308716.png)
+![image-20260727221308716](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727221308716.png)
 
 ## 初始化 Hive 元数据库
 首次部署需初始化元数据库（创建 Hive 所需的表结构）：
@@ -555,4 +555,4 @@ set -v;
 ```
 成功输出 default 数据库表示 Hive 部署完成，可正常使用。
 
-![image-20260727221646334](./Hive%E9%83%A8%E7%BD%B2.assets/image-20260727221646334.png)
+![image-20260727221646334](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hive%E9%83%A8%E7%BD%B2.assets/image-20260727221646334.png)

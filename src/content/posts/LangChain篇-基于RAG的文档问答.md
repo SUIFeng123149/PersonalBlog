@@ -23,7 +23,7 @@ RAG 是一种用额外数据增强大语言模型知识的技术。
 
 LangChain 有许多组件旨在帮助构建问答应用，以及更广泛的 RAG 应用。
 
-![](./LangChain篇-基于RAG的文档问答_assets/LangChain篇-基于RAG的文档问答-Cb93bZbgZoMnxExNAMtc1IHEnGe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94-Cb93bZbgZoMnxExNAMtc1IHEnGe.png)
 
 
 
@@ -47,7 +47,7 @@ LangChain 有许多组件旨在帮助构建问答应用，以及更广泛的 RAG
 
 3. **存储(Store)**：我们需要一个地方来存储和索引我们的分割(splits)，以便后续可以对其进行搜索。这通常使用向量存储 [VectorStore](https://blog.frognew.com/library/agi/langchain/components/vector-stores.html) 和嵌入模型 [Embeddings model](https://blog.frognew.com/library/agi/langchain/components/embedding-models.html) 来完成。
 
-![](./LangChain篇-基于RAG的文档问答_assets/LangChain篇-基于RAG的文档问答-VTtyb8zrioZfDxxJLENcdpNnnkc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94-VTtyb8zrioZfDxxJLENcdpNnnkc.png)
 
 
 
@@ -57,7 +57,7 @@ LangChain 有许多组件旨在帮助构建问答应用，以及更广泛的 RAG
 
 2. **生成(Generate)**： [ChatModel](https://blog.frognew.com/library/agi/langchain/components/chat-models.html) 使用包含问题和检索到的数据的提示来生成答案。
 
-![](./LangChain篇-基于RAG的文档问答_assets/LangChain篇-基于RAG的文档问答-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94-image.png)
 
 
 
@@ -83,7 +83,7 @@ LangChain 有许多组件旨在帮助构建问答应用，以及更广泛的 RAG
 
 7. 用户提出问题，大模型调用检索器检索文档，把相关片段找出来后，组织后，回复用户。
 
-![](./LangChain篇-基于RAG的文档问答_assets/LangChain篇-基于RAG的文档问答-E6WJbJOxtoZd4oxALqqc1irLn8T.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94-E6WJbJOxtoZd4oxALqqc1irLn8T.png)
 
 
 
@@ -109,6 +109,6 @@ langchain 提供了 create\_retriever\_tool 工具，可以直接用。
 
 #### 2.6 实现效果
 
-![](./LangChain篇-基于RAG的文档问答_assets/LangChain篇-基于RAG的文档问答-FMpqbGKRSoQ6HBxRcOpcJeMvnD3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94-FMpqbGKRSoQ6HBxRcOpcJeMvnD3.png)
 
 

@@ -23,7 +23,7 @@ lastVerified: 2026-08-13
 
 4. 总结
 
-![](./DeepSeek篇-模型本地部署 保姆级教程_assets/DeepSeek篇-模型本地部署, 保姆级教程-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2,%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-image-3.png)
 
 **官网：**<https://www.deepseek.com/>
 
@@ -41,9 +41,9 @@ DeepSeek-R1 是近期备受关注的高性能 AI 推理模型，专注于数学�
 
 ## 安装 Ollama
 
-![](./DeepSeek篇-模型本地部署 保姆级教程_assets/DeepSeek篇-模型本地部署, 保姆级教程-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2,%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-image-1.png)
 
-![](./DeepSeek篇-模型本地部署 保姆级教程_assets/DeepSeek篇-模型本地部署, 保姆级教程-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2,%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-image-4.png)
 
 **官网：**<https://ollama.com/>
 
@@ -105,7 +105,7 @@ Ollama 的主要特点包括：
 
 该模型特别适合需要实时处理和高准确度场景的应用，如安全监控、医疗影像分析、自动驾驶等。
 
-![](./DeepSeek篇-模型本地部署 保姆级教程_assets/DeepSeek篇-模型本地部署, 保姆级教程-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2,%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-image-2.png)
 
 ### 主要特点
 
@@ -139,7 +139,7 @@ Ollama 的主要特点包括：
 
 使用 Ollama 部署 DeepSeek-R1 模型的步骤相对简单，以下是详细的部署流程：
 
-![](./DeepSeek篇-模型本地部署 保姆级教程_assets/DeepSeek篇-模型本地部署, 保姆级教程-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2,%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-image-5.png)
 
 ### 步骤 1: 安装 Ollama
 
@@ -161,7 +161,7 @@ Ollama 的主要特点包括：
 
 该命令会启动模型，并在本地环境中启动一个推理服务。
 
-![](./DeepSeek篇-模型本地部署 保姆级教程_assets/DeepSeek篇-模型本地部署, 保姆级教程-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2,%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-image-6.png)
 
 ### 步骤 4: 配置 Open WebUI
 
@@ -177,7 +177,7 @@ Ollama 的主要特点包括：
 
 **选择 DeepSeek-R1**：在 WebUI 界面中，你会看到 DeepSeek-R1 模型作为可用选项。选择该模型并开始输入文本或代码，模型会返回推理结果。
 
-![](./DeepSeek篇-模型本地部署 保姆级教程_assets/DeepSeek篇-模型本地部署, 保姆级教程-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B_assets/DeepSeek%E7%AF%87-%E6%A8%A1%E5%9E%8B%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2,%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-image.png)
 
 ### 步骤 6: 自定义设置（可选）
 

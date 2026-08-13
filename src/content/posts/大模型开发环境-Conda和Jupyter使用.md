@@ -33,7 +33,7 @@ Miniconda 可以依据自己需求建立自己的 Python 环境，想要的套�
 
 一个典型的 Python 项目会使用多个包来完成其功能。其中一些包也可能被其他项目所使用（共享）。 **项目之间共享的包可能会引起冲突。** 比如，我们有两个项目 P1 和 P2，P1 使用 NumPy 1.2 版本，而 P2 需要 NumPy 1.3 版本，一个环境中存在两个版本就可能导致冲突。 解决这个问题的办法就是使用虚拟环境。我们可以为每个项目分别创建一个独立的虚拟环境，来隔离包冲突。
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-L75Kbl1jmoGUhgxAoxMcfzbQnVg.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-L75Kbl1jmoGUhgxAoxMcfzbQnVg.jpg)
 
 常用的 Python 虚拟环境管理工具有：
 
@@ -57,17 +57,17 @@ Miniconda 可以依据自己需求建立自己的 Python 环境，想要的套�
 
 下载后依据指引进行 Miniconda 安装。
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-HlxRbF8moop8wAx75fJcqWaqnxg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-HlxRbF8moop8wAx75fJcqWaqnxg.png)
 
 根子自己需要选择为当前用户还是为所有用户安装。
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-P6anbM4NoooZzvxnGKUc5CN0nvf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-P6anbM4NoooZzvxnGKUc5CN0nvf.png)
 
 选择安装目录。
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-Xh0hbxDi4oc3goxmI0jcd8einDd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-Xh0hbxDi4oc3goxmI0jcd8einDd.png)
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-TJo6btTNToN6wIxMv99cnLl9nth.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-TJo6btTNToN6wIxMv99cnLl9nth.png)
 
 * 在开始菜单中，创建快捷方式。
 
@@ -79,13 +79,13 @@ Miniconda 可以依据自己需求建立自己的 Python 环境，想要的套�
 
 ### **使用 Anaconda Powershell Prompt 终端**
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-WoLObjfjwotVfIxFDqzc3TDpnph.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-WoLObjfjwotVfIxFDqzc3TDpnph.png)
 
 安装完成后，打开终端 `Anaconda Powershell Prompt` ，如果有看到命令列提示中的（base），那表示安装成功。
 
 我们可以输入 `Python --version` 确认 Python 版本。
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-FM5XbhPS7oMUdxxSGFkc9me0nCd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-FM5XbhPS7oMUdxxSGFkc9me0nCd.png)
 
 ## **Conda 命令**
 
@@ -426,7 +426,7 @@ conda install mamba -n base -c conda-forge
 
 JupyterLab 是最新的基于 Web 的交互式开发环境，适用于 notebooks、代码和数据。其灵活的界面允许用户配置和安排数据科学、科学计算、计算新闻和机器学习中的工作流程。模块化设计允许扩展来扩展和丰富功能。
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-TPDMbJ8DFoMKulxHuUlcRIPGnd1.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-TPDMbJ8DFoMKulxHuUlcRIPGnd1.jpg)
 
 ### **Jupyter 安装使用**
 
@@ -452,11 +452,11 @@ conda create -n learn python=3.10
 
 2）创建项目，选择 Custom environment ，类型选择 `Conda` ，环境选择 `learn`，点击 **创建** 即可
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-MrsWbL7lPo8r2zxgk4pcu16bnpe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-MrsWbL7lPo8r2zxgk4pcu16bnpe.png)
 
 3）查看项目环境配置
 
-![](./大模型开发环境-Conda和Jupyter使用_assets/大模型开发环境-Conda和Jupyter使用-MeABbeGJAoto19xbjAhcT6JNnZc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-Conda%E5%92%8CJupyter%E4%BD%BF%E7%94%A8-MeABbeGJAoto19xbjAhcT6JNnZc.png)
 
 **注意：**&#x9879;目中需要另外的依赖库，直接到 Conda Powershell Prompt 终端下，激活 learn 环境，使用 pip 安装依赖库即&#x53EF;**！**
 

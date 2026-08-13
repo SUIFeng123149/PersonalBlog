@@ -53,7 +53,7 @@ lastVerified: 2026-08-13
 
 `用户提问 → 向量化 → 检索 → 文档排序 → 上下文构建 → LLM生成 → 输出`
 
-![](./DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库_assets/DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93-image.png)
 
 ## Dify入门与私有化部署
 
@@ -65,7 +65,7 @@ lastVerified: 2026-08-13
 
 由于 Dify 内置了构建 LLM 应用所需的关键技术栈，包括对数百个模型的支持、直观的 Prompt 编排界面、高质量的 RAG 引擎、稳健的 Agent 框架、灵活的流程编排，并同时提供了一套易用的界面和 API。这为开发者节省了许多重复造轮子的时间，使其可以专注在创新和业务需求上。
 
-![](./DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库_assets/DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93-image-1.png)
 
 ### **Dify私有化部署**
 
@@ -101,7 +101,7 @@ docker compose up -d
 
 选择知识库选项卡，然后点击创建知识库。
 
-![](./DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库_assets/DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93-image-2.png)
 
 ### 上传文件
 
@@ -109,11 +109,11 @@ docker compose up -d
 
 输入知识库名称，然后创建。
 
-![](./DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库_assets/DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93-image-4.png)
 
 ### 配置知识库权限
 
-![](./DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库_assets/DeepSeek篇-Deepseek-R1+Dify打造本地RAG知识库-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93_assets/DeepSeek%E7%AF%87-Deepseek-R1+Dify%E6%89%93%E9%80%A0%E6%9C%AC%E5%9C%B0RAG%E7%9F%A5%E8%AF%86%E5%BA%93-image-3.png)
 
 ## Dify接入Deepseek R1构建Agent应用
 

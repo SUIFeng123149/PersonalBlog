@@ -64,7 +64,7 @@ git clone https://huggingface.co/bert-base-chinese
 
 
 
-![](./微调篇--HF-transformers快速入门_assets/微调篇--HF-transformers快速入门-554dc3ec31138b51d595ecbc0374250c.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--HF-transformers%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--HF-transformers%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-554dc3ec31138b51d595ecbc0374250c.png)
 
 **下载后，需保持文件夹和文件名称与仓库中的一致。**
 

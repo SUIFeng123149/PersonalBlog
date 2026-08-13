@@ -2,7 +2,7 @@
 title: Hbase的部署
 published: 2025-11-13
 description: 'Hbase的部署 的详细部署与配置文档。'
-image: './Hbase部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, HBase, Deployment]
 category: 'BigData'
 draft: false 
@@ -43,7 +43,7 @@ source /etc/profile
 hbase version
 ```
 
-![image-20260727213916831](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727213916831.png)
+![image-20260727213916831](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727213916831.png)
 配置hbase-env.sh
 ```bash
 sudo vim /export/servers/hbase/conf/hbase-env.sh
@@ -57,7 +57,7 @@ export HBASE_USER_CLASSPATH_FIRST=true
 export HBASE_DISABLE_HADOOP_CLASSPATH_LOOKUP="true" 
 ```
 
-![image-20260727213946974](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727213946974.png)
+![image-20260727213946974](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727213946974.png)
 配置hbase-site.xml并替换所有内容
 ```bash
 sudo vim /export/servers/hbase/conf/hbase-site.xml
@@ -122,7 +122,7 @@ sudo vim /export/servers/hbase/conf/hbase-site.xml
 ```
 主要修改如图所示
 
-![image-20260727214026923](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214026923.png)
+![image-20260727214026923](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214026923.png)
 ### 配置子节点
 #### 配置regionservers文件（指定 RegionServer 节点）
 ```bash
@@ -135,7 +135,7 @@ hadoop02
 hadoop03
 ```
 
-![image-20260727214125612](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214125612.png)
+![image-20260727214125612](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214125612.png)
 #### 拷贝文件
 hadoop的core-site.xml文件和hdfs-site.xml文件到hbase的conf目录以便于Hbase能够读取hadoop的运行配置
 ```bash
@@ -162,7 +162,7 @@ sudo mv /tmp/profile /etc/
 start-hbase.sh
 ```
 
-![image-20260727214246810](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214246810.png)
+![image-20260727214246810](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214246810.png)
 #### 启动剩余节点
 在 hadoop02 启动第2个 HMaster
 刷新终端的环境变量
@@ -171,7 +171,7 @@ source /etc/profile
 hbase-daemon.sh start master
 ```
 
-![image-20260727214314896](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214314896.png)
+![image-20260727214314896](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214314896.png)
 在 hadoop03 启动第3个 HMaster
 刷新终端的环境变量
 ```bash
@@ -179,39 +179,39 @@ source /etc/profile
 hbase-daemon.sh start master
 ```
 
-![image-20260727214331493](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214331493.png)
+![image-20260727214331493](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214331493.png)
 查找程序
 ```bash
 jps | grep -E 'HMaster|HRegionServer' 
 ```
 hadoop01
 
-![image-20260727214408276](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214408276.png)
+![image-20260727214408276](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214408276.png)
 
 hadoop02
 
-![image-20260727214411733](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214411733.png)
+![image-20260727214411733](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214411733.png)
 
 hadoop03
 
-![image-20260727214415761](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214415761.png)
+![image-20260727214415761](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214415761.png)
 ### 测试结果
 #### 查看选举结果
 浏览器访问 主节点ip:16010
 
-![image-20260727214440468](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214440468.png)
+![image-20260727214440468](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214440468.png)
 #### 连接hbase并测试
 ```bash
 hbase shell
 ```
 
-![image-20260727214503947](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214503947.png)
+![image-20260727214503947](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214503947.png)
 #### list查询测试
 ```bash
 list
 ```
 
-![image-20260727214527697](./Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214527697.png)
+![image-20260727214527697](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hbase%E9%83%A8%E7%BD%B2.assets/image-20260727214527697.png)
 若出现以上结果且不报错即为部署完成
 然后按ctrl+D或输入exit回车退出
 ## 错误分析

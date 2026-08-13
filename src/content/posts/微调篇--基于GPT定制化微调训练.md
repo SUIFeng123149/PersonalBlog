@@ -171,7 +171,7 @@ print(out)
 
 ## &#x20;本地训练全流程实践
 
-![](./微调篇--基于GPT定制化微调训练_assets/微调篇--基于GPT定制化微调训练-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--%E5%9F%BA%E4%BA%8EGPT%E5%AE%9A%E5%88%B6%E5%8C%96%E5%BE%AE%E8%B0%83%E8%AE%AD%E7%BB%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--%E5%9F%BA%E4%BA%8EGPT%E5%AE%9A%E5%88%B6%E5%8C%96%E5%BE%AE%E8%B0%83%E8%AE%AD%E7%BB%83-image.png)
 
 ### 数据预处理方案
 

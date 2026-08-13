@@ -15,7 +15,7 @@ lastVerified: 2026-08-13
 ---
 #### 1.1 环境配置
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-EOrAbNBSaotfhLxdFXMcri8KnWh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-EOrAbNBSaotfhLxdFXMcri8KnWh.png)
 
 首先来为 Lagent 配置一个可用的环境
 
@@ -35,13 +35,13 @@ pip install class_registry==2.1.2
 
 等待安装完成\~
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-Mj5tb5rJnoMRvexggXPcXfHAngh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-Mj5tb5rJnoMRvexggXPcXfHAngh.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-Pnt0baMSuo4A3qxCDimcrToRn9g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-Pnt0baMSuo4A3qxCDimcrToRn9g.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-IzO1bqKI3ocfkRxQesrcPbRUn4b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-IzO1bqKI3ocfkRxQesrcPbRUn4b.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-R0tvbc0FboJk6XxlzKyc0cdSnDg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-R0tvbc0FboJk6XxlzKyc0cdSnDg.png)
 
 接下来，我们通过源码安装的方式安装 lagent。
 
@@ -54,7 +54,7 @@ cd lagent && git checkout e304e5d && pip install -e . && cd ..
 pip install griffe==0.48.0
 ```
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-Qgznb5wCnoVWwMxTunccKLiJnng.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-Qgznb5wCnoVWwMxTunccKLiJnng.png)
 
 #### 1.2 Lagent框架中Agent的使用
 
@@ -68,7 +68,7 @@ cd /root/agent_camp4/lagent/examples
 touch agent_api_web_demo.py
 ```
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-RnNUbxPBioVIgPxk8H7cid1tn0c.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-RnNUbxPBioVIgPxk8H7cid1tn0c.png)
 
 Action，也称为工具，Lagent中集成了很多好用的工具，提供了一套LLM驱动的智能体用来与真实世界交互并执行复杂任务的函数，包括谷歌文献检索、Arxiv文献检索、Python编译器等。具体可以查看[文档](https://lagent.readthedocs.io/zh-cn/latest/tutorials/action.html#id2)
 
@@ -278,11 +278,11 @@ export token='your_token_here'
 streamlit run agent_api_web_demo.py
 ```
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-PaBDb26QiouuhIxIF8bcwCPXnth.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-PaBDb26QiouuhIxIF8bcwCPXnth.png)
 
 在等待server启动成功后，我们在 **本地** 的 PowerShell 或win键+CMD中输入如下指令来进行端口映射：
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image.png)
 
 ssh -CNg -L 8501:127.0.0.1:8501 root@ssh.intern-ai.org.cn -p <你的 SSH 端口号>
 
@@ -290,7 +290,7 @@ ssh -CNg -L 8501:127.0.0.1:8501 root@ssh.intern-ai.org.cn -p <你的 SSH 端口�
 
 如果正确输入密钥，可以看到页面如下。
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-1.png)
 
 页面的侧边栏有三个内容，分别是**模型名称、API Base地址和插件选择**，其中如果采用浦语的API，模型名称可以选择internlm2.5-latest，默认指向最新发布的 InternLM2.5 系列模型，当前指向`internlm2.5-20b-0719`，窗口长度是32K，最大输出4096Tokens。
 
@@ -298,13 +298,13 @@ ssh -CNg -L 8501:127.0.0.1:8501 root@ssh.intern-ai.org.cn -p <你的 SSH 端口�
 
 可以尝试进行几轮简单的对话，并让其搜索文献，会发现大模型现在尽管有比较好的对话能力，但是并不能帮我们准确的找到文献，**例如输入指令“帮我搜索一下最新版本的MindSearch论文”**，会提示没有这方面的能力：
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-Svc6bHCLioxRZ6xty1KcElRtnuD.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-Svc6bHCLioxRZ6xty1KcElRtnuD.png)
 
 现在**将ArxivSearch插件选择上**，再次输入指令“帮我搜索一下最新版本的MindSearch论文”，可以看到，通过调用外部工具，大模型成功理解了我们的任务，得到了我们需要的文献：
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-EJC9bHOOhoSInsxaRdCcnklGnZc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-EJC9bHOOhoSInsxaRdCcnklGnZc.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-2.png)
 
 #### 1.3 制作一个属于自己的Agent
 
@@ -332,11 +332,11 @@ Lagent 框架的工具部分文档可以在此处查看：[Lagent 工具文档](
 
 （5）创建后，回到“项目管理”页面，找到你的 API Key 并复制保存。
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-XHVvbhNVdo4lmfxUL0zcuUVanae.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-XHVvbhNVdo4lmfxUL0zcuUVanae.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-FpnEbOog7o3Ttdx8NJLcTNvhnYd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-FpnEbOog7o3Ttdx8NJLcTNvhnYd.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-Fj4jbSxokod0JMx0l9kcVIPtnTh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-Fj4jbSxokod0JMx0l9kcVIPtnTh.png)
 
 接着，我们需要在`laegnt/actions`文件夹下面创建一个天气查询的工具程序。
 
@@ -346,7 +346,7 @@ cd /root/agent_camp4/lagent/lagent/actions
 touch weather_query.py
 ```
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-3.png)
 
 将下面的代码复制进去，**注意要将刚刚申请的API Key在终端中输入进去：**
 
@@ -427,33 +427,33 @@ class WeatherQuery(BaseAction):
             )
 ```
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-G943b6uodohJutxbXejcVaymngf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-G943b6uodohJutxbXejcVaymngf.png)
 
 修改actions文件夹里的\_\_init\_\_.py文件，时期初始化可以导入weather\_query里的WeatherQuery类
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-W0x0b5scYoq3V5xDwJgc7u2OnQg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-W0x0b5scYoq3V5xDwJgc7u2OnQg.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-GpN3b4p0Eo2emyx6VQAcsHaonse.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-GpN3b4p0Eo2emyx6VQAcsHaonse.png)
 
 接下来，我们将修改 Web Demo 脚本来集成自定义的 `WeatherQuery` 插件。
 
 打开`agent_api_web_demo.py`, 修改内容如下，目的是将该工具注册进大模型的插件列表中，使得其可以知道。
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-SDrqbwd2Lo1rEuxRt0ZcSQrvnHe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-SDrqbwd2Lo1rEuxRt0ZcSQrvnHe.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-4.png)
 
 **再次启动Web程序，`streamlit run agent_api_web_demo.py`**
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-NhmGbWUrwo7pLExIj9FcPGxenMe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-NhmGbWUrwo7pLExIj9FcPGxenMe.png)
 
 现在可以查询天气
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-5.png)
 
 现在，我们**将2个插件同时勾选上**，用以说明模型具备识别调用不同工具的能力，什么任务对应什么工具来解决。
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-Ke9HbicwXoDneVxRLShcd9yInqc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-Ke9HbicwXoDneVxRLShcd9yInqc.png)
 
 #### 1.4 Multi-Agents博客写作系统的搭建
 
@@ -669,9 +669,9 @@ if name == '__main__':
 
 运行`streamlit run multi_agents_api_web_demo.py`，启动Web服务 输入话题，比如`Semi-Supervised Learning`：
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-6.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-7.png)
 
 可以看到，Multi-Agents博客写作系统正在按照下面的3步骤，生成、批评和完善内容。
 
@@ -683,15 +683,15 @@ if name == '__main__':
 
 输入一个感兴趣的话题：
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-image-8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-image-8.png)
 
 批评和文献检索的结果：
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-UPjvb0usCoBDhKxIiz0cpnB2nac.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-UPjvb0usCoBDhKxIiz0cpnB2nac.png)
 
 最后完善的内容，可以看到其中包括了检索得到的文献，使得博客内容更加具有可信度。
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-OHAnbEhLOouTOexBNLFcwMZWnEf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-OHAnbEhLOouTOexBNLFcwMZWnEf.png)
 
 #### 1.5在HF上部署agent
 
@@ -701,17 +701,17 @@ if name == '__main__':
 
 [`https://huggingface.co/spaces/quentinrobot/lagent_weatherreport_ArxivSearch`](https://huggingface.co/spaces/quentinrobot/lagent_weatherreport_ArxivSearch)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-NYfBb0wHLoTeXExJ6rKcp0lcnpe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-NYfBb0wHLoTeXExJ6rKcp0lcnpe.png)
 
 2.在codespace上克隆仓库
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-I2ZIblDv1oPGhaxIpTAcLGPonoc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-I2ZIblDv1oPGhaxIpTAcLGPonoc.png)
 
 创建lagent环境，安装所需包，具体参考 1.2内容。
 
 激活环境如遇到问题，参考下面内容
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-AIkCbABXeoqnNtx7r9HctQG9nFe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-AIkCbABXeoqnNtx7r9HctQG9nFe.png)
 
 在actions文件夹中创建文件weather\_query.py，输入对应token。
 
@@ -723,15 +723,15 @@ if name == '__main__':
 
 `streamlit run agent_api_web_demo.py`
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-J0kcb0rg2o3ZdlxH0SncR3yenEh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-J0kcb0rg2o3ZdlxH0SncR3yenEh.png)
 
 运行正常
 
 执行上传模型文件
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-UpGkb0xwSo2A0VxFTjBcR2nInSg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-UpGkb0xwSo2A0VxFTjBcR2nInSg.png)
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-OJ1wbWIddou84ix0dM3cQUeHnhg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-OJ1wbWIddou84ix0dM3cQUeHnhg.png)
 
 可能会提示需要输入，我这里是提前输入
 
@@ -745,17 +745,17 @@ if name == '__main__':
 
 进入HF SPACE ，模型需要创建及启动一会儿
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-CGxpbR4e9o0whYxsPDLcdnk5n6b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-CGxpbR4e9o0whYxsPDLcdnk5n6b.png)
 
 进入模型app界面，点击生成博客内容
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-TCygbSTe4o1OC1xvjL5cey3OnUh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-TCygbSTe4o1OC1xvjL5cey3OnUh.png)
 
 至此完成模型部署
 
 需要设置这类的token，将你申请的书生api\_key及和风天气的api\_key粘贴进去。名称要与app.py代码中的一致，你自己定。
 
-![](./Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent_assets/Lagent：从零搭建你的 Multi-Agent_lagent从零搭建你的 multi-agent-XZuSbDRm1ocvJ8xHBtbc1K1Fnle.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent_assets/Lagent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20Multi-Agent_lagent%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%20multi-agent-XZuSbDRm1ocvJ8xHBtbc1K1Fnle.png)
 
 [Lagent 20250109 - a Hugging Face Space by quentinrobot](https://huggingface.co/spaces/quentinrobot/Lagent_20250109)
 

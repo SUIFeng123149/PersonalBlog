@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 注意：streamlit版本需要<1.30，一般为1.29.0，否则启动会报以下错误。
 
-![](./LangChain篇-基于SQL实现数据分析问答_assets/LangChain篇-基于SQL实现数据分析问答-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94-image-2.png)
 
 
 
@@ -310,14 +310,14 @@ streamlit  csv_search.py
 
 **问题1：select \* from categories**
 
-![](./LangChain篇-基于SQL实现数据分析问答_assets/LangChain篇-基于SQL实现数据分析问答-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94-image-1.png)
 
 **问题2：select CATEGORY\_ID from categories**
 
-![](./LangChain篇-基于SQL实现数据分析问答_assets/LangChain篇-基于SQL实现数据分析问答-TW0jbonAjo3n4Xxd4J0c6mIan2d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94-TW0jbonAjo3n4Xxd4J0c6mIan2d.png)
 
 **问题3：RED GOLD**
 
-![](./LangChain篇-基于SQL实现数据分析问答_assets/LangChain篇-基于SQL实现数据分析问答-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E5%9F%BA%E4%BA%8ESQL%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%97%AE%E7%AD%94-image.png)
 
 

@@ -19,13 +19,13 @@ lastVerified: 2026-08-13
 
 LLM Powered Autonomous Agents：<https://lilianweng.github.io/posts/2023-06-23-agent/>
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-Gl0obgxHaozEDgxtdvZcvOtsnSd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-Gl0obgxHaozEDgxtdvZcvOtsnSd.png)
 
 ## **Agent 案例**
 
 ### **AI 虚拟小镇**
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-ZAtdbaWQroIwuIx82pxc7Mgunmt.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-ZAtdbaWQroIwuIx82pxc7Mgunmt.png)
 
 * 论文链接：[https://arxiv.org/pdf/2304.03442v1.pdf](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2304.03442v1.pdf)
 
@@ -45,7 +45,7 @@ LLM 具备逻辑推理能力，Agent 可以将 LLM 的逻辑推理能力激发�
 
 思维链（Chain of Thoughts）已成为一种标准的提示技术，用于提高模型在复杂任务中的表现。模型被要求 “一步一步地思考”，将艰巨的任务分解为更小更简单的步骤。思维链将大任务转化为多个可管理的任务，并帮助人们理解模型的思维过程。
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-F0kdbmhiXolYquxnqNNcrUzenme.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-F0kdbmhiXolYquxnqNNcrUzenme.png)
 
 以一个数学题为例，标准 Prompting，模型输入：
 
@@ -87,11 +87,11 @@ ReAct：将任务中单独的行为和语言空间组合在一起，从而使大
 
 React 论文《ReAct: Synergizing Reasoning and Acting in Language Models》:[https://react-lm.github.io](https://link.zhihu.com/?target=https%3A//react-lm.github.io/)/
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-FOEqbb769owscOxZrlqcaO4gn3g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-FOEqbb769owscOxZrlqcaO4gn3g.png)
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-Cs3ebVUFToZzeRxqfATcJjkyncb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-Cs3ebVUFToZzeRxqfATcJjkyncb.png)
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-HiS5bVzTqolAxvxD2lJcGssqnZf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-HiS5bVzTqolAxvxD2lJcGssqnZf.png)
 
 ```txt
 问题：除了Apple遥控器，还有什么其他设备可以控制相关软件？相关软件指的是Apple遥控器最早可以控制的软件。
@@ -144,13 +144,13 @@ ReAct方法，即推理+动作。得到结果：
 
 Reflexion：一个让 AI Agent 具备动态记忆和自我反思能力以提高推理能力的框架。沿用了 ReAct 中的设置，并提供简单的二进制奖励。每次行动后，AI Agent 都会计算一个启发式函数，并根据自我反思的结果决定是否重置环境以开始新的试验。这个启发式的函数可以判断是否当下的路径效率低下（耗时过长却没有成功）或包含幻觉（在环境中遇到一连串导致相同观察结果的相同行动），并在出现这两种情况下终止函数。
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-Q4vqbOiYmocMdKxQYTJcMp2On5e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-Q4vqbOiYmocMdKxQYTJcMp2On5e.png)
 
 ## **Agent 架构之长期记忆设计**
 
 记忆，即信息存储与回忆。智能体模拟人类，设短期记忆存会话上下文，助多轮对话，任务毕则清；长期记忆存用户特征、业务数据，向量数据库速存速查。
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-H51zbghtuomoAixdLSxc1s1mn7g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-H51zbghtuomoAixdLSxc1s1mn7g.png)
 
 **记忆：用有限的上下文长度实现更多的记忆**
 
@@ -158,7 +158,7 @@ Reflexion：一个让 AI Agent 具备动态记忆和自我反思能力以提高�
 
 **对 AI 智能体系统的输入会成为系统的记忆，与人类的记忆模式可实现一一映射**。记忆可以定义为用于获取、存储、保留以及随后检索信息的过程。人脑中有多种记忆类型，如感觉记忆、短期记忆和长期记忆。而对于 AI Agent 系统而言，用户在与其交互过程中产生的内容都可以认为是 Agent 的记忆，和人类记忆的模式能够产生对应关系。感觉记忆就是作为学习嵌入表示的原始输入，包括文本、图像或其他模态；短期记忆就是上下文，受到有限的上下文窗口长度的限制；长期记忆则可以认为是 Agent 在工作时需要查询的外部向量数据库，可通过快速检索进行访问。目前 Agent 主要是利用外部的长期记忆，来完成很多的复杂任务，比如阅读 PDF、联网搜索实时新闻等。任务与结果会储存在记忆模块中，当信息被调用时，储存在记忆中的信息会回到与用户的对话中，由此创造出更加紧密的上下文环境。
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-PvCebqyWQobNpQxt6MMcJmOTnEg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-PvCebqyWQobNpQxt6MMcJmOTnEg.png)
 
 **为了解决有限记忆时间的限制，通常会用到外部存储器。常见的做法是将信息的嵌入表示保存到可支持快速的最大内积搜索（MIPS）的向量存储数据库中。向量数据库通过将数据转化为向量存储，解决大模型海量知识的存储、检索、匹配问题**。向量是 AI 理解世界的通用数据形式，大模型需要大量的数据进行训练，以获取丰富的语义和上下文信息，导致了数据量的指数级增长。向量数据库利用人工智能中的 Embedding 方法，将图像、音视频等[非结构化数据](https://zhida.zhihu.com/search?content_id=245390916\&content_type=Article\&match_order=1\&q=%E9%9D%9E%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E6%8D%AE\&zhida_source=entity)抽象、转换为多维向量，由此可以结构化地在向量数据库中进行管理，从而实现快速、高效的数据存储和检索过程，赋予了 Agent“长期记忆”。同时，将高维空间中的[多模态](https://zhida.zhihu.com/search?content_id=245390916\&content_type=Article\&match_order=1\&q=%E5%A4%9A%E6%A8%A1%E6%80%81\&zhida_source=entity)数据映射到低维空间的向量，也能大幅降低存储和计算的成本，向量数据库的存储成本比存到神经网络的成本要低 2 到 4 个数量级。
 
@@ -210,7 +210,7 @@ Reflexion：一个让 AI Agent 具备动态记忆和自我反思能力以提高�
 
 为此，让我们构建一个简单的研究助手！该图将类似于以下内容
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-OToRb0ewpo9ddqx1lgncsZvVnFf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-OToRb0ewpo9ddqx1lgncsZvVnFf.png)
 
 此笔记本受 Wu 等人发表的论文 [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) 的启发。在本笔记本的其余部分，您将
 
@@ -228,9 +228,9 @@ Reflexion：一个让 AI Agent 具备动态记忆和自我反思能力以提高�
 
 智能体依据“工具”感知环境、执行决策。工具比如：神经感官，助其获取信息、执行任务。配备多样工具并赋权，比如：API 调用业务信息，插件扩展大模型能力，比如：ChatPDF 解析文档、Midjourey 文生图。
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-Hk4zbRMvWoKgZtx6ABbcSd06nTh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-Hk4zbRMvWoKgZtx6ABbcSd06nTh.png)
 
-![](./Agent篇-解析Agent四大能力架构_assets/Agent篇-解析Agent四大能力架构-WmDBbJEO1oMMFOxbOsQc3Tsan1D.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84_assets/Agent%E7%AF%87-%E8%A7%A3%E6%9E%90Agent%E5%9B%9B%E5%A4%A7%E8%83%BD%E5%8A%9B%E6%9E%B6%E6%9E%84-WmDBbJEO1oMMFOxbOsQc3Tsan1D.png)
 
 工具：懂得使用工具才会更像人类
 

@@ -55,7 +55,7 @@ LangGraph 平台是一个商业解决方案，用于将代理应用程序部署�
 
 
 
-![](./LangGraph篇-核心组件_assets/LangGraph篇-核心组件-U0gAbRPjVoRmHyx81sNcZhGTnef.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6_assets/LangGraph%E7%AF%87-%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6-U0gAbRPjVoRmHyx81sNcZhGTnef.jpg)
 
 ## **Graph(图)**
 

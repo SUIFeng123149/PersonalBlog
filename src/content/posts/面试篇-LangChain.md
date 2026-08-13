@@ -201,7 +201,7 @@ Emebdding这个过程想必大家很熟悉，简单理解就是把现实中的�
 
 简单的分割函数：
 
-![](./面试篇-LangChain_assets/面试篇-LangChain -image1.jpeg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E9%9D%A2%E8%AF%95%E7%AF%87-LangChain_assets/%E9%9D%A2%E8%AF%95%E7%AF%87-LangChain%20-image1.jpeg)
 
 
 

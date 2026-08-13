@@ -141,29 +141,29 @@ GPU的数量选择与训练任务有关。一般我们认为模型的一次训�
 
 JupyterLab界面说明
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-DiajbH7uHo2k3RxS08cckg9snfe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-DiajbH7uHo2k3RxS08cckg9snfe.png)
 
 上传文件
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-Aa00bj11CoBEkpx5r5AcVse7nDb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-Aa00bj11CoBEkpx5r5AcVse7nDb.png)
 
 使用Notebook
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-H05ObUhnioD7wExguJkcWJj6nbb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-H05ObUhnioD7wExguJkcWJj6nbb.png)
 
 打开新终端
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-LiKtbE8W9oBCzXx7ivvc05M3nbf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-LiKtbE8W9oBCzXx7ivvc05M3nbf.png)
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-SgiBb73iCoGps1x8005ciYXGnne.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-SgiBb73iCoGps1x8005ciYXGnne.png)
 
 访问打开的终端或Notebook（JupyterLab在关闭终端/Notebook选项卡后默认不会终止，仍然在运行）
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-ORHObWZ8PofgtkxCYNycPEX9neB.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-ORHObWZ8PofgtkxCYNycPEX9neB.png)
 
 文件管理
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-D2Z6bCS4WoslNfx8ZRDcLoRNnOe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-D2Z6bCS4WoslNfx8ZRDcLoRNnOe.png)
 
 ### **附：使用常见问题**
 
@@ -171,11 +171,11 @@ JupyterLab界面说明
 
 如下一段程序执行起来后，刷新网页此时会发现日志不再更新
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-FKwmb30G2oBZnox9ullcaivFnch.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-FKwmb30G2oBZnox9ullcaivFnch.png)
 
 打开日志控制台：
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-UQ1EbDqGToG5WXxu9Zyc7RYfnBe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-UQ1EbDqGToG5WXxu9Zyc7RYfnBe.png)
 
 ### **# SSH远程连接**
 
@@ -187,7 +187,7 @@ JupyterLab界面说明
 
 开机实例后，找到SSH登录指令
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-G0CRbi0Buor8uJxGnGvcS2MLnhh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-G0CRbi0Buor8uJxGnGvcS2MLnhh.png)
 
 复制您的SSH登录指令，这里演示使用的是：`ssh -p 48332 root@region-3.autodl.com`
 
@@ -201,7 +201,7 @@ JupyterLab界面说明
 
 在您的本地终端中输入该命令，输入密码进行登录。（**注意：密码不会明文显示，正确输入后回车即可**）
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-AG5abOgNNo8TGWx5ZXVc6RignSg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-AG5abOgNNo8TGWx5ZXVc6RignSg.png)
 
 ⚠️如果通过SSH登录后执行训练程序，请使用screen/tmux开守护进程，确保程序不受SSH连接中断影响程序执行！ 安装screen方法：apt-get update && apt-get install -y screen， tmux已内置。
 
@@ -233,7 +233,7 @@ JupyterLab界面说明
 
 如果是已有的Notebook
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-AnbnbQu0PoMOoAxiibHc28OynIc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-AnbnbQu0PoMOoAxiibHc28OynIc.png)
 
 ### **清除Conda虚拟环境**
 
@@ -276,31 +276,31 @@ HOST： region-1.autodl.com
 
 \[File] -> \[Settings]，打开以下设置弹窗，搜索interpreter找到\[Python interpreter]设置项
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-GQN6bFYtsoFFKfx6qSBczxrbnBd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-GQN6bFYtsoFFKfx6qSBczxrbnBd.png)
 
 点击Add Interpreter，选择On SSH并点击 (PyCharm社区版本无该选项)
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-MLW0bTMeBowyFLxrbDoc3YMdnuh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-MLW0bTMeBowyFLxrbDoc3YMdnuh.png)
 
 将实例SSH指令中的Host、Port与Username进行匹配和填写（Username均为root，Host和Port查看自己实例的SSH指令)
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-Hd8qbWljto18X0xlO2PcXoa1nWg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-Hd8qbWljto18X0xlO2PcXoa1nWg.png)
 
 下一步：输入SSH的密码
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-GNwEb1iApoapSax8HXLcErlPnbc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-GNwEb1iApoapSax8HXLcErlPnbc.png)
 
 继续下一步，直到看到下面的弹窗。选择System Interpreter，配置远程Python解释器地址为`/root/miniconda3/bin/python`（如果您在miniconda中安装了其他的虚拟环境，那么虚拟环境的python解释器路径在/root/miniconda3/envs/{对应的虚拟环境名称}/bin/python）
 
 配置同步目录，意思是本地项目和远程实例中的哪个目录进行关联，这里设置为实例的数据盘子目录：`/root/autodl-tmp/project/` （不建议使用默认的/tmp目录）
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-TvxSb77rQoVkaExxeKvcZ9xenCc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-TvxSb77rQoVkaExxeKvcZ9xenCc.png)
 
 点击创建，如果配置均无误PyCharm会有小会配置过程，完成后即可远程开发。
 
 如果您在运行时找不到Python文件，可能是没有自动同步代码，那么可以选择手动同步：
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-Cy2ObNIoAoRvrBxTs36czS4bnee.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-Cy2ObNIoAoRvrBxTs36czS4bnee.png)
 
 **打开远程终端**
 
@@ -338,10 +338,10 @@ HuggingFace镜像站：<https://hf-mirror.com/>
 
 未使用加速：
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-JKrlbTijtoithExbFnTcNETtneg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-JKrlbTijtoithExbFnTcNETtneg.png)
 
 使用加速：
 
-![](./大模型介绍篇-AutoDL（云服务器）_assets/大模型介绍篇-AutoDL（云服务器）-L0nubgGaqoiXrSxaFktcA7hRn8f.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-AutoDL%EF%BC%88%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89-L0nubgGaqoiXrSxaFktcA7hRn8f.png)
 
 

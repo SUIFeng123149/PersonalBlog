@@ -13,7 +13,7 @@ status: verified
 testedOn: ""
 lastVerified: 2026-08-13
 ---
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-UCTKbPvXRoWcYKxtD7BcHLa0nrb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-UCTKbPvXRoWcYKxtD7BcHLa0nrb.png)
 
 2 月 24 日，DeepSeek 启动 “开源周”，首个开源的代码库为 FlashMLA。DeepSeek 这种挤牙膏式的宣推手段也是很有意思，看来梁文锋团队不仅仅是技术派，也擅长玩技术流量 IP。
 
@@ -21,19 +21,19 @@ lastVerified: 2026-08-13
 
 FlashMLA 是由 depseek-ai （深度求索）开发的一个开源项目，针对 [Hopper 架构](https://zhida.zhihu.com/search?content_id=254228681\&content_type=Article\&match_order=1\&q=Hopper%E6%9E%B6%E6%9E%84\&zhida_source=entity) GPU（例如 H100 或 H800）的高效的 MLA 推断（Inference）解码内核，旨在加速 MLA 机制的计算，特别适用于 DeepSeek 系列模型（如 DeepSeek-V2、V3 和 R1）。
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-1740668813003-dc77d848-caaf-454c-91af-fb54421be3b5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-1740668813003-dc77d848-caaf-454c-91af-fb54421be3b5.png)
 
 DeepSeek V3/R1 介绍（来源：中存算半导体）
 
 其中 MLA 是 DeekSeek 研发的多头潜注意力（[Multi-head Latent Attention](https://zhida.zhihu.com/search?content_id=254228681\&content_type=Article\&match_order=1\&q=Multi-head+Latent+Attention\&zhida_source=entity)）机制。通过低秩矩阵压缩 KV Cache（键值缓存），减少内存占用，同时提升模型性能。
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-JFUObt7svo3iM1xcXLVc0WnRnkh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-JFUObt7svo3iM1xcXLVc0WnRnkh.png)
 
 FlashMLA 借鉴 [FlashAttention](https://zhida.zhihu.com/search?content_id=254228681\&content_type=Article\&match_order=1\&q=FlashAttention\&zhida_source=entity) 分块 Tiling 和显存优化的思想。通过以算代存减少对于显存带宽的要求，提升计算性能。FlashMLA 的构建基于 [Cutlass](https://zhida.zhihu.com/search?content_id=254228681\&content_type=Article\&match_order=1\&q=Cutlass\&zhida_source=entity) 和 [CUDA](https://zhida.zhihu.com/search?content_id=254228681\&content_type=Article\&match_order=1\&q=CUDA\&zhida_source=entity) 体系。
 
 FlashMLA 主要用于大模型推断 / 推理（Inference），特别是在需要处理长序列的场景中，如聊天机器人或代码生成工具。通过优化 GPU 利用率，解决大模型在推理阶段的显存瓶颈问题。
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-e31bcfa7d400651dfa125929d9d32dfc.jpeg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-e31bcfa7d400651dfa125929d9d32dfc.jpeg)
 
 ## 2 FlashMLA 的关键技术与未来优化
 
@@ -65,7 +65,7 @@ Hopper GPU 架构参考文章： <https://zhuanlan.zhihu.com/p/487250706>
 
 FlashMLA 与其他相近计算方法对比
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-1740736210593-f8f02dd6-c0a3-4579-bc22-90c8f6db3705.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-1740736210593-f8f02dd6-c0a3-4579-bc22-90c8f6db3705.png)
 
 ## 3 从 [Memory Bound](https://zhida.zhihu.com/search?content_id=254228681\&content_type=Article\&match_order=1\&q=Memory+Bound\&zhida_source=entity) 到 Flash Attention 和 MLA
 
@@ -79,7 +79,7 @@ FlashMLA 与其他相近计算方法对比
 
 **2）Die 外存储**：主要用于全局存储，即我们常说的显存，其特点是存储容量大但带宽小。HBM 就属于常见的 Die（晶片）外存储，存储容量一般是 40GB 以上，但带宽相比于 SRAM 小得多。
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-VXMrbtOK7owlxkxJGUEcIUYnnxc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-VXMrbtOK7owlxkxJGUEcIUYnnxc.png)
 
 KV 缓存（来源：中存算半导体）
 
@@ -91,7 +91,7 @@ KV 缓存（来源：中存算半导体）
 
 FlashAttention 是一种高效的注意力机制优化技术，由斯坦福等大学的研究团队开发，最早于 2022 年提出，并在后续版本（如 FlashAttention-2、FlashAttention-3）中不断完善。FlashAttention 旨在解决传统 Transformer 模型中多头注意力（Multi-head Attention, MHA）的计算和显存瓶颈，尤其是在处理长序列时。FlashAttention 通过重新设计注意力计算方式，显著提升性能，同时保持与标准注意力机制相同的数学输出，使其成为近年来生成式 AI 和大模型领域的重要技术。FlashAttention 拥有比 PyTorch（当时的版本）标准注意力快 2\~4 倍的运行速度，所需内存还减少了 5\~20 倍。
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-RnlPbS0mko7tynxf4vzctAjKnsg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-RnlPbS0mko7tynxf4vzctAjKnsg.png)
 
 Flash Attention 技术
 
@@ -113,7 +113,7 @@ MLA 的本质是对 KV 的有损压缩，提高存储信息密度的同时尽可
 
 MLA 的方法是将 KV 矩阵转换为低秩形式：将原矩阵表示为两个较小矩阵（相当于潜向量）的乘积，在推断过程中，仅缓存潜向量，而不缓存完整的键 KV。这规避了分组查询注意力和多查询注意力的查询的信息损失，从而在降低 KV 缓存的前提下获得更好的性能。
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-ISXfbXltgomst5xEKNjcFLFQnDH.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-ISXfbXltgomst5xEKNjcFLFQnDH.png)
 
 矩阵的低秩近似（来源：互联网）
 
@@ -141,7 +141,7 @@ Flash MLA 的核心是高效的 MLA 解码内核，关键技术包括：
 
 FlashMLA 提供了 Python 接口，如 get\_mla\_metadata 获取 MLA（Multi-Head Linear Attention）的 meta 数据；flash\_mla\_with\_kvcache，用于获取键值缓存（KV Cache）和执行注意力（FlashMLA）计算。
 
-![](./Deepseek篇--开源技术FlashMLA详解_assets/Deepseek篇--开源技术FlashMLA详解-Nu4nbot0NokI27xN8SacsN7Lnxb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFFlashMLA%E8%AF%A6%E8%A7%A3-Nu4nbot0NokI27xN8SacsN7Lnxb.png)
 
 主要代码结构如下：（需要注意代码库还在不断更新，后面又添加了 benchmark 文件夹）
 

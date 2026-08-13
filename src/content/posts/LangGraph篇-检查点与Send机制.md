@@ -102,7 +102,7 @@ asyncio.run(main())
 
 以下是：map-reduce 工作流程图
 
-![](./LangGraph篇-检查点与Send机制_assets/LangGraph篇-检查点与Send机制-VEAnb2uDgo8Leax2YnmcoQ6knJh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E6%A3%80%E6%9F%A5%E7%82%B9%E4%B8%8ESend%E6%9C%BA%E5%88%B6_assets/LangGraph%E7%AF%87-%E6%A3%80%E6%9F%A5%E7%82%B9%E4%B8%8ESend%E6%9C%BA%E5%88%B6-VEAnb2uDgo8Leax2YnmcoQ6knJh.png)
 
 ```python
 # 导入operator模块，用于后续操作

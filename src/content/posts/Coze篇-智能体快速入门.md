@@ -15,7 +15,7 @@ lastVerified: 2026-07-31
 ---
 ## 一、什么是扣子？
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-U4Zrb4uJ6oRrNFxk9GKc4CNLnug.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-U4Zrb4uJ6oRrNFxk9GKc4CNLnug.png)
 
 扣子是新一代 AI 应用开发平台。无论你是否有编程基础，都可以在扣子上快速搭建基于大模型的各类 AI 应用，并将 AI 应用发布到各个社交平台、通讯软件，也可以通过 API 或 SDK 将 AI 应用集成到你的业务系统中。
 
@@ -53,7 +53,7 @@ lastVerified: 2026-07-31
 
 ### 搭建一个 AI 助手智能体
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-IimRbmLrioheG7x9kgPctkpKnic.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-IimRbmLrioheG7x9kgPctkpKnic.png)
 
 无论你是否有编程基础，你都可以在扣子平台快速搭建一个 AI 智能体。本文以一个夸夸机器人为例演示如何在扣子平台搭建智能体。
 
@@ -61,7 +61,7 @@ lastVerified: 2026-07-31
 
 和夸夸机器人对话时，它可以给你正向的鼓励，抚慰你的情绪。
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-PWq4bX1PCoHrQ8xqqAZcb2jEnOg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-PWq4bX1PCoHrQ8xqqAZcb2jEnOg.png)
 
 ***
 
@@ -132,21 +132,21 @@ lastVerified: 2026-07-31
 
 2.在**添加插件**页面，搜索 **bingWebSearch**，然后单击**添加**。
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-KSgMboIWQogDMDxRnTbczHxXnQf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-KSgMboIWQogDMDxRnTbczHxXnQf.png)
 
 3.修改人设与回复逻辑，指示智能体使用 **bingWebSearch** 插件来回答自己不确定的问题。否则，智能体可能不会按照预期调用该工具。
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-HgBpbFbqxo2OlCxJZ8HcGfn0nAc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-HgBpbFbqxo2OlCxJZ8HcGfn0nAc.png)
 
 另外，你还可以为智能体添加开场白、用户问题建议、背景图片等功能，增强对话体验。例如为智能体添加一张背景图片，使对话过程更沉浸。
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-JNCzbOpTWoyJ1kxn5LwcsOFjnng.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-JNCzbOpTWoyJ1kxn5LwcsOFjnng.webp)
 
 **步骤4：调试智能体**
 
 配置好智能体后，就可以在**预览与调试**区域中测试智能体是否符合预期。
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-CqOtbhqTNoZbyOxDEqvcc7ydnEe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-CqOtbhqTNoZbyOxDEqvcc7ydnEe.png)
 
 **步骤5：发布智能体**
 
@@ -166,7 +166,7 @@ lastVerified: 2026-07-31
 
 3. 单击**发布。**
 
-![](./Coze篇-智能体快速入门_assets/Coze篇-智能体快速入门-OMg0bYQPiocrHox5AI6cxbeFnDe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Coze%E7%AF%87-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-OMg0bYQPiocrHox5AI6cxbeFnDe.png)
 
 
 

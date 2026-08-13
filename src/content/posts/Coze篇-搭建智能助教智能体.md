@@ -41,7 +41,7 @@ lastVerified: 2026-08-13
 
 此模板的实现流程如下：
 
-![](./Coze篇-搭建智能助教智能体_assets/Coze篇-搭建智能助教智能体-NgcsbN2m0oRKUXxsa5wcXmt4np4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%8A%A9%E6%95%99%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%8A%A9%E6%95%99%E6%99%BA%E8%83%BD%E4%BD%93-NgcsbN2m0oRKUXxsa5wcXmt4np4.png)
 
 此模板主要依赖回答问题的工作流。工作流各个功能模块的节点设置如下：
 
@@ -49,7 +49,7 @@ lastVerified: 2026-08-13
 
 作业批改模板中，智能体作为助教身份，可以帮助教师生成教案、课件，或批量批改学生作业。此模板的实现流程如下：
 
-![](./Coze篇-搭建智能助教智能体_assets/Coze篇-搭建智能助教智能体-VENlbmGKkobTrMxXir6cPSWynCd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%8A%A9%E6%95%99%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%8A%A9%E6%95%99%E6%99%BA%E8%83%BD%E4%BD%93-VENlbmGKkobTrMxXir6cPSWynCd.png)
 
 此模板的两个核心功能分别通过两个独立的工作流完成。工作流节点设置如下：
 
@@ -79,7 +79,7 @@ lastVerified: 2026-08-13
 
 重新设置智能体的人设与回复逻辑，例如将“语文”关键词调整为“数学”。
 
-![](./Coze篇-搭建智能助教智能体_assets/Coze篇-搭建智能助教智能体-VHG6b6galopOVMxiDuYcL1RBnTb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%8A%A9%E6%95%99%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%8A%A9%E6%95%99%E6%99%BA%E8%83%BD%E4%BD%93-VHG6b6galopOVMxiDuYcL1RBnTb.png)
 
 ### 步骤四：测试并发布
 

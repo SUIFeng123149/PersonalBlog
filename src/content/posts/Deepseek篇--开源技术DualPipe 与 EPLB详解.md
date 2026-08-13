@@ -13,7 +13,7 @@ status: verified
 testedOn: ""
 lastVerified: 2026-08-13
 ---
-![](./Deepseek篇--开源技术DualPipe 与 EPLB详解_assets/Deepseek篇--开源技术DualPipe 与 EPLB详解-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3-image.png)
 
 2 月 24 日，DeepSeek 启动 “开源周”，第四个开源的代码库为 DualPipe 与 EPLB（一下发布了两个）。DualPipe 与 EPLB 依然使用了大量与 [Hopper 架构](https://zhida.zhihu.com/search?content_id=254371560\&content_type=Article\&match_order=1\&q=Hopper%E6%9E%B6%E6%9E%84\&zhida_source=entity)绑定的技术。
 
@@ -53,7 +53,7 @@ EPLB 具有如下核心特点：
 
 3）**高效可扩展性**EPLB 支持灵活的专家复制和分配，能够适配不同规模的模型和硬件配置。例如，在一个包含 2 个节点、每个节点 4 个 GPU 的集群上，EPLB 可以动态规划 16 个个专家副本的分配。
 
-![](./Deepseek篇--开源技术DualPipe 与 EPLB详解_assets/Deepseek篇--开源技术DualPipe 与 EPLB详解-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3-image-1.png)
 
 12 个专家在 2 节点的分布示例（来源：DeepSeek）
 
@@ -117,13 +117,13 @@ EPLB 架构思路说明（来源：中存算半导体）
 
 * 配置脚本用于设置流水线级别和微批次数量。
 
-![](./Deepseek篇--开源技术DualPipe 与 EPLB详解_assets/Deepseek篇--开源技术DualPipe 与 EPLB详解-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3-image-2.png)
 
 ### 3.2 EPLB 代码结构分析
 
 <https://github.com/deepseek-ai/EPLB>
 
-![](./Deepseek篇--开源技术DualPipe 与 EPLB详解_assets/Deepseek篇--开源技术DualPipe 与 EPLB详解-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDualPipe%20%E4%B8%8E%20EPLB%E8%AF%A6%E8%A7%A3-image-3.png)
 
 ## 4 DualPipe 与 EPLB 的现状与未来
 

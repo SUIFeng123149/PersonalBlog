@@ -2,7 +2,7 @@
 title: "Hadoop的部署"
 published: 2025-11-11
 description: "Hadoop的部署 的详细部署与配置文档。"
-image: "./Hadoop部署.assets/cover.webp"
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: ["BigData", "Hadoop", "Deployment"]
 category: "BigData"
 draft: false
@@ -444,7 +444,7 @@ ssh hadoop03 "bash -c 'source /etc/profile'"
 
 最终的环境变量配置如下图
 
-![image-20260727211056788](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211056788.png)
+![image-20260727211056788](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211056788.png)
 
 ### 首次启动hadoop
 
@@ -526,7 +526,7 @@ ssh hadoop02 "bash -c 'source /etc/profile && jps'"
 ssh hadoop03 "bash -c 'source /etc/profile && jps'"
 ```
 
-![image-20260727211309354](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211309354.png)
+![image-20260727211309354](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211309354.png)
 
 ### 后续启动与关闭hadoop
 
@@ -552,7 +552,7 @@ ssh hadoop02 "bash -c 'source /etc/profile && mapred --daemon start historyserve
 ssh hadoop03 "bash -c 'source /etc/profile && mapred --daemon start historyserver'"
 ```
 
-![image-20260727211353085](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211353085.png)
+![image-20260727211353085](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211353085.png)
 
 关闭JobHistory
 
@@ -576,7 +576,7 @@ ssh hadoop02 "bash -c 'source /etc/profile && $ZOOKEEPER_HOME/bin/zkServer.sh st
 ssh hadoop03 "bash -c 'source /etc/profile && $ZOOKEEPER_HOME/bin/zkServer.sh stop'"
 ```
 
-![image-20260727211441610](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211441610.png)
+![image-20260727211441610](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211441610.png)
 
 ## 测试
 
@@ -590,7 +590,7 @@ http://10.1.100.21:9864
 http://10.1.100.22:9864
 ```
 
-![image-20260727211546833](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211546833.png)
+![image-20260727211546833](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211546833.png)
 
 NodeManager information
 
@@ -600,7 +600,7 @@ http://10.1.100.21:8042
 http://10.1.100.22:8042
 ```
 
-![image-20260727211558832](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211558832.png)
+![image-20260727211558832](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211558832.png)
 
 Namenode information
 
@@ -608,7 +608,7 @@ Namenode information
 http://10.1.100.20:9870/
 ```
 
-![image-20260727211609571](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211609571.png)
+![image-20260727211609571](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211609571.png)
 
 Nodes of the cluster
 
@@ -616,7 +616,7 @@ Nodes of the cluster
 http://10.1.100.20:8088/
 ```
 
-![image-20260727211621884](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211621884.png)
+![image-20260727211621884](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211621884.png)
 
 JobHistory
 
@@ -626,7 +626,7 @@ http://10.1.100.21:19888/jobhistory/
 http://10.1.100.22:19888/jobhistory/
 ```
 
-![image-20260727211635601](./Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211635601.png)
+![image-20260727211635601](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211635601.png)
 
 访问成功且有内容即代表成功启动
 

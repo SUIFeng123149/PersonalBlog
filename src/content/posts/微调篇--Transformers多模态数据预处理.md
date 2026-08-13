@@ -463,7 +463,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-![](./微调篇--Transformers多模态数据预处理_assets/微调篇--Transformers多模态数据预处理-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86-image-1.png)
 
 
 
@@ -556,7 +556,7 @@ array([[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
 
 
 
-![](./微调篇--Transformers多模态数据预处理_assets/微调篇--Transformers多模态数据预处理-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86-image.png)
 
 
 

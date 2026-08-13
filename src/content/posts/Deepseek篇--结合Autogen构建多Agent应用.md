@@ -43,7 +43,7 @@ AutoGen Studio 依赖 Python 环境，这里建议大家使用 Anaconda 去管�
 
 会发现有很多版本可选，用网页搜索功能搜索`1.5.0`，以 windows 为例，下载 exe 安装文件。
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-11.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-11.png)
 
 下载完成之后点击 exe 文件进行安装，安装非常简单。
 
@@ -63,13 +63,13 @@ windows 开始菜单搜索栏，搜索 Prompt，搜索结果中可以看应用`A
 
 &#x20;执行命令创建环境的过程中，会有一次交互 (如下图)，命令行界面等待输入时，键盘输入字母 `y ` 即可。
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-9.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-9.png)
 
 &#x20;
 
 &#x20;稍等片刻，知道有如下输出，说明环境创建成功。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-12.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-12.png)
 
 &#x20;接下来，输入如下命令，切换到创建好的环境。&#x20;
 
@@ -113,7 +113,7 @@ windows 开始菜单搜索栏，搜索 Prompt，搜索结果中可以看应用`A
 
 &#x20;有如下输出，说明启动成功。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-7.png)
 
 **&#x20;3，访问 autogen studio&#x20;**
 
@@ -125,13 +125,13 @@ windows 开始菜单搜索栏，搜索 Prompt，搜索结果中可以看应用`A
 
 &#x20;即可看到如下界面。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-6.png)
 
 ### &#x20;2.本地部署 Deepseek &#x20;
 
 &#x20;使用 Ollama 部署 DeepSeek-R1 模型的步骤相对简单，以下是详细的部署流程：&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-5.png)
 
 #### &#x20;步骤 1: 安装 Ollama&#x20;
 
@@ -149,7 +149,7 @@ ollama pull deepseek-r1:1.5b
 
 &#x20;该命令会从 Ollama 的官方模型库中拉取 DeepSeek-R1 模型，并下载到本地。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-3.png)
 
 #### &#x20;步骤 3: 启动模型&#x20;
 
@@ -159,7 +159,7 @@ ollama run deepseek-r1:1.5b
 
 &#x20;该命令会启动模型，并在本地环境中启动一个推理服务。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-13.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-13.png)
 
 ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
@@ -191,7 +191,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 &#x20;如下图，在 Autogen Studio 的界面上，按照如下步骤打开登记界面 。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-2.png)
 
 * &#x20;① 选择 Build&#x20;
 
@@ -201,7 +201,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 **&#x20;模型登记界面如下。&#x20;**
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-14.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-14.png)
 
 * &#x20;① 填写模型名称&#x20;
 
@@ -213,7 +213,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 &#x20;登记完成后，点击  `Test Model `  进行测试，校验信息是否准确。有如下提示，说明模型登记成功，点击 `保存 ` 即可。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-4.png)
 
 ### &#x20;2.给代理配置大脑&#x20;
 
@@ -227,7 +227,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 &#x20;注意，第一个 `  代理user_proxy不需要大脑  ` ，user\_proxy 只是前端接待和指令执行者，不需要动脑子。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-1.png)
 
 &#x20;以给代理 default\_assistant 配置大脑为例，演示步骤，其他代理类似。&#x20;
 
@@ -237,7 +237,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 * &#x20;③ 点击 `  add  ` 按钮&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image.png)
 
 * &#x20;④ 在弹出的下来列表中选择 deepseek-code 模型作为代理的大脑&#x20;
 
@@ -259,7 +259,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 &#x20;切换到工作流界面，如下图。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-10.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-10.png)
 
 &#x20;点击上图中的 `  Travel Planning Workflow  ` ，进入其配置界面，选择界面上的 Agents 卡片。&#x20;
 
@@ -283,11 +283,11 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 &#x20;要回答这个问题，得回到 Agents 界面，点击代理 `  travel_groupchat  ` 。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-8.png)
 
 &#x20;在代理 `  travel_groupchat  ` 的配置界面上选择 Agents 卡片，可以看到在这里关联其他 Agent。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-15.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-15.png)
 
 &#x20;相当于代理 `  travel_groupchat  ` 是个 Leader，管理着很多员工。&#x20;
 
@@ -295,7 +295,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 &#x20;Autogen Studio 上的 Playgournd 就是智能体的表演舞台，接下来我们把旅游规划师请上舞台。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-16.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-16.png)
 
 * &#x20;① 选择卡片 Playground&#x20;
 
@@ -321,7 +321,7 @@ ollama api地址：[`http://localhost:11434/v1`](http://localhost:11434/v1)
 
 &#x20;如下图，这个过程，至少有二个代理参与，但他们的对话过程对用户来说，是不透明的。&#x20;
 
-![](./Deepseek篇--结合Autogen构建多Agent应用_assets/Deepseek篇--结合Autogen构建多Agent应用-image-17.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8_assets/Deepseek%E7%AF%87--%E7%BB%93%E5%90%88Autogen%E6%9E%84%E5%BB%BA%E5%A4%9AAgent%E5%BA%94%E7%94%A8-image-17.png)
 
 &#x20;用户就是提出问题，等待答案。&#x20;
 

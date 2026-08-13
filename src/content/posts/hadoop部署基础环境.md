@@ -2,7 +2,7 @@
 title: 服务器基础配置与基础设施搭建
 published: 2025-11-11
 description: '服务器基础配置与基础设施搭建 的详细部署与配置文档。'
-image: './hadoop部署基础环境.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/cover.webp
 tags: [BigData, Hadoop, Environment, Deployment]
 category: 'BigData'
 draft: false 
@@ -17,9 +17,9 @@ lastVerified: 2026-07-28
 ## 分别配置3个服务器的ip
 
 查看网关方法
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps59.jpg) 
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps60.jpg) 
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps61.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps59.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps60.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps61.jpg) 
 ```bash
 sudo vim /etc/netplan/50-cloud-init.yaml
 ```
@@ -42,7 +42,7 @@ network:
       - to: "default"
         via: "10.1.100.254"
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps62.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps62.jpg) 
 然后重新载入配置
 ```bash
 sudo netplan apply
@@ -65,7 +65,7 @@ sudo usermod -aG sudo hadooper
 sudo vim /etc/sudoers
 ```
 配置如下图所示
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps63.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps63.jpg) 
 ## 分别更改3个服务器的hosts及主机名
 
 ### 编辑hosts配置
@@ -82,7 +82,7 @@ sudo vim /etc/hosts
 10.1.100.21 hadoop02
 10.1.100.22 hadoop03
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps64.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps64.jpg) 
 
 ### 分别更改三台服务器的主机名
 
@@ -109,7 +109,7 @@ ping hadoop02
 
 ping hadoop03
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps65.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps65.jpg) 
 其他服务器同理，此处不做过多赘述
 
 ## 配置免密登录
@@ -148,7 +148,7 @@ Components: main restricted universe multiverse
 
 Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps66.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps66.jpg) 
 
 ### 更新升级软件包
 
@@ -171,7 +171,7 @@ sudo systemctl enable ssh
 ```bash
 ssh-keygen -t rsa
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps67.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps67.jpg) 
 在3个服务器上分别拷贝公钥到该服务器上(即每个服务器都需要执行下面的三条指令)
 ```bash
 ssh-copy-id hadoop01
@@ -245,7 +245,7 @@ export JAVA_HOME=/export/servers/jdk
 export PATH=$PATH:$JAVA_HOME/bin
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps68.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps68.jpg) 
 重新加载环境变量
 ```bash
 source /etc/profile
@@ -254,7 +254,7 @@ source /etc/profile
 ```bash
 java -version
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps69.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps69.jpg) 
 
 ### 分发java配置
 
@@ -286,7 +286,7 @@ ssh hadoop02 "bash -c 'source /etc/profile && java -version'"
 
 ssh hadoop03 "bash -c 'source /etc/profile && java -version'"
 ```
-![img](./hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps70.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/hadoop%E9%83%A8%E7%BD%B2%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83.assets/wps70.jpg) 
 
 ## 安装工具
 

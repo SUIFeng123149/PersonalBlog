@@ -131,17 +131,17 @@ lastVerified: 2026-08-13
 
 2. 在目标空间下创建文本知识库。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-TH9EbYG0YoZC6exbI2YcvWGJnVf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-TH9EbYG0YoZC6exbI2YcvWGJnVf.png)
 
 * 在文本知识库中添加文本内容。
 
   1. 选择导入类型。
 
-  ![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-DQnibZ1UWo2PzCx06xXcSWl3nbh.png)
+  ![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-DQnibZ1UWo2PzCx06xXcSWl3nbh.png)
 
   * 上传文本及设置文档解析、分段、存储、索引等策略。
 
-  ![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-U3UJbAzjDo88XdxoJYHcjAXznog.png)
+  ![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-U3UJbAzjDo88XdxoJYHcjAXznog.png)
 
   * 不同导入类型，对应的上传操作和策略配置不同，你可以参考如下文档完成配置。
 
@@ -227,7 +227,7 @@ lastVerified: 2026-08-13
 
 4. 在**编排**页面，定位到**知识**功能区域，然后单击对应的添加按钮（**+**）添加要使用的知识库内容。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-VrDxbdoIcoqurrxsK87cjHXGn6f.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-VrDxbdoIcoqurrxsK87cjHXGn6f.webp)
 
 
 
@@ -281,7 +281,7 @@ lastVerified: 2026-08-13
 
 * 在**编辑知识库**页面，根据实际需要修改名称、描述和图标，然后单击**确认**。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-L2iKbQq6fo1OrVxZ2EtcwUNhnpd.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-L2iKbQq6fo1OrVxZ2EtcwUNhnpd.webp)
 
 
 
@@ -305,7 +305,7 @@ lastVerified: 2026-08-13
 
 在**资源库**页面，找到目标知识库，然后打开**操作**列下的 **… —>启用**的开关。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-KLBlbFYfOow9OrxlKzpcL1LVnMf.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-KLBlbFYfOow9OrxlKzpcL1LVnMf.webp)
 
 开启知识库后，系统会取消**已停用**标签。
 
@@ -341,15 +341,15 @@ lastVerified: 2026-08-13
 
 2. 展开**全部内容**，然后选择要删除的知识库文件。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-Y2zqbKZ2JouIRsx2vnuchNkdnmb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-Y2zqbKZ2JouIRsx2vnuchNkdnmb.webp)
 
 * 单击右上角的删除图标。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-UfB9bDH8loZVr7xNjLbc2bzintg.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-UfB9bDH8loZVr7xNjLbc2bzintg.webp)
 
 * 在弹出的对话框中，单击**删除**。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-GT5tbmH8Eow8i5xvzdOcRlsCn1P.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-GT5tbmH8Eow8i5xvzdOcRlsCn1P.webp)
 
 知识库文件相关的API如下：
 
@@ -365,11 +365,11 @@ lastVerified: 2026-08-13
 
 1. 在**资源库**页面，找到目标知识库，然后单击**操作**列下的 **… —>删除**。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-LnXcb0xKvoNf12xHOPIcK8Tin2b.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-LnXcb0xKvoNf12xHOPIcK8Tin2b.webp)
 
 * 在弹出的对话框中，单击**确定**。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-YZWSb1A5oov0iRxFgiFcTN7cn3d.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-YZWSb1A5oov0iRxFgiFcTN7cn3d.webp)
 
 
 
@@ -419,7 +419,7 @@ lastVerified: 2026-08-13
 
    * 变量默认开启提示词访问，你可以在智能体的人设与提示词中，指定变量的具体使用场景。未开启时，仅支持在工作流中使用此变量。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-JN7lbnrZzoYNDwx2MzQchGT9nQe.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-JN7lbnrZzoYNDwx2MzQchGT9nQe.webp)
 
 #### 1.3 使用变量
 
@@ -441,7 +441,7 @@ lastVerified: 2026-08-13
 
 工作流的流程如下：
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-ZInibBwlLozhklx3t2ec16CcnTf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-ZInibBwlLozhklx3t2ec16CcnTf.png)
 
 1. 登录[扣子平台](https://www.coze.cn/)。
 
@@ -461,7 +461,7 @@ lastVerified: 2026-08-13
 
 5. 配置人设与回复逻辑。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-AG0SbMEC5o4E8pxW3hvc40CcnOb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-AG0SbMEC5o4E8pxW3hvc40CcnOb.webp)
 
 * 发布智能体。
 
@@ -471,11 +471,11 @@ lastVerified: 2026-08-13
 
      * 首次发布时需要进行授权，根据引导完成授权。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-JHKJb6FIYoyAnTxqJCKckV1tnAd.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-JHKJb6FIYoyAnTxqJCKckV1tnAd.webp)
 
 * 测试智能体效果。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-RQzWbxofjo6jM4xfebVcLuqNn2f.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-RQzWbxofjo6jM4xfebVcLuqNn2f.webp)
 
 
 
@@ -517,11 +517,11 @@ lastVerified: 2026-08-13
 
 扣子支持在 Prompt 通过 NL2SQL 方式对数据表进行操作。为了方便演示和介绍数据功能，本文以一个记录日常开支的智能体为例。这个智能体中使用的数据表结构如下。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-B8YkbG9e2oabJ2x3sWScM2dZnFb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-B8YkbG9e2oabJ2x3sWScM2dZnFb.png)
 
 用户可通过自然语言与智能体进行交互来插入或查询数据库中的数据。智能体会根据用户的输入自动创建一条新的记录并将其存储在数据库中。同样，用户也可以使用自然语言查询数据库中的数据，例如询问某一天的总开支、某一个类别的开支等，智能体会根据用户的查询条件从数据库中检索相应的数据并返回给用户。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-JYCPbHg82o3DDRxU8rEcccuqnrg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-JYCPbHg82o3DDRxU8rEcccuqnrg.png)
 
 参考以下操作，在 Prompt 中添加并使用数据表：
 
@@ -567,7 +567,7 @@ lastVerified: 2026-08-13
 
 * 关闭“支持在Prompt中调用”：智能体的用户只能在工作流中通过长期记忆节点召回长期记忆，无法在和智能体对话时通过提问的方式召回长期记忆。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-YXZLbc9HeoAsLwxqkd9cfBt2nIh.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-YXZLbc9HeoAsLwxqkd9cfBt2nIh.webp)
 
 **说明**
 
@@ -575,7 +575,7 @@ lastVerified: 2026-08-13
 
 * 如果智能体绑定了包含长期记忆的工作流，则智能体需要开启长期记忆功能，否则工作流执行会报错 702090900 This智能体does not have LTM enabled.。同时建议关闭**支持在Prompt中调用**，否则在对话中容易同时触发长期记忆召回和工作流执行，影响对话效果。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-T7ZbbbOhqofZBcxhvCachK97nLb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-T7ZbbbOhqofZBcxhvCachK97nLb.webp)
 
 #### 3.3 记录长期记忆
 
@@ -601,7 +601,7 @@ lastVerified: 2026-08-13
 
 如果智能体开发者开启了“支持在Prompt中调用”，那么用户可以在和智能体的对话中主动查询长期记忆，例如用户向智能体发送自己的早餐菜谱，如果用户询问“今天早上我吃了什么”，智能体会从长期记忆中召回今日早餐相关的内容，总结后回复用户。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-Tj8dbQdrBofgWvxHkdWcKxE7nre.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-Tj8dbQdrBofgWvxHkdWcKxE7nre.webp)
 
 对于人设类的智能体，为了出于对用户关心，增强用户体验，在某些场景下，智能体也会主动提及长期记忆中存储的关键信息。例如用户表示自己摔了一跤，智能体可能会主动关心用户的康复情况。
 
@@ -613,7 +613,7 @@ lastVerified: 2026-08-13
 
 例如对于查看热点新闻的工作流，可以召回用户的长期记忆，根据用户喜好来筛选出其可能感兴趣的内容。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-AAU6bLU94ocjaUxksIecbo8CnGB.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-AAU6bLU94ocjaUxksIecbo8CnGB.webp)
 
 #### 3.5 修改和删除长期记忆
 
@@ -621,7 +621,7 @@ lastVerified: 2026-08-13
 
 支持智能体的开发者删除或清空本人的长期记忆。在调试页面的右上角单击 **Memory** > **长期记忆**，可查看本人相关的所有长期记忆，也可以编辑或删除、清空本人的长期记忆。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-A1JZbpqmEorqnexlEYMceioDnNb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-A1JZbpqmEorqnexlEYMceioDnNb.webp)
 
 #### 3.6 常见问题
 
@@ -637,7 +637,7 @@ lastVerified: 2026-08-13
 
 长期记忆记录到 Memory 中需要一定时间，建议在对话一段时间后再进入 **Memory** > **长期记忆**页面查看长期记忆，或者再与智能体对话 1\~2 轮之后查看。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-PqtsbBS6SolWRNxhPincJ47MnFc.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-PqtsbBS6SolWRNxhPincJ47MnFc.webp)
 
 
 
@@ -687,13 +687,13 @@ lastVerified: 2026-08-13
 
 * 根据页面提示上传符合要求的文件。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-JqkkbdTeuoIXWkxPTNNcZmGonJh.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-JqkkbdTeuoIXWkxPTNNcZmGonJh.webp)
 
 * 上传文件后，你可以在**照片**或**文档**页签中查看自己上传的文件列表。
 
 - 你也可以在操作列对已上传的文件执行一些管理操作，例如提问、复制名字、改名、删除。也可以在对话区域内通过自然语言或 API 指令管理文件，详细说明可参考使用文件盒子。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-Hv8XbdGImooIXdxlaB5c571snCe.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-Hv8XbdGImooIXdxlaB5c571snCe.webp)
 
 **使用文件盒子**
 

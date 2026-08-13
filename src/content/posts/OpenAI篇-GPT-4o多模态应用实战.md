@@ -15,7 +15,7 @@ lastVerified: 2026-08-13
 ---
 ## **演示效果**
 
-![](./OpenAI篇-GPT-4o多模态应用实战_assets/OpenAI篇-GPT-4o多模态应用实战-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98_assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98-image.png)
 
 ## **Streamlit开发文档**
 
@@ -59,16 +59,16 @@ st.write("this is a streamlit demo")
 
 **Script parameters**：run app.py
 
-![](./OpenAI篇-GPT-4o多模态应用实战_assets/OpenAI篇-GPT-4o多模态应用实战-O0S7beTXOo5stNxQdYGcwBFHnYc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98_assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98-O0S7beTXOo5stNxQdYGcwBFHnYc.png)
 
 再次启动 debug 按钮，报错如下
 
-![](./OpenAI篇-GPT-4o多模态应用实战_assets/OpenAI篇-GPT-4o多模态应用实战-KVTubhEK7ob0bRx6VD4cnDf1n9b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98_assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98-KVTubhEK7ob0bRx6VD4cnDf1n9b.png)
 
 解决如下:
 
 Help | Find Action | Registry | python.debug.asyncio.repl 去掉勾。
 
-![](./OpenAI篇-GPT-4o多模态应用实战_assets/OpenAI篇-GPT-4o多模态应用实战-AWD9bwIzooKWdMxn15KckOjjnCb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98_assets/OpenAI%E7%AF%87-GPT-4o%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98-AWD9bwIzooKWdMxn15KckOjjnCb.png)
 
 

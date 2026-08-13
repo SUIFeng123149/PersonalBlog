@@ -43,25 +43,25 @@ SerpAP 提供一个月 100 次的免费调用次数，这足够我们完成本�
 
 点击复制
 
-![](./Dify篇-搭建个人在线旅游助手_assets/Dify篇-搭建个人在线旅游助手-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B-image-1.png)
 
 * 前往 **Dify-工具-Google**：
 
 点击**去授权**，填入 API Key 并保存。
 
-![](./Dify篇-搭建个人在线旅游助手_assets/Dify篇-搭建个人在线旅游助手-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B-image.png)
 
 ### webscraper
 
 本次实验中，我们需要一个爬虫工具从指定的网页中抓取内容，Dify 已提供内置工具，无需额外配置。
 
-![](./Dify篇-搭建个人在线旅游助手_assets/Dify篇-搭建个人在线旅游助手-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B-image-2.png)
 
 ### Wikipedia
 
 我们还希望 Agent 能够准确介绍目的地知识，Wikipedia 是一个比较好知识来源，Dify 也内置了该工具，无需额外配置。
 
-![](./Dify篇-搭建个人在线旅游助手_assets/Dify篇-搭建个人在线旅游助手-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B-image-5.png)
 
 
 
@@ -71,7 +71,7 @@ SerpAP 提供一个月 100 次的免费调用次数，这足够我们完成本�
 
 添加工具：`Google`、`webscraper` 和 `wikipedia` 并启用。
 
-![](./Dify篇-搭建个人在线旅游助手_assets/Dify篇-搭建个人在线旅游助手-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B-image-4.png)
 
 **示例输出**
 
@@ -103,6 +103,6 @@ Dify 目前支持`文本`、`段落`、`下拉选项`、`数字`、`基于 API �
 
 生成提示词
 
-![](./Dify篇-搭建个人在线旅游助手_assets/Dify篇-搭建个人在线旅游助手-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%97%85%E6%B8%B8%E5%8A%A9%E6%89%8B-image-3.png)
 
 

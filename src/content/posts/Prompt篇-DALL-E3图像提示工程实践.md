@@ -181,47 +181,47 @@ lastVerified: 2026-08-13
 
 ## **01、人物形象**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-YITpb1XygoeDtcxG6SgcsXzanpc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-YITpb1XygoeDtcxG6SgcsXzanpc.png)
 
 ## **02、卡通头像**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-ZbPZbMMPZoDcgaxOEVBc9iFWnps.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-ZbPZbMMPZoDcgaxOEVBc9iFWnps.png)
 
 ## **03、自然风景**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-XkzJbQx9woPMnqxMY98cDpQbnNe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-XkzJbQx9woPMnqxMY98cDpQbnNe.png)
 
 ## **04、LOGO 设计**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-RiVmb2SjHo7BbZxi59tcuMcGnfd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-RiVmb2SjHo7BbZxi59tcuMcGnfd.png)
 
 ## **05、动物形象**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-Qy0ZbLb6aoDtXWxuIUfcIM6Pn6f.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-Qy0ZbLb6aoDtXWxuIUfcIM6Pn6f.png)
 
 ## **06、室内设计**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-XlC1bkcvKofAmWx6gBdcLohDnCb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-XlC1bkcvKofAmWx6gBdcLohDnCb.png)
 
 ## **07、动漫风格**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-WVtkbSijWowZkYxZph4cFWChnJe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-WVtkbSijWowZkYxZph4cFWChnJe.png)
 
 ## **08、二次元图**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-VDW1bXLVlolVyyx8nAMc7eXMnTd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-VDW1bXLVlolVyyx8nAMc7eXMnTd.png)
 
 ## **09、日常场景**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-QoRPb110IoQ9tdx2IwGcPvr2nuf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-QoRPb110IoQ9tdx2IwGcPvr2nuf.png)
 
 ## **10、古风神话**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-NRALb4QRdoslNRx31IXcp0dan6V.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-NRALb4QRdoslNRx31IXcp0dan6V.png)
 
 ## **11、游戏场景**
 
-![](./Prompt篇-DALL-E3图像提示工程实践_assets/Prompt篇-DALL-E3图像提示工程实践-e13e82742f571e80d7d3cb621f2b5b1b_BW8fLkYldaJ2%2Bo%3D.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5_assets/Prompt%E7%AF%87-DALL-E3%E5%9B%BE%E5%83%8F%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-e13e82742f571e80d7d3cb621f2b5b1b_BW8fLkYldaJ2%252Bo%253D.png)
 
 
 

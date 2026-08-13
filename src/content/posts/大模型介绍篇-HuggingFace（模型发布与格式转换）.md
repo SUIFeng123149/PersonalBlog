@@ -41,7 +41,7 @@ Model Hub的内置版本控制基于git和[git-lfs](https://git-lfs.github.com/)
 
 文件也可以轻松地在仓库中编辑，您可以查看提交历史记录以及差异：&#x20;
 
-![](./大模型介绍篇-HuggingFace（模型发布与格式转换）_assets/大模型介绍篇-HuggingFace（模型发布与格式转换）-XkJ3bqF4soLAPFxSkwacVhksnxf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-HuggingFace%EF%BC%88%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83%E4%B8%8E%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-HuggingFace%EF%BC%88%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83%E4%B8%8E%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%EF%BC%89-XkJ3bqF4soLAPFxSkwacVhksnxf.png)
 
 ## **设置**
 
@@ -186,7 +186,7 @@ pip install huggingface\_hub
 
 喜欢无代码方法的用户可以通过Hugging Face的Web界面上传模型。访问[huggingface.co/new](https://huggingface.co/new)创建一个新的仓库：
 
-![](./大模型介绍篇-HuggingFace（模型发布与格式转换）_assets/大模型介绍篇-HuggingFace（模型发布与格式转换）-C7RzbIFr2osAhJxpuDucN6t8nYc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-HuggingFace%EF%BC%88%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83%E4%B8%8E%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-HuggingFace%EF%BC%88%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83%E4%B8%8E%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%EF%BC%89-C7RzbIFr2osAhJxpuDucN6t8nYc.png)
 
 从这里开始，添加一些关于您的模型的信息：
 
@@ -200,7 +200,7 @@ pip install huggingface\_hub
 
 现在点击**文件**选项卡，然后点击**添加文件**按钮将一个新文件上传到你的仓库。接着拖放一个文件进行上传，并添加提交信息。
 
-![](./大模型介绍篇-HuggingFace（模型发布与格式转换）_assets/大模型介绍篇-HuggingFace（模型发布与格式转换）-K9CebOQO7odkoax9doVcNtjhn7O.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-HuggingFace%EF%BC%88%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83%E4%B8%8E%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%EF%BC%89_assets/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D%E7%AF%87-HuggingFace%EF%BC%88%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83%E4%B8%8E%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%EF%BC%89-K9CebOQO7odkoax9doVcNtjhn7O.png)
 
 ## **添加模型卡片**
 

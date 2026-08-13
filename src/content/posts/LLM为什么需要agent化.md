@@ -25,7 +25,7 @@ lastVerified: 2026-08-13
 
 例如：买高铁票 &#x20;
 
-![](./LLM为什么需要agent化_assets/LLM为什么需要agent化-MNlUb0iXho7C58xzAKgcbG2Lnuf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LLM%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81agent%E5%8C%96_assets/LLM%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81agent%E5%8C%96-MNlUb0iXho7C58xzAKgcbG2Lnuf.png)
 
 (虽然LLM完全理解了买票的行为，但是它本身并不知道“我”所处的城市，列车的时刻表，价格等等信息）  而基于大模型的Agent (LLM based Agent) 可以利用外部工具来克服以上缺点。
 
@@ -43,7 +43,7 @@ lastVerified: 2026-08-13
 
 Standard IO(直接回答) -> COT(chain-of-thought)(思维链) -> Action-Only (Function calling) -> Reason + Action  ReAct = Reasoning(推理) + Action(行动) &#x20;
 
-![](./LLM为什么需要agent化_assets/LLM为什么需要agent化-X8NSb1F8zonjOrxC3UtcYEPRnMb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LLM%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81agent%E5%8C%96_assets/LLM%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81agent%E5%8C%96-X8NSb1F8zonjOrxC3UtcYEPRnMb.png)
 
 ### ReAct Agent 的组成部分 （通过LangChain实现）
 

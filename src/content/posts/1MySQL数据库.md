@@ -1004,7 +1004,7 @@ MySQL数据库中有三个日志
   2. 如果redo log日志的状态是 准备状态 且 bin log中 有 redo log的内容， 执行 7-3
   3. 如果redo log日志状态是 提交状态  继续执行7 - 4
 
-![image-001](1MySQL%E6%95%B0%E6%8D%AE%E5%BA%93_assets/image-001.png)
+![image-001](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/1MySQL%E6%95%B0%E6%8D%AE%E5%BA%93_assets/image-001.png)
 
 5. 事务隔离级别
 
@@ -1014,7 +1014,7 @@ MySQL数据库中有三个日志
   2. 不可重复读 ： 一个事务多次对行数据进行检索时，获得的结果不同，因为在这期间，其他事务修改了行数据导致，要避免不可重复读，就要为行添加行锁（只要设置对应的隔离级别即可）
   3. 幻读：一个事务多次对表执行相同条件的查询语句，获得的结果不同（行数量），要避免幻读，就要为表添加表锁
 
-![image-002](1MySQL%E6%95%B0%E6%8D%AE%E5%BA%93_assets/image-002.png)
+![image-002](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/1MySQL%E6%95%B0%E6%8D%AE%E5%BA%93_assets/image-002.png)
 
 MySQL默认隔离级别是 Repeatable Read
 

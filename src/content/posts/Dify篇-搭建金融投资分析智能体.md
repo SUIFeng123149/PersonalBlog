@@ -23,11 +23,11 @@ lastVerified: 2026-08-13
 
 为了方便快速上手使用，你可以在“探索”中找到智能助手的应用模板，添加到自己的工作区，或者在此基础上进行自定义。在全新的 Dify 工作室中，你也可以从零编排一个专属于你自己的智能助手，帮助你完成财务报表分析、撰写报告、Logo 设计、旅程规划等任务。
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-7.png)
 
 选择智能助手的推理模型，智能助手的任务完成能力取决于模型推理能力，我们建议在使用智能助手时选择推理能力更强的模型系列如 gpt-4 以获得更稳定的任务完成效果。
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-9.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-9.png)
 
 你可以在“提示词”中编写智能助手的指令，为了能够达到更优的预期效果，你可以在指令中明确它的任务目标、工作流程、资源和限制等。
 
@@ -78,7 +78,7 @@ lastVerified: 2026-08-13
 
 ```
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-6.png)
 
 
 
@@ -92,13 +92,13 @@ LLM 连接外部世界的能力。Dify 提供了两种工具类型：**第一方
 
 你可以直接使用 Dify 生态提供的第一方内置工具，或者轻松导入自定义的 API 工具（目前支持 OpenAPI /Swagger 和 OpenAl Plugin规范）。
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-5.png)
 
 “工具”功能允许用户借助外部能力，在 Dify 上创建出更加强大的 AI 应用。例如你可以为智能助理型应用（Agent）编排合适的工具，它可以通过任务推理、步骤拆解、调用工具完成复杂任务。
 
 另外工具也可以方便将你的应用与其他系统或服务连接，与外部环境交互。例如代码执行、对专属信息源的访问等。你只需要在对话框中谈及需要调用的某个工具的名字，即可自动调用该工具。
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-8.png)
 
 
 
@@ -108,9 +108,9 @@ LLM 连接外部世界的能力。Dify 提供了两种工具类型：**第一方
 
 在 Agent 配置中，你可以修改助手的迭代次数限制。
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-1.png)
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-2.png)
 
 
 
@@ -124,7 +124,7 @@ Nvidia 最近有哪些新闻？
 
 对亚马逊进行基本面分析。
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-4.png)
 
 
 
@@ -132,12 +132,12 @@ Nvidia 最近有哪些新闻？
 
 编排完智能助手之后，你可以在发布成应用之前进行调试与预览，查看助手的任务完成效果。
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image.png)
 
 
 
 ## 七、应用发布
 
-![](./Dify篇-搭建金融投资分析智能体_assets/Dify篇-搭建金融投资分析智能体-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BA%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90%E6%99%BA%E8%83%BD%E4%BD%93-image-3.png)
 
 

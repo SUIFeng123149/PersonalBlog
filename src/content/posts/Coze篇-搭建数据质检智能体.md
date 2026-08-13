@@ -37,7 +37,7 @@ lastVerified: 2026-08-13
 
 数据质检助手使用工作流模式搭建，每个问答都由指定工作流处理。整体编排如下：
 
-![](./Coze篇-搭建数据质检智能体_assets/Coze篇-搭建数据质检智能体-Hh3Wbq5g3olstKx69Pxc85i6nPf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%95%B0%E6%8D%AE%E8%B4%A8%E6%A3%80%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%95%B0%E6%8D%AE%E8%B4%A8%E6%A3%80%E6%99%BA%E8%83%BD%E4%BD%93-Hh3Wbq5g3olstKx69Pxc85i6nPf.png)
 
 各个流程的实现方式如下：
 

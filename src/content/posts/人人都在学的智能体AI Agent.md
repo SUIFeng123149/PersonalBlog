@@ -57,9 +57,9 @@ lastVerified: 2026-08-13
 
 \*\*人工智能公司 OpenAI（爆款产品 ChatGPT）\*\*对 AI Agent 的定义是以大语言模型（LLM）为大脑，它不仅能够理解、感知、规划、记忆和使用工具，还能够自动化地执行复杂任务，展现出独立思考和行动的能力。它通过不断的自我学习和环境适应，以实现特定目标或解决特定问题。Lilian Weng blog <https://lilianweng.github.io/posts/2023-06-23-agent/>
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-WH91bjPrDoyYBQxGUcDcbbTonze.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-WH91bjPrDoyYBQxGUcDcbbTonze.png)
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-Lfk7bWgfQoE9afx9sCZcbrWnn6M.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-Lfk7bWgfQoE9afx9sCZcbrWnn6M.png)
 
 智能体就像一位全能的生活管家，它用庞大的知识库来理解世界，通过规划和反思来组织任务，利用短期和长期记忆来保持对话连贯和回顾经验，同时还能调用各种外部工具和API来扩展自己的能力，就像使用智能手机上的应用程序一样，以适应和解决生活中的各种问题。
 
@@ -73,7 +73,7 @@ lastVerified: 2026-08-13
 
 商汤、清华等机构提出了能够自主学习解决任务的通才 AI 智能体 Ghost in the Minecraft (GITM)，在《我的世界》中比以往所有智能体都有更优秀的表现。
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-ERV3b53sQo024sxlgO9cTUGlnNe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-ERV3b53sQo024sxlgO9cTUGlnNe.png)
 
 复旦大学自然语言处理团队（FudanNLP）推出 LLM-based Agents 综述论文，全文长达 86 页，共有 600 余篇参考文献，作者们从 AI Agent 的历史出发，**全面梳理了基于大型语言模型的智能体现状，包括：LLM-based Agent 的背景、构成、应用场景、以及备受关注的智能体社会**。**（单智能体、多智能体、人机交互）**
 
@@ -133,7 +133,7 @@ lastVerified: 2026-08-13
 
 *智能体具体需要具备的能力有哪些？*
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-T7SzbX5uzo6nhlx5DqScHBH3n0g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-T7SzbX5uzo6nhlx5DqScHBH3n0g.png)
 
 让我们随着复旦大学的这篇综述论文来进行拆解\*\*（上图拆分更偏向人类的理解，而非 OpenAI 更偏向技术的理解）。\*\*智能体结构可以拆分为四个部分：**大模型（LLM）**、**思考（Brain）、感知（Perception）、行动（Action）。**
 
@@ -149,13 +149,13 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 >
 > 如果有一个超级学霸，它读过了互联网上几乎所有的书籍、文章、对话等等，然后你问它问题或者让它写作文，它就能根据它学到的知识给出答案或者写出文章。这个超级学霸就有点像 LLM，只不过它不是人，而是一个由代码和算法构成的虚拟存在。
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-CeGWbcZtzow6mrxmHeicLY81nfg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-CeGWbcZtzow6mrxmHeicLY81nfg.png)
 
 从时间维度来看（技术视角）
 
 （1）专家系统 IBM 深蓝 （2）机器学习 过滤垃圾邮件 （3）深度学习 阿尔法go 卷积神经网络 - 图像识别 （4）大模型 Chatgpt 智能助手
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-FCkbb28VyoNjtJx7DNUcOxHonCe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-FCkbb28VyoNjtJx7DNUcOxHonCe.png)
 
 从参数量级来看（技术视角）
 
@@ -167,7 +167,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 **大模型（LLM）只是一种泛化 AI 模型能力的描述**
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-image-4.png)
 
 
 
@@ -177,7 +177,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 *智能体能够思考的必要条件有哪些？*
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-image-1.png)
 
 1）🧠 Memory 记忆
 
@@ -235,7 +235,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 *为什么现在很多项目都在说要做多模态？*
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-CSqWbcOtAonV9gxUmB3cpaXjnHf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-CSqWbcOtAonV9gxUmB3cpaXjnHf.png)
 
 如果把智能体比作一个人，感知端就如同人的五官，能够敏锐地捕捉到周围环境的变化和信息。没有高效准确的感知端，智能体就无法及时了解外界情况，难以做出明智的决策和有效的行动。
 
@@ -271,7 +271,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 *智能体都能做出哪些行为以及如何为之呢？*
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-image-3.png)
 
 智能体的行动端（Action）是整个智能体系统中至关重要的组成部分。它直接决定了智能体如何与外部环境进行交互，以及如何通过一系列的动作来实现其设定的目标。Action 不仅是智能体对外输出的表现形式，更是其适应和改变环境、解决问题、实现自身价值的关键手段。
 
@@ -333,7 +333,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 1）打开文心智能体平台，点击创建智能体
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-image-2.png)
 
 2）输入名称和设定，点击“立即创建”（需要等待一会儿，会默认生成智能体头像）
 
@@ -341,7 +341,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-PcE4bPxx5o4MrUxQEMGcqnQyn5d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-PcE4bPxx5o4MrUxQEMGcqnQyn5d.png)
 
 3）创建完成后可以更换头像和描述，智能体大模型可以换成文心4效果会更好（免费的哦）
 
@@ -353,7 +353,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 上侧-工具栏：切换模型基座、保存、发布、切换页签（后面会讲其他页签）
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-AMcHbKY0uoLdF0xIUKcc6t9snUd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-AMcHbKY0uoLdF0xIUKcc6t9snUd.png)
 
 ####
 
@@ -377,13 +377,13 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 4）头像修改
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-image.png)
 
 修改完的效果
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-Bw3cbp93OoVVpOxx1H2cnHRDnXg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-Bw3cbp93OoVVpOxx1H2cnHRDnXg.png)
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-Hn2Mb3Gs1ozDXlxOCS8cIeFMnwe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-Hn2Mb3Gs1ozDXlxOCS8cIeFMnwe.png)
 
 ####
 
@@ -405,7 +405,7 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 说一下高级配置
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-WN7Jb8YNQoX1qsxF5uBc0ehUnqg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-WN7Jb8YNQoX1qsxF5uBc0ehUnqg.png)
 
 1、知识库
 
@@ -445,19 +445,19 @@ LLM 即大型语言模型（Large Language Model），是一种人工智能技�
 
 1）点击右上角的“发布”按钮
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-KmOLbeNkioOO5dxC8HUcrGj5nwg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-KmOLbeNkioOO5dxC8HUcrGj5nwg.png)
 
 2）完善发布配置（公开发布审核一般工作日 1-2 天）
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-FBErbKBF8oVzrGxeuECc1YsYnWe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-FBErbKBF8oVzrGxeuECc1YsYnWe.png)
 
 3）完善知识库可以有更多的 SEO 机会（你希望网民搜什么 query 能搜到你）
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-Av1Tbs8GVo486OxhpkwcJLYSnfd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-Av1Tbs8GVo486OxhpkwcJLYSnfd.png)
 
 4）数据分析，发布后可以在“分析”页签看到智能体的数据，是不是很方便？
 
-![](./人人都在学的智能体AI Agent_assets/人人都在学的智能体AI Agent-PiIhbtPzQowbZcxIURXc4bXOnTg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent_assets/%E4%BA%BA%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%A6%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93AI%20Agent-PiIhbtPzQowbZcxIURXc4bXOnTg.png)
 
 以上基本上花 10 分钟就可以创建自己的第一个智能体啦，是不是很方便呢\~
 

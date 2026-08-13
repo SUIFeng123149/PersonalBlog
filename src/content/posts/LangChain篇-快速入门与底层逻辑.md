@@ -63,7 +63,7 @@ LangChain 库本身由几个不同的包组成。
 
 ## 四、langChain 任务处理流程
 
-![](./LangChain篇-快速入门与底层逻辑_assets/LangChain篇-快速入门与底层逻辑-PVm2beZaToltnexxWgNcxPsQnEb.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E4%B8%8E%E5%BA%95%E5%B1%82%E9%80%BB%E8%BE%91_assets/LangChain%E7%AF%87-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E4%B8%8E%E5%BA%95%E5%B1%82%E9%80%BB%E8%BE%91-PVm2beZaToltnexxWgNcxPsQnEb.jpg)
 
 如上图，langChain 提供一套提示词模板 (prompt template) 管理工具，负责处理提示词，然后传递给大模型处理，最后处理大模型返回的结果，
 

@@ -19,11 +19,11 @@ lastVerified: 2026-08-13
 
 本文构建的示例工作流节点概览如下图所示，该工作流中添加 **getToutiaoNews** 工具节点来实现搜索新闻的能力。
 
-![](./Coze篇-搭建搜索新闻工作流_assets/Coze篇-搭建搜索新闻工作流-WX3DbQAcpoZ1WWxAT71cNh1rn47.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81-WX3DbQAcpoZ1WWxAT71cNh1rn47.png)
 
 下图展示了示例工作流添加到智能体之后，智能体带来的用户任务处理能力。当用户输入内容后，智能体会调用示例工作流处理任务，并向用户返回处理结果。
 
-![](./Coze篇-搭建搜索新闻工作流_assets/Coze篇-搭建搜索新闻工作流-QmqqbozI9or5pmxy0Bpch2Vun5e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81-QmqqbozI9or5pmxy0Bpch2Vun5e.png)
 
 
 
@@ -41,7 +41,7 @@ lastVerified: 2026-08-13
 
 该节点将用于搜索新闻。
 
-![](./Coze篇-搭建搜索新闻工作流_assets/Coze篇-搭建搜索新闻工作流-JuhGbWGIYo7FWTxEnhWcDSF4nth.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81-JuhGbWGIYo7FWTxEnhWcDSF4nth.png)
 
 * 连接各节点，并依次配置输入输出参数。
 
@@ -65,7 +65,7 @@ lastVerified: 2026-08-13
 
 3. 在对话框左侧单击**团队工作流**，找到自建的 **getNews\_tasks** 工作流，并在右侧单击**添加**。
 
-![](./Coze篇-搭建搜索新闻工作流_assets/Coze篇-搭建搜索新闻工作流-NHBQbsGWroj7EfxkjIHcC2hsnbc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81-NHBQbsGWroj7EfxkjIHcC2hsnbc.png)
 
 * 在智能体的**人设与回复逻辑**内，声明智能体使用 **getNews\_tasks** 工作流处理任务。
 
@@ -75,6 +75,6 @@ lastVerified: 2026-08-13
 
 例如输入 科技新闻。
 
-![](./Coze篇-搭建搜索新闻工作流_assets/Coze篇-搭建搜索新闻工作流-QiWJbbYxDojyJ0x7m9ScOQOmnVf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%90%9C%E7%B4%A2%E6%96%B0%E9%97%BB%E5%B7%A5%E4%BD%9C%E6%B5%81-QiWJbbYxDojyJ0x7m9ScOQOmnVf.png)
 
 

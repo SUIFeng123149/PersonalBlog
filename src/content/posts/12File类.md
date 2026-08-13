@@ -631,7 +631,7 @@ FileOutputStream("D:\\Lession\\java2601\\workspace\\pjt0128\\src\\myinfo.propert
     }
 ```
 
-![image-001](12File类_assets/image-001.png)
+![image-001](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/12File%E7%B1%BB_assets/image-001.png)
 
 ## POI
 

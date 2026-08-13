@@ -29,7 +29,7 @@ lastVerified: 2026-08-13
 
 常见的开场白效果如下：
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-ChtdbPPL9oKkztxH0tycw3q4nL3.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-ChtdbPPL9oKkztxH0tycw3q4nL3.webp)
 
 ### 1. 设置开场白
 
@@ -41,13 +41,13 @@ lastVerified: 2026-08-13
 
 通过 Markdown 编辑器，你可以调整开场白文案样式，例如设置层级、加粗、斜体、删除线等样式效果。也可以添加链接、图片、代码块和 {{user\_name}} 变量。其中，{{user\_name}} 会自动引用扣子用户的昵称。
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-GJMwbgzKUo07x9xItgsc8RELngf.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-GJMwbgzKUo07x9xItgsc8RELngf.webp)
 
 ### 3. 开场白预置问题
 
 首次使用智能体的用户往往需要一些对话示例体验智能体的能力和效果，你可以为智能体设置**开场白预置问题**，提供一些推荐问题。这些推荐问题会展示在开场白文案之下，用户单击问题即可发起一次对话，帮助用户快速体验 Bot。如果设置了多个开场白问题，则默认随机显示 3 条预置问题。你也可以开启全部展示，开启后，开场白会默认按顺序显示所有预置问题。
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-1.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-1.jpg)
 
 ### 4. 示例
 
@@ -59,7 +59,7 @@ lastVerified: 2026-08-13
 
 展示效果：
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-TM3PbpqOFo1txXx5LpbcTkghncb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-TM3PbpqOFo1txXx5LpbcTkghncb.webp)
 
 
 
@@ -75,11 +75,11 @@ lastVerified: 2026-08-13
 
 快捷指令效果：
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-DX7bbTfZcoCAAdxxieYc20ZZnql.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-DX7bbTfZcoCAAdxxieYc20ZZnql.webp)
 
 配置示例：
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-SZ7tbJ5N6ovnOdxlZpbcJfcVnFh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-SZ7tbJ5N6ovnOdxlZpbcJfcVnFh.png)
 
 ### 2. 创建简单指令
 
@@ -93,7 +93,7 @@ lastVerified: 2026-08-13
 
 * 如下图所示（左侧是快捷指令配置截图，右侧是调试截图），当点击**AI新闻**指令时，会自动发送配置好的指令内容。
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-NJhrbEtxhol85ZxPQn3cixXunqb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-NJhrbEtxhol85ZxPQn3cixXunqb.webp)
 
 ### 3. 创建组件指令
 
@@ -107,7 +107,7 @@ lastVerified: 2026-08-13
 
 3. 配置完成后，可以在调试区，直接点击快捷指令查看效果。
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-W3KcbIS3fojnGhxa6NCcOW37nch.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-W3KcbIS3fojnGhxa6NCcOW37nch.png)
 
 ### 4. 其他操作
 
@@ -117,7 +117,7 @@ lastVerified: 2026-08-13
 
 * 单击删除图标删除快捷指令。
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-MLkObNQlroivDaxPinMchi23ntc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-MLkObNQlroivDaxPinMchi23ntc.png)
 
 
 

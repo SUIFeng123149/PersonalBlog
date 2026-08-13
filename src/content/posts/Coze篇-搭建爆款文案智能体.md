@@ -21,7 +21,7 @@ lastVerified: 2026-08-13
 
 单击[此处](https://www.coze.cn/template/workflow/7418104809603137574)，体验自媒体创作助手。
 
-![](./Coze篇-搭建爆款文案智能体_assets/Coze篇-搭建爆款文案智能体-YpiGbaug1o7ArZxTzR5cWbbjnMe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E7%88%86%E6%AC%BE%E6%96%87%E6%A1%88%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E7%88%86%E6%AC%BE%E6%96%87%E6%A1%88%E6%99%BA%E8%83%BD%E4%BD%93-YpiGbaug1o7ArZxTzR5cWbbjnMe.png)
 
 ### 1. 模板能力
 
@@ -37,7 +37,7 @@ lastVerified: 2026-08-13
 
 自媒体创作助手模板为工作流模板，其中使用了大模型、图像流等节点分别生成自媒体文案、文生图 Prompt 和内容配图。整体编排方式如下：
 
-![](./Coze篇-搭建爆款文案智能体_assets/Coze篇-搭建爆款文案智能体-UmnPbDPPeoVAJMxm7ZiczGzVngg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E7%88%86%E6%AC%BE%E6%96%87%E6%A1%88%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E7%88%86%E6%AC%BE%E6%96%87%E6%A1%88%E6%99%BA%E8%83%BD%E4%BD%93-UmnPbDPPeoVAJMxm7ZiczGzVngg.png)
 
 各个功能模块的实现方式如下：
 

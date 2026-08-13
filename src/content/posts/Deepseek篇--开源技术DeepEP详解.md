@@ -21,7 +21,7 @@ DeepEP 是由 deepseek-ai （深度求索）开发的一个开源项目。DeepEP
 
 DeepEP 提供高吞吐量和低延迟的 all-to-all GPU 内核，包括 MoE 分发（dispatch）和合并（combine）。该库支持 FP8 等低精度运算，特别适用于 DeepSeek 系列模型（如 DeepSeek-V2、V3 和 R1）。
 
-![](./Deepseek篇--开源技术DeepEP详解_assets/Deepseek篇--开源技术DeepEP详解-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3-image-5.png)
 
 MoE 介绍（来源：中存算半导体）
 
@@ -29,7 +29,7 @@ MoE 介绍（来源：中存算半导体）
 
 DeepEP 主要适用于大模型训练，特别是需要 EP 的集群训练。通过提升通信信道的使用率，提升训练效率。
 
-![](./Deepseek篇--开源技术DeepEP详解_assets/Deepseek篇--开源技术DeepEP详解-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3-image-3.png)
 
 DeepEP 的安装要求如下：
 
@@ -43,7 +43,7 @@ DeepEP 的安装要求如下：
 
 5）NVLink 与 RDMA（DeepEP 已通过 [InfiniBand](https://zhida.zhihu.com/search?content_id=254263352\&content_type=Article\&match_order=1\&q=InfiniBand\&zhida_source=entity) 网络的测试，并未在 RDMA 完全测试）
 
-![](./Deepseek篇--开源技术DeepEP详解_assets/Deepseek篇--开源技术DeepEP详解-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3-image-4.png)
 
 ## 2 DeepEP 的关键技术与未来优化
 
@@ -63,13 +63,13 @@ CPU 等待 GPU 接收计数信号（来源：DeepSeek）
 
 V3/R1 的训练框架定制了高效的跨节点 All-to-All 通信内核，以充分利用 IB 和 NVLink 带宽，并节约流式多处理器（SM，(Stream Multiprocessor）。
 
-![](./Deepseek篇--开源技术DeepEP详解_assets/Deepseek篇--开源技术DeepEP详解-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3-image-2.png)
 
 传统的基于 NVSwitch 的 All-to-All 通信结构（来源：互联网）
 
 通信内核（通信 SM 控制代码）的实现与 MoE 门控算法和集群网络拓扑是按照软硬件协同的思路来进行设计的。具体来说，在集群中，跨节点 GPU 与 IB 完全互连，节点内（单台服务器内）通信通过 NVLink 完成。NVLink 提供 160 GB/s 的带宽，约是 IB 的 3.2 倍 （50 GB/s）。
 
-![](./Deepseek篇--开源技术DeepEP详解_assets/Deepseek篇--开源技术DeepEP详解-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3-image.png)
 
 All-to-All 通信（来源：中存算半导体）
 
@@ -95,7 +95,7 @@ DeepEP 的架构设计围绕 MoE 模型的通信需求展开，包含以下关�
 
 <https://github.com/deepseek-ai/DeepEP>
 
-![](./Deepseek篇--开源技术DeepEP详解_assets/Deepseek篇--开源技术DeepEP详解-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepEP%E8%AF%A6%E8%A7%A3-image-1.png)
 
 DeepEP 目录包含以下关键文件和目录：
 

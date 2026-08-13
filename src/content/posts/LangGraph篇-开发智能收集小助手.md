@@ -171,7 +171,7 @@ with open("user_prompt_chatbot.png", "wb") as f:
     f.write(graph_png)
 ```
 
-![](./LangGraph篇-开发智能收集小助手_assets/LangGraph篇-开发智能收集小助手-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E5%BC%80%E5%8F%91%E6%99%BA%E8%83%BD%E6%94%B6%E9%9B%86%E5%B0%8F%E5%8A%A9%E6%89%8B_assets/LangGraph%E7%AF%87-%E5%BC%80%E5%8F%91%E6%99%BA%E8%83%BD%E6%94%B6%E9%9B%86%E5%B0%8F%E5%8A%A9%E6%89%8B-image.png)
 
 
 

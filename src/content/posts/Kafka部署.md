@@ -2,7 +2,7 @@
 title: Kafka集群部署
 published: 2025-11-21
 description: 'Kafka集群部署 的详细部署与配置文档。'
-image: './Kafka部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Kafka%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, Kafka, Deployment]
 category: 'BigData'
 draft: false 
@@ -149,7 +149,7 @@ jps
 ```
 出现同时出现QuorumPeerMain和Kafka则代表服务启动成功,如下图所示
 
-![image-20260727222551750](./Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222551750.png)
+![image-20260727222551750](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222551750.png)
 #### 测试集群工作状态
 在hadoop01上创建topic:
 ```bash
@@ -176,8 +176,8 @@ hadoo03(消费者):
 
 在hadoop01输入数据，在hadoop02、hadoop03查看数据，若全部互通则代表kafka集群正常运行，如下图所示
 
-![image-20260727222719584](./Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222719584.png)
+![image-20260727222719584](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222719584.png)
 
-![image-20260727222722576](./Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222722576.png)
+![image-20260727222722576](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222722576.png)
 
-![image-20260727222727015](./Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222727015.png)
+![image-20260727222727015](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Kafka%E9%83%A8%E7%BD%B2.assets/image-20260727222727015.png)

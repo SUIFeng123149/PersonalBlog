@@ -47,7 +47,7 @@ Smallpond 的设计目标是简化大规模数据处理流程，降低 AI 开发
 
 * 开源：完全开源，允许社区贡献和定制。（非常好）
 
-![](./Deepseek篇--开源技术3FS & smallpond详解_assets/Deepseek篇--开源技术3FS & smallpond详解-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AF3FS%20&%20smallpond%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AF3FS%20&%20smallpond%E8%AF%A6%E8%A7%A3-image.png)
 
 NVMe SSD + RDMA 示意（来源：互联网）
 

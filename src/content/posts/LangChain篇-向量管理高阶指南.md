@@ -56,7 +56,7 @@ Vector Embedding 是由 AI 模型（例如大型语言模型 LLM）生成的，�
 
 然而单靠一个体型大小的特征并不够，像照片中哈士奇、金毛和拉布拉多的体型就非常接近，我们无法区分。所以我们会继续观察其它的特征，例如毛发的长短。
 
-![](./LangChain篇-向量管理高阶指南_assets/LangChain篇-向量管理高阶指南-UuJPbndY0olP3bxw9lhcMWXQnyE.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%90%91%E9%87%8F%E7%AE%A1%E7%90%86%E9%AB%98%E9%98%B6%E6%8C%87%E5%8D%97_assets/LangChain%E7%AF%87-%E5%90%91%E9%87%8F%E7%AE%A1%E7%90%86%E9%AB%98%E9%98%B6%E6%8C%87%E5%8D%97-UuJPbndY0olP3bxw9lhcMWXQnyE.jpg)
 
 这样每只狗对应一个二维坐标点，我们就能轻易的将哈士奇、金毛和拉布拉多区分开来，如果这时仍然无法很好的区分德牧和罗威纳犬。我们就可以继续再从其它的特征区分，比如鼻子的长短，这样就能得到一个三维的坐标系和每只狗在三维坐标系中的位置。
 
@@ -416,7 +416,7 @@ setx WCD_DEMO_URL ""
 setx WCD_DEMO_RO_KEY ""
 ```
 
-![](./LangChain篇-向量管理高阶指南_assets/LangChain篇-向量管理高阶指南-G9fOba6Xvo4HNYxmtVqcpNHXncg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%90%91%E9%87%8F%E7%AE%A1%E7%90%86%E9%AB%98%E9%98%B6%E6%8C%87%E5%8D%97_assets/LangChain%E7%AF%87-%E5%90%91%E9%87%8F%E7%AE%A1%E7%90%86%E9%AB%98%E9%98%B6%E6%8C%87%E5%8D%97-G9fOba6Xvo4HNYxmtVqcpNHXncg.png)
 
 
 
@@ -650,7 +650,7 @@ setx MILVUS_API_KEY ""
 
 zilliz：<https://cloud.zilliz.com/>
 
-![](./LangChain篇-向量管理高阶指南_assets/LangChain篇-向量管理高阶指南-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E5%90%91%E9%87%8F%E7%AE%A1%E7%90%86%E9%AB%98%E9%98%B6%E6%8C%87%E5%8D%97_assets/LangChain%E7%AF%87-%E5%90%91%E9%87%8F%E7%AE%A1%E7%90%86%E9%AB%98%E9%98%B6%E6%8C%87%E5%8D%97-image.png)
 
 要运行，您应该已经启动并运行了一个 [Milvus 实例](https://milvus.io/docs/install_standalone-docker.md)。
 

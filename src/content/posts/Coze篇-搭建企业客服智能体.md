@@ -41,7 +41,7 @@ lastVerified: 2026-07-31
 
 3. 如果不是扣子使用的相关问题，则直接调用大语言模型进行回复，且不进行问题记录。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-JvKFbHJoDot95cxSeQMclAa0nuc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-JvKFbHJoDot95cxSeQMclAa0nuc.png)
 
 ### 2. 实现流程
 
@@ -53,7 +53,7 @@ lastVerified: 2026-07-31
 
 通过意图识别节点判断用户意图，将问题分发到对应的分支处理。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-Jc5jbTJQ5oUISsxIXeMcAmT1nkh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-Jc5jbTJQ5oUISsxIXeMcAmT1nkh.png)
 
 各节点说明如下：
 
@@ -61,7 +61,7 @@ lastVerified: 2026-07-31
 
 大模型参考历史对话改写用户的 Query，再根据 Query 检索知识库，并由大模型进行总结和输出。用户 Query、大模型回复均通过插件记录在指定的飞书多维表格中。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-ZHRDbgGztoFFmvxVJwjcywJLnKb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-ZHRDbgGztoFFmvxVJwjcywJLnKb.png)
 
 各节点说明如下：
 
@@ -71,7 +71,7 @@ lastVerified: 2026-07-31
 
 实现方式：定义一个具备产品基础知识的回复助手。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-YWuVbCFZjovpx6xx2sFcio74nqb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-YWuVbCFZjovpx6xx2sFcio74nqb.png)
 
 
 
@@ -89,7 +89,7 @@ lastVerified: 2026-07-31
 
 3. 在应用配置页面，单击**权限管理**，应用开通多维表格的读写（新增记录和查看、评论、编辑和管理多维表格）权限。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-DHIdb9071oC8q7x6VTUcTrCsnmd.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-DHIdb9071oC8q7x6VTUcTrCsnmd.jpg)
 
 1. 单击**版本管理与发布**，创建一个版本并完成应用发布。
 
@@ -101,7 +101,7 @@ lastVerified: 2026-07-31
 
 扣子助手智能体模板中使用飞书多维表格来记录用户问题，并使用飞书多表格的 AI 能力自动实现问题分析。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-GyCZbMLg5oQmGWxPSNTcUFOLnv8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-GyCZbMLg5oQmGWxPSNTcUFOLnv8.png)
 
 为了方便体验，你可以使用我们提供的多维表格模板，快速复制一个多维表格。
 
@@ -111,11 +111,11 @@ lastVerified: 2026-07-31
 
 3. 单击**设置**图标，选择**更多 > 添加文档应用**，然后选择上一步中已发布的飞书应用。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-WtcKbkowIotGuBxGcIGcM0JEnkc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-WtcKbkowIotGuBxGcIGcM0JEnkc.png)
 
 1. 给飞书应用授予**编辑**权限。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-D2ADbkrxsoAYX7xRglFcIXYUnOd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-D2ADbkrxsoAYX7xRglFcIXYUnOd.png)
 
 #### 1.3 配置表格数据同步
 
@@ -133,27 +133,27 @@ lastVerified: 2026-07-31
 
 4) 在**机器人指令**页签下，找到**多维表格跨表数据同步**，然后单击**使用模板**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-DndPbusbhok3nAxWIGVcidk7n5c.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-DndPbusbhok3nAxWIGVcidk7n5c.png)
 
 1. 在展示的指令配置页面，删除第一个节点。
 
 2. 单击触发器选择框，然后选择**多维表格内容变更**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-GAtIbf8P4ofHtgx5lcNcMCI5nGb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-GAtIbf8P4ofHtgx5lcNcMCI5nGb.png)
 
 1. 单击**由数据表内容变更触发**文本框，然后选择用于记录小助手问答的多维表格，将条件设置为\*\*添加为 FAQ \*\*为“是”时触发。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-Cq6NblIslofXJBx0Cbmc338Wnlh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-Cq6NblIslofXJBx0Cbmc338Wnlh.png)
 
 1. 删除第二个节点，参考上述步骤，添加**新增电子表格记录**事件。
 
 2. 单击**新增记录**文本框，然后选择步骤一中创建的飞书表格文档，将多维表格中记录的用户问题和回复写入到这个表格中。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-AbT6bsDFnoRzhIx8id5coDwsnHG.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-AbT6bsDFnoRzhIx8id5coDwsnHG.png)
 
 1. 单击**启用**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-R6SIb4cmMoU8rsxXfWKcjIAWnuh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-R6SIb4cmMoU8rsxXfWKcjIAWnuh.png)
 
 启用后，每次当你将一条多维表格中记录的**添加为 FAQ 标记为是**时，该条记录就会自动写入到飞书表格中。
 
@@ -187,17 +187,17 @@ RAG 技术的应用可以很好地解决大模型的胡乱编造的问题，即�
 
 4. 在**创建知识库**页面，选择**文本格式**，然后输入一个知识库名称，再选择**在线数据**，最后单击**下一步**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-P2Fab6E3UocNfzxMMbTc86NOneb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-P2Fab6E3UocNfzxMMbTc86NOneb.png)
 
 1. 选择**自动采集**，然后选择**批量添加**方式，输入帮助中心的地址，再单击**导入**。
 
 2. 选择要导入的内容，然后单击**确认**。全部内容上传完成后，单击**下一步**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-RU8MbrWOvoSzMSx0j1ucm9x5n8g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-RU8MbrWOvoSzMSx0j1ucm9x5n8g.png)
 
 1. 分段方式选择**自动分段与清洗**，然后单击**下一步**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-IupzbvevCodmcuxojE4crOU5nHc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-IupzbvevCodmcuxojE4crOU5nHc.png)
 
 1. 单击**确认**完成知识库内容创建和分段。
 
@@ -215,11 +215,11 @@ RAG 技术的应用可以很好地解决大模型的胡乱编造的问题，即�
 
 4) 选择已创建的飞书表格文档并选择自动更新频率，然后单击**下一步**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-YywmbXpCnoGoRNxfUiccaQbtn4g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-YywmbXpCnoGoRNxfUiccaQbtn4g.png)
 
 5. 配置表格结构，将用户问题配置为索引列，然后单击**下一步**。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-LvhNbwKO7o0iUExAx1NcZka1nZg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-LvhNbwKO7o0iUExAx1NcZka1nZg.png)
 
 6. 根据引导完成上传。
 
@@ -237,7 +237,7 @@ RAG 技术的应用可以很好地解决大模型的胡乱编造的问题，即�
 
 4. 根据实际需求，修改开场白文案和预置问题。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-LSiibfJfroqP3Lx8TB7cTfLcnXb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-LSiibfJfroqP3Lx8TB7cTfLcnXb.png)
 
 #### 3.2 修改工作流
 
@@ -249,23 +249,23 @@ RAG 技术的应用可以很好地解决大模型的胡乱编造的问题，即�
 
    1. （可选）单击工作流名称旁边的修改图标，修改工作流名称。
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-UFTdbSKCSoEGV6xat6qcW09ynYf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-UFTdbSKCSoEGV6xat6qcW09ynYf.png)
 
 * 找到工作流中的\*\*意图识别\*\*节点，展开\*\*高级配置\*\*修改提示词内容。&#x20;
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-LYBTbpi5jofzTgxeydFcze8snrc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-LYBTbpi5jofzTgxeydFcze8snrc.png)
 
 * 找到工作流中的大模型节点，根据自己的实际需求修改大模型的提示词。&#x20;
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-XTQdbDhouodyV5xZ9nTceeEOnsf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-XTQdbDhouodyV5xZ9nTceeEOnsf.png)
 
 * 找到工作流中的\*\*知识库\*\*节点，删除复制的知识库，添加上一步中准备好的知识库。&#x20;
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-H0Hdb9t9Tou2jAxDZJHcycmGn5d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-H0Hdb9t9Tou2jAxDZJHcycmGn5d.png)
 
 * 找到工作流中的\*\*多维表格插件\*\*节点，修改插件中的以下配置。&#x20;
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-GjChb6WH2o1iUDxduCfcvLW6nZd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-GjChb6WH2o1iUDxduCfcvLW6nZd.png)
 
 * 单击\*\*试运行\*\*测试工作流，工作流测试通过后，再单击\*\*发布\*\*。&#x20;
 
@@ -290,7 +290,7 @@ RAG 技术的应用可以很好地解决大模型的胡乱编造的问题，即�
 用户问题和 Bot 回复分别是用户提交的问题和智能体的回复内容。&#x20;
 原始问答、分类和解决状态都是通过多维表格的 AI 能力自动生成的。&#x20;
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-HJbTb6dFzoJOtExurjucqbjoncf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-HJbTb6dFzoJOtExurjucqbjoncf.png)
 
 2. 分析用户问答。如果某一个问答记录可以作为一个常见问题补充到扣子智能体知识库中，你可以将**是否添加为FAQ**设置为**是**。配置后，这条记录会自动同步到飞书常见问题文档中。
 
@@ -298,7 +298,7 @@ RAG 技术的应用可以很好地解决大模型的胡乱编造的问题，即�
 
 * 自动同步后的常见问题文档示例。&#x20;
 
-![](./Coze篇-搭建企业客服智能体_assets/Coze篇-搭建企业客服智能体-L5RJbwwYeo8Xc8xLCiDcW97YnMd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%9C%8D%E6%99%BA%E8%83%BD%E4%BD%93-L5RJbwwYeo8Xc8xLCiDcW97YnMd.png)
 
 3. 你也可以基于多维表格的仪表盘功能，对问答情况进行数据分析，查看问题分布和解决率等。
 

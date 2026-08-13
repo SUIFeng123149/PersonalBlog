@@ -70,7 +70,7 @@ lastVerified: 2026-08-13
 
 
 
-![](./RAG篇-RAG快速入门_assets/RAG篇-RAG快速入门-deepseek_mermaid_20250529_94e351.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-RAG%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/RAG%E7%AF%87-RAG%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-deepseek_mermaid_20250529_94e351.png)
 
 
 
@@ -137,7 +137,7 @@ lastVerified: 2026-08-13
 
 ## 五、企业级 RAG 架构示例
 
-![](./RAG篇-RAG快速入门_assets/RAG篇-RAG快速入门-deepseek_mermaid_20250529_774a2a.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/RAG%E7%AF%87-RAG%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/RAG%E7%AF%87-RAG%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-deepseek_mermaid_20250529_774a2a.png)
 
 
 

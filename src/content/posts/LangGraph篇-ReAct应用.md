@@ -83,7 +83,7 @@ with open("create_react_agent.png", "wb") as f:
     f.write(graph_png)
 ```
 
-![](./LangGraph篇-ReAct应用_assets/LangGraph篇-ReAct应用-UW4LbYKvoouA07xbr0ScyOuhnPs.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-ReAct%E5%BA%94%E7%94%A8_assets/LangGraph%E7%AF%87-ReAct%E5%BA%94%E7%94%A8-UW4LbYKvoouA07xbr0ScyOuhnPs.jpg)
 
 ```python
 # 定义一个函数用于打印流数据

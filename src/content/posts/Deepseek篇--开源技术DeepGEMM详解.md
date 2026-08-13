@@ -13,7 +13,7 @@ status: verified
 testedOn: ""
 lastVerified: 2026-08-13
 ---
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image-6.png)
 
 2 月 24 日，DeepSeek 启动 “开源周”，第三个开源的代码库为 DeepGEMM，并向 CUTLASS 团队致敬。DeepGEMM 使用了大量与 Hopper 架构绑定的技术。毫无疑问，H100/H800 绝对是 DeepSeek 的小心肝。另外，从 Day1 到 Day3 的几个创新，都不是一般算法设计能完成的工作，必须要同时对 LLM、[CUDA](https://zhida.zhihu.com/search?content_id=254310094\&content_type=Article\&match_order=1\&q=CUDA\&zhida_source=entity)、[PTX](https://zhida.zhihu.com/search?content_id=254310094\&content_type=Article\&match_order=1\&q=PTX\&zhida_source=entity)、GPU 架构有深入了解才能迅速跟进这类技术。
 
@@ -41,7 +41,7 @@ DeepGEMM 在某些矩阵尺寸下比 CUTLASS 快 2.7 倍，尤其在 MoE 模型�
 
 GEMM（General Matrix Multiplications）即通用矩阵乘法，是将两个矩阵的进行相乘的计算。这种方法称为一般矩阵乘法 （GEMM）。科学计算库（如 Numpy、BLAS 等）和大模型都使用了 GEMM。此实现仅适用于方阵。这样做是为了避免使算法过于复杂而无法处理矩形矩阵。
 
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image-7.png)
 
 标准 GEMM 示例（来源：互联网）
 
@@ -51,7 +51,7 @@ GEMM（General Matrix Multiplications）即通用矩阵乘法，是将两个矩�
 
 GPU 通过将输出矩阵划分为图块来实现 GEMM，然后将其分配给线程块。图块大小（Tile Size）通常是指这些图块的尺寸。每个线程块通过单步执行图块中的 K 维度，从 A 和 B 矩阵加载所需的值，然后将它们相乘并累加到输出中来计算其输出图块。
 
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image-5.png)
 
 GPU 中 GEMM 的一般计算方法（来源：互联网）
 
@@ -59,13 +59,13 @@ GPU 中 GEMM 的一般计算方法（来源：互联网）
 
 英伟达 GPU 引入了 Tensor Core（张量核心） 来最大限度地提高 GEMM 的速度。使用 Tensor Core 的要求取决于 英伟达库的版本。
 
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image-2.png)
 
 Tensor Core 基本结构（来源：英伟达）
 
 第一代 Tensor Core 是随 Volta 架构引入的，从 V100 开始，随着数据格式的变化，Tensor Core 也在不断更新。
 
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image-4.png)
 
 Tensor Core 支持的数据格式（来源：英伟达）
 
@@ -73,7 +73,7 @@ GEMM 的实现效率与 Tensor Core 结构和数据格式密切相关，受数�
 
 ## 3 DeepEP 的关键技术与未来优化
 
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image-1.png)
 
 FP8 的精度改进（来源：中存算半导体）
 
@@ -147,7 +147,7 @@ DeepGEMM 遵循 CUTLASS 设计， 其内核为 warp 专用，支持重叠式的�
 
 这些优化使得 DeepGEMM 在大多数矩阵大小上优于专家调优的内核，同时保持代码简洁。
 
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image-3.png)
 
 DeepGEMM 的 Warp 优化（来源：DeepSeek）&#x20;
 
@@ -163,7 +163,7 @@ DeepGEMM 的 Warp 优化（来源：DeepSeek）&#x20;
 
 <https://github.com/deepseek-ai/DeepGEMM>
 
-![](./Deepseek篇--开源技术DeepGEMM详解_assets/Deepseek篇--开源技术DeepGEMM详解-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3_assets/Deepseek%E7%AF%87--%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AFDeepGEMM%E8%AF%A6%E8%A7%A3-image.png)
 
 DeepGEMM 提供了多个接口函数，包括：
 

@@ -35,5 +35,27 @@
       ]
     }
   ],
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/assets/:path*",
+      "destination": "https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/assets/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/pio/:path*",
+      "destination": "https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/pio/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/js/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/sakura.png",
+      "destination": "https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/sakura.png",
+      "permanent": false
+    }
+  ]
 }

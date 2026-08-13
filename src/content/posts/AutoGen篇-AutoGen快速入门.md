@@ -39,7 +39,7 @@ AutoGen Studio 依赖 Python 环境，这里建议大家使用 Anaconda 去管�
 
 会发现有很多版本可选，用网页搜索功能搜索`2023.09-0`，以 windows 为例，下载 exe 安装文件。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-U1hpbGAE1ozlYbxwZ6wcaJ6Bn9f.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-U1hpbGAE1ozlYbxwZ6wcaJ6Bn9f.jpg)
 
 下载完成之后点击 exe 文件进行安装，安装非常简单。
 
@@ -61,11 +61,11 @@ conda create -n autogenstudio python=3.10
 
 执行命令创建环境的过程中，会有一次交互 (如下图)，命令行界面等待输入时，键盘输入字母`y`即可。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-Adzgb4sERoKy7fxzwQjcZ12hnHg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-Adzgb4sERoKy7fxzwQjcZ12hnHg.png)
 
 稍等片刻，知道有如下输出，说明环境创建成功。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-RgxgbZx4lo0erzxwcnFcQD5RntX.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-RgxgbZx4lo0erzxwcnFcQD5RntX.png)
 
 接下来，输入如下命令，切换到创建好的环境。
 
@@ -103,7 +103,7 @@ pip install autogenstudio==0.1.5 -i https://mirrors.aliyun.com/pypi/simple
 
 回车执行命令。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-QYurbhXNjovxn5xWWoocTgFEnKd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-QYurbhXNjovxn5xWWoocTgFEnKd.png)
 
 速度相当 OK，很快就完成下载和安装了。
 
@@ -119,7 +119,7 @@ autogenstudio ui --port 6000
 
 有如下输出，说明启动成功。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-EoBxbRKWSoRTalxexVJcNh2LnTd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-EoBxbRKWSoRTalxexVJcNh2LnTd.png)
 
 **3，访问 autogen studio**
 
@@ -133,7 +133,7 @@ http://localhost:8081/build
 
 即可看到如下界面。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-IQKebuEPIoT1zlx0aXOc00umn7b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-IQKebuEPIoT1zlx0aXOc00umn7b.png)
 
 ### **2.准备 Deepseek API Key**
 
@@ -143,35 +143,35 @@ http://localhost:8081/build
 
 [<span style="color: rgb(36,91,219); background-color: inherit">https://console.volcengine.com/coze-pro/overview</span>](https://console.volcengine.com/coze-pro/overview)
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-ODcIbDJFcoV89ix4neQcqpffnxb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-ODcIbDJFcoV89ix4neQcqpffnxb.png)
 
 第二步，左上上角菜单进入「火山方舟」的模型广场找到「DeepSeek-R1」
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-EVNSb8YHwoTz0VxfqCCc7JNDnKb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-EVNSb8YHwoTz0VxfqCCc7JNDnKb.png)
 
 第三步，鼠标悬浮到该卡片上，点击「查看详情」可以看到不同版本。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-MuG2bxyqVo68oAx2xPMc5PUonDh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-MuG2bxyqVo68oAx2xPMc5PUonDh.png)
 
 第四步，点击右上角「模型推理」在这里会看到无法「确认接入」原因是需要先开通模型，点击接入配置下方的立即开通链接。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-FEjUbbeKwozBm4xyMU0c8Py3ntf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-FEjUbbeKwozBm4xyMU0c8Py3ntf.png)
 
 勾选你需要的模型，然后勾选下方同意协议立即开通。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-E6OMbOnkQoDsGZxk0ioctCTlnpg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-E6OMbOnkQoDsGZxk0ioctCTlnpg.png)
 
 开通完成后点击确认接入。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-PdECbWybOo3xMfxplIGcu4OHnGe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-PdECbWybOo3xMfxplIGcu4OHnGe.png)
 
 接入成功后可以在「在线推理」菜单看到
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-YfbrbCVjio7RdZxWI6Qc57IQnzh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-YfbrbCVjio7RdZxWI6Qc57IQnzh.png)
 
 同时在「在线推理列表」的模型还支持 API 调用。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-MksPbd9rJowlcAxe1qpct9IKnUc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-MksPbd9rJowlcAxe1qpct9IKnUc.png)
 
 选择 API Key
 
@@ -185,7 +185,7 @@ export ARK_API_KEY="YOUR_API_KEY"
 
 请参考如下示例代码进行调用
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-NK6XbSKG7oagEgxtiCKcQLl0nSc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-NK6XbSKG7oagEgxtiCKcQLl0nSc.png)
 
 ## **给 Autogen 的代理配置大脑**
 
@@ -205,7 +205,7 @@ export ARK_API_KEY="YOUR_API_KEY"
 
 如下图，在 Autogen Studio 的界面上，按照如下步骤打开登记界面 。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-T3GXb1HCpoZVJyxWyZqcF9HLnVr.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-T3GXb1HCpoZVJyxWyZqcF9HLnVr.png)
 
 * ① 选择 Build
 
@@ -239,7 +239,7 @@ export ARK_API_KEY="YOUR_API_KEY"
 
 注意，第一个`代理user_proxy不需要大脑`，user\_proxy 只是前端接待和指令执行者，不需要动脑子。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-PGZSbttMjoJuwtxleNTcjt28nAd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-PGZSbttMjoJuwtxleNTcjt28nAd.png)
 
 以给代理 default\_assistant 配置大脑为例，演示步骤，其他代理类似。
 
@@ -249,11 +249,11 @@ export ARK_API_KEY="YOUR_API_KEY"
 
 * ③ 点击`add`按钮
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-image.png)
 
 * ④ 在弹出的下来列表中选择 deepseek-code 模型作为代理的大脑
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-ZOc1bBjmKoAMnFxMH3CcgzCFnwf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-ZOc1bBjmKoAMnFxMH3CcgzCFnwf.png)
 
 其实，到此位置，我们的智能体已经打造完成，接下来可以让 AI 旅游规划师开始工作了。
 

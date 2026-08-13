@@ -2,7 +2,7 @@
 title: Mahout集群部署
 published: 2025-11-21
 description: 'Mahout集群部署 的详细部署与配置文档。'
-image: './Mahout部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Mahout%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, Mahout, Deployment]
 category: 'BigData'
 draft: false 
@@ -50,4 +50,4 @@ cd /export/servers/mahout
 ```
 出现如下图所示状态则代表启动成功
 
-![image-20260727224525281](./Mahout%E9%83%A8%E7%BD%B2.assets/image-20260727224525281.png)
+![image-20260727224525281](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Mahout%E9%83%A8%E7%BD%B2.assets/image-20260727224525281.png)

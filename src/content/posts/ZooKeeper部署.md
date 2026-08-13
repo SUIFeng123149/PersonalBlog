@@ -2,7 +2,7 @@
 title: ZooKeeper的配置
 published: 2025-01-15
 description: 'ZooKeeper的配置 的详细部署与配置文档。'
-image: './ZooKeeper部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/ZooKeeper%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, ZooKeeper, Deployment]
 category: 'BigData'
 draft: false 
@@ -55,7 +55,7 @@ maxClientCnxns=60
 # 自动清理事务日志的时间（小时），默认0表示不自动清理
 autopurge.purgeInterval=1
 ```
-![img](./ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps71.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps71.jpg) 
 
 ## 在hadoop01上创建数据目录并写入myid
 
@@ -68,7 +68,7 @@ sudo vim /export/servers/zookeeper/data/myid
 ```txt
 1
 ```
-![img](./ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps72.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps72.jpg) 
 
 ## ZooKeeper的分发
 
@@ -99,12 +99,12 @@ ssh hadoop03 "sudo cp -r /tmp/zookeeper/ /export/servers/ && sudo rm -rf /tmp/zo
 ```bash
 sudo vim /export/servers/zookeeper/data/myid
 ```
-![img](./ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps73.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps73.jpg) 
 进入到hadoop03
 ```bash
 sudo vim /export/servers/zookeeper/data/myid
 ```
-![img](./ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps74.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps74.jpg) 
 
 ### 重新加载环境变量
 
@@ -151,7 +151,7 @@ ssh hadoop02 "bash -c 'source /etc/profile && $ZOOKEEPER_HOME/bin/zkServer.sh st
 
 ssh hadoop03 "bash -c 'source /etc/profile && $ZOOKEEPER_HOME/bin/zkServer.sh start'"
 ```
-![img](./ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps75.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps75.jpg) 
 
 ### 查看选举结果
 
@@ -164,4 +164,4 @@ ssh hadoop03 "bash -c 'source /etc/profile && $ZOOKEEPER_HOME/bin/zkServer.sh st
 ```
 >leader出现在哪个节点都可以
 
-![img](./ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps76.jpg)
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/ZooKeeper%E9%83%A8%E7%BD%B2.assets/wps76.jpg)

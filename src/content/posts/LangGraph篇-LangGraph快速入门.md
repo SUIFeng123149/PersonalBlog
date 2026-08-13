@@ -31,7 +31,7 @@ LangGraph 是 LangChain 的高级库，为大型语言模型（LLM）带来循�
 
 * **边**：连接节点，定义计算流程，支持条件逻辑，实现复杂工作流
 
-![](./LangGraph篇-LangGraph快速入门_assets/LangGraph篇-LangGraph快速入门-IaTVb1UZjoUuILxXZ0CcRRcKnIr.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-LangGraph%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/LangGraph%E7%AF%87-LangGraph%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-IaTVb1UZjoUuILxXZ0CcRRcKnIr.jpg)
 
 ## **langgraph主要功能**
 

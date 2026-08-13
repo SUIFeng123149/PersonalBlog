@@ -161,10 +161,10 @@ def get_bot_response(user_query):
 
 **问题1：黄河**
 
-![](./LangChain篇-整合维基百科实现网页问答_assets/LangChain篇-整合维基百科实现网页问答-GBn3bRjgiosR2nxiurBcNjA7nTh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E6%95%B4%E5%90%88%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E6%95%B4%E5%90%88%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E9%97%AE%E7%AD%94-GBn3bRjgiosR2nxiurBcNjA7nTh.png)
 
 **问题2：黄河为什么是世界上含沙量最高的河流?**
 
-![](./LangChain篇-整合维基百科实现网页问答_assets/LangChain篇-整合维基百科实现网页问答-ALDhblaTgoUqhTxTsxLctqxUnze.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E6%95%B4%E5%90%88%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E9%97%AE%E7%AD%94_assets/LangChain%E7%AF%87-%E6%95%B4%E5%90%88%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E9%97%AE%E7%AD%94-ALDhblaTgoUqhTxTsxLctqxUnze.png)
 
 

@@ -2,7 +2,7 @@
 title: Flink部署
 published: 2026-05-09
 description: 'Flink部署 的详细部署与配置文档。'
-image: './Flink部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Flink%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, Flink, Deployment]
 category: 'BigData'
 draft: false 
@@ -129,12 +129,12 @@ cd $FLINK_HOME
 打开浏览器访问 http://(hadoop01的IP):8088。
 你应该能看到一个状态为 RUNNING 的 Application，名字是你在启动命令中指定的（如 flink-on-yarn-session）
 
- ![image-20260727192555944](./Flink%E9%83%A8%E7%BD%B2.assets/image-20260727192555944.png)
+ ![image-20260727192555944](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Flink%E9%83%A8%E7%BD%B2.assets/image-20260727192555944.png)
 
 ### 查看 Flink Web UI
 
 >这个UI界面在所有任务均完成时是无法打开的，只要YARN中显示正常即可
 
-![image-20260727192603218](./Flink%E9%83%A8%E7%BD%B2.assets/image-20260727192603218.png) 
+![image-20260727192603218](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Flink%E9%83%A8%E7%BD%B2.assets/image-20260727192603218.png) 
 在浏览器中输入hadoop01的IP加上控制台中显示的端口号访问
 例如：192.168.1.1:39491

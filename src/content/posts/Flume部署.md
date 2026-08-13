@@ -2,7 +2,7 @@
 title: Flume集群部署
 published: 2025-11-24
 description: 'Flume集群部署 的详细部署与配置文档。'
-image: './Flume部署.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Flume%E9%83%A8%E7%BD%B2.assets/cover.webp
 tags: [BigData, Flume, Deployment]
 category: 'BigData'
 draft: false 
@@ -77,7 +77,7 @@ source /etc/profile
 ### 验证安装
 每个节点上执行 flume-ng version。如果正确显示版本信息，则基础安装成功
 
-![image-20260727223124167](./Flume%E9%83%A8%E7%BD%B2.assets/image-20260727223124167.png)
+![image-20260727223124167](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Flume%E9%83%A8%E7%BD%B2.assets/image-20260727223124167.png)
 ## 配置故障转移模式集群节点
 > 故障转移模式和多层数据流模式二选一进行配置即可！
 

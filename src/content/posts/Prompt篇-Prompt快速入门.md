@@ -29,7 +29,7 @@ prompt 如此重要，我们应该怎么去写一个好的 prompt 呢？github �
 
 <https://github.com/mattnigh/ChatGPT3-Free-Prompt-List>
 
-![](./Prompt篇-Prompt快速入门_assets/Prompt篇-Prompt快速入门-TC8tbzXC2ofj0AxP0jXccrtLndk.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-Prompt%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Prompt%E7%AF%87-Prompt%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-TC8tbzXC2ofj0AxP0jXccrtLndk.png)
 
 CRISPE Prompt Framework，CRISPE 是首字母的缩写，分别代表以下含义：
 
@@ -45,7 +45,7 @@ E：Experiment（实验），要求 ChatGPT 为你提供多个答案。
 
 github 上的那 prompt 角色大全基本都是 CRISPE 框架。
 
-![](./Prompt篇-Prompt快速入门_assets/Prompt篇-Prompt快速入门-1423484-20230605211355881-624578815.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Prompt%E7%AF%87-Prompt%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Prompt%E7%AF%87-Prompt%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-1423484-20230605211355881-624578815.png)
 
 先定角色，后说背景，再提要求，最后定风格。是否生成多个例子可以看自己喜好。
 

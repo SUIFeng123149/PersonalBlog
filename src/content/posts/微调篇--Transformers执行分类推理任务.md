@@ -21,7 +21,7 @@ lastVerified: 2026-08-13
 
 * 使我们能够直接输入文本便获得最终的答案，不需要我们关注细节
 
-![](./微调篇--Transformers执行分类推理任务_assets/微调篇--Transformers执行分类推理任务-BW0Gb2RJloFclyxgJ0OcU7vondb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%89%A7%E8%A1%8C%E5%88%86%E7%B1%BB%E6%8E%A8%E7%90%86%E4%BB%BB%E5%8A%A1_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%89%A7%E8%A1%8C%E5%88%86%E7%B1%BB%E6%8E%A8%E7%90%86%E4%BB%BB%E5%8A%A1-BW0Gb2RJloFclyxgJ0OcU7vondb.png)
 
 ## 二、查看 PipeLine 支持的任务类型
 
@@ -46,7 +46,7 @@ text-classification
 
 * v：关于任务的实现，如具体哪个 Pipeline，有没有 TF 模型，有没有 pytorch 模型， 模型具体是哪一个
 
-![](./微调篇--Transformers执行分类推理任务_assets/微调篇--Transformers执行分类推理任务-EYWyb26AcosB6ExU7hvc3ZxGnOb.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%89%A7%E8%A1%8C%E5%88%86%E7%B1%BB%E6%8E%A8%E7%90%86%E4%BB%BB%E5%8A%A1_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%89%A7%E8%A1%8C%E5%88%86%E7%B1%BB%E6%8E%A8%E7%90%86%E4%BB%BB%E5%8A%A1-EYWyb26AcosB6ExU7hvc3ZxGnOb.jpg)
 
 ## 三、Pipeline 的创建和使用
 

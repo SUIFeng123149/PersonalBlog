@@ -255,7 +255,7 @@ for out in pipe(KeyDataset(dataset, "audio")):
 
 指定您的任务并将图像传递给分类器。图像可以是链接、本地路径或base64编码的图像。例如，下面显示的是哪种品种的猫？
 
-![](./微调篇--Transformers多模态流水线任务_assets/微调篇--Transformers多模态流水线任务-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E5%A4%9A%E6%A8%A1%E6%80%81%E6%B5%81%E6%B0%B4%E7%BA%BF%E4%BB%BB%E5%8A%A1_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E5%A4%9A%E6%A8%A1%E6%80%81%E6%B5%81%E6%B0%B4%E7%BA%BF%E4%BB%BB%E5%8A%A1-image.png)
 
 
 

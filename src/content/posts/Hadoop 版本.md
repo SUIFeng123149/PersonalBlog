@@ -2,7 +2,7 @@
 title: Hadoop版本选择
 published: 2025-11-18
 description: 'Hadoop版本选择 的详细部署与配置文档。'
-image: './Hadoop 版本.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%20%E7%89%88%E6%9C%AC.assets/cover.webp
 tags: [BigData, Hadoop, Version]
 category: 'BigData'
 draft: false 

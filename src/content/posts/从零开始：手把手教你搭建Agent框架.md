@@ -27,7 +27,7 @@ Agent的核心思想是使用语言模型来选择要采取的一系列操作。
 
 * 清华大学的XAgent
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-YCKBb02yxoKDGtx5qcKcQH7qnDb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-YCKBb02yxoKDGtx5qcKcQH7qnDb.png)
 
 ### Planning 规划
 
@@ -59,7 +59,7 @@ Agent学习调用外部 API 来获取模型权重中缺失的额外信息，通�
 
 2022 年，在 Google 发布的论文《Chain-of-Thought Prompting Elicits Reasoning in Large Language Models》中首次提出， \*\*通过让大模型逐步参与将一个复杂问题分解为一步一步的子问题并依次进行求解的过程可以显著提升大模型的性能。而这一系列推理的中间步骤就被称为思维链（Chain of Thought） \*\*。
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-McaobIUECoRe0Vxw1Yic3a1fnGf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-McaobIUECoRe0Vxw1Yic3a1fnGf.png)
 
 CoT大家应该都比较熟了，使用它的方法很简单：
 
@@ -73,7 +73,7 @@ Let's think step by step
 
 拓展：CoT其实也在逐渐进化，出现了各种让大模型进行复杂链路思考的方式
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-K0LebOE1Jo8RGXxjWPPchtlBnzb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-K0LebOE1Jo8RGXxjWPPchtlBnzb.png)
 
 ### ReAct
 
@@ -95,7 +95,7 @@ ReAct 的灵感来自于 “行为” 和 “推理” 之间的协同作用，�
 
 ReAct 是一个将推理和行为与 LLMs 相结合通用的范例。ReAct 提示 LLMs 为任务生成口头推理轨迹和操作。这使得系统执行动态推理来创建、维护和调整操作计划，同时还支持与外部环境(例如，Wikipedia)的交互，以将额外信息合并到推理中
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-K1Xhb3ToFoWIP8xtVEJcDex8nLe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-K1Xhb3ToFoWIP8xtVEJcDex8nLe.png)
 
 常用模板：
 
@@ -127,7 +127,7 @@ Thought:{agent_scratchpad}
 
 ## 搭建一个ReAct框架
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-IYZlb6ZiMoTsSqxBlsgcnamNnYe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-IYZlb6ZiMoTsSqxBlsgcnamNnYe.png)
 
 ### 简单的ReAct
 
@@ -163,7 +163,7 @@ Question:How many letters in the word educa
 
 ⚠️注意！这里只是简单在用大模型调试prompt，get\_word\_length工具并没有具体的代码实现也没有运行。之所以能算出结果都是靠大模型自身的推理能力！
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-GGRIbKoMfo71saxVxyKcBThRnof.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-GGRIbKoMfo71saxVxyKcBThRnof.png)
 
 ## Agent
 
@@ -260,7 +260,7 @@ Multiplication Tool: A tool for multiplying two numbers
 
 简单地运行一个应用算术题：
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-NiICbLouXoS404x3Rikc46Hqnle.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-NiICbLouXoS404x3Rikc46Hqnle.png)
 
 尽管Agent经过多步思考成功解决了这个问题，但有个小bug，在第二步中，Agent调用乘法工具传入了3个参数。如果我们实现工具的时候函数只接受两个参数这里就会报错。
 
@@ -314,7 +314,7 @@ Zod 是一个以 TypeScript 为首的模式声明和验证库 ，弥补了 TypeS
 
 优点就是非常灵活，且支持运行时。唯一的缺点就是要学习zod的用法
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-MkpmbwEV5oeksjxIOBXcEuQknMg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-MkpmbwEV5oeksjxIOBXcEuQknMg.png)
 
 将函数声明加入Prompt后，可以看到Agent学会了多次进行乘法，符合我们的函数声明
 
@@ -424,7 +424,7 @@ describe('agent', () => {
 })
 ```
 
-![](./从零开始：手把手教你搭建Agent框架_assets/从零开始：手把手教你搭建Agent框架-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6_assets/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAAgent%E6%A1%86%E6%9E%B6-image.png)
 
 
 

@@ -310,7 +310,7 @@ app = workflow.compile()
         f.write(graph_png)
 ```
 
-![](./LangGraph篇-Agent工作流_assets/LangGraph篇-Agent工作流-N45TbrLzKowCaNxCW0jcbdfQnUf.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-Agent%E5%B7%A5%E4%BD%9C%E6%B5%81_assets/LangGraph%E7%AF%87-Agent%E5%B7%A5%E4%BD%9C%E6%B5%81-N45TbrLzKowCaNxCW0jcbdfQnUf.jpg)
 
 ```python
 # 设置配置，递归限制为50

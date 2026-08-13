@@ -37,7 +37,7 @@ lastVerified: 2026-08-13
 
 本次实验中需要涉及使用 embedding 模型，目前支持 embedding 的模型提供商中有 OpenAl、Cohere 等，在 Dify 的模型供应商中有标注 `TEXT EMBEDDING`，请确保至少添加了一个并且有充足余额。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-6.png)
 
 **什么是 embedding？**
 
@@ -61,7 +61,7 @@ Dify 支持三种数据源：上传文本文件、Notion、网页。
 
 上传文档后，会进入以下页面：
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-4.png)
 
 可以看到右侧有分段预览。当前默认选择的是自动分段与清洗，Dify 会根据文本内容的不同自动将文章切分为许多个段落。你也可以在自定义中设置其他的切分规则。
 
@@ -85,11 +85,11 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 如下图中语义占 70% 的权重，关键词占 30% 的权重。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-9.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-9.png)
 
 点击**保存并处理**将会处理文档，完成处理后文档就可以在应用中使用了。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-8.png)
 
 ### 同步自 Web 站点
 
@@ -97,7 +97,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 目前 Dify 支持最多 50 个页面的处理，请注意限制数量的设置。如果超出，可以再创建新的知识库。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-5.png)
 
 ### 调整知识库内容
 
@@ -111,7 +111,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 在知识库的文档页，左侧边栏中点击召回测试，可以输入关键词来测试检索结果的准确性。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-3.png)
 
 
 
@@ -135,7 +135,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 * 用户询问社群加入方式
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-7.png)
 
 ### 直接回复节点
 
@@ -149,7 +149,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 Dify 支持 Markdown 格式的文本的输出。你可以在输出中用 Makrdown 来丰富文本的格式。甚至可以用 Markdown 格式在文中插入图片，效果如下：
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-10.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-10.png)
 
 ### 知识检索节点
 
@@ -167,7 +167,7 @@ LLM 需要根据用户的提问，调整回复，使得回复内容更加得体�
 
 此外，你可以打开 LLM 记忆让用户的对话体验更加连贯。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-2.png)
 
 
 
@@ -175,7 +175,7 @@ LLM 需要根据用户的提问，调整回复，使得回复内容更加得体�
 
 在知识库功能中，你可以通过外部知识库 API 来连接外部知识库，例如 AWS Bedrock 知识库。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image.png)
 
 有关 AWS Bedrock 知识库的最佳实践，请阅读：[如何连接 AWS Bedrock 知识库？](https://docs.dify.ai/zh-hans/learn-more/use-cases/how-to-connect-aws-bedrock)
 
@@ -187,7 +187,7 @@ LLM 需要根据用户的提问，调整回复，使得回复内容更加得体�
 
 在搭载知识库的实例中，进入知识库->API，并且创建 API 密钥。请妥善保管 API 密钥。
 
-![](./Dify篇-基于RAG知识库搭建智能客服_assets/Dify篇-基于RAG知识库搭建智能客服-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8ERAG%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D-image-1.png)
 
 
 

@@ -27,23 +27,23 @@ DeepSeek 2023 年 7 月成立于杭州，是幻方量化旗下的子公司，全
 
 DeepSeek 近半年相继推出了 3 个主要的大模型版本，分别是 DeepSeek V2.5、DeepSeek V3、DeepSeek-R1（无一例外的都是用了 MOE 架构）。在这之前还推出了 DeepSeek-VL、DeepSeek Coder、DeepSeek Math。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-11.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-11.png)
 
 **1.2 模型能力**
 
 DeepSeek 模型已经对标国内 Qwen、海外 Llama、GPT 4o，从公布的榜单评测上看：DeepSeek-V3 在开源模型中位列榜首，与世界上最先进的闭源模型不分伯仲。&#x20;
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-9.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-9.png)
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-8.png)
 
 **1.3 训推成本**
 
 推理成本 (API 报价)：百万 Token 输入价格能达到 1 元。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-7.png)
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-12.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-12.png)
 
 训练成本：从技术报告中看 DeepSeek 用的是 H800 的 GPU 做的训练，而且只有 2 千张左右的 H800，整个 V3 的正式训练成本不超过 600W 美元。
 
@@ -53,7 +53,7 @@ DeepSeek 模型已经对标国内 Qwen、海外 Llama、GPT 4o，从公布的榜
 
 3、按照 H800 每小时 2 美元租赁，总的训练成本不超过 600W 美元
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-10.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-10.png)
 
 DeepSeek-V3 Technical Report&#x20;
 
@@ -77,7 +77,7 @@ DeepSeekV3 整体预训练用了 14.8 万亿的高质量 Token，并且在后期
 
 与 DeepSeek-V2 相比，V3 额外引入了一种无辅助损失的负载均衡策略，用于 DeepSeekMoE，以减轻因需要保证 Expert 负载均衡而导致的性能下降。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-13.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-13.png)
 
 ### 2.1.1 DeepSeek MoE
 
@@ -91,7 +91,7 @@ DeepSeekV3 整体预训练用了 14.8 万亿的高质量 Token，并且在后期
 
 和传统的 MoE 架构相比，DeepSeekMoE 使用更细粒度的专家，并将一些专家隔离为共享专家，减少专家间的知识冗余。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-14.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-14.png)
 
 门控网络路由策略：TopK 表示第 t 个 Token 和所有路由专家计算出的亲和力分数中 K 个最高分数的集合，在 DeepSeekV3 中，使用 sigmoid 函数计算亲和力分数，然后在所有选择的亲和力分数中应用归一化来生成门控值。&#x20;
 
@@ -103,7 +103,7 @@ DeepSeekV3 整体预训练用了 14.8 万亿的高质量 Token，并且在后期
 
 ，并将其添加到相应的亲和力分数
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-1.png)
 
 中以确定 top-K 路由，具体来说：如果其对应的专家过载，我们将偏差项减少γ；如果其对应的专家负载不足，我们将偏差项增加γ，其中γ是一个称为偏差更新速度的超参数。
 
@@ -127,31 +127,31 @@ DeepSeek-V2，提出一种创新的注意力机制：多头潜在注意力（MLA
 
 这里的
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-4.png)
 
 表示第 t 个 Token 的输入，
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-6.png)
 
 表示 KV 的向下投影矩阵，将
 
 做降维压缩表示，实际得到
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-2.png)
 
 就是要缓存的 KV 压缩隐向量；
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image.png)
 
 和
 
 是向上做升维的投影矩阵，将 Token 的压缩隐向量
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-3.png)
 
 复原为原始 KV 矩阵；
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-5.png)
 
 MLA 模块架构图
 
@@ -159,7 +159,7 @@ MLA 模块架构图
 
 **2.2\***\*训练推理核心技术\*\*  &#x20;
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-18.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-18.png)
 
 2.2.1 训练框架 HAI-LLM&#x20;
 
@@ -183,13 +183,13 @@ DualPipe 的关键思想是重叠一对单独的前向和后向块中的计算�
 
 2. 当块 A 完成前向传播计算后，开始它的通信过程；而块 B 则开始它的前向传播计算。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-17.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-17.png)
 
 通过优化排列这些功能模块，并精确调控用于通信和计算的 GPU SM 资源分配比例，系统能够在运行过程中有效隐藏全节点通信和 PP 通信开销。
 
 可以看出 DeepSeek 在 PP 这块，做了大量的通信计算重叠优化，从技术报告中看出，即使是细粒度的 all-all 专家通信，all-all 的通信开销几乎为 0。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-19.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-19.png)
 
 ●计算通信重叠
 
@@ -199,7 +199,7 @@ DualPipe 的关键思想是重叠一对单独的前向和后向块中的计算�
 
 一些大的模型会采用流水线并行策略，将模型的不同层放在不同的 GPU 上，但是不同层之间有依赖关系，后面层需要等前面的计算完才能开始计算，会导致 GPU 在一段时间是闲置的，如下图所示：
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-20.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-20.png)
 
 ii. 跨节点全对全通信
 
@@ -235,19 +235,19 @@ DSV3 采用了 1 个共享专家和 256 个路由专家的 MoE 架构，每个 t
 
 对激活，在 token 维度采用 group-wise 的量化 (1*128)；对权重，采用 128* 128 的 block-wise 量化
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-16.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-16.png)
 
 ■提高累加精度
 
 在 TensorCore 上执行矩阵 MMA（矩阵乘法累加）操作时，每当累加达到一个间隔时，这些部分结果会被传输到 CUDA Cores 上的 FP32 寄存器中，并在那里进行 FP32 精度的累加计算。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-21.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-21.png)
 
 ### 2.2.4 MTP 的训练目标
 
 DeepSeekV3 训练过程设置了多 Token 预测的目标，从技术报告的消融实验看出，确实提高了模型在大多数评估基准上的性能，而且 MTP 模块还可以用于推理加速。
 
-![](./Deepseek篇--背后核心技术揭秘_assets/Deepseek篇--背后核心技术揭秘-image-15.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98_assets/Deepseek%E7%AF%87--%E8%83%8C%E5%90%8E%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98-image-15.png)
 
 ### 2.2.5 推理部署方案
 

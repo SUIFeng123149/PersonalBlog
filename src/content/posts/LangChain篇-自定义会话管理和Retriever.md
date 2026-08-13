@@ -15,7 +15,7 @@ lastVerified: 2026-08-13
 ---
 ## 一、如何自定义会话管理
 
-![](./LangChain篇-自定义会话管理和Retriever_assets/LangChain篇-自定义会话管理和Retriever-OwEYbHXhUogjfBxmllmcMrT8nTf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%92%8CRetriever_assets/LangChain%E7%AF%87-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%92%8CRetriever-OwEYbHXhUogjfBxmllmcMrT8nTf.png)
 
 之前我们已经介绍了如何添加会话历史记录，但我们仍在手动更新对话历史并将其插入到每个输入中。在真正的问答应用程序中，我们希望有一种持久化对话历史的方式，并且有一种自动插入和更新它的方式。 为此，我们可以使用：
 

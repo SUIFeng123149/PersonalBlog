@@ -43,7 +43,7 @@ image = pipeline("sushi rolls shaped like kawaii cat faces").images[0]
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-QsDobKCYVokrfOxdWstcIVx1nOd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-QsDobKCYVokrfOxdWstcIVx1nOd.png)
 
 现在让我们尝试另一个很酷的 LoRA 模型，[ostris/super-cereal-sdxl-lora](https://hugging-face.cn/ostris/super-cereal-sdxl-lora)。您只需使用 `adapter_name` 加载并命名这个新适配器，然后使用 [set\_adapters](https://hugging-face.cn/docs/diffusers/api/loaders/unet#diffusers.loaders.UNet2DConditionLoadersMixin.set_adapters) 方法将其设置为当前活动的适配器。
 
@@ -102,7 +102,7 @@ image = pipe(
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-TfAfbH8ZGoVN6uxgXDwc9gvDnke.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-TfAfbH8ZGoVN6uxgXDwc9gvDnke.png)
 
 使用 `adapter_name` 参数，使用另一个 adapter 进行推理非常容易！ 加载已微调以生成像素艺术图像的 [nerijs/pixel-art-xl](https://hugging-face.cn/nerijs/pixel-art-xl) adapter，并将其称为 `"pixel"`。
 
@@ -122,7 +122,7 @@ image = pipe(
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-BLPsbxdd9oL18zxLXkgcmOmynme.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-BLPsbxdd9oL18zxLXkgcmOmynme.png)
 
 默认情况下，如果检测到最新版本的 PEFT 和 Transformers，则 `low_cpu_mem_usage` 将设置为 `True`，以加快 LoRA 检查点的加载时间。
 
@@ -146,7 +146,7 @@ image = pipe(
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-BHcUbWnOVoN0JJxsSPpcrn58n7e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-BHcUbWnOVoN0JJxsSPpcrn58n7e.png)
 
 令人印象深刻！ 正如您所看到的，该模型生成了一张混合了两个 adapter 特征的图像。
 
@@ -175,7 +175,7 @@ image = pipe(prompt, num_inference_steps=30, generator=torch.manual_seed(0)).ima
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-T3z3bfpkjomP46x118hcgReRnkh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-T3z3bfpkjomP46x118hcgReRnkh.png)
 
 ### 自定义 adapters 强度
 
@@ -192,7 +192,7 @@ image = pipe(prompt, num_inference_steps=30, generator=torch.manual_seed(0)).ima
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-Hd7LbyD2eo4cjwxoAICcATPPnEf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-Hd7LbyD2eo4cjwxoAICcATPPnEf.png)
 
 让我们看看分别关闭 `down` 部分并打开 `mid` 和 `up` 部分如何改变图像。
 
@@ -203,7 +203,7 @@ image = pipe(prompt, num_inference_steps=30, generator=torch.manual_seed(0)).ima
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-KMXCbZvvtoeTN8x2dJncrPVfntw.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-KMXCbZvvtoeTN8x2dJncrPVfntw.png)
 
 ```python
 adapter_weight_scales = { "unet": { "down": 0, "mid": 0, "up": 1} }
@@ -212,7 +212,7 @@ image = pipe(prompt, num_inference_steps=30, generator=torch.manual_seed(0)).ima
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-TM7jbqcyTowy4oxmCf4cAK5Pn3e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-TM7jbqcyTowy4oxmCf4cAK5Pn3e.png)
 
 看起来很酷！
 
@@ -235,7 +235,7 @@ image = pipe(prompt, num_inference_steps=30, generator=torch.manual_seed(0)).ima
 image
 ```
 
-![](./微调篇--Stable Diffusion模型微调_assets/微调篇--Stable Diffusion模型微调-GjF0bZIZAoxebgxg9Yuc6cShn4f.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Stable%20Diffusion%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83-GjF0bZIZAoxebgxg9Yuc6cShn4f.png)
 
 ## 管理 adapters
 

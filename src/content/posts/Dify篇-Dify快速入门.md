@@ -22,7 +22,7 @@ lastVerified: 2026-07-28
 
 由于 Dify 内置了构建 LLM 应用所需的关键技术栈，包括对数百个模型的支持、直观的 Prompt 编排界面、高质量的 RAG 引擎、稳健的 Agent 框架、灵活的流程编排，并同时提供了一套易用的界面和 API。这为开发者节省了许多重复造轮子的时间，使其可以专注在创新和业务需求上。
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-LJDKbbXDwozY7BxLAaSciOB2n1c.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-LJDKbbXDwozY7BxLAaSciOB2n1c.jpg)
 
 ### **为什么使用 Dify？**
 
@@ -126,13 +126,13 @@ Dify 主页面：
 
 选择智能助手的推理模型，智能助手的任务完成能力取决于模型推理能力，我们建议在使用智能助手时选择推理能力更强的模型系列如 gpt-4 以获得更稳定的任务完成效果。
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-TJ8qbI0bHoMf72xLsRdcGrM7neb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-TJ8qbI0bHoMf72xLsRdcGrM7neb.webp)
 
 选择智能助手的推理模型
 
 你可以在“提示词”中编写智能助手的指令，为了能够达到更优的预期效果，你可以在指令中明确它的任务目标、工作流程、资源和限制等。
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-OcrObwdQAoNfjTxM5wrcrc9nn3g.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-OcrObwdQAoNfjTxM5wrcrc9nn3g.webp)
 
 编排智能助手的指令提示词
 
@@ -144,7 +144,7 @@ Dify 主页面：
 
 你可以直接使用 Dify 生态提供的第一方内置工具，或者轻松导入自定义的 API 工具（目前支持 OpenAPI / Swagger 和 OpenAI Plugin 规范）。
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-O6YQbcnVVobDhAxswJIcgZCAnVh.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-O6YQbcnVVobDhAxswJIcgZCAnVh.webp)
 
 添加助手需要的工具
 
@@ -160,7 +160,7 @@ Dify 主页面：
 
 Function Calling 模式
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-MQtJbHdmJogi8bxGtCOcC80Ln5c.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-MQtJbHdmJogi8bxGtCOcC80Ln5c.webp)
 
 ReAct 模式
 
@@ -168,7 +168,7 @@ ReAct 模式
 
 你可以为智能助手配置一套会话开场白和开场问题，配置的对话开场白将在每次用户初次对话中展示助手可以完成什么样的任务，以及可以提出的问题示例。
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-WVZybc4Stocw3TxjKI0cBBzmnch.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-WVZybc4Stocw3TxjKI0cBBzmnch.webp)
 
 配置会话开场白和开场问题
 
@@ -176,13 +176,13 @@ ReAct 模式
 
 编排完智能助手之后，你可以在发布成应用之前进行调试与预览，查看助手的任务完成效果。
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-WoA1bHTsqo4nEEx5jLCcOLSrnWb.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-WoA1bHTsqo4nEEx5jLCcOLSrnWb.webp)
 
 调试与预览
 
 ### **应用发布**
 
-![](./Dify篇-Dify快速入门_assets/Dify篇-Dify快速入门-PDuVbk5itoA9AOxkwzLc7Bcenlh.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/Dify%E7%AF%87-Dify%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-PDuVbk5itoA9AOxkwzLc7Bcenlh.webp)
 
 应用发布为 Webapp
 

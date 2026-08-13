@@ -2,7 +2,7 @@
 title: Hadoop部署补丁
 published: 2026-05-12
 description: 'Hadoop部署补丁 的详细部署与配置文档。'
-image: './HadoopHA配置修复.assets/cover.webp'
+image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/HadoopHA%E9%85%8D%E7%BD%AE%E4%BF%AE%E5%A4%8D.assets/cover.webp
 tags: [BigData, Hadoop, HA, Deployment]
 category: 'BigData'
 draft: false 
@@ -154,9 +154,9 @@ ssh hadoop03 "bash -c 'source /etc/profile && mapred --daemon start historyserve
 三个节点都输入jps后都有ResourceManager如图所示即为修改成功
 >ps指令需加载环境变量具体操作在第一部分切换用户也要做
 
-![img](./HadoopHA%E9%85%8D%E7%BD%AE%E4%BF%AE%E5%A4%8D.assets/wps1.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/HadoopHA%E9%85%8D%E7%BD%AE%E4%BF%AE%E5%A4%8D.assets/wps1.jpg) 
 分配剩余空间
 输入`yarn node -list`后如图所示，可能有不同但是只要显示三个节点即为启动成功
-![img](./HadoopHA%E9%85%8D%E7%BD%AE%E4%BF%AE%E5%A4%8D.assets/wps2.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/HadoopHA%E9%85%8D%E7%BD%AE%E4%BF%AE%E5%A4%8D.assets/wps2.jpg) 
 输入`yarn node -list`后如图所示，可能有不同但是只要显示两个standby一个active即为启动成功
-![img](./HadoopHA%E9%85%8D%E7%BD%AE%E4%BF%AE%E5%A4%8D.assets/wps3.jpg) 
+![img](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/HadoopHA%E9%85%8D%E7%BD%AE%E4%BF%AE%E5%A4%8D.assets/wps3.jpg) 

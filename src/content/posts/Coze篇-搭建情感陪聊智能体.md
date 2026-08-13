@@ -41,7 +41,7 @@ lastVerified: 2026-07-31
 
 情感陪聊模板使用工作流模式搭建，每个问答都由指定工作流处理。整体设计思路如下：
 
-![](./Coze篇-搭建情感陪聊智能体_assets/Coze篇-搭建情感陪聊智能体-Wtv6bKLYQoOaUDxhabmcILcyn2g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93-Wtv6bKLYQoOaUDxhabmcILcyn2g.png)
 
 各个功能模块的实现方式如下：
 
@@ -61,7 +61,7 @@ lastVerified: 2026-07-31
 
 1. 打开[苏瑶](https://www.coze.cn/template/agent/7419218621307764770?)智能体，然后单击**复制**。
 
-![](./Coze篇-搭建情感陪聊智能体_assets/Coze篇-搭建情感陪聊智能体-ATrKbpopGo3p2wxirQgc1ZuEn5b.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93-ATrKbpopGo3p2wxirQgc1ZuEn5b.png)
 
 1. 选择智能体的所属空间并输入一个智能体名称，然后单击**确定**。
 
@@ -73,7 +73,7 @@ lastVerified: 2026-07-31
 
 此模版使用工作流模式，你可以根据你的个人需求、喜好、智能体人设，自定义调整工作流的配置。工作流中每个分支实现一个功能，你可以按需调整各个功能模块的节点设计。以下工作流设计以[苏瑶](https://www.coze.cn/template/agent/7419218621307764770?)模板为例。
 
-![](./Coze篇-搭建情感陪聊智能体_assets/Coze篇-搭建情感陪聊智能体-YEDobIpOiofEyqx4RH6cS1gZnOf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93-YEDobIpOiofEyqx4RH6cS1gZnOf.png)
 
 其中：
 
@@ -119,7 +119,7 @@ lastVerified: 2026-07-31
 
 设置方式如下：
 
-![](./Coze篇-搭建情感陪聊智能体_assets/Coze篇-搭建情感陪聊智能体-E0jZbhJwmoHJf0xKvjMcA7banOf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93_assets/Coze%E7%AF%87-%E6%90%AD%E5%BB%BA%E6%83%85%E6%84%9F%E9%99%AA%E8%81%8A%E6%99%BA%E8%83%BD%E4%BD%93-E0jZbhJwmoHJf0xKvjMcA7banOf.png)
 
 ### 步骤四：调整智能体配置
 

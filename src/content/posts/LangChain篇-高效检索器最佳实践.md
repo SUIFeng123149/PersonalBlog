@@ -83,13 +83,13 @@ lastVerified: 2026-08-13
 
 这种算法能保证搜索的质量，但是如果图中所以的节点都以最短的路径相连，如图中最下面的一层，那么在搜索的时候，就同样需要遍历所有的节点。
 
-![](./LangChain篇-高效检索器最佳实践_assets/LangChain篇-高效检索器最佳实践-DinObO75AodUQcxIQvyc4Urwn2c.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-DinObO75AodUQcxIQvyc4Urwn2c.png)
 
 解决这个问题的思路与常见的跳表算法相似，如下图要搜索跳表，从最高层开始，沿着具有最长 “跳过” 的边向右移动。如果发现当前节点的值大于要搜索的值 - 我们知道已经超过了目标，因此我们会在下一级中向前一个节点。
 
-![](./LangChain篇-高效检索器最佳实践_assets/LangChain篇-高效检索器最佳实践-Lq0ibwFXzoRg8exJ8t2cHWggnCf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-Lq0ibwFXzoRg8exJ8t2cHWggnCf.png)
 
-![](./LangChain篇-高效检索器最佳实践_assets/LangChain篇-高效检索器最佳实践-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-image.png)
 
 HNSW 继承了相同的分层格式，最高层具有更长的边缘（用于快速搜索），而较低层具有较短的边缘（用于准确搜索）。
 
@@ -343,7 +343,7 @@ page_content='During the next five years, I started a company named NeXT, anothe
 setx PINECONE_API_KEY ""
 ```
 
-![](./LangChain篇-高效检索器最佳实践_assets/LangChain篇-高效检索器最佳实践-M9lXbFfCRoTI1txyhFocFWeBnlr.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5_assets/LangChain%E7%AF%87-%E9%AB%98%E6%95%88%E6%A3%80%E7%B4%A2%E5%99%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-M9lXbFfCRoTI1txyhFocFWeBnlr.png)
 
 首先，让我们将我们的文本库拆分成分块的 `docs`。
 

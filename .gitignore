@@ -50,3 +50,20 @@ src/data/**.backup
 
 # brainstorm mockups (visual companion temp files)
 .superpowers/
+
+# pnpm local store cache
+.pnpm-store/
+
+# OSS 迁移临时工作区
+.oss-migrate/
+
+# 博客媒体已迁移至阿里云 OSS，禁止再入库
+src/content/posts/*_assets/
+src/content/posts/*.assets/
+public/assets/
+public/pio/
+public/sakura.png
+public/js/
+public/images/converted/
+public/images/diary/
+

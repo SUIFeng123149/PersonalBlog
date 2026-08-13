@@ -19,7 +19,7 @@ lastVerified: 2026-08-13
 
 在 Dify 中创建一个 Chatflow。请确保你已添加模型供应商并有足够额度。
 
-![](./Dify篇-基于ChatFlow搭建文章理解助手_assets/Dify篇-基于ChatFlow搭建文章理解助手-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B-image.png)
 
 
 
@@ -49,7 +49,7 @@ lastVerified: 2026-08-13
 
 将开始节点的文件变量作为输入变量，文档提取器会将文档格式的文件转为文本变量输出。
 
-![](./Dify篇-基于ChatFlow搭建文章理解助手_assets/Dify篇-基于ChatFlow搭建文章理解助手-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B-image-1.png)
 
 ### LLM
 
@@ -79,11 +79,11 @@ lastVerified: 2026-08-13
 
 因此，你需要把开始节点中的文件变量调整为 `array` 类型，也就是文件列表。
 
-![](./Dify篇-基于ChatFlow搭建文章理解助手_assets/Dify篇-基于ChatFlow搭建文章理解助手-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B-image-3.png)
 
 在开始节点之后需要加入迭代节点，并且设置输入变量和输出变量。在迭代节点内部，设置每次循环执行的内容，这部分和前文内容完全一致。
 
-![](./Dify篇-基于ChatFlow搭建文章理解助手_assets/Dify篇-基于ChatFlow搭建文章理解助手-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B-image-4.png)
 
 ### 针对思考题1，只处理文件列表的特定文件
 
@@ -93,6 +93,6 @@ lastVerified: 2026-08-13
 
 在迭代节点前加入列表操作，调整过滤条件、排序，然后将迭代节点的输入改为列表操作节点的输出。
 
-![](./Dify篇-基于ChatFlow搭建文章理解助手_assets/Dify篇-基于ChatFlow搭建文章理解助手-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B_assets/Dify%E7%AF%87-%E5%9F%BA%E4%BA%8EChatFlow%E6%90%AD%E5%BB%BA%E6%96%87%E7%AB%A0%E7%90%86%E8%A7%A3%E5%8A%A9%E6%89%8B-image-2.png)
 
 

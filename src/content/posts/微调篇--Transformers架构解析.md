@@ -15,7 +15,7 @@ lastVerified: 2026-08-13
 ---
 随着人工智能技术的飞速发展，大语言模型（Large Language Models, LLMs）在自然语言处理（NLP）领域扮演了越来越重要的角色。它们不仅在语义理解、文本生成方面取得了显著的成果，还推动了人机交互、内容创作等多种应用的变革。本次我们探讨下大语言模型的主流架构，帮助大家深入理解这些模型的工作机制。
 
-![](./微调篇--Transformers架构解析_assets/微调篇--Transformers架构解析-1744874027576-01be7b52-33f3-466a-842b-5ceb1a75ec09[1].png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90-1744874027576-01be7b52-33f3-466a-842b-5ceb1a75ec09%5B1%5D.png)
 
 
 
@@ -31,7 +31,7 @@ lastVerified: 2026-08-13
 
 Transformer 架构是大语言模型的核心基础之一，首次在 Vaswani 等人于 2017 年发布的论文《Attention is All You Need》中提出。与传统的循环神经网络（Recurrent Neural Networks, RNNs）相比，Transformer 采用了完全不同的机制，提供了更高的并行处理能力和更长的序列建模能力，因此迅速成为[自然语言处理](https://so.csdn.net/so/search?q=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86\&spm=1001.2101.3001.7020)（NLP）领域的主流架构。
 
-![](./微调篇--Transformers架构解析_assets/微调篇--Transformers架构解析-24c5837eac9d459489c7ba85756566df.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90-24c5837eac9d459489c7ba85756566df.png)
 
 ##### 关键组成部分
 
@@ -113,7 +113,7 @@ Transformer 架构相较于传统的 RNN 具有以下几个显著优势：
 
 GPT（Generative Pre-trained Transformer）系列模型是当今自然语言处理（NLP）领域最具影响力的大语言模型之一。由 OpenAI 于 2018 年首次发布的 GPT-1 开始，随后推出了 GPT-2、GPT-3，以及最新的 GPT-4。这些模型在文本生成、理解和各种 NLP 任务上都取得了显著的突破。下面，我们将深入探讨 GPT 系列的架构、训练过程、应用场景及其对 NLP 领域的影响。
 
-![](./微调篇--Transformers架构解析_assets/微调篇--Transformers架构解析-b96e5a257e3e4affa1a3a140d217fc24.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90-b96e5a257e3e4affa1a3a140d217fc24.png)
 
 
 
@@ -203,7 +203,7 @@ BERT（Bidirectional Encoder Representations from Transformers）是由 Google �
 
 
 
-![](./微调篇--Transformers架构解析_assets/微调篇--Transformers架构解析-cbfa3a75c47d4a09b1e083bc17a01911.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90-cbfa3a75c47d4a09b1e083bc17a01911.png)
 
 
 
@@ -315,7 +315,7 @@ T5（Text-to-Text Transfer Transformer）是由 Google Research 于 2020 年提�
 
 
 
-![](./微调篇--Transformers架构解析_assets/微调篇--Transformers架构解析-580ee0454a24412187c3bf9327ec599d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Transformers%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90-580ee0454a24412187c3bf9327ec599d.png)
 
 
 

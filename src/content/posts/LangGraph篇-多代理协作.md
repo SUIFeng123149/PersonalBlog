@@ -27,7 +27,7 @@ lastVerified: 2026-08-13
 
 生成的图将类似于以下图
 
-![](./LangGraph篇-多代理协作_assets/LangGraph篇-多代理协作-2f0126cdaa50f86b10095918871e4f98_simple_multi_agent_diagram.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E5%A4%9A%E4%BB%A3%E7%90%86%E5%8D%8F%E4%BD%9C_assets/LangGraph%E7%AF%87-%E5%A4%9A%E4%BB%A3%E7%90%86%E5%8D%8F%E4%BD%9C-2f0126cdaa50f86b10095918871e4f98_simple_multi_agent_diagram.png)
 
 在我们开始之前，快速说明一下：以下展示*如何*在 LangGraph 中实现某些设计模式。如果模式适合您的需求
 
@@ -295,7 +295,7 @@ with open("collaboration.png", "wb") as f:
     f.write(graph_png)
 ```
 
-![](./LangGraph篇-多代理协作_assets/LangGraph篇-多代理协作-Oui2bBAnro4tnzxxeSWcvQN4n5b.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E5%A4%9A%E4%BB%A3%E7%90%86%E5%8D%8F%E4%BD%9C_assets/LangGraph%E7%AF%87-%E5%A4%9A%E4%BB%A3%E7%90%86%E5%8D%8F%E4%BD%9C-Oui2bBAnro4tnzxxeSWcvQN4n5b.jpg)
 
 ## **调用**
 
@@ -350,6 +350,6 @@ Python REPL can execute arbitrary code. Use with caution.
 ----
 ````
 
-![](./LangGraph篇-多代理协作_assets/LangGraph篇-多代理协作-O3HfbDCyBoJ5CKxvS8CcjSqDnGg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E5%A4%9A%E4%BB%A3%E7%90%86%E5%8D%8F%E4%BD%9C_assets/LangGraph%E7%AF%87-%E5%A4%9A%E4%BB%A3%E7%90%86%E5%8D%8F%E4%BD%9C-O3HfbDCyBoJ5CKxvS8CcjSqDnGg.png)
 
 

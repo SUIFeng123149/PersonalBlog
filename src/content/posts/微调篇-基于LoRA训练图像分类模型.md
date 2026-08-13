@@ -23,7 +23,7 @@ lastVerified: 2026-08-13
 
 本指南将向您展示如何使用低秩分解方法快速训练图像分类模型，以识别图像中显示的食物类别。
 
-![](./微调篇-基于LoRA训练图像分类模型_assets/微调篇-基于LoRA训练图像分类模型-SXFqbr1pvoxW1ZxHOCCcT99qn3g.webp)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87-%E5%9F%BA%E4%BA%8ELoRA%E8%AE%AD%E7%BB%83%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B_assets/%E5%BE%AE%E8%B0%83%E7%AF%87-%E5%9F%BA%E4%BA%8ELoRA%E8%AE%AD%E7%BB%83%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B-SXFqbr1pvoxW1ZxHOCCcT99qn3g.webp)
 
 熟悉图像分类模型训练的一般过程将非常有帮助，并使您能够专注于低秩分解方法。如果您是新手，我们建议您首先查看 Transformers 文档中的[图像分类](https://hugging-face.cn/docs/transformers/tasks/image_classification)指南。当您准备好后，请回来看看将 PEFT 融入您的训练有多么容易！
 
@@ -247,7 +247,7 @@ image = Image.open(requests.get(url, stream=True).raw)
 image
 ```
 
-![](./微调篇-基于LoRA训练图像分类模型_assets/微调篇-基于LoRA训练图像分类模型-Ki8kb5MaOocfKExDeijcIsbin7c.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87-%E5%9F%BA%E4%BA%8ELoRA%E8%AE%AD%E7%BB%83%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B_assets/%E5%BE%AE%E8%B0%83%E7%AF%87-%E5%9F%BA%E4%BA%8ELoRA%E8%AE%AD%E7%BB%83%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B-Ki8kb5MaOocfKExDeijcIsbin7c.jpg)
 
 将图像转换为 RGB 并返回底层 PyTorch 张量。
 

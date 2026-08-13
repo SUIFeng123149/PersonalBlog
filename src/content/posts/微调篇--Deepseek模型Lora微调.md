@@ -63,7 +63,7 @@ lastVerified: 2026-08-13
 
 LLaMA-Factory 是一个开源的模型微调框架，致力于简化大型[语言模型](https://so.csdn.net/so/search?q=%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B\&spm=1001.2101.3001.7020)的定制过程。它集成了多种训练策略和监控工具，提供了命令行和 WebUI 等多种交互方式，大幅降低了模型微调的技术门槛。!
 
-![](./微调篇--Deepseek模型Lora微调_assets/微调篇--Deepseek模型Lora微调-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83-image-4.png)
 
 ### 1、核心功能
 
@@ -247,7 +247,7 @@ LLaMA-Factory 项目在`data`目录下内置了丰富的数据集，您可以直
 
 在 Web UI 中，您需要配置以下关键参数以进行模型微调：语言：选择模型支持的语言，例如`zh`。模型名称：选择要微调的模型，例如`LLaMA3-8B-Chat`。微调方法：选择微调技术，如`lora`。数据集：选择用于训练的数据集。学习率：设置模型训练的学习率。计算类型：根据 GPU 类型选择计算精度，如`bf16`或`fp16`。梯度累计：设置梯度累计的批次数。LoRA + 学习率比例：设置 LoRA + 的相对学习率。LoRA 作用模块：选择 LoRA 层挂载的模型部分。!
 
-![](./微调篇--Deepseek模型Lora微调_assets/微调篇--Deepseek模型Lora微调-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83-image-3.png)
 
 
 
@@ -365,7 +365,7 @@ LLaMA-Factory 项目在`data`目录下内置了丰富的数据集，您可以直
 
 在 Web UI 中设置好参数后，您可以开始模型微调过程。微调完成后，您可以在界面上观察到训练进度和损失曲线。!
 
-![](./微调篇--Deepseek模型Lora微调_assets/微调篇--Deepseek模型Lora微调-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83-image-5.png)
 
 1）将输出目录修改为 train\_llama3，训练后的 LoRA 权重将会保存在此目录中。
 
@@ -379,15 +379,15 @@ LLaMA-Factory 项目在`data`目录下内置了丰富的数据集，您可以直
 
 在 Web UI 的 Chat 页签下，加载微调后的模型进行对话测试。您可以输入文本与模型进行交互，并观察模型的回答是否符合预期。!
 
-![](./微调篇--Deepseek模型Lora微调_assets/微调篇--Deepseek模型Lora微调-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83-image-1.png)
 
 在页面底部的对话框输入想要和模型对话的内容，单击提交，即可发送消息。发送后模型会逐字生成回答，从回答中可以发现模型学习到了数据集中的内容，能够恰当地模仿目标角色的语气进行对话。!
 
-![](./微调篇--Deepseek模型Lora微调_assets/微调篇--Deepseek模型Lora微调-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83-image.png)
 
 单击卸载模型，单击取消适配器路径，然后单击加载模型，即可与微调前的原始模型聊天。!
 
-![](./微调篇--Deepseek模型Lora微调_assets/微调篇--Deepseek模型Lora微调-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83_assets/%E5%BE%AE%E8%B0%83%E7%AF%87--Deepseek%E6%A8%A1%E5%9E%8BLora%E5%BE%AE%E8%B0%83-image-2.png)
 
 
 

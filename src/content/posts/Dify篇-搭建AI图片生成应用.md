@@ -17,7 +17,7 @@ lastVerified: 2026-08-13
 
 本文将使用图像生成模型，指导你使用 Dify 快速开发一个 AI 图片生成应用。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-11.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-11.png)
 
 
 
@@ -27,7 +27,7 @@ lastVerified: 2026-08-13
 
 Agent 是一种模拟人类行为和能力的AI系统，它通过自然语言处理与环境交互，能够理解输入信息并生成相应的输出。Agent 还具有“感知”能力，可以处理和分析各种形式的数据。此外，Agent 能够调用和使用各种外部工具和 API 来完成任务，扩展其功能范围。这种设计使 Agent 能够更灵活地应对复杂情况，在一定程度上模拟人类的思考和行为模式。因此，很多人都会将 Agent 称为“智能体”。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-10.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-10.png)
 
 AI Agent（人工智能代理）是一种能够感知环境、进行决策和执行动作的智能实体。不同于传统的人工智能，AI Agent 具备通过独立思考、调用工具去逐步完成给定目标的能力。比如，告诉 AI Agent 帮忙下单一份外卖，它就可以直接调用 APP 选择外卖，再调用支付程序下单支付，无需人类去指定每一步的操作。Agent 的概念由 Minsky 在其 1986 年出版的《思维的社会》一书中提出，Minsky 认为社会中的某些个体经过协商之后可求得问题的解，这些个体就是 Agent。他还认为 Agent 应具有社会交互性和智能性。Agent 的概念由此被引入人工智能和计算机领域，并迅速成为研究热点。但苦于数据和算力限制，想要实现真正智能的 AI Agents 缺乏必要的现实条件。
 
@@ -39,7 +39,7 @@ AI Agent（人工智能代理）是一种能够感知环境、进行决策和执
 
 和传统的 RPA 相比，RPA 只能在给定的情况条件下，根据程序内预设好的流程来进行工作的处理，在出现大量未知信息、难以预测的环境中时，RPA 是无法进行工作的，AI Agent 则可以通过和环境进行交互，感知信息并做出对应的思考和行动。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-13.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-13.png)
 
 我们看见的 AI Agent 往往以问答机器人作为交互入口，通过自然语言触发全自动的工作流，中间没有人工介入。由于人只负责发送指令，并不参与对 AI 结果的反馈。
 
@@ -77,7 +77,7 @@ LLM 的一些缺点：
 
 ### 3. AI Agent 对比人类与其它 Al 协同的区别
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-14.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-14.png)
 
 Al Agent 较日前广泛使用的 Copilot 模式更加独立。对比 Al 与人类的交互模式，目前己从过去的嵌入式工具型 Al （例如 siri）向助理型 AI 发展。目前的各类 Al Copilot 不再是机械地完成人类指令，而是可以参与人类工作流，为诸如编写代码、策划活动、优化流程等事项提供建议，与人类协同完成。而 AI Agent 的工作仅需给定一个目标，它就能够针对目标独立思考并做出行动，它会根据给定任务详细拆解出每一步的计划步骤，依靠来自外界的反馈和自主思考，自己给自己创建 prompt，来实现目标。如果说 Copilot 是“副驾驶”，那么 Agent 则可以算得上一个初级的“主驾驶”。
 
@@ -87,7 +87,7 @@ Al Agent 较日前广泛使用的 Copilot 模式更加独立。对比 Al 与人�
 
 上面介绍了 Al Agent 是什么以及一些案例演示，下面的内容将对 Al Agent 背后的技术进行分析。**一个基于大模型的 Al Agent 系统可以拆分为大模型、规划、记忆与工具使用四个组件部分**。2024 年 6月，OpenAl 的应用研究主管 LilianWeng 撰写了一篇博客，认为 AI Agent 可能会成为新时代的开端。她提出了 Agent=LLM+规划技能+记忆+工具使用的基础架构，其中 LLM 扮演了 Agent 的“大脑”，在这个系统中提供推理、规划等能力。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-9.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-9.png)
 
 
 
@@ -99,7 +99,7 @@ Al Agent 较日前广泛使用的 Copilot 模式更加独立。对比 Al 与人�
 
 如果你尚未注册，会被要求先注册再进入管理页，进入管理页后，点击复制密钥即可。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-12.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-12.png)
 
 接下来，你需要通过以下步骤把密钥填入 **Dify-工具-Stability** 中：
 
@@ -111,7 +111,7 @@ Al Agent 较日前广泛使用的 Copilot 模式更加独立。对比 Al 与人�
 
 * 点击授权
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-7.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-7.png)
 
 * 填入密钥并保存
 
@@ -127,7 +127,7 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 
 点击**右上角头像-设置-模型供应商**
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-8.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-8.png)
 
 如果尚未找到合适的模型供应商，groq 平台提供了 Llama 等 LLM 的免费调用额度。
 
@@ -137,11 +137,11 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 
 回到 Dify-模型供应商，选择 groqcloud，点击设置。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-6.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-6.png)
 
 粘贴 API Key并保存。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-5.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-5.png)
 
 
 
@@ -155,21 +155,21 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 
 选择 Agent，填写名称即可。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-4.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-4.png)
 
 接下来你就会进入到如下图的 Agent 编排界面：
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-3.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-3.png)
 
 我们选择 LLM，本篇教程中我们使用 groq 提供的 Llama-3.1-70B 为例：
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-2.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-2.png)
 
 在**工具**中添加 Al 绘图工具 Stability：
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-1.png)
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image.png)
 
 **撰写提示词**
 
@@ -185,17 +185,17 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 
 例如：画一个女孩，手中拿着一本打开的书。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-21.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-21.png)
 
 **不想撰写提示词？也可以！**
 
 在**指令**中输入你的需求，点击**生成**，右侧生成的提示词中会出现由 AI 生成的提示词。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-18.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-18.png)
 
 提示词：一个生成图像的机器人，使用工具 dalle3 绘画指定内容
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-19.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-19.png)
 
 不过，为了养成对提示词良好的理解，我们在初期最好不要依赖这一项功能。
 
@@ -207,7 +207,7 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 
 点击右上角的发布按钮，发布后选择**运行**就可以获得一个在线运行的 Agent 的网页。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-20.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-20.png)
 
 复制这个网页的 URL，可以分享给其他好友使用。
 
@@ -217,7 +217,7 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 
 我们可以在用户输入的命令中加上画风的指令，例如：二次元风格，画一个女孩，手中拿着一本打开的书
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-15.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-15.png)
 
 但是如果我们希望风格默认都是二次元风格呢，那么我们加在系统提示词里就行了，因为我们之前了解到系统提示词是每次执行用户命令都会知晓的，优先级更高，
 
@@ -233,12 +233,12 @@ Free 版本的 Dify 提供了免费 200 条 OpenAl 的消息额度，如果消�
 
 例如，我们尝试提问：今晚吃什么
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-16.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-16.png)
 
 在一些更正式的业务场景中，我们可以调用敏感词库来拒绝用户的请求。
 
 在**添加功能-内容审查**中添加关键词“晚饭”，当用户输入关键词时，则 Agent 应用输出“对不起，我不明白你在说什么”。
 
-![](./Dify篇-搭建AI图片生成应用_assets/Dify篇-搭建AI图片生成应用-image-17.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8_assets/Dify%E7%AF%87-%E6%90%AD%E5%BB%BAAI%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%BA%94%E7%94%A8-image-17.png)
 
 

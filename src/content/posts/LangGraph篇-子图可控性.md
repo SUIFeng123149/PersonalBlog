@@ -27,7 +27,7 @@ pip install -U langgraph
 
 最重要的是要认识到图之间的信息传递。`入口图` 是父级，两个子图中的每一个都被定义为 `入口图` 中的节点。两个子图都继承了父级 `入口图` 的状态；我可以在每个子图中访问 `docs`，只需在子图状态中指定它（参见图）。每个子图都可以有自己的私有状态。任何我想传播回父级 `入口图` 的值（用于最终报告）只需在我的 `入口图` 状态中定义即可（例如，`summary report` 和 `failure report`）。
 
-![](./LangGraph篇-子图可控性_assets/LangGraph篇-子图可控性-TZeZb8cmJoNC6wxVZyzcfpr9nbf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E5%AD%90%E5%9B%BE%E5%8F%AF%E6%8E%A7%E6%80%A7_assets/LangGraph%E7%AF%87-%E5%AD%90%E5%9B%BE%E5%8F%AF%E6%8E%A7%E6%80%A7-TZeZb8cmJoNC6wxVZyzcfpr9nbf.png)
 
 ```python
 #示例：sub_graph.py
@@ -263,7 +263,7 @@ with open("sub_graph_combine.png", "wb") as f:
     f.write(graph_png)
 ```
 
-![](./LangGraph篇-子图可控性_assets/LangGraph篇-子图可控性-OwqNbp1buoXCGyxDMiycNbYvnTQ.jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E5%AD%90%E5%9B%BE%E5%8F%AF%E6%8E%A7%E6%80%A7_assets/LangGraph%E7%AF%87-%E5%AD%90%E5%9B%BE%E5%8F%AF%E6%8E%A7%E6%80%A7-OwqNbp1buoXCGyxDMiycNbYvnTQ.jpg)
 
 ```python
 raw_logs = [{"foo": "bar"}, {"foo": "baz"}]

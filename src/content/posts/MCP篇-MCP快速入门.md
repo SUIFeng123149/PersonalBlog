@@ -29,7 +29,7 @@ MCP 可广泛应用于**软件开发、DevOps、AI 工程化、数据科学、�
 
 
 
-![](./MCP篇-MCP快速入门_assets/MCP篇-MCP快速入门-deepseek_mermaid_20250529_6e4d50.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/MCP%E7%AF%87-MCP%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/MCP%E7%AF%87-MCP%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-deepseek_mermaid_20250529_6e4d50.png)
 
 
 
@@ -72,7 +72,7 @@ MCP 可广泛应用于**软件开发、DevOps、AI 工程化、数据科学、�
 
 
 
-![](./MCP篇-MCP快速入门_assets/MCP篇-MCP快速入门-deepseek_mermaid_20250529_c7a0cf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/MCP%E7%AF%87-MCP%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/MCP%E7%AF%87-MCP%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-deepseek_mermaid_20250529_c7a0cf.png)
 
 
 
@@ -162,7 +162,7 @@ MCP 可广泛应用于**软件开发、DevOps、AI 工程化、数据科学、�
 
 ### 场景1：多模型AB测试
 
-![](./MCP篇-MCP快速入门_assets/MCP篇-MCP快速入门-deepseek_mermaid_20250529_4d687e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/MCP%E7%AF%87-MCP%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/MCP%E7%AF%87-MCP%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-deepseek_mermaid_20250529_4d687e.png)
 
 ### 场景2：紧急回滚
 

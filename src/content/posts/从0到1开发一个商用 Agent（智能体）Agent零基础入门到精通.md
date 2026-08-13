@@ -35,7 +35,7 @@ lastVerified: 2026-08-13
 
 如何搭建中包含工作流创建、智能体创建、智能体发布。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-image-1.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-image-1.png)
 
 ## 需求分析
 
@@ -67,7 +67,7 @@ lastVerified: 2026-08-13
 >
 > 模版：主题（搞什么）+ 风格/约束（有什么要求）+ 创新方向（怎么与众不同）。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-Vcj9b13PEotBu5xQKNUcfbwqn9Z.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-Vcj9b13PEotBu5xQKNUcfbwqn9Z.png)
 
 然后我们在看看小莉的工作流水账。
 
@@ -87,9 +87,9 @@ lastVerified: 2026-08-13
 
 因此 AI 帮我规划出来的这些场景，它提供给了我们建议，最终还是需要我们对其研究后，筛选出可以落地的场景。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-CmajbI0snodwqZxUPuLcXiKVn7g.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-CmajbI0snodwqZxUPuLcXiKVn7g.png)
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-O0kVb1QmHoCHT3xDo1Uctyr8nDf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-O0kVb1QmHoCHT3xDo1Uctyr8nDf.png)
 
 ### AI 可以提效的场景，如何梳理流程
 
@@ -117,7 +117,7 @@ lastVerified: 2026-08-13
 >
 > 模版：任务（做什么）+ 步骤约束（怎么操作）+ 输出格式（结果长啥样）。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-image.png)
 
 看一下上面图片的 DeepSeek 的输出，可以看到感觉输出的内容非常棒，但是具体落地还是有些困难，例如第一部分“发现目标文章”，这个展开来做的话本身也是一个智能体，例如到不同的站点读取内容、分等级评估是否优质内容、存到指定地方，人工阅读，调整 AI 评估内容优质等级的参数。
 
@@ -139,9 +139,9 @@ lastVerified: 2026-08-13
 >
 > 我看到一篇好的文章后，会把 url 发给智能体，智能体可以帮我自动进行总结和打标签，把标题、内容、总结、标签保存到飞书多维表格中，以表格形式输出（工作内容/AI 协助/人工来做），说人话。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-Ux9oboSX7oxkGYx55oEcyAQnnVg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-Ux9oboSX7oxkGYx55oEcyAQnnVg.png)
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-DUSVbSUnMohGssxhj0RclWscnRP.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-DUSVbSUnMohGssxhj0RclWscnRP.png)
 
 #### 绘制场景流程图
 
@@ -183,7 +183,7 @@ AI 输出的步骤：提交 URL 到智能体 -> 抓取文章内容 -> 提取标�
 
 提到过需求梳理结束后的如何选型，结合这个例子，我们一起做一下选型。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-YPobbbzgboYqQRxbprPcxYoBnS0.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-YPobbbzgboYqQRxbprPcxYoBnS0.png)
 
 **开发平台：**
 
@@ -223,17 +223,17 @@ AI 输出的步骤：提交 URL 到智能体 -> 抓取文章内容 -> 提取标�
 
 登录 [www.coze.cn](http://www.coze.cn)，按照下图提示找到“秋水 AI 扣子流程节点生成器”，你可以试一下。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-EPcdbNZmvoIHAjxZqkXcAesKnlf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-EPcdbNZmvoIHAjxZqkXcAesKnlf.png)
 
 进入后输入我们前面梳理的需求。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-QaJbb89VOorkf9xIhN1ct2mBnag.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-QaJbb89VOorkf9xIhN1ct2mBnag.png)
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-RYrUbQF2NoO75RxQtNXcve1rn0d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-RYrUbQF2NoO75RxQtNXcve1rn0d.png)
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-FdSBbRh7ZomQpOxp198cpUmOnDc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-FdSBbRh7ZomQpOxp198cpUmOnDc.png)
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-FaSwbbpRHo4Ws9xbaNacOVmun8d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-FaSwbbpRHo4Ws9xbaNacOVmun8d.png)
 
 到这里，如何梳理出一个清晰的场景需求和业务流程就介绍完了。
 
@@ -265,21 +265,21 @@ SOP（Standard Operating Procedure），就是标准作业流程，它告诉员�
 
 先点击“资源库”，鼠标停在右侧的“资源”上，点击“工作流”。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-Lyi5bbPMJo0zoExKO9UcqRJsnjc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-Lyi5bbPMJo0zoExKO9UcqRJsnjc.png)
 
 在弹出的如下界面中，填写“工作流名称”和“工作流描述”
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-SEi3buJoUoXGi0xMX5Oc9SsnnLb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-SEi3buJoUoXGi0xMX5Oc9SsnnLb.png)
 
 点击“确认”后，进入一个空白页面，根据我们前面梳理的流程图，开始用 Coze 的组件编辑流程，我编辑好的流程如下：
 
 “开始”和“结束”的节点是必须的，创建的时候默认就有，也不能删除，从“开始”到“结束”之间必须要有连线，没有连线，就相当于现实中两个地方之间没有路，没有路就没法走。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-NdqnbLDUQozcu6xsNAec2HRun5e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-NdqnbLDUQozcu6xsNAec2HRun5e.png)
 
 在一开始的时候，点击每个流程节点的右侧的圆圈，可以出现下图的窗口，在这个素材采集的流程中，我们会用到大模型、插件（就是前面我们说的工具，用于与其他系统做交互的）、代码（可以在个节点编写代码）。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-HQ6Fbr2zgo5Mk3xudy0cDPQRncg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-HQ6Fbr2zgo5Mk3xudy0cDPQRncg.png)
 
 接下来，我们看一下每个流程节点是怎么做的。
 
@@ -287,7 +287,7 @@ SOP（Standard Operating Procedure），就是标准作业流程，它告诉员�
 
 下图中的“开始”节点，在右侧的配置那里是没有输出，它主要是为这个工作启动准备数据，这个例子我们设定了一个变量名 url，智能体在调用这个工作流的时候，会自动从聊天内容中获取到 url ，传给它。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-Syr6bt2h6oQdcgxH0drcI6Pln6e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-Syr6bt2h6oQdcgxH0drcI6Pln6e.png)
 
 #### 工具：抓取内容
 
@@ -299,7 +299,7 @@ SOP（Standard Operating Procedure），就是标准作业流程，它告诉员�
 
 红框 4：是插件的输出，每一项都是一个数据变量，在后面的节点中会引用，具体每个变量什么意思，一个是看插件中的说明，此外可以从英文也可以看出大体意思。这个例子可以看到 title 就是 url 中文章中的标题，content 就是 url 中的文章内容。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-WVIQbG7rlopdgzxFPRLcyN1ynrd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-WVIQbG7rlopdgzxFPRLcyN1ynrd.png)
 
 #### 大模型：总结文章
 
@@ -311,7 +311,7 @@ SOP（Standard Operating Procedure），就是标准作业流程，它告诉员�
 
 红框 4：输出，是大模型的返回输出，大模型返回的都是字符串，在这里，输出可以定义格式，这里我选择的是 JSON，因为方便后面来引用，但是输出如果是 JSON，需要我们在红框 3 的提示词中定义输出结构。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-FHT6b2Mc3odagAxL8ZJcnSHWnuh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-FHT6b2Mc3odagAxL8ZJcnSHWnuh.png)
 
 系统提示词和用户提示词看下面这张图，系统提示词的右上角最右侧的按钮是一个提示词魔法师，输入你要写的提示词内容，系统会自动生成大模型容易理解的提示词。
 
@@ -319,7 +319,7 @@ SOP（Standard Operating Procedure），就是标准作业流程，它告诉员�
 
 用户提示词：就是你需要大模型回答的具体问题了，因为这里我在系统提示词中已经定义了需要大模型帮我们干什么，所以这里我就只把标题和内容放在这里，{{}}中的放的是上面输入中定义的参数。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-J9uIbyYa8oJXUsxQQ9hcYp8Anzh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-J9uIbyYa8oJXUsxQQ9hcYp8Anzh.png)
 
 #### 工具：转为 JSON
 
@@ -331,7 +331,7 @@ SOP（Standard Operating Procedure），就是标准作业流程，它告诉员�
 
 下图为 add\_records 介绍：
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-D0BAb0A0Povxa1xyZWqcTIE2nlV.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-D0BAb0A0Povxa1xyZWqcTIE2nlV.png)
 
 飞书多维表格：
 
@@ -341,11 +341,11 @@ SOP（Standard Operating Procedure），就是标准作业流程，它告诉员�
 
 红框 3：输出区域，参数设定需要和红框 4 代码中返回的参数保持一致。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-JvJebbF7soFqLqxdyGWc2Mxcned.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-JvJebbF7soFqLqxdyGWc2Mxcned.png)
 
 上图红框 4 中的代码，可以看到具体的传入参数和输出参数在代码中的体现。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-RgLvb55PMoVhjJxVsDjc0tdOn0c.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-RgLvb55PMoVhjJxVsDjc0tdOn0c.png)
 
 Python 代码片段，类似的需要做数据转换的，都可以采用这个代码片段，只需要替换传入的参数和输出的参数就可以。
 
@@ -355,7 +355,7 @@ Python 代码片段，类似的需要做数据转换的，都可以采用这个�
 
 红框 2：参数名中 app\_token（打开创建好的飞书多维表格，复制 url 到此处）和 records（选择前面转为 JSON 节点输出的 record\_info）是必须要填写的。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-H5rUb1GtNoRQSSxAhAkcJUImnUi.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-H5rUb1GtNoRQSSxAhAkcJUImnUi.png)
 
 #### 结束
 
@@ -365,7 +365,7 @@ Python 代码片段，类似的需要做数据转换的，都可以采用这个�
 
 返回文本模式下，工作流运行结束后，智能体中的模型将直接使用指定的内容回复对话。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-ONl0b8a7noP2fJxuf5McHkrLnlb.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-ONl0b8a7noP2fJxuf5McHkrLnlb.png)
 
 到此，工作流就创建完了。
 
@@ -381,7 +381,7 @@ Python 代码片段，类似的需要做数据转换的，都可以采用这个�
 
 回到这个智能体的创建上来，根据下图提示，我们创建智能体。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-S9MHb5Tvgo3H48xucE5cmViznwh.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-S9MHb5Tvgo3H48xucE5cmViznwh.png)
 
 创建后会进到如下页面，我们分别说一下，详细的大家可以看看帮助文档。
 
@@ -395,7 +395,7 @@ Python 代码片段，类似的需要做数据转换的，都可以采用这个�
 
 发布的时候，AI 会帮我们自动填写这些信息，我们可以根据实际情况进行修改，点击确定，可以选择发布到的平台。
 
-![](./从0到1开发一个商用 Agent（智能体）Agent零基础入门到精通_assets/从0到1开发一个商用 Agent（智能体），Agent零基础入门到精通!-InDSbrKmzoOQDexXxJOcAz58nGf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89Agent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A_assets/%E4%BB%8E0%E5%88%B01%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%95%86%E7%94%A8%20Agent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%8CAgent%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A!-InDSbrKmzoOQDexXxJOcAz58nGf.png)
 
 目前发布的平台有很多，这里我们就不一一说了，后续我们在陆续介绍。
 

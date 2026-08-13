@@ -240,7 +240,7 @@ with open("persistence_case.png", "wb") as f:
     f.write(graph_png)
 ```
 
-![](./LangGraph篇-持久化管理_assets/LangGraph篇-持久化管理-image.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/LangGraph%E7%AF%87-%E6%8C%81%E4%B9%85%E5%8C%96%E7%AE%A1%E7%90%86_assets/LangGraph%E7%AF%87-%E6%8C%81%E4%B9%85%E5%8C%96%E7%AE%A1%E7%90%86-image.png)
 
 
 

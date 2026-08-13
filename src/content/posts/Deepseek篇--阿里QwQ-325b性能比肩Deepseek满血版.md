@@ -15,7 +15,7 @@ lastVerified: 2026-08-13
 ---
 3月6日 凌晨 3 点，阿里开源发布了新推理模型 QwQ-32B，其参数量为 320 亿，但性能足以比肩 6710 亿参数的 DeepSeek-R1 满血版。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-M7F5b24qRo8icUxP3FvcOnO3nMg.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-M7F5b24qRo8icUxP3FvcOnO3nMg.png)
 
 千问的推文表示：「这次，我们研究了扩展 RL 的方法，并基于我们的 Qwen2.5-32B 取得了一些令人印象深刻的成果。我们发现 RL 训练可以不断提高性能，尤其是在数学和编码任务上，并且我们观察到 RL 的持续扩展可以帮助中型模型实现与巨型 MoE 模型相媲美的性能。欢迎与我们的新模型聊天并向我们提供反馈！」
 
@@ -35,11 +35,11 @@ QwQ-32B 已在 Hugging Face 和 ModelScope 开源，采用了 Apache 2.0 开源�
 
 <https://ollama.com/library/qwq>
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-Nivvb70bxoHglJxrUT5cyhPCnyc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-Nivvb70bxoHglJxrUT5cyhPCnyc.png)
 
 千问官方发布了题为「QwQ-32B: 领略强化学习之力」的官方中文博客介绍这一吸睛无数的进展。考虑到[强化学习之父 Richard Sutton 与导师 Andrew Barto 刚刚获得图灵奖](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==\&mid=2650958043\&idx=1\&sn=dc02ed349a811c96abf0270968621120\&scene=21#wechat_redirect)，QwQ-32B 的发布可说是非常应景。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-HCRUbWX0QoqUpzxGmUKcj9SKngc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-HCRUbWX0QoqUpzxGmUKcj9SKngc.png)
 
 博客中写到，大规模强化学习（RL）非常具有潜力，在提升模型性能方面可望超越传统的预训练和后训练方法。
 
@@ -55,7 +55,7 @@ QwQ-32B 中还集成了与 Agent（智能体）相关的能力，使其能够在
 
 QwQ-32B 在一系列基准测试中进行了评估，包括数学推理、编程和通用能力。以下结果展示了 QwQ-32B 与其他领先模型的性能对比，包括 DeepSeek-R1-Distilled-Qwen-32B、DeepSeek-R1-Distilled-Llama-70B、o1-mini 以及原始的 DeepSeek-R1。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-ZQuqbNmIYoawV4xMFwicKSXknWd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-ZQuqbNmIYoawV4xMFwicKSXknWd.png)
 
 可以看到，QwQ-32B 的表现非常出色，在 LiveBench、IFEval 和 BFCL 基准上甚至略微超过了 DeepSeek-R1-671B。
 
@@ -89,25 +89,25 @@ QwQ-32B 一发布就收获了无数好评，甚至我们的不少读者也在催
 
 有网友表示，手机上肯定还不行，但运行内存比较高的 Mac 或许可以一战。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-Iqfub9JDxordHbxxNMNcxfGTnbe.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-Iqfub9JDxordHbxxNMNcxfGTnbe.png)
 
 还有人喊话阿里巴巴通义实验室科学家 Binyuan Hui 去做更小的模型。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-NNcnb46PFoZ0dvx4tmJcUNBRnUc.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-NNcnb46PFoZ0dvx4tmJcUNBRnUc.png)
 
 还有人晒出体验，表示运行很快：
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-B8lGbdEdgoK9T8xlYyIcnsGGn0d.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-B8lGbdEdgoK9T8xlYyIcnsGGn0d.png)
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-NEWCbFqD8oZ0RrxYp8acw6UAnOe.gif)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-NEWCbFqD8oZ0RrxYp8acw6UAnOe.gif)
 
 苹果机器学习研究者 Awni Hannun 也同样已经在 M4 Max 上成功运行了 QwQ-32B，看起来速度非常快。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-NwMibkDR1ofJAqxDVDHcOjVznPg.gif)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-NwMibkDR1ofJAqxDVDHcOjVznPg.gif)
 
 AutoDL 租了一台 A800-80G 的显卡，然后把模型下载了下来，并部署测试了一下这个怪物。综合体验下来，本地部署版和网页版其实是一样的。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-BVsBbAQQ2okRN6xWtOFcjfdSn0e.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-BVsBbAQQ2okRN6xWtOFcjfdSn0e.png)
 
 性能曲线是这样的。
 
@@ -129,11 +129,11 @@ AutoDL 租了一台 A800-80G 的显卡，然后把模型下载了下来，并部
 
 而看看 QwQ-32B，在一顿小推理之后。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-APDnbAUvBooschxCp4WcMA21nBf.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-APDnbAUvBooschxCp4WcMA21nBf.png)
 
 最后答案，完全正确。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-S0VWbfGwcoZZftxrkd6c576QnkQ.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-S0VWbfGwcoZZftxrkd6c576QnkQ.png)
 
 要知道，这可只是一个 32B 的小模型啊。。
 
@@ -171,13 +171,13 @@ AutoDL 租了一台 A800-80G 的显卡，然后把模型下载了下来，并部
 
 经过几分钟的思考，这道题的完整最优解代码也是被 QwQ-32B 成功给出。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-GPSMb0XK5o3DWQxgkp0cNUPXnJd.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-GPSMb0XK5o3DWQxgkp0cNUPXnJd.png)
 
 我把这段代码粘贴到了 Leetcode 平台上，直接提交，没想到这段代码竟然完美的通过了全部测试用例吗，而且执行用时才 127ms，击败了 93% 的在这个算法题库做尝试的人。
 
 说实话，这个结果让我挺惊讶的，毕竟 127ms 的用时，看平均的用时基本都在 1691ms 左右。
 
-![](./Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版_assets/Deepseek篇--阿里QwQ-325b性能比肩Deepseek满血版-OKp5btsVFoB0rFxSgvRcN3HynoH.png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88_assets/Deepseek%E7%AF%87--%E9%98%BF%E9%87%8CQwQ-325b%E6%80%A7%E8%83%BD%E6%AF%94%E8%82%A9Deepseek%E6%BB%A1%E8%A1%80%E7%89%88-OKp5btsVFoB0rFxSgvRcN3HynoH.png)
 
 很强，但是我觉得最强的，还是它未来的生态。
 
