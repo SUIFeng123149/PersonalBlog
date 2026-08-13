@@ -163,7 +163,7 @@ export const siteConfig: SiteConfig = {
 	// 字体设置
 	font: {
 		zenMaruGothic: {
-			enable: true, // 是否使用 ZenMaruGothic 作为全局字体
+			enable: false, // 是否使用 ZenMaruGothic 作为全局字体
 		},
 		hanalei: {
 			enable: false, // 是否使用 Hanalei 作为全局字体（覆盖 ZenMaruGothic）
