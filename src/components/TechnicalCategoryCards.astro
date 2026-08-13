@@ -2,17 +2,16 @@
 import type { CollectionEntry } from "astro:content";
 import { url } from "@utils/url-utils";
 import { Icon } from "astro-icon/components";
+import { getCategoriesForContentSection } from "@utils/content-sections";
 
 const { posts } = Astro.props as { posts: CollectionEntry<"posts">[] };
-const categories = [
-	...new Map(posts.map((post) => [post.data.category || "未分类", 0])).keys(),
-]
-	.map((category) => ({
+const categories = getCategoriesForContentSection(posts, "technical").map(
+	(category) => ({
 		category,
 		count: posts.filter((post) => (post.data.category || "未分类") === category)
 			.length,
-	}))
-	.sort((a, b) => b.count - a.count || a.category.localeCompare(b.category));
+	}),
+);
 ---
 
 <section class="grid grid-cols-1 gap-3 md:grid-cols-2">

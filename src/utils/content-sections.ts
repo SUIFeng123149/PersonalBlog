@@ -1,3 +1,5 @@
+import { contentSections } from "../data/sections";
+
 export type ContentSectionSlug = "technical" | "notes" | "games" | "other";
 
 export interface ContentSection {
@@ -5,73 +7,24 @@ export interface ContentSection {
 	title: string;
 	description: string;
 	icon: string;
+	categories: string[];
 }
 
-export const CONTENT_SECTIONS: ContentSection[] = [
-	{
-		slug: "technical",
-		title: "技术资料",
-		description: "开发教程、工具实践与技术沉淀",
-		icon: "material-symbols:code-rounded",
-	},
-	{
-		slug: "notes",
-		title: "个人随笔",
-		description: "日常记录、思考与生活片段",
-		icon: "material-symbols:edit-note-rounded",
-	},
-	{
-		slug: "games",
-		title: "游戏记录",
-		description: "游戏体验、攻略与进度记录",
-		icon: "material-symbols:sports-esports-rounded",
-	},
-	{
-		slug: "other",
-		title: "其他",
-		description: "尚未归入以上主题的内容",
-		icon: "material-symbols:category-rounded",
-	},
-];
+export const CONTENT_SECTIONS: ContentSection[] = contentSections;
 
-const TECHNICAL_CATEGORIES = new Set([
-	"AI Agent",
-	"AutoGen",
-	"BigData",
-	"Coze",
-	"DeepSeek",
-	"Dify",
-	"Fine-tuning",
-	"Interview",
-	"JavaSE",
-	"LangChain",
-	"LangGraph",
-	"LLM Introduction",
-	"MCP",
-	"Multi-Agent",
-	"MyBatisPlus",
-	"MySQL",
-	"OpenAI",
-	"Prompt Engineering",
-	"RAG",
-	"Spring",
-	"SpringBoot",
-	"SpringMVC",
-	"SpringSecurity",
-	"Web",
-]);
-
-const NOTES_CATEGORIES = new Set(["随笔", "日记", "生活", "思考"]);
-const GAMES_CATEGORIES = new Set(["游戏", "游戏记录", "游戏攻略"]);
+// 分类 → 分区映射（由分区配置推导，可由管理后台维护）
+const sectionCategoryMap = new Map<string, ContentSectionSlug>();
+for (const section of contentSections) {
+	for (const category of section.categories) {
+		sectionCategoryMap.set(category, section.slug);
+	}
+}
 
 export function getContentSection(
 	category: string | null | undefined,
 ): ContentSectionSlug {
 	const normalized = category?.trim() ?? "";
-	if (TECHNICAL_CATEGORIES.has(normalized)) return "technical";
-	if (NOTES_CATEGORIES.has(normalized)) return "notes";
-	if (GAMES_CATEGORIES.has(normalized)) return "games";
-	return "other";
+	return sectionCategoryMap.get(normalized) ?? "other";
 }
 
 export function getPostsForContentSection<
@@ -87,6 +40,38 @@ export function getPostsForContentSection<
 			(post.data.contentSection ?? getContentSection(post.data.category)) ===
 			section,
 	);
+}
+
+/**
+ * 某分区的分类列表：配置分类（按配置顺序，含暂无文章的空分类）
+ * + 文章实际出现但未配置的分类（追加在后）。
+ * 用于分类卡片与分类详情页的静态路径生成。
+ */
+export function getCategoriesForContentSection<
+	T extends {
+		data: {
+			category?: string | null;
+			contentSection?: ContentSectionSlug;
+		};
+	},
+>(posts: T[], section: ContentSectionSlug): string[] {
+	const configured =
+		contentSections.find((item) => item.slug === section)?.categories ?? [];
+	const fromPosts = [
+		...new Set(
+			posts
+				.filter(
+					(post) =>
+						(post.data.contentSection ??
+							getContentSection(post.data.category)) === section,
+				)
+				.map((post) => String(post.data.category || "").trim())
+				.filter(Boolean),
+		),
+	];
+	const seen = new Set(configured);
+	const extra = fromPosts.filter((category) => !seen.has(category));
+	return [...configured, ...extra];
 }
 
 export function getFeaturedPosts<T extends { data: { featured?: boolean } }>(
