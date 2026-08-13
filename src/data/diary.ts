@@ -31,5 +31,12 @@ export const diaryEntries: DiaryEntry[] = [
       "/assets/diary/e59ed2d8217e0c8c01291c39e98c2061-1785821509578.webp"
     ],
     "hidden": false
+  },
+  {
+    "id": "diary-1786435739740",
+    "content": "今天教室热死了，饿啊",
+    "date": "2026-08-11T08:08",
+    "images": [],
+    "hidden": false
   }
 ];

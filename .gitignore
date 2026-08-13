@@ -17,6 +17,7 @@ yarn-error.log*
 pnpm-debug.log*
 
 *.backup/
+*.backup
 
 # environment variables
 .env
@@ -43,3 +44,9 @@ fuwari/
 admin/
 docs/superpowers/*
 src/data/**.backup
+
+# temporary headless browser profiles used for diagnostics
+.tmp-chrome-probe*/
+
+# brainstorm mockups (visual companion temp files)
+.superpowers/

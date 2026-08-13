@@ -1,13 +1,15 @@
 ---
 title: "Agent是什么一文讲清智能体（AI Agent）这是一篇不得不看的干货总结"
 published: 2026-07-29
-description: ""
+description: "& x20; 一、智能体的定义与分类 1. 什么是智能体 智能体（Agent）作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。 其规划模块整合了思维链推演、自我反思机制及目标分解技术，形成闭环式认知增强系统。 区别于传统AI系统，智能体展现出三大核心特性：在独立运"
 image: ""
 tags: ["AI Agent"]
 category: "AI Agent"
 draft: false
+featured: false
 lang: ""
 series: ""
+seriesOrder: 1
 status: verified
 testedOn: ""
 ---
@@ -248,6 +250,8 @@ GUI智能体技术正经历着颠覆性突破，从DeepMind的AutoGUI到Meta的V
 &#x20;
 
 &#x20;&#x20;
+
+
 
 
 
