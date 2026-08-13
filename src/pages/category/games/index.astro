@@ -8,6 +8,6 @@ const posts = getPostsForContentSection(await getSortedPosts(), "games");
 ---
 
 <MainGridLayout title="游戏记录" description="按游戏分类浏览文章">
-	<section class="card-base mb-4 rounded-[var(--radius-large)] p-6"><p class="mb-1 text-sm font-medium text-[var(--primary)]">GAMES LIBRARY</p><h1 class="text-3xl font-bold text-90">游戏记录</h1><p class="mt-2 text-60">选择一个游戏开始阅读。</p></section>
+	<section class="card-base mb-4 rounded-[var(--radius-large)] p-6"><a href="/" class="mb-4 inline-flex items-center gap-1 text-sm font-medium text-[var(--primary)] hover:underline">← 返回主页</a><p class="mb-1 text-sm font-medium text-[var(--primary)]">GAMES LIBRARY</p><h1 class="text-3xl font-bold text-90">游戏记录</h1><p class="mt-2 text-60">选择一个游戏开始阅读。</p></section>
 	<SectionCategoryCards posts={posts} section="games" />
 </MainGridLayout>

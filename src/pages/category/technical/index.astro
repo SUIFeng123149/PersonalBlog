@@ -8,6 +8,6 @@ const posts = getPostsForContentSection(await getSortedPosts(), "technical");
 ---
 
 <MainGridLayout title="技术资料" description="按技术分类浏览文章">
-	<section class="card-base mb-4 rounded-[var(--radius-large)] p-6"><p class="mb-1 text-sm font-medium text-[var(--primary)]">TECHNICAL LIBRARY</p><h1 class="text-3xl font-bold text-90">技术资料</h1><p class="mt-2 text-60">选择一个分类开始阅读。</p></section>
+	<section class="card-base mb-4 rounded-[var(--radius-large)] p-6"><a href="/" class="mb-4 inline-flex items-center gap-1 text-sm font-medium text-[var(--primary)] hover:underline">← 返回主页</a><p class="mb-1 text-sm font-medium text-[var(--primary)]">TECHNICAL LIBRARY</p><h1 class="text-3xl font-bold text-90">技术资料</h1><p class="mt-2 text-60">选择一个分类开始阅读。</p></section>
 	<TechnicalCategoryCards posts={posts} />
 </MainGridLayout>
