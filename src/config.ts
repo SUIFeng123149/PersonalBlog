@@ -501,7 +501,6 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 展现模式
 	hiddenOnMobile: true, // 是否在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to SuiFeng Website!", // 欢迎词
 		touch: [
 			"What are you doing?",
 			"Stop touching me!",
