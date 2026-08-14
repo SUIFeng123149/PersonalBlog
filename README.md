@@ -9,6 +9,7 @@
 一个基于 [Astro](https://astro.build) 构建的现代化静态博客，拥有丰富的功能与美观的设计。本项目基于 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) / [Fuwari](https://github.com/saicaca/fuwari) 模板二次开发，并针对个人使用场景做了大量定制。
 
 - 在线站点：<https://mizuki.mysqil.com/>
+- 个人博客：<https://blog.followthewind.fun/>
 - 源码仓库：<https://github.com/SUIFeng123149/PersonalBlog>
 
 ## ✨ 功能特性
