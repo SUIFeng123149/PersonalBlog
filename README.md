@@ -40,7 +40,7 @@
 
 ```
 .
-├── admin/                  # 管理后台（独立服务，不入库）
+├── admin/                  # 管理后台（独立仓库，见下方「管理后台」章节）
 ├── scripts/                # 构建辅助脚本
 ├── src/
 │   ├── content/
@@ -165,7 +165,7 @@ pnpm admin   # 打开 http://127.0.0.1:8787
 
 后台功能包括文章增删改查、Markdown 编辑与预览、图片/视频上传（自动转 WebP）、**PDF 课件一键转 Markdown**、图片批量转 WebP、音频转 MP3、GitHub/Gitee 项目自动拉取等。
 
-> 管理后台与主站相互独立：后台改动不会进入主站 `dist` 构建产物，且整个 `admin/` 目录已被 `.gitignore` 排除，不会被提交到主站仓库。由于该目录不在仓库中，完整的使用文档（`.env.admin` 配置、PDF 转换依赖、OSS 设置、GitHub/Gitee 项目拉取等）仅保存在本地仓库的 `admin/README.md`。
+> 管理后台源码与文档在独立公开仓库 **[BlogAdmin](https://github.com/SUIFeng123149/BlogAdmin)** 中，使用说明见其 `README.md`。
 
 ## 📄 License
 
