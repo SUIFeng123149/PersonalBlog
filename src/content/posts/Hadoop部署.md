@@ -1,12 +1,12 @@
 ---
 title: "Hadoop的部署"
 published: 2025-11-11
-description: "Hadoop的部署 的详细部署与配置文档。"
-image: https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/cover.webp
+description: "Hadoop的部署 hadoop的下载 解压压缩包 hadoop的配置 修改hadoop配置文件 修改hadoop env.sh 添加以下内容 修改core site.xml文件 在 <configuration 标签内新增以下配置（严格缩进，与原有配置同级） 修改hdfs site.xml文件 在 <configuration 标签内新增以下配置（严格缩进，与原有配置同级） 修改mapred s"
+image: "https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/cover.webp"
 tags: ["BigData", "Hadoop", "Deployment"]
 category: "BigData"
 draft: false
-featured: true
+featured: false
 lang: ""
 series: "Big Data Deployment"
 seriesOrder: 5
@@ -629,4 +629,7 @@ http://10.1.100.22:19888/jobhistory/
 ![image-20260727211635601](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Hadoop%E9%83%A8%E7%BD%B2.assets/image-20260727211635601.png)
 
 访问成功且有内容即代表成功启动
+
+
+
 

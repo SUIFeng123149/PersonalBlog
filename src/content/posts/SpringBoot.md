@@ -1,13 +1,15 @@
 ---
 title: "SpringBoot"
 published: 2026-08-13
-description: "在浏览器访问一个地址，服务响应回 HelloWorld显示在浏览器上1. 创建Springboot工程，可以使用官方的脚手架创建"
+description: "SpringBoot 第一个Springboot应用 在浏览器访问一个地址，服务响应回 HelloWorld显示在浏览器上1. 创建Springboot工程，可以使用官方的脚手架创建 2. 创建HelloController 在生产阶段部署springboot项目 1. 添加Springboot Maven的插件 2. 导出jar包 ，双击Maven窗口中的package ，在target中找到生"
 image: ""
 tags: ["SpringBoot", "Java", "后端开发"]
 category: "SpringBoot"
 draft: false
-featured: false
+featured: true
 lang: ""
+series: "Java安全系列"
+seriesOrder: 1
 status: verified
 testedOn: ""
 lastVerified: 2026-08-13
@@ -344,3 +346,6 @@ System.out.println(jdbcTemplate.getDataSource());
 }
 }
 ```
+
+
+
