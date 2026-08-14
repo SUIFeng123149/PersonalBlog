@@ -9,8 +9,9 @@ import {
 describe("content sections", () => {
 	it("does not show diary among personal-note category cards", async () => {
 		const component = await readFile("src/components/NotesCategoryCards.astro", "utf8");
-		expect(component).toContain('"随笔", "生活", "思考"');
-		expect(component).not.toContain('"日记", "随笔", "生活", "思考"');
+		expect(component).toContain('getCategoriesForContentSection(posts, "notes")');
+		const sections = await readFile("src/data/sections.ts", "utf8");
+		expect(sections).not.toContain('"日记"');
 	});
 	it("uses an explicit article content section before category inference", async () => {
 		const source = await readFile("src/utils/content-sections.ts", "utf8");
@@ -26,9 +27,9 @@ describe("content sections", () => {
 		expect(getContentSection("MyBatisPlus")).toBe("technical");
 	});
 
-	it("classifies configured diary and game categories", () => {
+	it("classifies configured note and game categories", () => {
 		expect(getContentSection("随笔")).toBe("notes");
-		expect(getContentSection("游戏")).toBe("games");
+		expect(getContentSection("原神")).toBe("games");
 	});
 
 	it("puts unknown and blank categories in other", () => {
@@ -41,7 +42,7 @@ describe("content sections", () => {
 		const posts = [
 			{ data: { category: "Web" } },
 			{ data: { category: "随笔" } },
-			{ data: { category: "游戏" } },
+			{ data: { category: "原神" } },
 			{ data: { category: "" } },
 		];
 
@@ -163,19 +164,19 @@ describe("content sections", () => {
 	});
 
 	it("uses an installed icon for the game section", async () => {
-		const sections = await readFile("src/utils/content-sections.ts", "utf8");
+		const sections = await readFile("src/data/sections.ts", "utf8");
 		expect(sections).toContain("material-symbols:sports-esports-rounded");
 		expect(sections).not.toContain("material-symbols:stadia-controller-rounded");
 	});
 
 	it("defines a section route that filters posts before pagination", async () => {
 		const route = await readFile(
-			"src/pages/category/[section]/[...page].astro",
+			"src/pages/category/technical/[category]/[...page].astro",
 			"utf8",
 		);
-		expect(route).toContain("getPostsForContentSection(allBlogPosts, section.slug)");
-		expect(route).toContain("paginate(sectionPosts");
-		expect(route).toContain("basePath={`/category/${section}/`}");
+		expect(route).toContain('getPostsForContentSection(await getSortedPosts(), "technical")');
+		expect(route).toContain("paginate(");
+		expect(route).toContain("basePath={`/category/technical/${encodeURIComponent(category)}/`}");
 	});
 
 	it("builds numbered pagination links within an optional base path", async () => {
