@@ -55,7 +55,7 @@ lastVerified: 2026-08-13
 
 开场白配置示例：
 
-![](./Coze篇-优化智能体交互体验_assets/Coze篇-优化智能体交互体验-1 (1).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C_assets/Coze%E7%AF%87-%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C-1%20%281%29.jpg)
 
 展示效果：
 

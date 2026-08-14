@@ -17,7 +17,7 @@ lastVerified: 2026-08-13
 
 扣子的知识库功能支持上传和存储外部知识内容，并提供了多种检索能力。扣子的知识能力可以解决大模型幻觉、专业领域知识不足的问题，提升大模型回复的准确率。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (6).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%286%29.jpg)
 
 ### 1. **功能概述**
 
@@ -277,7 +277,7 @@ lastVerified: 2026-08-13
 
 4. 单击知识库名称右侧的**编辑**图标。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (7).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%287%29.jpg)
 
 * 在**编辑知识库**页面，根据实际需要修改名称、描述和图标，然后单击**确认**。
 
@@ -291,11 +291,11 @@ lastVerified: 2026-08-13
 
 在**资源库**页面，找到目标知识库，然后关闭**操作**列下的 **… —>启用**的开关。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (8).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%288%29.jpg)
 
 关闭知识库后，知识库的状态变更为**已停用**。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (9).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%289%29.jpg)
 
 
 
@@ -323,7 +323,7 @@ lastVerified: 2026-08-13
 
 添加内容同创建知识库时上传文件到知识库的操作一致，详情请参考创建文本知识库。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (10).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%2810%29.jpg)
 
 
 
@@ -533,7 +533,7 @@ lastVerified: 2026-08-13
 
    * 可单击调试区域右上方查看数据表中的数据。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (15).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%2815%29.jpg)
 
 
 
@@ -591,7 +591,7 @@ lastVerified: 2026-08-13
 
 例如，通过对话方式告诉智能体今天的天气，智能体会自动将其记录在长期记忆中。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (16).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%2816%29.jpg)
 
 #### 3.4 召回长期记忆
 
@@ -663,7 +663,7 @@ lastVerified: 2026-08-13
 
 在智能体编排页面的**记忆** > **文件盒子**区域，开启文件盒子能力。开启后，你可以在**工具详情**中查看文件盒子相关的 API 名称。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (17).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%2817%29.jpg)
 
 **上传文件**
 
@@ -681,7 +681,7 @@ lastVerified: 2026-08-13
 
 1. 在智能体**编排**页面的**预览与调试**区域，展开 **Memory** > **文件盒子**。
 
-![](./Coze篇-知识库和记忆_assets/Coze篇-知识库和记忆-1 (18).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86_assets/Coze%E7%AF%87-%E7%9F%A5%E8%AF%86%E5%BA%93%E5%92%8C%E8%AE%B0%E5%BF%86-1%20%2818%29.jpg)
 
 * 在**照片**或**文档**页签的右上角单击**上传。**
 

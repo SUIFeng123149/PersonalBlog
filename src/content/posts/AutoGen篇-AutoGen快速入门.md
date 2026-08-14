@@ -225,7 +225,7 @@ export ARK_API_KEY="YOUR_API_KEY"
 
 登记完成后，点击 `Test Model` 进行测试，校验信息是否准确。有如下提示，说明模型登记成功，点击`保存`即可。
 
-![](./AutoGen篇-AutoGen快速入门_assets/AutoGen篇-AutoGen快速入门-image (1).png)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8_assets/AutoGen%E7%AF%87-AutoGen%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-image%20%281%29.png)
 
 ### **2，给代理配置大脑**
 

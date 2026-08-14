@@ -71,7 +71,7 @@ lastVerified: 2026-08-13
 
 通过引用节点输出，你可以将节点连接在一起，形成一个无缝的操作链。例如，你可以在代码节点的输入中引用大模型节点的输出，这样代码节点就可以使用大模型节点的输出。在工作流画布中，你可以看到这两个节点是连接在一起的。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-1 (1).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-1%20%281%29.jpg)
 
 在使用节点编排工作流时，灵活性和扩展性是实现高效编排的关键。工作流的开始节点、结束节点、输出节点、插件节点、子工作流节点、代码节点、SQL 自定义节点、新增数据节点、查询数据节点、更新数据节点、删除数据节点、问答节点、批处理节点、循环节点、变量聚合节点、变量节点、选择器节点均支持多种变量类型，包括 String、Integer、Number、Boolean、Object、File 和 Array等。你可以根据实际需求灵活选择合适的数据类型，而无需额外的数据转换，从而提升工作流编排的灵活性和扩展性。
 
@@ -367,11 +367,11 @@ lastVerified: 2026-08-13
 
 在工作流画布下方单击添加节点，在弹出的节点面板中单击插件节点，并选择希望调用的插件。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-1 (2).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-1%20%282%29.jpg)
 
 你也可以在节点面板中找到已收藏的插件，选择插件工具，快速添加一个插件节点。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-1 (3).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-1%20%283%29.jpg)
 
 #### 3.2 配置插件节点
 
@@ -463,7 +463,7 @@ lastVerified: 2026-08-13
 
 你也可以设置一条开场白预置问题，提示用户以对话方式创建定时任务。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-1 (4).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-1%20%284%29.jpg)
 
 
 
@@ -471,7 +471,7 @@ lastVerified: 2026-08-13
 
 在智能体的编排页面的技能区域，为智能体添加一个触发器。成功添加后，在指定时区的指定时间，智能体会按时执行预设的定时任务。
 
-![](./Coze篇-工作流与触发器_assets/Coze篇-工作流与触发器-1 (5).jpg)
+![](https://suifeng-personal-blog.oss-cn-beijing.aliyuncs.com/post-assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8_assets/Coze%E7%AF%87-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8-1%20%285%29.jpg)
 
 #### 4.1 定时触发器
 
