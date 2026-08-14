@@ -23,7 +23,7 @@ export const projectsData: Project[] = [
     "id": "visualization_platform",
     "title": "visualization_platform",
     "description": "面向多视频平台的内容、互动、情感和账号数据分析系统。",
-    "image": "/assets/images/d4-1785226189264.webp",
+    "image": "/assets/images/d4-1786687024785.webp",
     "category": "web",
     "techStack": [
       "Java",
