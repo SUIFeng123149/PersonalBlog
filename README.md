@@ -160,8 +160,25 @@ status: verified             # 可选：verified | maintenance | outdated
 项目内置一个独立的管理后台（`admin/`），用于图形化编辑文章、管理数据中心与站点设置：
 
 ```bash
-pnpm admin   # 打开 http://127.0.0.1:8787
+pnpm admin      # 启动管理后台并自动打开浏览器（http://127.0.0.1:8787）
 ```
+
+也可以在任意位置运行启动脚本（均可自动定位博客根目录、处理端口冲突并打开浏览器）：
+
+```bash
+start-admin.cmd  # Windows（可双击，或在 cmd / PowerShell 中运行）
+./start-admin.sh # macOS / Linux / Git Bash
+```
+
+脚本的根目录定位顺序：环境变量 `MIZUKI_ROOT` → 脚本所在目录向上逐级查找 → 脚本同目录下的 `mizuki-root.txt` → 用户主目录下的 `.mizuki-root.txt`。因此**把 `start-admin.cmd` / `start-admin.sh` 拷到博客仓库内任意目录都能直接运行**；若放在仓库外（如桌面），任选其一即可：
+
+- 在**用户主目录**（`C:\Users\<你的用户名>`）创建 `.mizuki-root.txt`，内容写入博客仓库根目录路径（如 `D:\.PersonalBlog\Mizuki`）——一次配置，任意位置的脚本副本都可用；
+- 在脚本旁边创建 `mizuki-root.txt`（同上内容）；
+- 设置环境变量 `MIZUKI_ROOT` 指向仓库根目录（Windows：`setx MIZUKI_ROOT "D:\.PersonalBlog\Mizuki"`，需重开终端生效）。
+
+> 注意：`start-admin.cmd` 必须保持纯 ASCII 编码（全部英文）。cmd.exe 按系统代码页解析批处理文件，若用中文编辑保存为 UTF-8，脚本逻辑会因乱码损坏而无法运行。
+
+启动器特性：默认端口（`ADMIN_PORT`，通常为 8787）被占用时，若该端口已在运行本管理后台则直接复用；否则自动向后查找空闲端口并用新端口启动，服务就绪后自动打开浏览器（`--no-open` 可禁用，`pnpm admin 9000` 可指定端口）。
 
 后台功能包括文章增删改查、Markdown 编辑与预览、图片/视频上传（自动转 WebP）、**PDF 课件一键转 Markdown**、图片批量转 WebP、音频转 MP3、GitHub/Gitee 项目自动拉取等。
 

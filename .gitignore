@@ -48,6 +48,9 @@ src/data/**.backup
 # temporary headless browser profiles used for diagnostics
 .tmp-chrome-probe*/
 
+# 启动脚本被移到仓库外时用于记录仓库路径的本地提示文件
+mizuki-root.txt
+
 # brainstorm mockups (visual companion temp files)
 .superpowers/
 

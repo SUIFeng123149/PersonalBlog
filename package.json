@@ -12,7 +12,7 @@
 		"test": "vitest run",
 		"type-check": "tsc --noEmit --isolatedDeclarations",
 		"new-post": "node scripts/new-post.js",
-		"admin": "node admin/server.mjs",
+		"admin": "node scripts/start-admin.mjs",
 		"format": "biome format --write ./src",
 		"lint": "biome check --write ./src",
 		"preinstall": "npx only-allow pnpm"
