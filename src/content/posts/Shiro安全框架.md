@@ -4,7 +4,7 @@ published: 2026-08-17
 description: "Shiro 安全框架概述 第一章 Shiro 核心概述 1.1 Shiro 简介 Apache Shiro 是一款轻量级、灵活、开源的 Java 安全权限框架，相较于 Spring Security，Shiro 配置简单、上手门槛低、独立性强，不依赖任何容器和框架，专注于认证、授权、加密、会话管理四大核心功能。 在企业项目中，Shiro 多用于中小型项目、后台管理系统的权限控制，是 Java 后端"
 image: ""
 tags: []
-category: "web"
+category: "Web"
 draft: false
 featured: false
 lang: ""
